@@ -1,3 +1,5 @@
+export const dynamic = "force-static";
+
 ﻿import { NextRequest, NextResponse } from 'next/server'
 
 const NET_EASE_HEADERS = {
