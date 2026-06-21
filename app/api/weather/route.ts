@@ -1,5 +1,3 @@
-export const dynamic = "force-static";
-
 // app/api/weather/route.ts
 import { NextResponse } from 'next/server';
 

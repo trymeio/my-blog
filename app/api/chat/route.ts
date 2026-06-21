@@ -1,5 +1,3 @@
-export const dynamic = "force-static";
-
 // app/api/chat/route.ts
 import { siteConfig } from '../../../siteConfig'; // 确保这里的路径指向你的 siteConfig
 

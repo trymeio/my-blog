@@ -4,7 +4,7 @@ export const siteConfig = {
   title: "mmzhw的博客",
   faviconUrl: "/avatar.jpg",
   authorName: "米米最好玩",
-  bio: "With great power comes great responsibility.",
+  bio: "你好，我是米米最好玩\n我是襄阳市第三十五中学的初中生\n爱好：游戏 漫画 电影 meme",
   navTitle: "mmzhw",
   // 👇 【新增】导航栏中间的那个后缀/分隔符（默认是 の）
   navSuffix: "的",
@@ -21,14 +21,14 @@ export const siteConfig = {
   defaultPostCover: "/background.jpg",
   // 5. 首页照片墙预览图
   photoWallImage: "/background.jpg",
-  cloudMusicIds: [],
+  cloudMusicIds: [1481691186, 1481691185, 1376076760, 1496770948, 1333335581, 1318733599, 2621307695, 523375615],
   social: {
     github: "",
     gitee: "",
     google: "",
     email: "",
-    qq: "",
-    wechat: "",
+    qq: "3822710268",
+    wechat: "19971971606",
   },
   counts: {
     photos: 0, // 照片墙数量可以手动写死或动态计算
