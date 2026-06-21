@@ -21,10 +21,28 @@ export async function GET(request: NextRequest) {
     const results = await Promise.all(
       localSongs.map(async (song) => {
         let lrcText = ''
+        let coverUrl = song.cover
         
-        // 如果有网易云ID，尝试从网易云获取歌词
+        // 如果有网易云ID，尝试从网易云获取歌词和封面
         if (song.neteaseId) {
           try {
+            // 获取歌曲信息（包含封面）
+            const songRes = await fetch(
+              `https://api.injahow.cn/meting/?server=netease&type=song&id=${song.neteaseId}`,
+              { signal: AbortSignal.timeout(8000) },
+            )
+            if (songRes.ok) {
+              const songData = await songRes.json()
+              if (songData?.[0]?.pic) {
+                coverUrl = songData[0].pic
+              }
+            }
+          } catch {
+            // 获取失败不影响主流程
+          }
+          
+          try {
+            // 获取歌词
             const lrcRes = await fetch(
               `https://api.injahow.cn/meting/?server=netease&type=lrc&id=${song.neteaseId}`,
               { signal: AbortSignal.timeout(5000) },
@@ -42,8 +60,8 @@ export async function GET(request: NextRequest) {
           name: song.name,
           artist: song.artist,
           author: song.artist,
-          cover: song.cover,
-          pic: song.cover,
+          cover: coverUrl,
+          pic: coverUrl,
           url: song.url,
           lrc: lrcText,
         }
@@ -61,10 +79,28 @@ export async function GET(request: NextRequest) {
       
       if (localSong) {
         let lrcText = ''
+        let coverUrl = localSong.cover
         
-        // 如果有网易云ID，尝试从网易云获取歌词
+        // 如果有网易云ID，尝试从网易云获取歌词和封面
         if (localSong.neteaseId) {
           try {
+            // 获取歌曲信息（包含封面）
+            const songRes = await fetch(
+              `https://api.injahow.cn/meting/?server=netease&type=song&id=${localSong.neteaseId}`,
+              { signal: AbortSignal.timeout(8000) },
+            )
+            if (songRes.ok) {
+              const songData = await songRes.json()
+              if (songData?.[0]?.pic) {
+                coverUrl = songData[0].pic
+              }
+            }
+          } catch {
+            // 获取失败不影响主流程
+          }
+          
+          try {
+            // 获取歌词
             const lrcRes = await fetch(
               `https://api.injahow.cn/meting/?server=netease&type=lrc&id=${localSong.neteaseId}`,
               { signal: AbortSignal.timeout(5000) },
@@ -82,8 +118,8 @@ export async function GET(request: NextRequest) {
           name: localSong.name,
           artist: localSong.artist,
           author: localSong.artist,
-          cover: localSong.cover,
-          pic: localSong.cover,
+          cover: coverUrl,
+          pic: coverUrl,
           url: localSong.url,
           lrc: lrcText,
         }
