@@ -36,7 +36,7 @@ export default function ChatterPage() {
         date: data.date || '未知时间',
         tags: data.tags || [],
         mood: data.mood || '',
-        cover: data.cover || '',
+        cover: data.cover || '/chatter-cover.jpg',
         content: content.replace(/^#+ .*\n/m, '') // 去除开头的 markdown 标题以优化截取显示
       };
     }).sort((a, b) => (new Date(b.date).getTime() - new Date(a.date).getTime())); // 按时间倒序

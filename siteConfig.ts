@@ -18,7 +18,7 @@ export const siteConfig = {
 // 修改这里：变成图片数组
   bgImages: ["/background.jpg"],
   // 4. 文章默认封面图 (当 Markdown 没写 cover 时显示)
-  defaultPostCover: "/background.jpg",
+  defaultPostCover: "/post-cover.jpg",
   // 5. 首页照片墙预览图
   photoWallImage: "/background.jpg",
   cloudMusicIds: [1481691186, 1481691185, 1376076760, 1496770948, 1333335581, 1318733599, 2621307695, 523375615],
