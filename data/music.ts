@@ -79,6 +79,6 @@ export const localSongs: LocalSong[] = [
     artist: 'Metro Boomin, James Blake',
     cover: '/hummingbird-cover.jpg',
     url: '/music/5-hummingbird.mp3',
-    // Hummingbird 是蜘蛛侠：纵横宇宙的原声，暂时没有网易云ID
+    neteaseId: '2052348233',
   },
 ]
