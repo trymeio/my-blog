@@ -43,11 +43,11 @@ export const localSongs: LocalSong[] = [
   },
   {
     id: '5',
-    name: 'Hummingbird',
-    artist: 'Metro Boomin, James Blake',
+    name: 'Invincible',
+    artist: 'Aminé',
     cover: 'https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885801.jpg',
-    url: '/music/5-hummingbird.mp3',
-    // Hummingbird 是蜘蛛侠：纵横宇宙的原声，暂时没有网易云ID
+    url: '/music/9-invincible.mp3',
+    neteaseId: '1333335581',
   },
   {
     id: '6',
@@ -72,5 +72,13 @@ export const localSongs: LocalSong[] = [
     cover: 'https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885801.jpg',
     url: '/music/8-alive.mp3',
     neteaseId: '523375615',
+  },
+  {
+    id: '9',
+    name: 'Hummingbird',
+    artist: 'Metro Boomin, James Blake',
+    cover: 'https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885801.jpg',
+    url: '/music/5-hummingbird.mp3',
+    // Hummingbird 是蜘蛛侠：纵横宇宙的原声，暂时没有网易云ID
   },
 ]
