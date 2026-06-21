@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { localSongs } from '@/data/music'
 
 type SongResult = {
   id: string
@@ -14,30 +15,92 @@ type SongResult = {
 
 export async function GET(request: NextRequest) {
   const ids = request.nextUrl.searchParams.get('ids')
+  
+  // 如果没有传ids，返回所有本地音乐
   if (!ids) {
-    return NextResponse.json({ error: 'Missing ids parameter' }, { status: 400 })
+    const results = await Promise.all(
+      localSongs.map(async (song) => {
+        let lrcText = ''
+        
+        // 如果有网易云ID，尝试从网易云获取歌词
+        if (song.neteaseId) {
+          try {
+            const lrcRes = await fetch(
+              `https://api.injahow.cn/meting/?server=netease&type=lrc&id=${song.neteaseId}`,
+              { signal: AbortSignal.timeout(5000) },
+            )
+            if (lrcRes.ok) {
+              lrcText = await lrcRes.text()
+            }
+          } catch {
+            // 歌词获取失败不影响主流程
+          }
+        }
+        
+        return {
+          id: song.id,
+          name: song.name,
+          artist: song.artist,
+          author: song.artist,
+          cover: song.cover,
+          pic: song.cover,
+          url: song.url,
+          lrc: lrcText,
+        }
+      })
+    )
+    return NextResponse.json(results)
   }
-
+  
+  // 如果传了ids，返回指定的歌曲
   const songIds = ids.split(',').map((id) => id.trim()).filter(Boolean)
-
   const results: SongResult[] = await Promise.all(
     songIds.map(async (songId): Promise<SongResult> => {
+      // 先查找本地音乐
+      const localSong = localSongs.find(s => s.id === songId || s.neteaseId === songId)
+      
+      if (localSong) {
+        let lrcText = ''
+        
+        // 如果有网易云ID，尝试从网易云获取歌词
+        if (localSong.neteaseId) {
+          try {
+            const lrcRes = await fetch(
+              `https://api.injahow.cn/meting/?server=netease&type=lrc&id=${localSong.neteaseId}`,
+              { signal: AbortSignal.timeout(5000) },
+            )
+            if (lrcRes.ok) {
+              lrcText = await lrcRes.text()
+            }
+          } catch {
+            // 歌词获取失败不影响主流程
+          }
+        }
+        
+        return {
+          id: localSong.id,
+          name: localSong.name,
+          artist: localSong.artist,
+          author: localSong.artist,
+          cover: localSong.cover,
+          pic: localSong.cover,
+          url: localSong.url,
+          lrc: lrcText,
+        }
+      }
+      
+      // 如果不是本地音乐，尝试从网易云获取（兼容旧的ID方式）
       try {
-        // 使用 Meting API 获取音乐信息（代理方式，无跨域问题，更稳定）
         const res = await fetch(
           `https://api.injahow.cn/meting/?server=netease&type=song&id=${songId}`,
           { signal: AbortSignal.timeout(8000) },
         )
-
         if (!res.ok) {
           throw new Error(`API status: ${res.status}`)
         }
-
         const data = await res.json()
         const song = data?.[0]
-
         if (!song || !song.url) {
-          // 失败时回退到直接外链方式
           return {
             id: songId,
             name: song?.name || '未知歌曲',
@@ -49,7 +112,7 @@ export async function GET(request: NextRequest) {
             lrc: '',
           }
         }
-
+        
         // 获取歌词
         let lrcText = ''
         try {
@@ -63,7 +126,7 @@ export async function GET(request: NextRequest) {
         } catch {
           // 歌词获取失败不影响主流程
         }
-
+        
         return {
           id: songId,
           name: song.name || '未知歌曲',
@@ -76,7 +139,6 @@ export async function GET(request: NextRequest) {
         }
       } catch (error) {
         console.error(`[api/music] 获取歌曲 ${songId} 失败:`, error)
-        // 失败时回退到直接外链方式
         return {
           id: songId,
           name: '未知歌曲',
@@ -90,6 +152,6 @@ export async function GET(request: NextRequest) {
       }
     }),
   )
-
+  
   return NextResponse.json(results)
 }

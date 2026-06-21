@@ -84,7 +84,7 @@ export function MusicProvider({ children }: { children: ReactNode }) {
     let isMounted = true;
     const fetchMusicData = async () => {
       try {
-        const res = await fetch(`/api/music?ids=${siteConfig.cloudMusicIds.join(',')}`);
+        const res = await fetch(`/api/music`);
         const rawResults = await res.json();
 
         const mergedPlaylist = rawResults
@@ -109,8 +109,8 @@ export function MusicProvider({ children }: { children: ReactNode }) {
       }
     };
 
-    if (siteConfig.cloudMusicIds?.length > 0) fetchMusicData();
-    else setIsLoading(false);
+    // 直接加载本地音乐
+    fetchMusicData();
 
     return () => { isMounted = false; };
   }, []);
