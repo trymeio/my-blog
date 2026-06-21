@@ -1,13 +1,15 @@
 "use client";
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { siteConfig } from '../siteConfig';
 
 export default function BackgroundSlider() {
   const [isMobile, setIsMobile] = useState(false);
-  const [mobileBgIndex, setMobileBgIndex] = useState(0);
-  const [index, setIndex] = useState(0);
+  const [bgIndex, setBgIndex] = useState(0);
+  const pathname = usePathname();
   
-  const desktopImages = siteConfig.bgImages;
+  // 电脑端三张背景图
+  const desktopImages = ["/background.jpg", "/desktop-bg2.jpg", "/desktop-bg3.jpg"];
   const mobileImages = ["/mobile-bg1.jpg", "/mobile-bg2.jpg", "/mobile-bg3.jpg"];
   
   // 检测是否为移动端
@@ -19,26 +21,18 @@ export default function BackgroundSlider() {
     checkMobile();
     window.addEventListener('resize', checkMobile);
     
-    // 手机端随机选择一张背景图（1/3概率）
-    if (typeof window !== 'undefined') {
-      const randomIndex = Math.floor(Math.random() * 3);
-      setMobileBgIndex(randomIndex);
-    }
-    
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
   
-  // 电脑端定时切换背景
+  // 页面切换时随机选择背景图（1/3概率）
   useEffect(() => {
-    if (isMobile || desktopImages.length <= 1) return;
-    const timer = setInterval(() => {
-      setIndex((prev) => (prev + 1) % desktopImages.length);
-    }, 10000); // 10秒切换一次
-    return () => clearInterval(timer);
-  }, [isMobile, desktopImages.length]);
+    if (typeof window !== 'undefined') {
+      const randomIndex = Math.floor(Math.random() * 3);
+      setBgIndex(randomIndex);
+    }
+  }, [pathname]);
   
   const images = isMobile ? mobileImages : desktopImages;
-  const currentIndex = isMobile ? mobileBgIndex : index;
   
   return (
     <div className="absolute inset-0 z-[-10] overflow-hidden">
@@ -51,9 +45,9 @@ export default function BackgroundSlider() {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             // 当前显示的图片 opacity 为 1，其他的为 0
-            opacity: i === currentIndex ? 1 : 0,
+            opacity: i === bgIndex ? 1 : 0,
             // 解决层级重叠导致的渲染压力
-            visibility: Math.abs(i - currentIndex) <= 1 || (i === images.length - 1 && currentIndex === 0) ? 'visible' : 'hidden'
+            visibility: Math.abs(i - bgIndex) <= 1 || (i === images.length - 1 && bgIndex === 0) ? 'visible' : 'hidden'
           }}
         />
       ))}
