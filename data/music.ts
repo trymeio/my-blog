@@ -102,7 +102,7 @@ export const localSongs: LocalSong[] = [
     name: 'Take a Walk',
     artist: 'Passion Pit',
     cover: 'https://api.injahow.cn/meting/?server=netease&type=pic&id=21411019',
-    url: 'https://music.163.com/song/media/outer/url?id=21411019.mp3',
+    url: '/music/12-take-a-walk.mp3',
     neteaseId: '21411019',
   },
   {
@@ -110,7 +110,7 @@ export const localSongs: LocalSong[] = [
     name: 'All The Stars',
     artist: 'Kendrick Lamar, SZA',
     cover: 'https://api.injahow.cn/meting/?server=netease&type=pic&id=28742907',
-    url: 'https://music.163.com/song/media/outer/url?id=28742907.mp3',
+    url: '/music/10-all-the-stars.mp3',
     neteaseId: '28742907',
   },
 ]
