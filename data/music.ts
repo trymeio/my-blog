@@ -111,6 +111,5 @@ export const localSongs: LocalSong[] = [
     artist: 'Kendrick Lamar, SZA',
     cover: 'https://api.injahow.cn/meting/?server=netease&type=pic&id=28742907',
     url: '/music/10-all-the-stars.mp3',
-    neteaseId: '28742907',
   },
 ]
