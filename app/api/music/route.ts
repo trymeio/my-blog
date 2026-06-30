@@ -30,7 +30,7 @@ export async function GET(request: NextRequest) {
           try {
             const lrcRes = await fetch(
               `https://api.injahow.cn/meting/?server=netease&type=lrc&id=${song.neteaseId}`,
-              { signal: AbortSignal.timeout(5000) },
+              { signal: AbortSignal.timeout(10000) },
             )
             if (lrcRes.ok) {
               lrcText = await lrcRes.text()
