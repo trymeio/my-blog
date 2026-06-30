@@ -21,9 +21,12 @@ export async function GET(request: NextRequest) {
     const results = await Promise.all(
       localSongs.map(async (song) => {
         let lrcText = ''
+        let playUrl = song.url
+        let coverUrl = song.cover
         
-        // 如果有网易云ID，尝试从网易云获取歌词
+        // 如果有网易云ID，尝试从网易云获取歌词和播放链接
         if (song.neteaseId) {
+          // 获取歌词
           try {
             const lrcRes = await fetch(
               `https://api.injahow.cn/meting/?server=netease&type=lrc&id=${song.neteaseId}`,
@@ -35,6 +38,27 @@ export async function GET(request: NextRequest) {
           } catch {
             // 歌词获取失败不影响主流程
           }
+          
+          // 如果url是网易云外链，尝试从meting获取真实播放链接
+          if (song.url.includes('music.163.com') || song.url.startsWith('http')) {
+            try {
+              const songRes = await fetch(
+                `https://api.injahow.cn/meting/?server=netease&type=song&id=${song.neteaseId}`,
+                { signal: AbortSignal.timeout(8000) },
+              )
+              if (songRes.ok) {
+                const songData = await songRes.json()
+                if (songData?.[0]?.url) {
+                  playUrl = songData[0].url
+                }
+                if (songData?.[0]?.pic) {
+                  coverUrl = songData[0].pic
+                }
+              }
+            } catch {
+              // 获取失败，使用原始url
+            }
+          }
         }
         
         return {
@@ -42,9 +66,9 @@ export async function GET(request: NextRequest) {
           name: song.name,
           artist: song.artist,
           author: song.artist,
-          cover: song.cover,
-          pic: song.cover,
-          url: song.url,
+          cover: coverUrl,
+          pic: coverUrl,
+          url: playUrl,
           lrc: lrcText,
         }
       })
