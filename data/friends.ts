@@ -6,7 +6,7 @@ export const friendsData: Friend[] = [
     "id": "thefinals",
     "name": "THE FINALS",
     "description": "build it , break it , smash it...\nCASH IT！IT'S WORLD'S GREATEST GAME SHOW！",
-    "avatar": "https://aka.doubaocdn.com/s/AKKd1wh83H",
+    "avatar": "/the-finals-cover.jpg",
     "url": "https://www.reachthefinals.com/home",
     "themeColor": "rgba(255, 215, 0, 0.5)"
   },
