@@ -1,4 +1,43 @@
 // 🛡️ 本文件由 XingHuiSama 控制台自动生成，请勿手动修改
 export interface Photo { url: string; caption?: string; }
 export interface Album { id: string; title: string; description: string; cover: string; date: string; photos: Photo[]; }
-export const albums: Album[] = [];
+export const albums: Album[] = [
+  {
+    id: "super-hero",
+    title: "super hero",
+    description: "超级英雄合集",
+    cover: "/albums/super-hero/img_01.webp",
+    date: "2026-08-31",
+    photos: [
+      { url: "/albums/super-hero/img_01.webp" },
+      { url: "/albums/super-hero/img_02.webp" },
+      { url: "/albums/super-hero/img_03.webp" },
+      { url: "/albums/super-hero/img_04.webp" },
+      { url: "/albums/super-hero/img_05.webp" },
+      { url: "/albums/super-hero/img_06.webp" },
+      { url: "/albums/super-hero/img_07.webp" },
+      { url: "/albums/super-hero/img_08.webp" },
+      { url: "/albums/super-hero/img_09.webp" },
+      { url: "/albums/super-hero/img_10.webp" },
+      { url: "/albums/super-hero/img_11.webp" },
+    ],
+  },
+  {
+    id: "the-finals",
+    title: "THE FINALS",
+    description: "THE FINALS 游戏精彩瞬间",
+    cover: "/albums/the-finals/img_01.webp",
+    date: "2026-08-31",
+    photos: [
+      { url: "/albums/the-finals/img_01.webp" },
+      { url: "/albums/the-finals/img_02.webp" },
+      { url: "/albums/the-finals/img_03.webp" },
+      { url: "/albums/the-finals/img_04.webp" },
+      { url: "/albums/the-finals/img_05.webp" },
+      { url: "/albums/the-finals/img_06.webp" },
+      { url: "/albums/the-finals/img_07.webp" },
+      { url: "/albums/the-finals/img_08.webp" },
+      { url: "/albums/the-finals/img_09.webp" },
+    ],
+  },
+];
