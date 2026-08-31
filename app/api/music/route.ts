@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { localSongs } from '@/data/music'
-
 type SongResult = {
   id: string
   name?: string
@@ -11,6 +10,36 @@ type SongResult = {
   url?: string
   lrc?: string
   error?: string
+}
+
+// 双源歌词获取：先 Meting 镜像，失败则走网易云直连
+async function fetchLyrics(neteaseId: string): Promise<string> {
+  // 源1: Meting 镜像
+  try {
+    const res = await fetch(
+      `https://api.injahow.cn/meting/?server=netease&type=lrc&id=${neteaseId}`,
+      { signal: AbortSignal.timeout(6000) },
+    )
+    if (res.ok) {
+      const text = await res.text()
+      if (text && text.includes('[')) return text
+    }
+  } catch { /* fallthrough */ }
+
+  // 源2: 网易云直连 API
+  try {
+    const res = await fetch(
+      `https://music.163.com/api/song/lyric?id=${neteaseId}&lv=1`,
+      { signal: AbortSignal.timeout(6000) },
+    )
+    if (res.ok) {
+      const data = await res.json()
+      const lrc = data?.lrc?.lyric
+      if (lrc) return lrc
+    }
+  } catch { /* fallthrough */ }
+
+  return ''
 }
 
 export async function GET(request: NextRequest) {
@@ -26,32 +55,22 @@ export async function GET(request: NextRequest) {
         
         // 如果有网易云ID，尝试从网易云获取歌词和播放链接
         if (song.neteaseId) {
-          // 获取歌词
-          try {
-            const lrcRes = await fetch(
-              `https://api.injahow.cn/meting/?server=netease&type=lrc&id=${song.neteaseId}`,
-              { signal: AbortSignal.timeout(10000) },
-            )
-            if (lrcRes.ok) {
-              lrcText = await lrcRes.text()
-            }
-          } catch {
-            // 歌词获取失败不影响主流程
-          }
+          // 获取歌词（双源 fallback）
+          lrcText = await fetchLyrics(song.neteaseId)
           
           // 如果url是网易云外链，尝试从meting获取真实播放链接
           if (song.url.includes('music.163.com') || song.url.startsWith('http')) {
             try {
               const songRes = await fetch(
                 `https://api.injahow.cn/meting/?server=netease&type=song&id=${song.neteaseId}`,
-                { signal: AbortSignal.timeout(8000) },
+                { signal: AbortSignal.timeout(6000) },
               )
               if (songRes.ok) {
                 const songData = await songRes.json()
                 if (songData?.[0]?.url) {
                   playUrl = songData[0].url
                 }
-                if (songData?.[0]?.pic) {
+                if (songData?.[0]?.pic && !song.cover.startsWith('/')) {
                   coverUrl = songData[0].pic
                 }
               }
@@ -86,19 +105,9 @@ export async function GET(request: NextRequest) {
       if (localSong) {
         let lrcText = ''
         
-        // 如果有网易云ID，尝试从网易云获取歌词
+        // 如果有网易云ID，尝试从网易云获取歌词（双源 fallback）
         if (localSong.neteaseId) {
-          try {
-            const lrcRes = await fetch(
-              `https://api.injahow.cn/meting/?server=netease&type=lrc&id=${localSong.neteaseId}`,
-              { signal: AbortSignal.timeout(5000) },
-            )
-            if (lrcRes.ok) {
-              lrcText = await lrcRes.text()
-            }
-          } catch {
-            // 歌词获取失败不影响主流程
-          }
+          lrcText = await fetchLyrics(localSong.neteaseId)
         }
         
         return {
@@ -117,7 +126,7 @@ export async function GET(request: NextRequest) {
       try {
         const res = await fetch(
           `https://api.injahow.cn/meting/?server=netease&type=song&id=${songId}`,
-          { signal: AbortSignal.timeout(8000) },
+          { signal: AbortSignal.timeout(6000) },
         )
         if (!res.ok) {
           throw new Error(`API status: ${res.status}`)
@@ -137,19 +146,8 @@ export async function GET(request: NextRequest) {
           }
         }
         
-        // 获取歌词
-        let lrcText = ''
-        try {
-          const lrcRes = await fetch(
-            `https://api.injahow.cn/meting/?server=netease&type=lrc&id=${songId}`,
-            { signal: AbortSignal.timeout(5000) },
-          )
-          if (lrcRes.ok) {
-            lrcText = await lrcRes.text()
-          }
-        } catch {
-          // 歌词获取失败不影响主流程
-        }
+        // 获取歌词（双源 fallback）
+        const lrcText = await fetchLyrics(songId)
         
         return {
           id: songId,

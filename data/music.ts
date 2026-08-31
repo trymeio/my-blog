@@ -85,7 +85,7 @@ export const localSongs: LocalSong[] = [
     id: '10',
     name: 'Deadman\'s Gun',
     artist: 'Ashtar Command',
-    cover: 'https://api.injahow.cn/meting/?server=netease&type=pic&id=5040239',
+    cover: '/music/deadmans-gun.jpg',
     url: 'https://music.163.com/song/media/outer/url?id=5040239.mp3',
     neteaseId: '5040239',
   },
