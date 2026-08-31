@@ -113,4 +113,12 @@ export const localSongs: LocalSong[] = [
     url: '/music/10-all-the-stars.mp3',
     neteaseId: '526929981',
   },
+  {
+    id: '14',
+    name: 'Hide (Slow)',
+    artist: 'Dorian Concept',
+    cover: '/music/hide-slow.jpg',
+    url: 'https://music.163.com/song/media/outer/url?id=2602329563.mp3',
+    neteaseId: '2602329563',
+  },
 ]
