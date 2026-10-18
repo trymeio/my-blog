@@ -4,6 +4,7 @@ date: "2026-08-28"
 tags: ["随笔"]
 description: "今天我会为你分析精神小伙的世界观和底层代码"
 cover: "/post-cover.jpg"
+archive_cover: "/spirit-bro-archive.jpg"
 ---
 
 你知道这些精神小伙为什么和小动物一样可爱吗 你知道他们为什么喜欢摆拍一些诡异的视频吗？你知道他们的毕生追求是什么吗 今天我会为你分析精神小伙的世界观和底层代码

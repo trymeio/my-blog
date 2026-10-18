@@ -4,6 +4,7 @@ date: "2026-08-31"
 tags: ["随笔"]
 description: "今天我们来剖析精神小妹的底层代码与世界观"
 cover: "/post-cover.jpg"
+archive_cover: "/spirit-girl-archive.jpg"
 ---
 你知道这些傻逼为何不守人德吗？你知道这些八加九为何像嗑了冰一样疯疯癫癫吗？你知道这些公牛反义词的未来规划吗？今天我们来剖析精神小妹的底层代码与世界观。
 
