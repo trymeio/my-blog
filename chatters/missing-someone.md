@@ -3,7 +3,7 @@ title: "想某人想疯了写出来的"
 date: "2026-10-18 21:20:00"
 tags: ["杂谈", "独白"]
 mood: "怅然"
-cover: "/miss-someone-cover.jpg"
+cover: "/post-cover.jpg"
 archive_cover: "/miss-someone-cover.jpg"
 ---
 
