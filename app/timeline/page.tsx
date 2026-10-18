@@ -41,6 +41,7 @@ export default function Timeline() {
           description: data.description || '',
           tags: postTags,
           cover: data.cover || siteConfig.defaultPostCover,
+          archiveCover: data.archive_cover || '/default-archive-cover.jpg',
         });
       });
 
