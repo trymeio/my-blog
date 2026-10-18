@@ -72,7 +72,7 @@ export default function Home() {
         const fullPath = path.join(chattersDirectory, fileName);
         const { data, content } = matter(fs.readFileSync(fullPath, 'utf8'));
         const rawDate = data.date || '1970-01-01';
-        const cover = data.cover || '/chatter-cover.jpg';
+        const cover = data.cover || '/doom-eternal.jpg';
         return { slug: fileName.replace(/\.md$/, ''), title: data.title || '碎片记录', description: data.description || content.substring(0, 60), cover: cover, date: rawDate, formattedDate: formatUpdateTime(rawDate) };
       }).sort((a, b) => {
         const dateA = new Date(a.date).getTime();
@@ -82,7 +82,7 @@ export default function Home() {
       });
     }
   } catch (e) {}
-  const top5Chatters = allChatters.length > 0 ? allChatters.slice(0, 5) : [{ slug: 'none', title: '暂无记录', description: '记录一段思绪...', cover: '/chatter-cover.jpg', date: '', formattedDate: '' }];
+  const top5Chatters = allChatters.length > 0 ? allChatters.slice(0, 5) : [{ slug: 'none', title: '暂无记录', description: '记录一段思绪...', cover: '/doom-eternal.jpg', date: '', formattedDate: '' }];
 
   const chatterCount = allChatters.length;
   const realPhotoCount = albums.reduce((total, album) => total + album.photos.length, 0);
