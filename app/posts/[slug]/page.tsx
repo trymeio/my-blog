@@ -107,7 +107,7 @@ async function getPostData(slug: string) {
     title: data.title,
     date: data.date,
     tags: data.tags && Array.isArray(data.tags) ? data.tags : [],
-    cover: data.cover || siteConfig.defaultPostCover
+    cover: data.archive_cover || data.cover || siteConfig.defaultPostCover
   };
 }
 
