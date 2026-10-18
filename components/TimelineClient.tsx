@@ -114,7 +114,7 @@ export default function TimelineClient({ posts: initialPosts, tags }: { posts: a
                   <div className="flex flex-col py-2">
                     {searchResults.map((post) => (
                       <Link
-                        href={`/posts/${post.slug}`}
+                        href={post.type === 'chatter' ? `/chatter/${post.slug}` : `/posts/${post.slug}`}
                         key={post.slug}
                         onClick={() => setIsDropdownOpen(false)}
                         className="px-6 py-4 hover:bg-indigo-50 dark:hover:bg-indigo-500/10 transition-colors group border-b border-slate-100/50 dark:border-slate-800/50 last:border-0 flex flex-col gap-1.5"
@@ -200,7 +200,7 @@ export default function TimelineClient({ posts: initialPosts, tags }: { posts: a
                   <motion.div key={post.slug} initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.3, delay: idx * 0.05 }}>
                     <div className="bg-white/60 dark:bg-slate-800/70 backdrop-blur-xl border border-white/50 dark:border-slate-700/50 rounded-2xl md:rounded-3xl overflow-hidden shadow-lg flex flex-col h-full group relative hover:-translate-y-1 transition-transform duration-300">
 
-                      <Link href={`/posts/${post.slug}`} className="block flex-1 flex flex-col cursor-pointer">
+                      <Link href={post.type === 'chatter' ? `/chatter/${post.slug}` : `/posts/${post.slug}`} className="block flex-1 flex flex-col cursor-pointer">
                         {/* 🌟 图片高度自适应：手机变矮，电脑变高 */}
                         <div className="relative h-28 sm:h-36 md:h-40 overflow-hidden">
                           <img src={post.archiveCover} alt={post.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />

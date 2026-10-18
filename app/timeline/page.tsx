@@ -14,44 +14,51 @@ export const metadata = {
 
 export default function Timeline() {
   const postsDirectory = path.join(process.cwd(), 'posts');
+  const chattersDirectory = path.join(process.cwd(), 'chatters');
   let posts: any[] = [];
   let tagCounts: Record<string, number> = {};
 
+  // 加载指定目录下的 md 文件（posts=随笔, chatters=杂谈）
+  const loadDirectory = (dir: string, type: 'post' | 'chatter') => {
+    if (!fs.existsSync(dir)) return;
+    const fileNames = fs.readdirSync(dir).filter(f => f.endsWith('.md'));
+
+    fileNames.forEach(fileName => {
+      const slug = fileName.replace(/\.md$/, '');
+      const fullPath = path.join(dir, fileName);
+
+      const fileContents = fs.readFileSync(fullPath, 'utf8');
+      const { data, content } = matter(fileContents);
+
+      const postTags = data.tags && Array.isArray(data.tags) ? data.tags : ['未分类'];
+
+      postTags.forEach(tag => {
+        tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+      });
+
+      posts.push({
+        slug,
+        title: data.title || '无标题',
+        date: data.date || '1970-01-01',
+        description: data.description || content.substring(0, 60) || '',
+        tags: postTags,
+        cover: data.cover || siteConfig.defaultPostCover,
+        archiveCover: data.archive_cover || '/default-archive-cover.jpg',
+        type,
+      });
+    });
+  };
+
   try {
-    if (fs.existsSync(postsDirectory)) {
-      const fileNames = fs.readdirSync(postsDirectory).filter(f => f.endsWith('.md'));
+    loadDirectory(postsDirectory, 'post');
+    loadDirectory(chattersDirectory, 'chatter');
 
-      fileNames.forEach(fileName => {
-        const slug = fileName.replace(/\.md$/, '');
-        const fullPath = path.join(postsDirectory, fileName);
-
-        const fileContents = fs.readFileSync(fullPath, 'utf8');
-        const { data } = matter(fileContents);
-
-        const postTags = data.tags && Array.isArray(data.tags) ? data.tags : ['未分类'];
-
-        postTags.forEach(tag => {
-          tagCounts[tag] = (tagCounts[tag] || 0) + 1;
-        });
-
-        posts.push({
-          slug,
-          title: data.title || '无标题',
-          date: data.date || '1970-01-01',
-          description: data.description || '',
-          tags: postTags,
-          cover: data.cover || siteConfig.defaultPostCover,
-          archiveCover: data.archive_cover || '/default-archive-cover.jpg',
-        });
-      });
-
-      posts.sort((a, b) => {
-        const dateDiff = new Date(b.date).getTime() - new Date(a.date).getTime();
-        return dateDiff !== 0 ? dateDiff : b.slug.localeCompare(a.slug);
-      });
-    }
+    posts.sort((a, b) => {
+      const dateDiff = new Date(b.date).getTime() - new Date(a.date).getTime();
+      return dateDiff !== 0 ? dateDiff : b.slug.localeCompare(a.slug);
+    });
   } catch(e) {
-    console.error("读取文章列表失败", e);
+    console.error("读取归档内容失败", e);
   }
 
   const tagsArray = Object.keys(tagCounts)

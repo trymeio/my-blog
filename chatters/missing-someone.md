@@ -4,6 +4,7 @@ date: "2026-10-18 21:20:00"
 tags: ["杂谈", "独白"]
 mood: "怅然"
 cover: "/miss-someone-cover.jpg"
+archive_cover: "/miss-someone-cover.jpg"
 ---
 
 无事发生。她无需知晓。告诉她，无事发生。
