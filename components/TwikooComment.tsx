@@ -9,6 +9,38 @@ interface TwikooCommentProps {
   pageId?: string; // 兼容旧 LabComments / MomentComments 传参
 }
 
+// 通过 CDN 动态加载 twikoo（浏览器专用库，避免打包/SSR 冲突）
+const TWIKOO_CDNS = [
+  'https://cdn.jsdelivr.net/npm/twikoo@2.0.15/dist/twikoo.all.min.js',
+  'https://unpkg.com/twikoo@2.0.15/dist/twikoo.all.min.js',
+];
+
+let twikooScriptPromise: Promise<any> | null = null;
+
+function loadTwikoo(): Promise<any> {
+  if (typeof window !== 'undefined' && (window as any).twikoo) {
+    return Promise.resolve((window as any).twikoo);
+  }
+  if (twikooScriptPromise) return twikooScriptPromise;
+
+  twikooScriptPromise = new Promise((resolve, reject) => {
+    const tryLoad = (index: number) => {
+      if (index >= TWIKOO_CDNS.length) { reject(new Error('twikoo 加载失败')); return; }
+      const script = document.createElement('script');
+      script.src = TWIKOO_CDNS[index];
+      script.async = true;
+      script.onload = () => {
+        if ((window as any).twikoo) resolve((window as any).twikoo);
+        else tryLoad(index + 1);
+      };
+      script.onerror = () => tryLoad(index + 1);
+      document.head.appendChild(script);
+    };
+    tryLoad(0);
+  });
+  return twikooScriptPromise;
+}
+
 export default function TwikooComment({ path, pageId }: TwikooCommentProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
@@ -16,16 +48,14 @@ export default function TwikooComment({ path, pageId }: TwikooCommentProps) {
 
   useEffect(() => {
     if (!containerRef.current) return;
-    let cancelled = false;
     // 清空容器，防止 Next.js 路由切换时重复渲染
     containerRef.current.innerHTML = '';
     const commentPath = path || pageId || pathname || '/';
+    let cancelled = false;
 
-    // 🌟 动态加载 twikoo（仅客户端），避免 SSR 时库访问 document 报错
-    import('twikoo')
-      .then((mod) => {
+    loadTwikoo()
+      .then((twikoo) => {
         if (cancelled) return;
-        const twikoo = (mod as any).default || mod;
         twikooRef.current = twikoo;
         return twikoo
           .init({
