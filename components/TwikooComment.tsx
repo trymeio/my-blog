@@ -46,45 +46,43 @@ export default function TwikooComment({ path, pageId }: TwikooCommentProps) {
   const pathname = usePathname();
   const twikooRef = useRef<any>(null);
 
+  const lastPathRef = useRef<string>('');
+
   useEffect(() => {
     if (!containerRef.current) return;
     // 清空容器，防止 Next.js 路由切换时重复渲染
     containerRef.current.innerHTML = '';
     const commentPath = path || pageId || pathname || '/';
-    let cancelled = false;
+    lastPathRef.current = commentPath;
 
     loadTwikoo()
       .then((twikoo) => {
-        if (cancelled) return;
         twikooRef.current = twikoo;
-        return twikoo
-          .init({
-            envId: siteConfig.twikooConfig.envId,
-            el: containerRef.current,
-            path: commentPath,
-            lang: 'zh-CN',
-            darkMode: document.documentElement.classList.contains('dark'),
-          })
-          .then(() => {
-            try {
-              twikoo.setDarkMode(document.documentElement.classList.contains('dark'));
-            } catch (e) { /* ignore */ }
-          })
-          .catch(() => { /* 忽略网络失败 */ });
+        return twikoo.init({
+          envId: siteConfig.twikooConfig.envId,
+          el: containerRef.current,
+          path: commentPath,
+          lang: 'zh-CN',
+          darkMode: document.documentElement.classList.contains('dark'),
+        });
       })
       .catch(() => { /* 忽略加载失败 */ });
-
-    return () => { cancelled = true; };
   }, [path, pageId, pathname]);
 
-  // 监听 html 的 dark 类切换，实时同步 Twikoo 明暗主题
+  // 监听 html 的 dark 类切换：重新 init 评论以应用新主题（Twikoo 无 setDarkMode API）
   useEffect(() => {
     const observer = new MutationObserver(() => {
       const isDark = document.documentElement.classList.contains('dark');
-      if (twikooRef.current) {
-        try {
-          twikooRef.current.setDarkMode(isDark);
-        } catch (e) { /* ignore */ }
+      if (twikooRef.current && containerRef.current && lastPathRef.current) {
+        twikooRef.current
+          .init({
+            envId: siteConfig.twikooConfig.envId,
+            el: containerRef.current,
+            path: lastPathRef.current,
+            lang: 'zh-CN',
+            darkMode: isDark,
+          })
+          .catch(() => { /* ignore */ });
       }
     });
     observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
