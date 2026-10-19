@@ -46,14 +46,11 @@ export default function TwikooComment({ path, pageId }: TwikooCommentProps) {
   const pathname = usePathname();
   const twikooRef = useRef<any>(null);
 
-  const lastPathRef = useRef<string>('');
-
   useEffect(() => {
     if (!containerRef.current) return;
     // 清空容器，防止 Next.js 路由切换时重复渲染
     containerRef.current.innerHTML = '';
     const commentPath = path || pageId || pathname || '/';
-    lastPathRef.current = commentPath;
 
     loadTwikoo()
       .then((twikoo) => {
@@ -63,31 +60,11 @@ export default function TwikooComment({ path, pageId }: TwikooCommentProps) {
           el: containerRef.current,
           path: commentPath,
           lang: 'zh-CN',
-          darkMode: document.documentElement.classList.contains('dark'),
+          darkMode: false, // 暗色由下方 .dark CSS 控制，跟随博客 html.dark
         });
       })
       .catch(() => { /* 忽略加载失败 */ });
   }, [path, pageId, pathname]);
-
-  // 监听 html 的 dark 类切换：重新 init 评论以应用新主题（Twikoo 无 setDarkMode API）
-  useEffect(() => {
-    const observer = new MutationObserver(() => {
-      const isDark = document.documentElement.classList.contains('dark');
-      if (twikooRef.current && containerRef.current && lastPathRef.current) {
-        twikooRef.current
-          .init({
-            envId: siteConfig.twikooConfig.envId,
-            el: containerRef.current,
-            path: lastPathRef.current,
-            lang: 'zh-CN',
-            darkMode: isDark,
-          })
-          .catch(() => { /* ignore */ });
-      }
-    });
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
-    return () => observer.disconnect();
-  }, []);
 
   return (
     <div className="w-full mt-10 relative">
@@ -147,13 +124,38 @@ export default function TwikooComment({ path, pageId }: TwikooCommentProps) {
         .twikoo-glass .tk-icon {
           border-radius: 8px !important;
         }
-        .tk-dark .tk-input {
-          background: rgba(0, 0, 0, 0.3) !important;
-          border-color: rgba(255, 255, 255, 0.15) !important;
+        /* 🌟 暗色适配：跟随博客 html.dark 类（纯 CSS，自动切换） */
+        .dark .twikoo-glass .tk-comments,
+        .dark .twikoo-glass .tk-content,
+        .dark .twikoo-glass .tk-nick,
+        .dark .twikoo-glass .tk-extra,
+        .dark .twikoo-glass .tk-time,
+        .dark .twikoo-glass .tk-comments-title {
+          color: #cbd5e1 !important;
         }
-        .tk-dark .tk-comment-item {
-          background: rgba(0, 0, 0, 0.25) !important;
-          border-color: rgba(255, 255, 255, 0.08) !important;
+        .dark .twikoo-glass .tk-input,
+        .dark .twikoo-glass textarea,
+        .dark .twikoo-glass input {
+          background: rgba(15, 23, 42, 0.55) !important;
+          color: #e2e8f0 !important;
+          border-color: rgba(148, 163, 184, 0.3) !important;
+        }
+        .dark .twikoo-glass .tk-input::placeholder {
+          color: #94a3b8 !important;
+        }
+        .dark .twikoo-glass .tk-comment-item {
+          background: rgba(15, 23, 42, 0.4) !important;
+          border-color: rgba(148, 163, 184, 0.15) !important;
+        }
+        .dark .twikoo-glass .tk-submit {
+          background: rgba(15, 23, 42, 0.3) !important;
+        }
+        .dark .twikoo-glass .tk-action {
+          background: rgba(15, 23, 42, 0.4) !important;
+          color: #e2e8f0 !important;
+        }
+        .dark .twikoo-glass .tk-action .tk-input {
+          background: rgba(15, 23, 42, 0.6) !important;
         }
       `}</style>
     </div>
