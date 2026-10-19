@@ -6,6 +6,7 @@ export interface LocalSong {
   cover: string
   url: string
   neteaseId?: string // 网易云ID，用于获取歌词
+  lrcUrl?: string // 本地歌词文件路径（内置歌词，避免外部API失效）
 }
 
 export const localSongs: LocalSong[] = [
@@ -16,6 +17,7 @@ export const localSongs: LocalSong[] = [
     cover: 'https://api.injahow.cn/meting/?server=netease&type=pic&id=109951171447673702',
     url: '/music/1-afterthought.mp3',
     neteaseId: '1481691186',
+    lrcUrl: '/music/lyrics/afterthought.lrc',
   },
   {
     id: '2',
@@ -24,6 +26,7 @@ export const localSongs: LocalSong[] = [
     cover: 'https://api.injahow.cn/meting/?server=netease&type=pic&id=109951171447673702',
     url: '/music/2-normal-people.mp3',
     neteaseId: '1481691185',
+    lrcUrl: '/music/lyrics/normalpeople.lrc',
   },
   {
     id: '3',
@@ -120,5 +123,6 @@ export const localSongs: LocalSong[] = [
     cover: '/music/hide-slow.jpg',
     url: 'https://music.163.com/song/media/outer/url?id=2602329563.mp3',
     neteaseId: '2602329563',
+    lrcUrl: '/music/lyrics/hide.lrc',
   },
 ]

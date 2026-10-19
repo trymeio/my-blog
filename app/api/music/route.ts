@@ -1,5 +1,17 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { readFileSync } from 'fs'
+import path from 'path'
 import { localSongs } from '@/data/music'
+
+// 读取内置本地歌词文件（优先于外部API，避免网易云歌词源失效）
+function readLocalLyric(lrcUrl?: string): string {
+  if (!lrcUrl) return ''
+  try {
+    return readFileSync(path.join(process.cwd(), 'public', lrcUrl.replace(/^\//, '')), 'utf-8')
+  } catch {
+    return ''
+  }
+}
 type SongResult = {
   id: string
   name?: string
@@ -55,8 +67,8 @@ export async function GET(request: NextRequest) {
         
         // 如果有网易云ID，尝试从网易云获取歌词和播放链接
         if (song.neteaseId) {
-          // 获取歌词（双源 fallback）
-          lrcText = await fetchLyrics(song.neteaseId)
+          // 优先读取本地内置歌词，否则走外部API（双源 fallback）
+          lrcText = readLocalLyric(song.lrcUrl) || await fetchLyrics(song.neteaseId)
           
           // 如果url是网易云外链，尝试从meting获取真实播放链接
           if (song.url.includes('music.163.com') || song.url.startsWith('http')) {
@@ -105,9 +117,9 @@ export async function GET(request: NextRequest) {
       if (localSong) {
         let lrcText = ''
         
-        // 如果有网易云ID，尝试从网易云获取歌词（双源 fallback）
+        // 优先读取本地内置歌词，否则走外部API（双源 fallback）
         if (localSong.neteaseId) {
-          lrcText = await fetchLyrics(localSong.neteaseId)
+          lrcText = readLocalLyric(localSong.lrcUrl) || await fetchLyrics(localSong.neteaseId)
         }
         
         return {
