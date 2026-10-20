@@ -1,5 +1,9 @@
 // siteConfig.ts - 你的全站"控制中心"
+// 本站唯一域名来源（改域名只需改这一处）
+export const SITE_URL = "https://mmzhw-blog.netlify.app/";
+
 export const siteConfig = {
+  siteUrl: SITE_URL,
   // 1. 网站标题与博主信息
   title: "mmzhw的博客",
   faviconUrl: "/avatar.jpg",
@@ -60,6 +64,6 @@ export const siteConfig = {
     maxOutputTokens: 150,
     temperature: 0.85,
   },
-  friendLinkApplyFormat: "名称：mmzhw的博客\n简介：With great power comes great responsibility.\n链接：https://my-blog.vercel.app\n头像：/avatar.jpg",
+  friendLinkApplyFormat: `名称：mmzhw的博客\n简介：With great power comes great responsibility.\n链接：${SITE_URL}\n头像：/avatar.jpg`,
   enableLevelSystem: true,
 };
