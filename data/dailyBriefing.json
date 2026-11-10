@@ -1,0 +1,208 @@
+{
+  "edition": {
+    "date": "2026.11.11",
+    "weekday": "周三",
+    "label": "AI 日报",
+    "notice": "本期由 nvidia/nemotron-3.5-lightning:free 整理自公开科技资讯，共 8 则。"
+  },
+  "items": [
+    {
+      "id": "20261111-01",
+      "category": "tech",
+      "title": ".name 域名的“祖父权”保留政策",
+      "originalTitle": ".name Grandfathered",
+      "source": "neil.fraser.name",
+      "sourceOrg": "neil.fraser.name",
+      "sourceDate": "2026.11.11",
+      "url": "https://neil.fraser.name/news/2026/11/10/",
+      "tags": [
+        "域名",
+        "ICANN",
+        "政策"
+      ],
+      "summary": "Neil Fraser 博客分享了 .name 域名注册机构 ICM 的政策变更，决定保留原有用户的‘祖父权’使用权。这一决定确保了在新规实施前注册的用户能继续使用其域名，避免了大规模的域名失效风波。",
+      "highlights": [
+        "政策保留用户既有权益",
+        "防止新旧用户权益冲突"
+      ],
+      "readingNote": "",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://neil.fraser.name/news/2026/11/10/"
+      ]
+    },
+    {
+      "id": "20261111-02",
+      "category": "tech",
+      "title": "智能家居设备应断网可用",
+      "originalTitle": "Smart home devices should work without the internet",
+      "source": "docodethatmatters.com",
+      "sourceOrg": "docodethatmatters.com",
+      "sourceDate": "2026.11.10",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "tags": [
+        "智能家居",
+        "断网",
+        "用户体验"
+      ],
+      "summary": "文章探讨了智能家居设备对网络连接的依赖问题。作者认为，即使在断网或服务商倒闭的情况下，核心功能如灯光控制、门锁开启也不应失效。这呼吁行业转向本地化控制和离线模式，提升用户体验的稳定性和安全性。",
+      "highlights": [
+        "主张离线本地控制",
+        "关注设备持久可用性"
+      ],
+      "readingNote": "",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://docodethatmatters.com/home-automation-overnight-success/"
+      ]
+    },
+    {
+      "id": "20261111-03",
+      "category": "ai",
+      "title": "DeepMind 推出 AlphaProof Code",
+      "originalTitle": "AlphaProof Code",
+      "source": "deepmind.google",
+      "sourceOrg": "deepmind.google",
+      "sourceDate": "2026.11.10",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "tags": [
+        "DeepMind",
+        "大模型",
+        "数学"
+      ],
+      "summary": "DeepMind 发布了 AlphaProof Code，这是一个旨在通过大型语言模型辅助数学证明和代码生成的研究项目。该系统结合了符号推理与机器学习，旨在解决复杂的数学难题并生成相应的代码实现，展示了 AI 在逻辑推理和编程辅助方面的进展。",
+      "highlights": [
+        "结合数学证明与代码生成",
+        "推进 AI 逻辑推理能力"
+      ],
+      "readingNote": "",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://deepmind.google/blog/introducing-alphaproof-code/"
+      ]
+    },
+    {
+      "id": "20261111-04",
+      "category": "tech",
+      "title": "Blender 5.3 发布，引入高斯点云支持",
+      "originalTitle": "Blender 5.3 released with Gaussian Splat support",
+      "source": "blender.org",
+      "sourceOrg": "blender.org",
+      "sourceDate": "2026.11.11",
+      "url": "https://www.blender.org/download/releases/5-3/",
+      "tags": [
+        "Blender",
+        "3D渲染",
+        "高斯点云"
+      ],
+      "summary": "Blender 5.3 版本发布，新增对高斯点云的原生支持，显著提升了 3D 场景的渲染性能和真实感，对数字内容创作和实时渲染领域具有重要意义。",
+      "highlights": [
+        "原生高斯点云渲染支持",
+        "提升 3D 场景渲染性能"
+      ],
+      "readingNote": "",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://www.blender.org/download/releases/5-3/"
+      ]
+    },
+    {
+      "id": "20261111-05",
+      "category": "dev",
+      "title": "Synaptics 专利纠纷阻碍 DisplayLink 驱动",
+      "originalTitle": "Synaptics patent claims stop work on DisplayLink drivers",
+      "source": "lwn.net",
+      "sourceOrg": "lwn.net",
+      "sourceDate": "2026.11.11",
+      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+      "tags": [
+        "Synaptics",
+        "DisplayLin",
+        "专利纠纷"
+      ],
+      "summary": "Synaptics 通过专利主张阻碍 DisplayLink 驱动开发，可能影响基于此技术的外显和连接设备兼容性，引发对专利壁垒对开源驱动影响的关注。",
+      "highlights": [
+        "Synaptics 专利主张",
+        "DisplayLink 驱动开发受阻"
+      ],
+      "readingNote": "",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/"
+      ]
+    },
+    {
+      "id": "20261111-06",
+      "category": "tech",
+      "title": "AMD 公布 Zen 6 系列：为性能而生",
+      "originalTitle": "AMD's Zen 6 Family: Feeding the Beast",
+      "source": "chipsandcheese.com",
+      "sourceOrg": "chipsandcheese.com",
+      "sourceDate": "2026.11.11",
+      "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+      "tags": [
+        "AMD",
+        "Zen 6",
+        "CPU架构"
+      ],
+      "summary": "Chips and Cheese 深度解析 AMD 下一代 Zen 6 架构，重点探讨其如何通过微架构优化来满足高性能计算需求，揭示了 AMD 在 CPU 竞争中的技术路线图。",
+      "highlights": [
+        "Zen 6 架构深度解析",
+        "性能优化技术路线"
+      ],
+      "readingNote": "",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast"
+      ]
+    },
+    {
+      "id": "20261111-07",
+      "category": "dev",
+      "title": "Val Town 将关停服务",
+      "originalTitle": "Val Town is winding down",
+      "source": "blog.val.town",
+      "sourceOrg": "blog.val.town",
+      "sourceDate": "2026.11.11",
+      "url": "https://blog.val.town/winding-down",
+      "tags": [
+        "编程工具",
+        "服务关停"
+      ],
+      "summary": "Val Town 官方博客宣布将停止运营，用户需在关停前导出数据。该平台曾提供简易编程环境，此举引起社区对低代码工具可持续性的关注。",
+      "highlights": [
+        "官方宣布关停服务",
+        "用户需及时导出个人数据"
+      ],
+      "readingNote": "",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://blog.val.town/winding-down"
+      ]
+    },
+    {
+      "id": "20261111-08",
+      "category": "tech",
+      "title": "Ableton Live 13 发布",
+      "originalTitle": "Ableton Live 13",
+      "source": "ableton.com",
+      "sourceOrg": "ableton.com",
+      "sourceDate": "2026.11.10",
+      "url": "https://www.ableton.com/en/live/",
+      "tags": [
+        "音乐软件",
+        "制作工具"
+      ],
+      "summary": "Ableton 发布 Live 13 版本，引入新的音频处理引擎和创作工作流。更新旨在提升音乐制作的灵活性和创作效率，支持更多硬件和插件集成。",
+      "highlights": [
+        "新版本发布",
+        "音频处理升级"
+      ],
+      "readingNote": "",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://www.ableton.com/en/live/"
+      ]
+    }
+  ]
+}

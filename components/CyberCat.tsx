@@ -9,8 +9,37 @@ export default function CyberCat() {
   const [showInput, setShowInput] = useState(false);
   const [inputValue, setInputValue] = useState('');
   const [isThinking, setIsThinking] = useState(false);
+  // 🖼️ 识图：选中图片后以 dataURL 随消息一起发给后端
+  const [imageDataUrl, setImageDataUrl] = useState<string | null>(null);
+  const fileInputRef = useRef<HTMLInputElement | null>(null);
 
   const chatTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  // --- 🖼️ 选图并压缩成 base64（控制体积，避免请求过大） ---
+  const handleImagePick = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    e.target.value = '';
+    if (!file || !file.type.startsWith('image/')) return;
+
+    const reader = new FileReader();
+    reader.onload = () => {
+      const img = new Image();
+      img.onload = () => {
+        const maxSide = 720;
+        const scale = Math.min(1, maxSide / Math.max(img.width, img.height));
+        const canvas = document.createElement('canvas');
+        canvas.width = Math.round(img.width * scale);
+        canvas.height = Math.round(img.height * scale);
+        const ctx = canvas.getContext('2d');
+        if (!ctx) return;
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        setImageDataUrl(canvas.toDataURL('image/jpeg', 0.72));
+        setShowInput(true);
+      };
+      img.src = String(reader.result);
+    };
+    reader.readAsDataURL(file);
+  };
 
   // --- 💬 说话功能 ---
   const speak = (text: string, duration = 6000) => {
@@ -61,10 +90,12 @@ export default function CyberCat() {
   // --- 💬 交互事件：发送聊天 ---
   const handleChatSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!inputValue.trim() || isThinking) return;
+    if (isThinking || (!inputValue.trim() && !imageDataUrl)) return;
 
     const userMessage = inputValue;
+    const pickedImage = imageDataUrl;
     setInputValue('');
+    setImageDataUrl(null);
     setShowInput(false);
     setIsThinking(true);
     speak("让本喵想想喵...", 10000);
@@ -73,7 +104,10 @@ export default function CyberCat() {
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: userMessage }),
+        body: JSON.stringify({
+          message: userMessage,
+          images: pickedImage ? [{ url: pickedImage }] : [],
+        }),
       });
 
       if (!res.ok) throw new Error('API Error');
@@ -154,6 +188,21 @@ export default function CyberCat() {
               </svg>
             </button>
 
+            {/* 🖼️ 识图按钮 */}
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                fileInputRef.current?.click();
+              }}
+              disabled={isThinking}
+              className={`bg-white/90 dark:bg-slate-700/90 p-2.5 rounded-full shadow-md hover:scale-110 active:scale-95 transition-transform border border-gray-100 dark:border-slate-600 text-emerald-500 hover:text-emerald-600 flex items-center justify-center backdrop-blur-sm ${isThinking ? 'opacity-50 cursor-not-allowed' : ''}`}
+              title="让煤球看图片"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="w-5 h-5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5a1.5 1.5 0 001.5-1.5V4.5a1.5 1.5 0 00-1.5-1.5h-16.5A1.5 1.5 0 002.25 4.5v15a1.5 1.5 0 001.5 1.5zm11.25-14.25h.008v.008h-.008V6.75z" />
+              </svg>
+            </button>
+
             {/* 🐟 喂食按钮 */}
             <button
               onClick={handleFeed}
@@ -164,6 +213,9 @@ export default function CyberCat() {
               <span className="text-xl leading-none">🐟</span>
             </button>
         </div>
+
+        {/* 隐藏的文件选择器 */}
+        <input ref={fileInputRef} type="file" accept="image/*" onChange={handleImagePick} className="hidden" />
 
         {/* 猫咪图片容器 */}
         <div
@@ -215,6 +267,20 @@ export default function CyberCat() {
             onSubmit={handleChatSubmit}
             className="absolute -bottom-14 bg-white dark:bg-slate-800 p-1.5 rounded-full shadow-lg flex items-center border border-gray-200 dark:border-slate-700 w-56 z-20"
           >
+            {imageDataUrl && (
+              <span className="relative shrink-0 ml-1">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={imageDataUrl} alt="待发送图片" className="w-8 h-8 rounded-lg object-cover border border-gray-200 dark:border-slate-600" />
+                <button
+                  type="button"
+                  onClick={() => setImageDataUrl(null)}
+                  className="absolute -top-1.5 -right-1.5 w-4 h-4 rounded-full bg-slate-600 text-white text-[10px] leading-none flex items-center justify-center"
+                  title="移除图片"
+                >
+                  ×
+                </button>
+              </span>
+            )}
             <input
               type="text"
               value={inputValue}
@@ -226,9 +292,9 @@ export default function CyberCat() {
             />
             <button
               type="submit"
-              disabled={isThinking || !inputValue.trim()}
+              disabled={isThinking || (!inputValue.trim() && !imageDataUrl)}
               className={`rounded-full p-1.5 ml-1 flex items-center justify-center transition-colors ${
-                isThinking || !inputValue.trim() ? 'bg-gray-300 text-gray-500' : 'bg-blue-500 hover:bg-blue-600 text-white'
+                isThinking || (!inputValue.trim() && !imageDataUrl) ? 'bg-gray-300 text-gray-500' : 'bg-blue-500 hover:bg-blue-600 text-white'
               }`}
             >
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">

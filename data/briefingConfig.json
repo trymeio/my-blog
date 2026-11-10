@@ -1,0 +1,36 @@
+{
+  "display": {
+    "enabled": true,
+    "title": "AI 日报",
+    "subtitle": "每天让煤球替你读一遍世界",
+    "archiveDays": 90,
+    "carouselDays": 7,
+    "autoPlay": true,
+    "intervalSeconds": 8,
+    "showCovers": false,
+    "showTerraNotes": false
+  },
+  "topics": [],
+  "channels": [
+    {
+      "id": "tech",
+      "name": "科技动态",
+      "enabled": true
+    },
+    {
+      "id": "ai",
+      "name": "AI 前沿",
+      "enabled": true
+    },
+    {
+      "id": "dev",
+      "name": "开发与产品",
+      "enabled": true
+    },
+    {
+      "id": "life",
+      "name": "趣味杂谈",
+      "enabled": true
+    }
+  ]
+}
