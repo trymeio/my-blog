@@ -2,186 +2,38 @@
   "edition": {
     "date": "2026.11.11",
     "weekday": "周三",
-    "label": "AI 日报",
-    "notice": "本期由 nvidia/nemotron-3.5-lightning:free 整理自公开科技资讯，共 8 则。"
+    "label": "米米的AI日报",
+    "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
   },
   "items": [
     {
-      "id": "20261111-01",
-      "category": "tech",
-      "title": ".name 域名的 grandfathered 传奇",
-      "originalTitle": ".name Grandfathered",
-      "source": "neil.fraser.name",
-      "sourceOrg": "neil.fraser.name",
-      "sourceDate": "2026.11.11",
-      "url": "https://neil.fraser.name/news/2026/11/10/",
-      "tags": [
-        "域名",
-        "ICANN",
-        "历史"
-      ],
-      "summary": "Neil Fraser 博客分享了 .name 域名的特殊历史，该域名在 ICANN 规则变更前已获批准注册，被称为 'grandfathered'（祖父级）存量，至今仍保留使用权。",
-      "highlights": [
-        "域名历史溯源",
-        "ICANN 规则变更"
-      ],
-      "readingNote": "见证互联网规则变迁，老域名的稀缺性凸显互联网资源的不可替代性。",
-      "verifiedAt": "2026.11.11",
-      "verificationUrls": [
-        "https://neil.fraser.name/news/2026/11/10/"
-      ]
-    },
-    {
-      "id": "20261111-02",
-      "category": "life",
-      "title": "智能家居设备应断网可用",
-      "originalTitle": "Smart home devices should work without the internet",
-      "source": "docodethatmatters.com",
-      "sourceOrg": "docodethatmatters.com",
-      "sourceDate": "2026.11.10",
-      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-      "tags": [
-        "智能家居",
-        "用户权益",
-        "离线"
-      ],
-      "summary": "文章论证智能家居设备应具备离线本地控制能力，避免因云服务商倒闭或网络中断导致设备‘变砖’，提升用户体验与安全性。",
-      "highlights": [
-        "离线本地控制",
-        "防止设备变砖"
-      ],
-      "readingNote": "真正的智能应赋能而非绑架，本地控制是硬件价值的基石。",
-      "verifiedAt": "2026.11.11",
-      "verificationUrls": [
-        "https://docodethatmatters.com/home-automation-overnight-success/"
-      ]
-    },
-    {
-      "id": "20261111-03",
+      "id": "20261111-ai-01",
       "category": "ai",
-      "title": "DeepMind 推出 AlphaProof Code",
-      "originalTitle": "AlphaProof Code",
-      "source": "deepmind.google",
-      "sourceOrg": "deepmind.google",
+      "title": "AI 辅助编程易导致代码库脆弱",
+      "originalTitle": "AI usage generates a fragile codebase",
+      "source": "evanxmerz.com",
+      "sourceOrg": "evanxmerz.com",
       "sourceDate": "2026.11.10",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
       "tags": [
-        "DeepMind",
-        "编程",
-        "大模型"
+        "AI 编程",
+        "代码质量"
       ],
-      "summary": "DeepMind 发布 AlphaProof Code，旨在通过大模型提升代码生成和证明能力，弥合人工智能在复杂逻辑推理与编程任务上的短板。",
+      "summary": "研究发现，过度依赖 AI 生成代码可能导致代码结构松散、可维护性下降，开发者需谨慎审查与补充。",
       "highlights": [
-        "大模型代码生成",
-        "逻辑推理能力"
+        "AI 生成代码易出现逻辑缺陷",
+        "需人工审查与重构"
       ],
-      "readingNote": "AI 进军代码证明领域，或将重塑软件工程与数学验证的边界。",
+      "readingNote": "AI 是辅助工具，而非替代程序员的思考。",
       "verifiedAt": "2026.11.11",
       "verificationUrls": [
-        "https://deepmind.google/blog/introducing-alphaproof-code/"
+        "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/"
       ]
     },
     {
-      "id": "20261111-04",
-      "category": "tech",
-      "title": "Synaptics 专利阻碍 DisplayLink 驱动开发",
-      "originalTitle": "Synaptics patent claims stop work on DisplayLink drivers",
-      "source": "lwn.net",
-      "sourceOrg": "lwn.net",
-      "sourceDate": "2026.11.11",
-      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
-      "tags": [
-        "显卡",
-        "专利"
-      ],
-      "summary": "Synaptics 声称拥有相关专利，要求停止在 DisplayLink 驱动上的工作。这可能影响基于 DisplayLink 技术的外显和 docking station 兼容性。",
-      "highlights": [
-        "专利纠纷升级",
-        "影响外设兼容性"
-      ],
-      "readingNote": "专利纠纷可能导致部分设备驱动失效，用户需关注兼容性更新。",
-      "verifiedAt": "2026.11.11",
-      "verificationUrls": [
-        "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/"
-      ]
-    },
-    {
-      "id": "20261111-05",
-      "category": "tech",
-      "title": "AMD Zen 6 系列：为性能而生",
-      "originalTitle": "AMD's Zen 6 Family: Feeding the Beast",
-      "source": "chipsandcheese.com",
-      "sourceOrg": "chipsandcheese.com",
-      "sourceDate": "2026.11.11",
-      "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
-      "tags": [
-        "处理器",
-        "AMD"
-      ],
-      "summary": "分析文章深入探讨 AMD 下一代 Zen 6 架构的设计理念，旨在应对不断增长的计算需求。文章揭示了架构优化的细节与挑战。",
-      "highlights": [
-        "架构升级",
-        "性能需求"
-      ],
-      "readingNote": "了解 CPU 未来发展方向，对硬件爱好者和选购建议有参考价值。",
-      "verifiedAt": "2026.11.11",
-      "verificationUrls": [
-        "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast"
-      ]
-    },
-    {
-      "id": "20261111-06",
-      "category": "dev",
-      "title": "Val Town 宣布停止运营",
-      "originalTitle": "Val Town is winding down",
-      "source": "blog.val.town",
-      "sourceOrg": "blog.val.town",
-      "sourceDate": "2026.11.11",
-      "url": "https://blog.val.town/winding-down",
-      "tags": [
-        "代码平台",
-        "开发工具"
-      ],
-      "summary": "Val Town 这个即时运行和分享代码的平台将关停。这对依赖该平台进行快速原型开发和代码分享的开发者造成影响。",
-      "highlights": [
-        "平台关停",
-        "影响开发者"
-      ],
-      "readingNote": "寻找替代方案，快速原型搭建可能需要迁移到其他服务。",
-      "verifiedAt": "2026.11.11",
-      "verificationUrls": [
-        "https://blog.val.town/winding-down"
-      ]
-    },
-    {
-      "id": "20261111-07",
-      "category": "tech",
-      "title": "Blender 5.3 发布，高斯点云支持",
-      "originalTitle": "Blender 5.3 released with Gaussian Splat support",
-      "source": "blender.org",
-      "sourceOrg": "blender.org",
-      "sourceDate": "2026.11.11",
-      "url": "https://www.blender.org/download/releases/5-3/",
-      "tags": [
-        "Blender",
-        "3D",
-        "点云"
-      ],
-      "summary": "Blender 5.3 版本发布，首次引入对高斯点云的原生支持。这项技术可让用户直接在 Blender 中导入、查看和渲染点云数据，极大简化了 3D 扫描与重建流程，对数字内容创作和空间计算具有重要意义。",
-      "highlights": [
-        "原生高斯点云支持",
-        "简化 3D 扫描工作流"
-      ],
-      "readingNote": "对于想要尝试新型 3D 采集技术的创作者来说，这是一个降低门槛的好消息。",
-      "verifiedAt": "2026.11.11",
-      "verificationUrls": [
-        "https://www.blender.org/download/releases/5-3/"
-      ]
-    },
-    {
-      "id": "20261111-08",
-      "category": "dev",
-      "title": "Show HN：摆脱 2019 JavaScript，使用现代网页原语",
+      "id": "20261111-ai-02",
+      "category": "ai",
+      "title": "获取现代网页基础的编码代理",
       "originalTitle": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
       "source": "github.com",
       "sourceOrg": "github.com",
@@ -189,18 +41,196 @@
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
       "tags": [
         "Chrome",
-        "JavaScript",
-        "Web"
+        "编码代理",
+        "网页技术"
       ],
-      "summary": "Google Chrome 团队在 GitHub 上展示了一个名为 'modern-web-guidance' 的项目。它提供了一套现代网页基础设施指引，帮助开发者摆脱过时的 JavaScript 编程模式，转而使用浏览器原生的 Web primitives（基元），以提升性能和",
+      "summary": "Chrome 团队发布工具，帮助编码代理从旧式 JavaScript 迁移至现代网页原生接口，提升性能与兼容性。",
       "highlights": [
-        "现代网页原语",
-        "摆脱旧 JavaScript"
+        "摆脱 2019 旧技术",
+        "使用现代网页原语"
       ],
-      "readingNote": "这可能是前端开发范式转变的一个信号，值得关注。",
+      "readingNote": "工具助力开发者跟上网页标准步伐。",
       "verifiedAt": "2026.11.11",
       "verificationUrls": [
         "https://github.com/GoogleChrome/modern-web-guidance"
+      ]
+    },
+    {
+      "id": "20261111-ai-03",
+      "category": "ai",
+      "title": "AI 对自由职业者的影响研究",
+      "originalTitle": "Work at the Frontier: AI's effect on freelance work",
+      "source": "openai.com",
+      "sourceOrg": "openai.com",
+      "sourceDate": "2026.11.11",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "tags": [
+        "AI",
+        "自由职业",
+        "工作趋势"
+      ],
+      "summary": "OpenAI 发布报告分析 AI 对自由职业市场的影响，探讨工作方式变化与机会重塑。",
+      "highlights": [
+        "AI 影响自由职业格局",
+        "报告分析工作机会"
+      ],
+      "readingNote": "理解 AI 重塑职业边界的关键。",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://openai.com/index/ai-effect-on-freelance-work"
+      ]
+    },
+    {
+      "id": "20261111-hero-01",
+      "category": "hero",
+      "title": "杰瑞米·拉查姆接任 DC 影业新任总裁",
+      "originalTitle": "Who Is Jeremy Latcham? Everything We Know About The New Head Of DC Studios",
+      "source": "slashfilm.com",
+      "sourceOrg": "slashfilm.com",
+      "sourceDate": "2026.11.11",
+      "url": "https://www.slashfilm.com/2312484/jeremy-latcham-dc-studios-head-explained/",
+      "tags": [
+        "DC影业",
+        "漫威",
+        "人事变动"
+      ],
+      "summary": "前漫威工作室制作人杰瑞米·拉查姆 接替詹姆斯·古恩和彼得·萨弗兰，出任 DC 影业新任总裁。他此前曾参与多部漫威电影的制作。",
+      "highlights": [
+        "前漫威制作人转任 DC 总裁",
+        "接替古恩和萨弗兰领导工作"
+      ],
+      "readingNote": "漫威与 DC 的交接，行业目光聚焦于新任总裁能否延续或重塑影业风格。",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://www.slashfilm.com/2312484/jeremy-latcham-dc-studios-head-explained/"
+      ]
+    },
+    {
+      "id": "20261111-hero-02",
+      "category": "hero",
+      "title": "詹姆斯·古恩离任后 DC 影业优先级分析",
+      "originalTitle": "DC Studios' Biggest Superhero Movie Priorities After James Gunn's Exit, Explained",
+      "source": "slashfilm.com",
+      "sourceOrg": "slashfilm.com",
+      "sourceDate": "2026.11.11",
+      "url": "https://www.slashfilm.com/2312481/dc-studios-superhero-movie-priorities-james-gunn-exit-explained/",
+      "tags": [
+        "DC影业",
+        "超级英雄",
+        "电影规划"
+      ],
+      "summary": "詹姆斯·古恩和彼得·萨弗兰离任后，DC 影业可能优先发展的超级英雄电影方向。文章分析了在新管理层下的潜在电影优先级。",
+      "highlights": [
+        "分析新任期优先级",
+        "超级英雄电影方向变动"
+      ],
+      "readingNote": "老将退下，新任务待定，粉丝最关心接下来会有哪些熟悉或全新的面孔登场。",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://www.slashfilm.com/2312481/dc-studios-superhero-movie-priorities-james-gunn-exit-explained/"
+      ]
+    },
+    {
+      "id": "20261111-hero-03",
+      "category": "hero",
+      "title": "从万神殿三部曲看 Marvel 电视教训",
+      "originalTitle": "What Marvel Television Can Learn from the ‘WandaVision’ Trilogy",
+      "source": "denofgeek.com",
+      "sourceOrg": "denofgeek.com",
+      "sourceDate": "2026.11.11",
+      "url": "https://www.denofgeek.com/tv/what-marvel-television-can-learn-from-wandavision-trilogy/",
+      "tags": [
+        "Marvel电视",
+        "WandaVisio",
+        "剧集分析"
+      ],
+      "summary": "随着 VisionQuest 番剧 finale 播出，Marvel 电视时代画上句号。文章回顾 WandaVision 三部曲，探讨 Marvel 电视今后可学习的经验与教训。",
+      "highlights": [
+        "VisionQuest 番剧终结",
+        "总结 Marvel 电视经验"
+      ],
+      "readingNote": "Marvel 电视收官，如何在电影与电视间找到更好平衡，值得行业深思。",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://www.denofgeek.com/tv/what-marvel-television-can-learn-from-wandavision-trilogy/"
+      ]
+    },
+    {
+      "id": "20261111-game-01",
+      "category": "game",
+      "title": "PS Plus PC 应用 12 月停服，使用率不足 0.4%",
+      "originalTitle": "PlayStation Plus PC app is being shut down in December because less than 0.4% of eligible subscribers are using it",
+      "source": "pcgamer.com",
+      "sourceOrg": "pcgamer.com",
+      "sourceDate": "2026.11.11",
+      "url": "https://www.pcgamer.com/gaming-industry/playstation-plus-pc-app-is-being-shut-down-in-december-because-less-than-0-4-percent-of-eligible-subscribers-are-using-it/",
+      "tags": [
+        "索尼",
+        "订阅服务",
+        "停运"
+      ],
+      "summary": "索尼宣布 12 月关闭 PlayStation Plus 的 PC 端应用，理由是符合条件的订阅用户里真正在用的人不到 0.4%，投入与回报差距过大。",
+      "highlights": [
+        "该应用上线时间不长就停运",
+        "官方给的直接原因是用得太少",
+        "PC 端串流需求主要被别的入口分流"
+      ],
+      "readingNote": "花力气做了个没人用的客户端，最后只能关掉。",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://www.pcgamer.com/gaming-industry/playstation-plus-pc-app-is-being-shut-down-in-december-because-less-than-0-4-percent-of-eligible-subscribers-are-using-it/"
+      ]
+    },
+    {
+      "id": "20261111-game-02",
+      "category": "game",
+      "title": "欧盟拟重拳管制游戏开箱，数字公平法草案外泄",
+      "originalTitle": "Europe is about to get very tough on loot boxes in games, according to a leaked draft of the landmark Digital Fairness Act",
+      "source": "eurogamer.net",
+      "sourceOrg": "eurogamer.net",
+      "sourceDate": "2026.11.11",
+      "url": "https://www.eurogamer.net/digital-fairness-act-eu-europe-loot-boxes-regulation",
+      "tags": [
+        "欧盟",
+        "开箱",
+        "监管"
+      ],
+      "summary": "监管欧洲游戏市场的《数字公平法》草案在正式公布前一天外泄，内容显示将对游戏开箱机制采取远比以往严格的限制，影响面覆盖绝大部分在线游戏。",
+      "highlights": [
+        "草案原定 11 月 11 日公布",
+        "矛头指向随机付费开箱",
+        "厂商需提前评估欧洲区商业化设计"
+      ],
+      "readingNote": "开箱这门生意在欧洲可能要说再见了。",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://www.eurogamer.net/digital-fairness-act-eu-europe-loot-boxes-regulation"
+      ]
+    },
+    {
+      "id": "20261111-game-03",
+      "category": "game",
+      "title": "GTA 6 公布 PS5 Pro 增强，帧率仍锁 30 帧",
+      "originalTitle": "Rockstar details Grand Theft Auto 6 PS5 Pro enhancements, but it'll still only run at 30FPS",
+      "source": "eurogamer.net",
+      "sourceOrg": "eurogamer.net",
+      "sourceDate": "2026.11.11",
+      "url": "https://www.eurogamer.net/gta-6-30-fps-platforms-absolute-limit",
+      "tags": [
+        "GTA 6",
+        "Rockstar",
+        "主机性能"
+      ],
+      "summary": "随着预载开启，Rockstar 公布了 GTA 6 在 PS5 Pro 上的画质与性能增强细节，但确认帧率目标仍然是 30 帧，属于平台上的硬性上限。",
+      "highlights": [
+        "PS5 Pro 版本有专门增强",
+        "帧率维持 30 帧不变",
+        "预载已经开始，发售临近"
+      ],
+      "readingNote": "画面能更强，流畅度这代大概就别指望了。",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://www.eurogamer.net/gta-6-30-fps-platforms-absolute-limit"
       ]
     }
   ]

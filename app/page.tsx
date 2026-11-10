@@ -17,6 +17,7 @@ import { ToastProvider } from '../components/ToastProvider';
 
 import LatestPostsCarousel from '../components/LatestPostsCarousel';
 import LatestChatterCarousel from '../components/LatestChatterCarousel';
+import DailyBriefingCarousel from '../components/DailyBriefingCarousel';
 import DanmakuBackground from '../components/DanmakuBackground';
 
 function formatUpdateTime(dateString: string) {
@@ -148,6 +149,9 @@ export default function Home() {
 
                 </div>
               </div>
+
+              {/* 米米的AI日报：轮播卡片（每 4 秒切换一条新闻） */}
+              <div className="w-full"><DailyBriefingCarousel variant="home" /></div>
 
               {/* 底部数据面板 */}
               <div className="w-full mt-4"><SiteDashboard/></div>

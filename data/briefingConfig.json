@@ -1,8 +1,8 @@
 {
   "display": {
     "enabled": true,
-    "title": "AI 日报",
-    "subtitle": "每天让煤球替你读一遍世界",
+    "title": "DAILY SIGNAL",
+    "subtitle": "米米的AI日报",
     "archiveDays": 90,
     "carouselDays": 7,
     "autoPlay": true,
@@ -13,23 +13,18 @@
   "topics": [],
   "channels": [
     {
-      "id": "tech",
-      "name": "科技动态",
-      "enabled": true
-    },
-    {
       "id": "ai",
-      "name": "AI 前沿",
+      "name": "AI 科技",
       "enabled": true
     },
     {
-      "id": "dev",
-      "name": "开发与产品",
+      "id": "hero",
+      "name": "超英",
       "enabled": true
     },
     {
-      "id": "life",
-      "name": "趣味杂谈",
+      "id": "game",
+      "name": "游戏",
       "enabled": true
     }
   ]
