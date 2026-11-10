@@ -2,7 +2,6 @@ name: Daily AI Briefing
 
 on:
   schedule:
-    # UTC 22:00 = 北京时间次日 06:00，每天自动跑一次
     # UTC 00:10 = 北京时间 08:10，等免费模型额度（UTC 0 点重置）刷新后再跑
     - cron: '10 0 * * *'
   workflow_dispatch: # 支持手动触发一次
