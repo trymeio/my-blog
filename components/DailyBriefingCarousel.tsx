@@ -120,10 +120,10 @@ export default function DailyBriefingCarousel({
         <span className="mt-5 block max-w-[92%] sm:max-w-[76%]">
           <span className="mb-1.5 block text-[10px] tracking-[0.26em] text-indigo-200/90">米米的AI日报</span>
           {/* 用 key 触发淡入，切换时只动副标题与摘要 */}
-          <span key={`title-${index}`} className="briefing-fade block text-xl font-black leading-snug tracking-wide text-white drop-shadow-md sm:text-[26px]">
+          <span className="block text-xl font-black leading-snug tracking-wide text-white drop-shadow-md sm:text-[26px]">
             {current.title}
           </span>
-          <span key={`summary-${index}`} className="briefing-fade mt-2 block line-clamp-2 text-[11px] leading-relaxed tracking-wide text-white/80 sm:text-xs">
+          <span className="mt-2 block line-clamp-2 text-[11px] leading-relaxed tracking-wide text-white/80 sm:text-xs">
             {current.summary}
           </span>
         </span>
