@@ -2,23 +2,31 @@
 
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { ArrowUpRight, Bookmark, Check, ChevronDown, ChevronLeft, ChevronRight, History, Minus, Pause, Play, Plus, SlidersHorizontal, Sparkles, X } from 'lucide-react';
-import { briefingAsOfDate, briefingCovers, briefingDisplay, briefingChannels, briefingIssues as publishedIssues, briefingTopics, type BriefingItem } from '../data/dailyBriefing';
-import { beijingCalendarDate, getBriefingWindow, stepBriefingDate } from '../lib/briefingWindow';
+import { briefingAsOfDate, briefingDisplay, briefingChannels, briefingIssues as publishedIssues, briefingTopics, type BriefingItem } from '../data/dailyBriefing';
+import { beijingCalendarDate, getBriefingWindow } from '../lib/briefingWindow';
 
 import { terraReadingNotes } from '../data/terraReadingNotes';
 
 type ReadingState = { read: string[]; saved: string[]; topics: string[]; terraNotes: boolean };
 const initialState: ReadingState = { read: [], saved: [], topics: briefingTopics, terraNotes: briefingDisplay.showTerraNotes };
 const storageKey = 'xh-daily-letter-v1';
-const briefingCarouselDays = briefingDisplay.carouselDays;
+// 卡片封面池：按新闻顺序循环分配，用完从头接着排
+const COVER_POOL = [
+  '/daily-covers/cover-1.jpg',
+  '/daily-covers/cover-2.jpg',
+  '/daily-covers/cover-3.jpg',
+  '/daily-covers/cover-4.jpg',
+  '/daily-covers/cover-6.jpg',
+  '/daily-covers/cover-7.jpg',
+];
+const NEWS_INTERVAL_SECONDS = 4;
 const categoryName = (category: string) => briefingChannels.find(channel => channel.id === category)?.name ?? category;
 
 export default function DailyBriefing() {
   const [expanded, setExpanded] = useState(false);
   const [windowDate, setWindowDate] = useState(briefingAsOfDate);
   const briefingIssues = useMemo(() => getBriefingWindow(publishedIssues, windowDate, briefingDisplay.archiveDays), [windowDate]);
-  const carouselIssues = useMemo(() => getBriefingWindow(briefingIssues, windowDate, briefingCarouselDays), [briefingIssues, windowDate]);
-  const carouselDates = useMemo(() => carouselIssues.map(issue => issue.edition.date), [carouselIssues]);
+  const [newsIndex, setNewsIndex] = useState(0);
   const [autoPlay, setAutoPlay] = useState(briefingDisplay.autoPlay);
   const [hovered, setHovered] = useState(false);
   const [focused, setFocused] = useState(false);
@@ -31,10 +39,7 @@ export default function DailyBriefing() {
   const issue = briefingIssues[issueIndex];
   const briefingEdition = issue?.edition ?? { date: windowDate, weekday: '', label: '每日选刊', notice: `最近 ${briefingDisplay.archiveDays} 天暂无可用选刊，请稍后再来。` };
   const briefingItems = (issue?.items ?? []).filter(item => briefingChannels.some(channel => channel.id === item.category));
-  const briefingCover = briefingCovers[briefingEdition.date] ?? { src: '/images/briefing-default.svg', alt: '每日选刊默认封面' };
-  const coverSources = [...new Set([briefingCover.src, ...carouselIssues.map(entry => briefingCovers[entry.edition.date]?.src ?? '/images/briefing-default.svg')])];
   const isLatest = issueIndex === 0;
-  const carouselIndex = carouselDates.indexOf(briefingEdition.date);
   const [reading, setReading] = useState<ReadingState>(initialState);
   const [ready, setReady] = useState(false);
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -46,7 +51,11 @@ export default function DailyBriefing() {
   const dialog = useRef<HTMLDialogElement>(null);
   const lastFocus = useRef<HTMLElement | null>(null);
   const banner = useRef<HTMLButtonElement>(null);
-  const headline = briefingItems[0]?.title ?? '从你关注的方向，开始今天的阅读';
+  const newsCount = briefingItems.length;
+  const safeNewsIndex = newsCount ? newsIndex % newsCount : 0;
+  const currentItem = briefingItems[safeNewsIndex];
+  const currentCoverIndex = safeNewsIndex % COVER_POOL.length;
+  const headline = currentItem?.title ?? '从你关注的方向，开始今天的阅读';
   useEffect(() => {
     const refresh = () => setWindowDate(beijingCalendarDate());
     refresh();
@@ -65,14 +74,12 @@ export default function DailyBriefing() {
     return () => { query.removeEventListener('change', updateMotion); document.removeEventListener('visibilitychange', updateVisibility); };
   }, []);
 
+  // 新闻轮播：每 4 秒切一条，封面、标题、摘要同步切换；悬停/展开/阅读时暂停
   useEffect(() => {
-    if (!briefingDisplay.enabled || !ready || !autoPlay || hovered || focused || expanded || selectedId || !pageVisible || reducedMotion || carouselIndex < 0 || carouselDates.length < 2) return;
-    const timer = setTimeout(() => {
-      const date = stepBriefingDate(carouselDates, briefingEdition.date, 1);
-      if (date) setIssueDate(date);
-    }, briefingDisplay.intervalSeconds * 1000);
+    if (!briefingDisplay.enabled || !autoPlay || hovered || focused || expanded || selectedId || !pageVisible || reducedMotion || newsCount < 2) return;
+    const timer = setTimeout(() => setNewsIndex(value => (value + 1) % newsCount), NEWS_INTERVAL_SECONDS * 1000);
     return () => clearTimeout(timer);
-  }, [ready, autoPlay, hovered, focused, expanded, selectedId, pageVisible, reducedMotion, carouselIndex, carouselDates, briefingEdition.date]);
+  }, [autoPlay, hovered, focused, expanded, selectedId, pageVisible, reducedMotion, newsCount, newsIndex]);
 
   useEffect(() => {
     try {
@@ -133,7 +140,15 @@ export default function DailyBriefing() {
     if (!briefingIssues.some(issue => issue.edition.date === date)) return;
     setSelectedId(null);
     setIssueDate(date);
+    setNewsIndex(0); // 换了一期，新闻轮播重新从第一条开始
     setMessage('已切换至 ' + date + ' 选刊');
+  }
+
+  function stepNews(offset: number) {
+    setNewsIndex(value => {
+      if (newsCount === 0) return 0;
+      return (value + offset + newsCount) % newsCount;
+    });
   }
 
   function collapse() {
@@ -148,20 +163,20 @@ export default function DailyBriefing() {
     <section id="daily-briefing" aria-label={briefingDisplay.title + '，' + briefingDisplay.subtitle} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} onFocusCapture={() => setFocused(true)} onBlurCapture={event => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setFocused(false); }} className="scroll-mt-28 overflow-hidden rounded-3xl border border-white/40 bg-white/40 shadow-xl backdrop-blur-md dark:border-white/10 dark:bg-slate-800/50">
       <div className="relative">
       <button ref={banner} type="button" aria-expanded={expanded} aria-controls="daily-letter-reader" onClick={() => expanded ? collapse() : setExpanded(true)} className="group relative block bg-slate-900 min-h-[206px] w-full overflow-hidden text-left focus-visible:outline-2 focus-visible:-outline-offset-4 focus-visible:outline-white sm:min-h-[190px]">
-        {briefingDisplay.showCovers && coverSources.map(src => <img key={src} src={src} alt={src === briefingCover.src ? briefingCover.alt : ''} aria-hidden={src !== briefingCover.src} style={{ opacity: src === briefingCover.src ? 1 : 0 }} className="absolute inset-0 h-full w-full object-cover object-[72%_45%] transition-opacity duration-1000 motion-reduce:transition-none sm:object-[center_43%]" />)}
+        {COVER_POOL.map((src, index) => <img key={src} src={src} alt="" aria-hidden style={{ opacity: index === currentCoverIndex ? 1 : 0 }} className="absolute inset-0 h-full w-full object-cover object-[72%_45%] transition-opacity duration-700 motion-reduce:transition-none sm:object-[center_43%]" />)}
         <span aria-hidden="true" className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-950/45 to-slate-950/5 sm:via-slate-950/30" />
         <span aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-slate-950/35 via-transparent to-transparent" />
         <span className="relative flex min-h-[206px] flex-col justify-between p-5 sm:min-h-[190px] sm:px-8 sm:py-6">
           <span className="flex min-h-8 items-center gap-2.5 pr-40 text-[9px] font-bold tracking-[0.2em] text-white/75 sm:pr-40 sm:text-[10px]"><span className="hidden rounded-md border border-white/15 bg-white/10 px-2 py-1 tracking-[0.15em] backdrop-blur-sm sm:inline">DAILY SIGNAL</span><span className="font-mono tracking-wider">{briefingEdition.date}</span><span className="hidden truncate text-white/45 md:inline">/ {briefingEdition.label}</span></span>
-          <span className="my-4 block max-w-[85%] sm:my-3 sm:max-w-[68%]"><span className="mb-1 block text-[10px] tracking-[0.28em] text-indigo-200/90">{briefingDisplay.title}</span><span className="block text-2xl font-black leading-snug tracking-wide text-white drop-shadow-md sm:text-[30px]">{briefingDisplay.subtitle}</span><span key={briefingEdition.date} className="mt-2 block truncate text-[11px] leading-relaxed tracking-wide text-white/80 sm:text-xs">{headline}</span></span>
+          <span className="my-4 block max-w-[85%] sm:my-3 sm:max-w-[70%]"><span className="mb-1 block text-[10px] tracking-[0.28em] text-indigo-200/90">{briefingDisplay.title}</span><span className="block text-2xl font-black leading-snug tracking-wide text-white drop-shadow-md sm:text-[30px]">{briefingDisplay.subtitle}</span><span className="mt-2 block text-[13px] font-medium leading-snug text-white sm:text-sm">{headline}</span><span className="mt-1 block truncate text-[11px] leading-relaxed tracking-wide text-white/80 sm:text-xs">{currentItem?.summary ?? ''}</span></span>
           <span className="flex items-end justify-between gap-3"><span className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[10px] text-white/75">{briefingChannels.map(channel => <span key={channel.id}>{channel.name} <b className="ml-1 font-mono font-normal text-white">{pad(followedItems.filter(item => item.category === channel.id).length)}</b></span>)}{unread > 0 && <span className="flex items-center gap-1.5 text-pink-200"><span className="h-1 w-1 rounded-full bg-pink-300" />{unread} 条未读</span>}</span><span className="flex shrink-0 items-center gap-2 text-white/90"><span className="hidden text-[10px] tracking-wide sm:inline">{expanded ? '收起这封来信' : isLatest ? '展开今日选刊' : '展开往期选刊'}</span><span className="flex h-8 w-8 items-center justify-center rounded-full border border-white/30 bg-white/10 backdrop-blur-sm transition duration-500 group-hover:border-white/60 group-hover:bg-white/20 sm:h-9 sm:w-9">{expanded ? <Minus size={16} /> : <Plus size={16} />}</span></span></span>
         </span>
       </button>
-      <div role="group" aria-label={`最近 ${briefingCarouselDays} 天选刊轮播`} className="absolute right-4 top-5 z-10 flex items-center gap-1 rounded-full border border-white/20 bg-slate-950/25 p-1 text-white backdrop-blur-md sm:right-7 sm:top-6">
-        <button type="button" aria-label="卡片上一期" disabled={carouselDates.length < 2 || carouselIndex < 0} onClick={() => { const date = stepBriefingDate(carouselDates, briefingEdition.date, 1); if (date) changeIssue(date); }} className="flex h-8 w-8 items-center justify-center rounded-full transition hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-white disabled:opacity-30"><ChevronLeft size={15} /></button>
-        <span aria-hidden="true" className="min-w-8 text-center font-mono text-[10px] text-white/80">{carouselIndex < 0 ? '往期' : `${carouselIndex + 1}/${carouselDates.length}`}</span>
-        <button type="button" aria-label="卡片下一期" disabled={carouselDates.length < 2 || carouselIndex < 0} onClick={() => { const date = stepBriefingDate(carouselDates, briefingEdition.date, -1); if (date) changeIssue(date); }} className="flex h-8 w-8 items-center justify-center rounded-full transition hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-white disabled:opacity-30"><ChevronRight size={15} /></button>
-        <button type="button" aria-label={autoPlay ? '暂停选刊轮播' : '播放选刊轮播'} aria-pressed={!autoPlay} disabled={carouselDates.length < 2 || reducedMotion} onClick={() => setAutoPlay(value => !value)} className="flex h-8 w-8 items-center justify-center rounded-full border-l border-white/15 transition hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-white disabled:opacity-30">{autoPlay ? <Pause size={12} /> : <Play size={12} />}</button>
+      <div role="group" aria-label="新闻轮播切换" className="absolute right-4 top-5 z-10 flex items-center gap-1 rounded-full border border-white/20 bg-slate-950/25 p-1 text-white backdrop-blur-md sm:right-7 sm:top-6">
+        <button type="button" aria-label="上一条新闻" disabled={newsCount < 2} onClick={() => stepNews(-1)} className="flex h-8 w-8 items-center justify-center rounded-full transition hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-white disabled:opacity-30"><ChevronLeft size={15} /></button>
+        <span aria-hidden="true" className="min-w-8 text-center font-mono text-[10px] text-white/80">{newsCount ? `${safeNewsIndex + 1}/${newsCount}` : '0/0'}</span>
+        <button type="button" aria-label="下一条新闻" disabled={newsCount < 2} onClick={() => stepNews(1)} className="flex h-8 w-8 items-center justify-center rounded-full transition hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-white disabled:opacity-30"><ChevronRight size={15} /></button>
+        <button type="button" aria-label={autoPlay ? '暂停新闻轮播' : '播放新闻轮播'} aria-pressed={!autoPlay} disabled={newsCount < 2 || reducedMotion} onClick={() => setAutoPlay(value => !value)} className="flex h-8 w-8 items-center justify-center rounded-full border-l border-white/15 transition hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-white disabled:opacity-30">{autoPlay ? <Pause size={12} /> : <Play size={12} />}</button>
       </div>
       </div>
 
@@ -181,7 +196,7 @@ export default function DailyBriefing() {
             <button type="button" disabled={!issue || isLatest} onClick={()=>changeIssue(briefingIssues[issueIndex - 1].edition.date)} className="px-1 py-2 text-slate-500 hover:text-indigo-500 disabled:cursor-default disabled:opacity-30 dark:text-slate-400">下一期</button>
             {!isLatest && <button type="button" onClick={()=>changeIssue(briefingIssues[0].edition.date)} className="ml-auto px-1 py-2 text-indigo-500 dark:text-indigo-300">回到最新</button>}
           </div>
-          <p className="mt-2 text-[10px] leading-6 text-slate-400">最近 {briefingDisplay.archiveDays} 天 · {briefingIssues.length} 期完整选刊。首页轮播最近 {briefingCarouselDays} 天内已有的 {carouselIssues.length} 期，展开阅读时暂停切换。</p>
+          <p className="mt-2 text-[10px] leading-6 text-slate-400">最近 {briefingDisplay.archiveDays} 天 · {briefingIssues.length} 期完整选刊。卡片每 {NEWS_INTERVAL_SECONDS} 秒切换一条新闻，封面按顺序循环使用，展开阅读时暂停。</p>
         </div>
         </AnimatedDisclosure>
 

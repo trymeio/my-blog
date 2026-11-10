@@ -17,8 +17,8 @@ import { ToastProvider } from '../components/ToastProvider';
 
 import LatestPostsCarousel from '../components/LatestPostsCarousel';
 import LatestChatterCarousel from '../components/LatestChatterCarousel';
-import DailyBriefingCarousel from '../components/DailyBriefingCarousel';
 import DanmakuBackground from '../components/DanmakuBackground';
+import DailyBriefing from '../components/DailyBriefing';
 
 function formatUpdateTime(dateString: string) {
   if (!dateString || dateString === '1970-01-01') return '刚刚更新';
@@ -150,8 +150,8 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* 米米的AI日报：轮播卡片（每 4 秒切换一条新闻） */}
-              <div className="w-full"><DailyBriefingCarousel variant="home" /></div>
+              {/* 米米的AI日报：原生卡片自带新闻轮播，可展开查看全部新闻 */}
+              <div className="w-full"><DailyBriefing /></div>
 
               {/* 底部数据面板 */}
               <div className="w-full mt-4"><SiteDashboard/></div>

@@ -1,7 +1,6 @@
 import Navbar from '../../components/Navbar';
 import PageTransition from '../../components/PageTransition';
 import DailyBriefing from '../../components/DailyBriefing';
-import DailyBriefingCarousel from '../../components/DailyBriefingCarousel';
 import { siteConfig } from '@/siteConfig';
 
 export const metadata = {
@@ -15,11 +14,6 @@ export default function DailyPage() {
       <Navbar />
       <PageTransition>
         <div className="mt-28 mx-auto w-full max-w-4xl px-4 sm:px-6">
-          {/* 轮播卡片：每 4 秒切换一条新闻，封面循环使用 */}
-          <div className="mb-6">
-            <DailyBriefingCarousel variant="page" />
-          </div>
-
           {/* 完整日报：可展开查看今日与往期全部新闻 */}
           <DailyBriefing />
 
