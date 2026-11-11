@@ -9,7 +9,7 @@
     {
       "id": "20261111-ai-01",
       "category": "ai",
-      "title": "AI 辅助编程易导致代码库脆弱",
+      "title": "AI 辅助编程易产生脆弱代码",
       "originalTitle": "AI usage generates a fragile codebase",
       "source": "evanxmerz.com",
       "sourceOrg": "evanxmerz.com",
@@ -17,14 +17,16 @@
       "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
       "tags": [
         "AI 编程",
-        "代码质量"
+        "代码质量",
+        "软件安全"
       ],
-      "summary": "研究发现，过度依赖 AI 生成代码可能导致代码结构松散、可维护性下降，开发者需谨慎审查与补充。",
+      "summary": "研究发现，依赖 AI 生成代码可能导致代码库结构脆弱，存在安全隐患与维护难题，提醒开发者需谨慎审查与补充测试。",
       "highlights": [
-        "AI 生成代码易出现逻辑缺陷",
-        "需人工审查与重构"
+        "AI 生成代码结构易出现缺陷",
+        "存在潜在安全与维护风险",
+        "建议人工审查与完善测试"
       ],
-      "readingNote": "AI 是辅助工具，而非替代程序员的思考。",
+      "readingNote": "AI 可提速开发，但把关质量仍靠人，勤测试方不踩坑。",
       "verifiedAt": "2026.11.11",
       "verificationUrls": [
         "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/"
@@ -33,204 +35,203 @@
     {
       "id": "20261111-ai-02",
       "category": "ai",
-      "title": "获取现代网页基础的编码代理",
+      "title": "追踪 Anthropic 发现的漏洞",
+      "originalTitle": "Tracking Anthropic-discovered vulnerabilities",
+      "source": "vulncheck.com",
+      "sourceOrg": "vulncheck.com",
+      "sourceDate": "2026.11.11",
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "tags": [
+        "安全漏洞",
+        "Anthropic",
+        "Glasswing"
+      ],
+      "summary": "安全研究机构 VulnCheck 更新报告，跟踪 Anthropic 公司近期发现的 Glasswing 漏洞细节，帮助防御者及时了解并修复相关安全风险。",
+      "highlights": [
+        "VulnCheck 发布 Anthropic 漏洞更新",
+        "聚焦 Glasswing 安全缺陷",
+        "利于防御与补丁部署"
+      ],
+      "readingNote": "及时关注漏洞情报，主动防御比被动补救更重要。",
+      "verifiedAt": "2026.11.11",
+      "verificationUrls": [
+        "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
+      ]
+    },
+    {
+      "id": "20261111-ai-03",
+      "category": "ai",
+      "title": "展示 HN： coding 代理跳出 2019 JavaScript",
       "originalTitle": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
       "source": "github.com",
       "sourceOrg": "github.com",
       "sourceDate": "2026.11.11",
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
       "tags": [
-        "Chrome",
-        "编码代理",
-        "网页技术"
+        "Show HN",
+        "现代 Web",
+        "编码代理"
       ],
-      "summary": "Chrome 团队发布工具，帮助编码代理从旧式 JavaScript 迁移至现代网页原生接口，提升性能与兼容性。",
+      "summary": "GoogleChrome 项目发布现代网页指引工具，帮助编码代理从陈旧的 JavaScript 环境迁移至现代 Web 基础设施，提升性能与开发体验。",
       "highlights": [
-        "摆脱 2019 旧技术",
-        "使用现代网页原语"
+        "GoogleChrome 发布现代网页指引",
+        "助 Coding 代理 升级 JavaScript",
+        "提升性能与开发体验"
       ],
-      "readingNote": "工具助力开发者跟上网页标准步伐。",
+      "readingNote": "工具助迁移，代码走得更稳、更快。",
       "verifiedAt": "2026.11.11",
       "verificationUrls": [
         "https://github.com/GoogleChrome/modern-web-guidance"
       ]
     },
     {
-      "id": "20261111-ai-03",
-      "category": "ai",
-      "title": "AI 对自由职业者的影响研究",
-      "originalTitle": "Work at the Frontier: AI's effect on freelance work",
-      "source": "openai.com",
-      "sourceOrg": "openai.com",
-      "sourceDate": "2026.11.11",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "tags": [
-        "AI",
-        "自由职业",
-        "工作趋势"
-      ],
-      "summary": "OpenAI 发布报告分析 AI 对自由职业市场的影响，探讨工作方式变化与机会重塑。",
-      "highlights": [
-        "AI 影响自由职业格局",
-        "报告分析工作机会"
-      ],
-      "readingNote": "理解 AI 重塑职业边界的关键。",
-      "verifiedAt": "2026.11.11",
-      "verificationUrls": [
-        "https://openai.com/index/ai-effect-on-freelance-work"
-      ]
-    },
-    {
       "id": "20261111-hero-01",
       "category": "hero",
-      "title": "杰瑞米·拉查姆接任 DC 影业新任总裁",
-      "originalTitle": "Who Is Jeremy Latcham? Everything We Know About The New Head Of DC Studios",
-      "source": "slashfilm.com",
-      "sourceOrg": "slashfilm.com",
+      "title": "《VisionQuest》片后彩蛋确认：深受喜爱角色回归新 Avengers 电",
+      "originalTitle": "VisionQuest Post-Credits Scene Just Confirmed A Major Marvel Character Is Coming Back in Upcoming Avengers Films",
+      "source": "ign.com",
+      "sourceOrg": "ign.com",
       "sourceDate": "2026.11.11",
-      "url": "https://www.slashfilm.com/2312484/jeremy-latcham-dc-studios-head-explained/",
+      "url": "https://www.ign.com/articles/visionquest-post-credits-scene-just-confirmed-a-major-marvel-character-is-coming-back-in-upcoming-avengers-films",
       "tags": [
-        "DC影业",
         "漫威",
-        "人事变动"
+        "VisionQues",
+        "Doctor Doo"
       ],
-      "summary": "前漫威工作室制作人杰瑞米·拉查姆 接替詹姆斯·古恩和彼得·萨弗兰，出任 DC 影业新任总裁。他此前曾参与多部漫威电影的制作。",
+      "summary": "IGN 报道《VisionQuest》季终彩蛋确认，MCU 中一位深受喜爱的角色将回归出演即将上映的 Avengers 电影，似乎已落入 Doctor Doom 之手。",
       "highlights": [
-        "前漫威制作人转任 DC 总裁",
-        "接替古恩和萨弗兰领导工作"
+        "角色回归 MCU 新 Avengers",
+        "似乎已被 Doctor Doom 控制"
       ],
-      "readingNote": "漫威与 DC 的交接，行业目光聚焦于新任总裁能否延续或重塑影业风格。",
+      "readingNote": "彩蛋揭秘角色命运，为新篇章埋下伏笔。",
       "verifiedAt": "2026.11.11",
       "verificationUrls": [
-        "https://www.slashfilm.com/2312484/jeremy-latcham-dc-studios-head-explained/"
+        "https://www.ign.com/articles/visionquest-post-credits-scene-just-confirmed-a-major-marvel-character-is-coming-back-in-upcoming-avengers-films"
       ]
     },
     {
       "id": "20261111-hero-02",
       "category": "hero",
-      "title": "詹姆斯·古恩离任后 DC 影业优先级分析",
-      "originalTitle": "DC Studios' Biggest Superhero Movie Priorities After James Gunn's Exit, Explained",
-      "source": "slashfilm.com",
-      "sourceOrg": "slashfilm.com",
+      "title": "《VisionQuest》季终评论：Forever",
+      "originalTitle": "Marvel's VisionQuest Series Finale Review: 'Forever'",
+      "source": "ign.com",
+      "sourceOrg": "ign.com",
       "sourceDate": "2026.11.11",
-      "url": "https://www.slashfilm.com/2312481/dc-studios-superhero-movie-priorities-james-gunn-exit-explained/",
+      "url": "https://www.ign.com/articles/marvels-visionquest-series-finale-review-forever",
       "tags": [
-        "DC影业",
-        "超级英雄",
-        "电影规划"
+        "漫威",
+        "VisionQues",
+        "评论"
       ],
-      "summary": "詹姆斯·古恩和彼得·萨弗兰离任后，DC 影业可能优先发展的超级英雄电影方向。文章分析了在新管理层下的潜在电影优先级。",
+      "summary": "IGN 评论《VisionQuest》季终，尽管最后时刻加入新反派略显突兀，但系列剧在聚焦 Vision 与 Ultron 的戏剧冲突上仍取得成功。",
       "highlights": [
-        "分析新任期优先级",
-        "超级英雄电影方向变动"
+        "新反派加入略显突兀",
+        "剧集在 Vision 与 Ultron 戏份上成功"
       ],
-      "readingNote": "老将退下，新任务待定，粉丝最关心接下来会有哪些熟悉或全新的面孔登场。",
+      "readingNote": "新反派点缀不足，但核心戏份仍打动人心。",
       "verifiedAt": "2026.11.11",
       "verificationUrls": [
-        "https://www.slashfilm.com/2312481/dc-studios-superhero-movie-priorities-james-gunn-exit-explained/"
+        "https://www.ign.com/articles/marvels-visionquest-series-finale-review-forever"
       ]
     },
     {
       "id": "20261111-hero-03",
       "category": "hero",
-      "title": "从万神殿三部曲看 Marvel 电视教训",
-      "originalTitle": "What Marvel Television Can Learn from the ‘WandaVision’ Trilogy",
-      "source": "denofgeek.com",
-      "sourceOrg": "denofgeek.com",
+      "title": "《VisionQuest》季终回应：十年前的 Ultron 故事终于落幕",
+      "originalTitle": "VisionQuest's Finale Finally Pays Off A Story Marvel Started In Avengers: Age Of Ultron",
+      "source": "slashfilm.com",
+      "sourceOrg": "slashfilm.com",
       "sourceDate": "2026.11.11",
-      "url": "https://www.denofgeek.com/tv/what-marvel-television-can-learn-from-wandavision-trilogy/",
+      "url": "https://www.slashfilm.com/2312745/visionquest-finale-payoff-marvel-avengers-age-of-ultron-story/",
       "tags": [
-        "Marvel电视",
-        "WandaVisio",
-        "剧集分析"
+        "漫威",
+        "VisionQues",
+        "Ultron"
       ],
-      "summary": "随着 VisionQuest 番剧 finale 播出，Marvel 电视时代画上句号。文章回顾 WandaVision 三部曲，探讨 Marvel 电视今后可学习的经验与教训。",
+      "summary": "SlashFilm 报道《VisionQuest》季终圆满回响，补齐了 Marvel 于《复仇者联盟2：奥创纪元》开启的故事线索。",
       "highlights": [
-        "VisionQuest 番剧终结",
-        "总结 Marvel 电视经验"
+        "回应十年前的 Ultron 故事",
+        "圆满落幕剧情"
       ],
-      "readingNote": "Marvel 电视收官，如何在电影与电视间找到更好平衡，值得行业深思。",
+      "readingNote": "十年悬念终获回响，完美收官。",
       "verifiedAt": "2026.11.11",
       "verificationUrls": [
-        "https://www.denofgeek.com/tv/what-marvel-television-can-learn-from-wandavision-trilogy/"
+        "https://www.slashfilm.com/2312745/visionquest-finale-payoff-marvel-avengers-age-of-ultron-story/"
       ]
     },
     {
       "id": "20261111-game-01",
       "category": "game",
-      "title": "PS Plus PC 应用 12 月停服，使用率不足 0.4%",
-      "originalTitle": "PlayStation Plus PC app is being shut down in December because less than 0.4% of eligible subscribers are using it",
+      "title": "Steam 在澳洲验证年龄时考虑账号年龄",
+      "originalTitle": "Steam's age verification in Australia now takes your account's age into consideration",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
       "sourceDate": "2026.11.11",
-      "url": "https://www.pcgamer.com/gaming-industry/playstation-plus-pc-app-is-being-shut-down-in-december-because-less-than-0-4-percent-of-eligible-subscribers-are-using-it/",
+      "url": "https://www.pcgamer.com/software/platforms/steams-age-verification-in-australia-now-takes-your-accounts-age-into-consideration/",
       "tags": [
-        "索尼",
-        "订阅服务",
-        "停运"
+        "Steam",
+        "澳洲",
+        "年龄验证"
       ],
-      "summary": "索尼宣布 12 月关闭 PlayStation Plus 的 PC 端应用，理由是符合条件的订阅用户里真正在用的人不到 0.4%，投入与回报差距过大。",
+      "summary": "Steam 在澳大利亚更新年龄验证机制，若账号年龄至少九年，验证可能会放宽。编辑注：对长期用户或有影响，具体以实际验证结果为准。",
       "highlights": [
-        "该应用上线时间不长就停运",
-        "官方给的直接原因是用得太少",
-        "PC 端串流需求主要被别的入口分流"
+        "澳洲验证新规考虑账号年龄",
+        "九年老账号或可获宽松待遇"
       ],
-      "readingNote": "花力气做了个没人用的客户端，最后只能关掉。",
+      "readingNote": "账号年龄成关键因素，长期用户或有益。",
       "verifiedAt": "2026.11.11",
       "verificationUrls": [
-        "https://www.pcgamer.com/gaming-industry/playstation-plus-pc-app-is-being-shut-down-in-december-because-less-than-0-4-percent-of-eligible-subscribers-are-using-it/"
+        "https://www.pcgamer.com/software/platforms/steams-age-verification-in-australia-now-takes-your-accounts-age-into-consideration/"
       ]
     },
     {
       "id": "20261111-game-02",
       "category": "game",
-      "title": "欧盟拟重拳管制游戏开箱，数字公平法草案外泄",
-      "originalTitle": "Europe is about to get very tough on loot boxes in games, according to a leaked draft of the landmark Digital Fairness Act",
-      "source": "eurogamer.net",
-      "sourceOrg": "eurogamer.net",
+      "title": "粉丝用 AI 重制上古卷轴 N-Gage 衍生作",
+      "originalTitle": "One Elder Scrolls fan is reviving and upgrading (with AI) a lost spin-off for the Nokia N-Gage and porting it to PC",
+      "source": "pcgamer.com",
+      "sourceOrg": "pcgamer.com",
       "sourceDate": "2026.11.11",
-      "url": "https://www.eurogamer.net/digital-fairness-act-eu-europe-loot-boxes-regulation",
+      "url": "https://www.pcgamer.com/games/the-elder-scrolls/one-elder-scrolls-fan-is-reviving-and-upgrading-a-lost-spin-off-for-the-nokia-n-gage-and-porting-it-to-pc/",
       "tags": [
-        "欧盟",
-        "开箱",
-        "监管"
+        "上古卷轴",
+        "AI",
+        "N-Gage"
       ],
-      "summary": "监管欧洲游戏市场的《数字公平法》草案在正式公布前一天外泄，内容显示将对游戏开箱机制采取远比以往严格的限制，影响面覆盖绝大部分在线游戏。",
+      "summary": "一位《上古卷轴》粉丝利用 AI 技术，正在重制并升级原本为诺基亚 N-Gage 平台开发的衍生作《Shadowkey》，并计划移植至 PC。",
       "highlights": [
-        "草案原定 11 月 11 日公布",
-        "矛头指向随机付费开箱",
-        "厂商需提前评估欧洲区商业化设计"
+        "AI 重制 N-Gage 衍生作",
+        "移植至 PC 平台进行"
       ],
-      "readingNote": "开箱这门生意在欧洲可能要说再见了。",
+      "readingNote": "粉丝热情高涛，经典作品获新生。",
       "verifiedAt": "2026.11.11",
       "verificationUrls": [
-        "https://www.eurogamer.net/digital-fairness-act-eu-europe-loot-boxes-regulation"
+        "https://www.pcgamer.com/games/the-elder-scrolls/one-elder-scrolls-fan-is-reviving-and-upgrading-a-lost-spin-off-for-the-nokia-n-gage-and-porting-it-to-pc/"
       ]
     },
     {
       "id": "20261111-game-03",
       "category": "game",
-      "title": "GTA 6 公布 PS5 Pro 增强，帧率仍锁 30 帧",
-      "originalTitle": "Rockstar details Grand Theft Auto 6 PS5 Pro enhancements, but it'll still only run at 30FPS",
+      "title": "PS Plus 次波 2026 年 11 月游戏公布",
+      "originalTitle": "Here's our second wave of PS Plus games for November 2026 - and Sony's scrapping its barely used PC app",
       "source": "eurogamer.net",
       "sourceOrg": "eurogamer.net",
       "sourceDate": "2026.11.11",
-      "url": "https://www.eurogamer.net/gta-6-30-fps-platforms-absolute-limit",
+      "url": "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app",
       "tags": [
-        "GTA 6",
-        "Rockstar",
-        "主机性能"
+        "PS Plus",
+        "索尼",
+        "小岛秀夫"
       ],
-      "summary": "随着预载开启，Rockstar 公布了 GTA 6 在 PS5 Pro 上的画质与性能增强细节，但确认帧率目标仍然是 30 帧，属于平台上的硬性上限。",
+      "summary": "索尼公布 PlayStation Plus 高级/Extra 次波 2026 年 11 月游戏阵容，其中包括小岛秀夫作品。同时索尼宣布将停止其基本已被废弃的 PC 应用程序。",
       "highlights": [
-        "PS5 Pro 版本有专门增强",
-        "帧率维持 30 帧不变",
-        "预载已经开始，发售临近"
+        "次波游戏阵容公布",
+        "PC 应用程序将被停止"
       ],
-      "readingNote": "画面能更强，流畅度这代大概就别指望了。",
+      "readingNote": "大作云集，PC 端用户需注意变动。",
       "verifiedAt": "2026.11.11",
       "verificationUrls": [
-        "https://www.eurogamer.net/gta-6-30-fps-platforms-absolute-limit"
+        "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app"
       ]
     }
   ]
