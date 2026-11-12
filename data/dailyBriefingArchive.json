@@ -1,5 +1,244 @@
 {
   "windowDays": 90,
-  "asOfDate": "2026.11.11",
-  "issues": []
+  "asOfDate": "2026.11.12",
+  "issues": [
+    {
+      "edition": {
+        "date": "2026.11.11",
+        "weekday": "周三",
+        "label": "米米的AI日报",
+        "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
+      },
+      "items": [
+        {
+          "id": "20261111-ai-01",
+          "category": "ai",
+          "title": "AI 辅助编程易产生脆弱代码",
+          "originalTitle": "AI usage generates a fragile codebase",
+          "source": "evanxmerz.com",
+          "sourceOrg": "evanxmerz.com",
+          "sourceDate": "2026.11.10",
+          "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+          "tags": [
+            "AI 编程",
+            "代码质量",
+            "软件安全"
+          ],
+          "summary": "研究发现，依赖 AI 生成代码可能导致代码库结构脆弱，存在安全隐患与维护难题，提醒开发者需谨慎审查与补充测试。",
+          "highlights": [
+            "AI 生成代码结构易出现缺陷",
+            "存在潜在安全与维护风险",
+            "建议人工审查与完善测试"
+          ],
+          "readingNote": "AI 可提速开发，但把关质量仍靠人，勤测试方不踩坑。",
+          "verifiedAt": "2026.11.11",
+          "verificationUrls": [
+            "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/"
+          ]
+        },
+        {
+          "id": "20261111-ai-02",
+          "category": "ai",
+          "title": "追踪 Anthropic 发现的漏洞",
+          "originalTitle": "Tracking Anthropic-discovered vulnerabilities",
+          "source": "vulncheck.com",
+          "sourceOrg": "vulncheck.com",
+          "sourceDate": "2026.11.11",
+          "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+          "tags": [
+            "安全漏洞",
+            "Anthropic",
+            "Glasswing"
+          ],
+          "summary": "安全研究机构 VulnCheck 更新报告，跟踪 Anthropic 公司近期发现的 Glasswing 漏洞细节，帮助防御者及时了解并修复相关安全风险。",
+          "highlights": [
+            "VulnCheck 发布 Anthropic 漏洞更新",
+            "聚焦 Glasswing 安全缺陷",
+            "利于防御与补丁部署"
+          ],
+          "readingNote": "及时关注漏洞情报，主动防御比被动补救更重要。",
+          "verifiedAt": "2026.11.11",
+          "verificationUrls": [
+            "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
+          ]
+        },
+        {
+          "id": "20261111-ai-03",
+          "category": "ai",
+          "title": "展示 HN： coding 代理跳出 2019 JavaScript",
+          "originalTitle": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+          "source": "github.com",
+          "sourceOrg": "github.com",
+          "sourceDate": "2026.11.11",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance",
+          "tags": [
+            "Show HN",
+            "现代 Web",
+            "编码代理"
+          ],
+          "summary": "GoogleChrome 项目发布现代网页指引工具，帮助编码代理从陈旧的 JavaScript 环境迁移至现代 Web 基础设施，提升性能与开发体验。",
+          "highlights": [
+            "GoogleChrome 发布现代网页指引",
+            "助 Coding 代理 升级 JavaScript",
+            "提升性能与开发体验"
+          ],
+          "readingNote": "工具助迁移，代码走得更稳、更快。",
+          "verifiedAt": "2026.11.11",
+          "verificationUrls": [
+            "https://github.com/GoogleChrome/modern-web-guidance"
+          ]
+        },
+        {
+          "id": "20261111-hero-01",
+          "category": "hero",
+          "title": "《VisionQuest》片后彩蛋确认：深受喜爱角色回归新 Avengers 电",
+          "originalTitle": "VisionQuest Post-Credits Scene Just Confirmed A Major Marvel Character Is Coming Back in Upcoming Avengers Films",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.11",
+          "url": "https://www.ign.com/articles/visionquest-post-credits-scene-just-confirmed-a-major-marvel-character-is-coming-back-in-upcoming-avengers-films",
+          "tags": [
+            "漫威",
+            "VisionQues",
+            "Doctor Doo"
+          ],
+          "summary": "IGN 报道《VisionQuest》季终彩蛋确认，MCU 中一位深受喜爱的角色将回归出演即将上映的 Avengers 电影，似乎已落入 Doctor Doom 之手。",
+          "highlights": [
+            "角色回归 MCU 新 Avengers",
+            "似乎已被 Doctor Doom 控制"
+          ],
+          "readingNote": "彩蛋揭秘角色命运，为新篇章埋下伏笔。",
+          "verifiedAt": "2026.11.11",
+          "verificationUrls": [
+            "https://www.ign.com/articles/visionquest-post-credits-scene-just-confirmed-a-major-marvel-character-is-coming-back-in-upcoming-avengers-films"
+          ]
+        },
+        {
+          "id": "20261111-hero-02",
+          "category": "hero",
+          "title": "《VisionQuest》季终评论：Forever",
+          "originalTitle": "Marvel's VisionQuest Series Finale Review: 'Forever'",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.11",
+          "url": "https://www.ign.com/articles/marvels-visionquest-series-finale-review-forever",
+          "tags": [
+            "漫威",
+            "VisionQues",
+            "评论"
+          ],
+          "summary": "IGN 评论《VisionQuest》季终，尽管最后时刻加入新反派略显突兀，但系列剧在聚焦 Vision 与 Ultron 的戏剧冲突上仍取得成功。",
+          "highlights": [
+            "新反派加入略显突兀",
+            "剧集在 Vision 与 Ultron 戏份上成功"
+          ],
+          "readingNote": "新反派点缀不足，但核心戏份仍打动人心。",
+          "verifiedAt": "2026.11.11",
+          "verificationUrls": [
+            "https://www.ign.com/articles/marvels-visionquest-series-finale-review-forever"
+          ]
+        },
+        {
+          "id": "20261111-hero-03",
+          "category": "hero",
+          "title": "《VisionQuest》季终回应：十年前的 Ultron 故事终于落幕",
+          "originalTitle": "VisionQuest's Finale Finally Pays Off A Story Marvel Started In Avengers: Age Of Ultron",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.11",
+          "url": "https://www.slashfilm.com/2312745/visionquest-finale-payoff-marvel-avengers-age-of-ultron-story/",
+          "tags": [
+            "漫威",
+            "VisionQues",
+            "Ultron"
+          ],
+          "summary": "SlashFilm 报道《VisionQuest》季终圆满回响，补齐了 Marvel 于《复仇者联盟2：奥创纪元》开启的故事线索。",
+          "highlights": [
+            "回应十年前的 Ultron 故事",
+            "圆满落幕剧情"
+          ],
+          "readingNote": "十年悬念终获回响，完美收官。",
+          "verifiedAt": "2026.11.11",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2312745/visionquest-finale-payoff-marvel-avengers-age-of-ultron-story/"
+          ]
+        },
+        {
+          "id": "20261111-game-01",
+          "category": "game",
+          "title": "Steam 在澳洲验证年龄时考虑账号年龄",
+          "originalTitle": "Steam's age verification in Australia now takes your account's age into consideration",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.11",
+          "url": "https://www.pcgamer.com/software/platforms/steams-age-verification-in-australia-now-takes-your-accounts-age-into-consideration/",
+          "tags": [
+            "Steam",
+            "澳洲",
+            "年龄验证"
+          ],
+          "summary": "Steam 在澳大利亚更新年龄验证机制，若账号年龄至少九年，验证可能会放宽。编辑注：对长期用户或有影响，具体以实际验证结果为准。",
+          "highlights": [
+            "澳洲验证新规考虑账号年龄",
+            "九年老账号或可获宽松待遇"
+          ],
+          "readingNote": "账号年龄成关键因素，长期用户或有益。",
+          "verifiedAt": "2026.11.11",
+          "verificationUrls": [
+            "https://www.pcgamer.com/software/platforms/steams-age-verification-in-australia-now-takes-your-accounts-age-into-consideration/"
+          ]
+        },
+        {
+          "id": "20261111-game-02",
+          "category": "game",
+          "title": "粉丝用 AI 重制上古卷轴 N-Gage 衍生作",
+          "originalTitle": "One Elder Scrolls fan is reviving and upgrading (with AI) a lost spin-off for the Nokia N-Gage and porting it to PC",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.11",
+          "url": "https://www.pcgamer.com/games/the-elder-scrolls/one-elder-scrolls-fan-is-reviving-and-upgrading-a-lost-spin-off-for-the-nokia-n-gage-and-porting-it-to-pc/",
+          "tags": [
+            "上古卷轴",
+            "AI",
+            "N-Gage"
+          ],
+          "summary": "一位《上古卷轴》粉丝利用 AI 技术，正在重制并升级原本为诺基亚 N-Gage 平台开发的衍生作《Shadowkey》，并计划移植至 PC。",
+          "highlights": [
+            "AI 重制 N-Gage 衍生作",
+            "移植至 PC 平台进行"
+          ],
+          "readingNote": "粉丝热情高涛，经典作品获新生。",
+          "verifiedAt": "2026.11.11",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/the-elder-scrolls/one-elder-scrolls-fan-is-reviving-and-upgrading-a-lost-spin-off-for-the-nokia-n-gage-and-porting-it-to-pc/"
+          ]
+        },
+        {
+          "id": "20261111-game-03",
+          "category": "game",
+          "title": "PS Plus 次波 2026 年 11 月游戏公布",
+          "originalTitle": "Here's our second wave of PS Plus games for November 2026 - and Sony's scrapping its barely used PC app",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.11",
+          "url": "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app",
+          "tags": [
+            "PS Plus",
+            "索尼",
+            "小岛秀夫"
+          ],
+          "summary": "索尼公布 PlayStation Plus 高级/Extra 次波 2026 年 11 月游戏阵容，其中包括小岛秀夫作品。同时索尼宣布将停止其基本已被废弃的 PC 应用程序。",
+          "highlights": [
+            "次波游戏阵容公布",
+            "PC 应用程序将被停止"
+          ],
+          "readingNote": "大作云集，PC 端用户需注意变动。",
+          "verifiedAt": "2026.11.11",
+          "verificationUrls": [
+            "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app"
+          ]
+        }
+      ]
+    }
+  ]
 }
