@@ -1,7 +1,242 @@
 {
   "windowDays": 90,
-  "asOfDate": "2026.11.12",
+  "asOfDate": "2026.11.13",
   "issues": [
+    {
+      "edition": {
+        "date": "2026.11.12",
+        "weekday": "周四",
+        "label": "米米的AI日报",
+        "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
+      },
+      "items": [
+        {
+          "id": "20261112-ai-01",
+          "category": "ai",
+          "title": "AI代理发现未映射玛雅古城遗址",
+          "originalTitle": "My AI agents found an unmapped Maya site?",
+          "source": "pietromiotti.com",
+          "sourceOrg": "pietromiotti.com",
+          "sourceDate": "2026.11.11",
+          "url": "https://pietromiotti.com/latest/maya-site",
+          "tags": [
+            "人工智能",
+            "考古学",
+            "玛雅文明"
+          ],
+          "summary": "研究人员利用AI代理分析卫星图像和地形数据，在危地马拉森林中发现潜在的未被记录的玛雅文明遗址，展现AI在考古探索中的潜力。",
+          "highlights": [
+            "AI代理分析卫星图像发现遗址",
+            "位于危地马拉未被探索的森林区域"
+          ],
+          "readingNote": "AI在处理海量地理数据方面展现出超越人类的发现潜力",
+          "verifiedAt": "2026.11.12",
+          "verificationUrls": [
+            "https://pietromiotti.com/latest/maya-site"
+          ]
+        },
+        {
+          "id": "20261112-ai-02",
+          "category": "ai",
+          "title": "联合航空禁止AI代理代订机票",
+          "originalTitle": "United Airlines bans AI agents from booking flights on behalf of travelers",
+          "source": "cbsnews.com",
+          "sourceOrg": "cbsnews.com",
+          "sourceDate": "2026.11.12",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+          "tags": [
+            "人工智能",
+            "航空旅行",
+            "消费权益"
+          ],
+          "summary": "联合航空宣布禁止AI预订代理在旅客名义下预订航班，旨在防止因技术误差导致的订单纠纷和经济损失，维护旅客权益。",
+          "highlights": [
+            "航空公司限制AI代理订票功能",
+            "旨在避免因技术错误产生的纠纷"
+          ],
+          "readingNote": "平衡AI便利性与服务责任的典型案例",
+          "verifiedAt": "2026.11.12",
+          "verificationUrls": [
+            "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+          ]
+        },
+        {
+          "id": "20261112-ai-03",
+          "category": "ai",
+          "title": "谷歌发布Gemini决策API",
+          "originalTitle": "Gemini Decisions API",
+          "source": "blog.google",
+          "sourceOrg": "blog.google",
+          "sourceDate": "2026.11.12",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "tags": [
+            "人工智能",
+            "谷歌",
+            "开发者工具"
+          ],
+          "summary": "谷歌推出新的Gemini决策API，旨在帮助开发者将大模型的推理能力集成到应用逻辑中，提升自动化决策的效率和精准度。",
+          "highlights": [
+            "谷歌发布新型开发者接口",
+            "侧重于大模型的决策应用"
+          ],
+          "readingNote": "标志着AI从内容生成向业务逻辑集成转型",
+          "verifiedAt": "2026.11.12",
+          "verificationUrls": [
+            "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+          ]
+        },
+        {
+          "id": "20261112-hero-01",
+          "category": "hero",
+          "title": "《卧虎藏龙》导演盼续集 班底易手后重燃希望",
+          "originalTitle": "Constantine Director 'Hopeful' for Sequel After DC Studios Shakeup",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.12",
+          "url": "https://www.ign.com/articles/constantine-director-hopeful-for-sequel-after-dc-studios-shakeup",
+          "tags": [
+            "DC 影业",
+            "电影资讯",
+            "续集"
+          ],
+          "summary": "《卧虎藏龙》导演弗朗西斯·劳伦斯表示，在 DC 影业班底更替后，对电影续集充满希望。原班人马可能重聚，粉丝期待已久的新作或将落地。",
+          "highlights": [
+            "导演表态盼续集",
+            "DC 班底更替成关键"
+          ],
+          "readingNote": "漫改电影续集常遇瓶颈，导演的坚持是好消息。",
+          "verifiedAt": "2026.11.12",
+          "verificationUrls": [
+            "https://www.ign.com/articles/constantine-director-hopeful-for-sequel-after-dc-studios-shakeup"
+          ]
+        },
+        {
+          "id": "20261112-hero-02",
+          "category": "hero",
+          "title": "漫游 1943：黑寡妇与美国队长传闻接近尾声",
+          "originalTitle": "Marvel 1943: Rise of Hydra Is Reportedly 'Close to Done,' Though at the Cost of Cutting Back on Content and Length",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.12",
+          "url": "https://www.ign.com/articles/marvel-1943-rise-of-hydra-is-reportedly-close-to-done-though-at-the-cost-of-cutting-back-on-content-and-length",
+          "tags": [
+            "游戏资讯",
+            "漫游",
+            "制作"
+          ],
+          "summary": "IGN 爆料《黑寡妇》与《美国队长》题材的新游《Marvel 1943: Rise of Hydra》已接近完成，但为赶工期可能牺牲内容与长度，品质存疑。",
+          "highlights": [
+            "传闻接近尾声",
+            "或因赶工牺牲内容"
+          ],
+          "readingNote": "赶工往往意味着妥协，玩家是最大的受害者。",
+          "verifiedAt": "2026.11.12",
+          "verificationUrls": [
+            "https://www.ign.com/articles/marvel-1943-rise-of-hydra-is-reportedly-close-to-done-though-at-the-cost-of-cutting-back-on-content-and-length"
+          ]
+        },
+        {
+          "id": "20261112-hero-03",
+          "category": "hero",
+          "title": "《复仇者大乱斗》主演泄密 保罗·贝坦尼回归",
+          "originalTitle": "Avengers: Doomsday Star Anthony Mackie Spoils Return Of Major Marvel Character",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.12",
+          "url": "https://www.slashfilm.com/2314277/avengers-doomsday-anthony-mackie-marvel-spoiler-paul-bettany-vision/",
+          "tags": [
+            "漫威",
+            "剧情泄密",
+            "电影资讯"
+          ],
+          "summary": "Anthony Mackie 在接受访问时泄露了《复仇者大乱斗》的剧情，确认保罗·贝坦尼（奇异博士/星灵）将回归，引发粉丝热议。",
+          "highlights": [
+            "主演泄密回归",
+            "保罗·贝坦尼确认回"
+          ],
+          "readingNote": "主演随口一说，官方或将正式官宣。",
+          "verifiedAt": "2026.11.12",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2314277/avengers-doomsday-anthony-mackie-marvel-spoiler-paul-bettany-vision/"
+          ]
+        },
+        {
+          "id": "20261112-game-01",
+          "category": "game",
+          "title": "CD Projekt用AI修改Geralt声优音色因中风",
+          "originalTitle": "CD Projekt used AI to modify the voice of Geralt's Polish actor after a stroke left it significantly changed: 'This was a special case'",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.12",
+          "url": "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/",
+          "tags": [
+            "游戏制作",
+            "AI技术",
+            "声优"
+          ],
+          "summary": "波兰语《巫师》声优雅切克罗内克因中风导致声音改变，CD Projekt利用AI技术修改其音色以便继续合作，该项目被视为特殊案例。",
+          "highlights": [
+            "AI技术修复中风导致的声线变化",
+            "确保角色在波兰语版本延续"
+          ],
+          "readingNote": "技术介入创作引发伦理讨论，特殊情况下的妥协之举。",
+          "verifiedAt": "2026.11.12",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/"
+          ]
+        },
+        {
+          "id": "20261112-game-02",
+          "category": "game",
+          "title": "Arrowhead应对外挂修改Helldivers 2政策",
+          "originalTitle": "After cracking down on 'cheat' mods in Helldivers 2 and taking another Steam review beating, Arrowhead plans hotfix that should allow harmless cosmetics",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.12",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/after-cracking-down-on-cheat-mods-in-helldivers-2-and-taking-another-steam-review-beating-arrowhead-plans-hotfix-that-should-allow-harmless-cosmetics/",
+          "tags": [
+            "游戏运营",
+            "社区反馈",
+            "热修复"
+          ],
+          "summary": "Arrowhead Studios收紧外挂Mod审查，引发玩家Steam差评，计划热修复以允许无害 cosmetic 道具，平衡游戏公平与玩家自由。",
+          "highlights": [
+            "收紧外挂Mod审查",
+            "计划热修复允许 cosmetic 道具"
+          ],
+          "readingNote": "开发者与社区的博弈，如何在反外挂与保留内容间寻平衡。",
+          "verifiedAt": "2026.11.12",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/third-person-shooter/after-cracking-down-on-cheat-mods-in-helldivers-2-and-taking-another-steam-review-beating-arrowhead-plans-hotfix-that-should-allow-harmless-cosmetics/"
+          ]
+        },
+        {
+          "id": "20261112-game-03",
+          "category": "game",
+          "title": "Destroy All Humans 重制版开发商独立运营",
+          "originalTitle": "Destroy All Humans remake developer goes independent, splits from THQ Nordic and parent company Embracer Group",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.12",
+          "url": "https://www.eurogamer.net/destroy-all-humans-independent-thq-embracer",
+          "tags": [
+            "工作室动态",
+            "独立游戏",
+            "IP权益"
+          ],
+          "summary": "Black Forest Games脱离THQ Nordic和Embracer Group，成为独立工作室，此前曾负责重制前两代 cult-classic 游戏。",
+          "highlights": [
+            "工作室从大公司分离",
+            "转为独立开发模式"
+          ],
+          "readingNote": "创作者求独立，IP归属与工作室命运的重组。",
+          "verifiedAt": "2026.11.12",
+          "verificationUrls": [
+            "https://www.eurogamer.net/destroy-all-humans-independent-thq-embracer"
+          ]
+        }
+      ]
+    },
     {
       "edition": {
         "date": "2026.11.11",
