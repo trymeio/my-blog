@@ -1,234 +1,237 @@
 {
   "edition": {
-    "date": "2026.11.13",
-    "weekday": "周五",
+    "date": "2026.11.14",
+    "weekday": "周六",
     "label": "米米的AI日报",
     "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
   },
   "items": [
     {
-      "id": "20261113-ai-01",
+      "id": "20261114-ai-01",
       "category": "ai",
-      "title": "Anthropic 计划首次公开募股",
-      "originalTitle": "Anthropic IPO",
-      "source": "ipo.anthropic.com",
-      "sourceOrg": "ipo.anthropic.com",
-      "sourceDate": "2026.11.12",
-      "url": "https://ipo.anthropic.com/us/",
-      "tags": [
-        "AI",
-        "IPO",
-        "融资"
-      ],
-      "summary": "AI 初创公司 Anthropic 官方网站上线 IPO 专页，标志其准备在美国上市。作为 OpenAI 的重要竞争者，其上市将进一步丰富 AI 领域的资本市场。",
-      "highlights": [
-        "AI 初创公司谋求上市",
-        "竞争激烈的 AI 市场"
-      ],
-      "readingNote": "Anthropic 能否延续其安全 AI 的声誉，值得关注。",
-      "verifiedAt": "2026.11.13",
-      "verificationUrls": [
-        "https://ipo.anthropic.com/us/"
-      ]
-    },
-    {
-      "id": "20261113-ai-02",
-      "category": "ai",
-      "title": "谷歌发布 Gemini 4 Hydrogen 模型",
-      "originalTitle": "Gemini 4 Hydrogen",
-      "source": "blog.google",
-      "sourceOrg": "blog.google",
+      "title": "反向工程Coway空气净化器摆脱云端依赖",
+      "originalTitle": "Reverse engineering my Coway air purifier to ditch the cloud",
+      "source": "scottjg.com",
+      "sourceOrg": "scottjg.com",
       "sourceDate": "2026.11.13",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
       "tags": [
-        "AI",
-        "Gemini",
-        "氢能"
+        "科技",
+        "硬件",
+        "逆向工程"
       ],
-      "summary": "Google 博客宣布推出 Gemini 4 Hydrogen，这是一款专为氢能研究设计的新型 AI 模型。该模型旨在通过先进的计算加速氢能技术的发展与应用。",
+      "summary": "博主通过逆向工程分析Coway空气净化器固件，成功实现本地控制，摆脱厂商云端服务的限制，实现了硬件所有权的完全掌控。",
       "highlights": [
-        "专为氢能设计",
-        "加速技术发展"
+        "逆向工程空气净化器固件",
+        "实现本地控制与摆脱云端"
       ],
-      "readingNote": "AI 与清能结合是未来趋势。",
-      "verifiedAt": "2026.11.13",
+      "readingNote": "打破厂商对硬件的云端控制，体现了DIY爱好者对设备所有权的追求。",
+      "verifiedAt": "2026.11.14",
       "verificationUrls": [
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+        "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/"
       ]
     },
     {
-      "id": "20261113-ai-03",
+      "id": "20261114-ai-02",
       "category": "ai",
-      "title": "Gemini 4 Hydrogen 与 Orchestrator 合作",
-      "originalTitle": "Gemini 4 Hydrogen and Orchestrator",
-      "source": "antigravity.google",
-      "sourceOrg": "antigravity.google",
-      "sourceDate": "2026.11.13",
-      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "title": "Nvidia被指通过资助初创公司购买GPU制造显卡短缺",
+      "originalTitle": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+      "source": "techpowerup.com",
+      "sourceOrg": "techpowerup.com",
+      "sourceDate": "2026.11.14",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
       "tags": [
+        "显卡",
         "AI",
-        "Orchestrat",
-        "系统优化"
+        "市场传闻"
       ],
-      "summary": "Google Antigravity 博客介绍了 Gemini 4 Hydrogen 与 Orchestrator 的协同工作方案。两者结合可优化资源调度，提升复杂系统的效率与性能。",
+      "summary": "外媒报道指Nvidia可能通过资助AI初创公司来购买其生产的GPU，从而人为制造市场供应短缺，引发了对显卡供应公平性的讨论。",
       "highlights": [
-        "系统协同工作",
-        "提升效率性能"
+        "被指资助初创公司购买GPU",
+        "可能导致市场显卡短缺"
       ],
-      "readingNote": "多模型协作的实际应用值得期待。",
-      "verifiedAt": "2026.11.13",
+      "readingNote": "如果属实，这将是对显卡供应机制的重大质疑，值得关注后续官方回应。",
+      "verifiedAt": "2026.11.14",
       "verificationUrls": [
-        "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+        "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"
       ]
     },
     {
-      "id": "20261113-hero-01",
+      "id": "20261114-ai-03",
+      "category": "ai",
+      "title": "KORS维多利亚机场实时广播收听服务",
+      "originalTitle": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "source": "orcasairband.com",
+      "sourceOrg": "orcasairband.com",
+      "sourceDate": "2026.11.14",
+      "url": "https://orcasairband.com/",
+      "tags": [
+        "航空",
+        "广播",
+        "收听"
+      ],
+      "summary": "orcasairband.com提供维多利亚机场（KORS）所有频段的实时空中广播收听服务，目前已标记地面已停止运作。",
+      "highlights": [
+        "实时空中广播收听",
+        "维多利亚机场地面停止"
+      ],
+      "readingNote": "航空爱好者的实时收听平台，地面停止状态需实时确认。",
+      "verifiedAt": "2026.11.14",
+      "verificationUrls": [
+        "https://orcasairband.com/"
+      ]
+    },
+    {
+      "id": "20261114-hero-01",
       "category": "hero",
-      "title": "凯文·费奇确认：《复仇者联盟：末日》中杜姆非托尼·斯塔克变体",
-      "originalTitle": "Doctor Doom Is Not a Tony Stark Variant in Avengers: Doomsday, Confirms Kevin Feige",
+      "title": "PS5 QSSR 更新公布：蜘蛛侠2、Arc Raiders 等获支持",
+      "originalTitle": "PS5 QSSR Updates Revealed for Marvel's Spider-Man 2, Arc Raiders, and More",
       "source": "ign.com",
       "sourceOrg": "ign.com",
-      "sourceDate": "2026.11.13",
-      "url": "https://www.ign.com/articles/doctor-doom-is-not-a-tony-stark-variant-in-avengers-doomsday-confirms-kevin-feige",
+      "sourceDate": "2026.11.14",
+      "url": "https://www.ign.com/articles/ps5-qssr-updates-revealed-for-marvels-spider-man-2-arc-raiders-and-more",
       "tags": [
-        "漫威",
-        "影业",
-        "杜姆"
+        "游戏",
+        "PS5",
+        "更新"
       ],
-      "summary": "漫威影业总裁凯文·费奇确认，电影《复仇者联盟：末日》中的杜克·冯·斯特鲁克尔并非托尼·斯塔克的变体，这打消了粉丝的猜测。",
+      "summary": "索尼确认《蜘蛛侠2》《Arc Raiders》及四款新作将在普通PS5主机上获得QSSR性能提升，画面与帧数有望改善。",
       "highlights": [
-        "费奇明确否认杜姆是斯塔克变体",
-        "确立了角色独立的设定"
+        "QSSR技术提升基础PS5性能",
+        "覆盖蜘蛛侠2及多款新作",
+        "索尼官方确认更新计划"
       ],
-      "readingNote": "这部电影对反派身份的定义至关重要，确保了角色的独特性。",
-      "verifiedAt": "2026.11.13",
+      "readingNote": "QSSR让老硬件焕新，玩家无需升级即可享受流畅体验。",
+      "verifiedAt": "2026.11.14",
       "verificationUrls": [
-        "https://www.ign.com/articles/doctor-doom-is-not-a-tony-stark-variant-in-avengers-doomsday-confirms-kevin-feige"
+        "https://www.ign.com/articles/ps5-qssr-updates-revealed-for-marvels-spider-man-2-arc-raiders-and-more"
       ]
     },
     {
-      "id": "20261113-hero-02",
+      "id": "20261114-hero-02",
       "category": "hero",
-      "title": "斯坦利·凯奇出演经典动画蝙蝠侠电影",
+      "title": "漫威确认杜马斯领袖下的复仇者队伍",
+      "originalTitle": "Marvel Officially Confirms Sam Wilson's Avengers Roster In Doomsday",
+      "source": "slashfilm.com",
+      "sourceOrg": "slashfilm.com",
+      "sourceDate": "2026.11.14",
+      "url": "https://www.slashfilm.com/2316675/marvel-sam-wilson-avengers-roster-doomsday/",
+      "tags": [
+        "漫威",
+        "复仇者",
+        "杜马斯"
+      ],
+      "summary": "漫威官方确认《复仇者大乱斗》中Sam Wilson领导的复仇者阵容，具体成员及队伍组成细节正式公开。",
+      "highlights": [
+        "Sam Wilson担任队长",
+        "官方确认阵容成员",
+        "领袖权力交接完成"
+      ],
+      "readingNote": "英雄易手，队伍新貌，期待全新的团队动态。",
+      "verifiedAt": "2026.11.14",
+      "verificationUrls": [
+        "https://www.slashfilm.com/2316675/marvel-sam-wilson-avengers-roster-doomsday/"
+      ]
+    },
+    {
+      "id": "20261114-hero-03",
+      "category": "hero",
+      "title": "斯坦利·基斯在蝙蝠侠动画片中出演反派",
       "originalTitle": "Stacy Keach Played A Villain In One Of The Best Batman Movies Of All Time",
       "source": "slashfilm.com",
       "sourceOrg": "slashfilm.com",
       "sourceDate": "2026.11.13",
       "url": "https://www.slashfilm.com/2315598/stacy-keach-batman-mask-of-the-phantasm-villain-role-explained/",
       "tags": [
-        "凯奇",
         "蝙蝠侠",
-        "幻影勇士"
+        "动画",
+        "斯坦利·基斯"
       ],
-      "summary": "已故演员斯坦利·凯奇在动画电影《蝙蝠侠：幻影勇士》中饰演了一个令人难忘的反派角色，该角色拥有令人惊讶的转折。",
+      "summary": "已故演员斯坦利·基斯曾在经典动画电影《蝙蝠侠：幻影凶手》中饰演难忘的反派角色，角色设计具有标志性。",
       "highlights": [
-        "出演经典动画蝙蝠侠电影",
-        "饰演难忘反派角色"
+        "出演《蝙蝠侠：幻影凶手》",
+        "饰演反派角色",
+        "留下难忘表演记忆"
       ],
-      "readingNote": "凯奇的表演为这部动画增添了深度，值得回味。",
-      "verifiedAt": "2026.11.13",
+      "readingNote": "实力派演员的声演角色，至今仍被粉丝津津道来。",
+      "verifiedAt": "2026.11.14",
       "verificationUrls": [
         "https://www.slashfilm.com/2315598/stacy-keach-batman-mask-of-the-phantasm-villain-role-explained/"
       ]
     },
     {
-      "id": "20261113-hero-03",
-      "category": "hero",
-      "title": "《复仇者联盟：末日》官方剧本揭晓两大马 cameo",
-      "originalTitle": "Avengers: Doomsday's Official Writing Credits Confirm Two Major Marvel Cameos",
-      "source": "slashfilm.com",
-      "sourceOrg": "slashfilm.com",
-      "sourceDate": "2026.11.13",
-      "url": "https://www.slashfilm.com/2315528/avengers-doomsday-writing-credits-marvel-cameos-deadpool-wolverine/",
-      "tags": [
-        "漫威",
-        "编剧",
-        "客串"
-      ],
-      "summary": "《复仇者联盟：末日》的完整编剧名单公布，其中包含两位预计将有客串出场的大牌演员，令粉丝期待值飙升。",
-      "highlights": [
-        "官方剧本确认两大马 cameo",
-        "粉丝热议潜在出演角色"
-      ],
-      "readingNote": "编名单的揭晓往往预示着剧情的精彩伏笔。",
-      "verifiedAt": "2026.11.13",
-      "verificationUrls": [
-        "https://www.slashfilm.com/2315528/avengers-doomsday-writing-credits-marvel-cameos-deadpool-wolverine/"
-      ]
-    },
-    {
-      "id": "20261113-game-01",
+      "id": "20261114-game-01",
       "category": "game",
-      "title": "MachineGames 正制作 Wolfenstein 3",
-      "originalTitle": "Wolfenstein 3 is in production at MachineGames",
+      "title": "Steam周发售GTA6期间仍有勇者游戏上架",
+      "originalTitle": "Yes, some brave games are still launching on Steam during GTA 6 week",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.13",
-      "url": "https://www.pcgamer.com/games/fps/wolfenstein-3-is-in-production-at-machinegames/",
+      "sourceDate": "2026.11.14",
+      "url": "https://www.pcgamer.com/games/yes-some-brave-games-are-still-launching-on-steam-during-gta-6-launch-week/",
       "tags": [
-        "FPS",
-        "射击游戏",
-        "新作消息"
+        "Steam",
+        "GTA6",
+        "发行安排"
       ],
-      "summary": "《ウルフ尼斯坦》系列最新作由 MachineGames 正在开发中，玩家将再次扮演布洛维茨，对抗纳粹势力。",
+      "summary": "《Roundabouts》、《商人共和国》及暗幻 Roguelike 等游戏，在 GTA 6 发售周依然按计划上架 Steam，展现出顽强的发布节奏。",
       "highlights": [
-        "系列新作正在开发中",
-        "MachineGames 负责制作"
+        "多款独立游戏顶峰GTA6发售周",
+        "包括《Roundabouts》在内的三款作品坚持上架"
       ],
-      "readingNote": "系列延续经典血肉史诗，期待新篇章的到来。",
-      "verifiedAt": "2026.11.13",
+      "readingNote": "即使巨作来袭，仍有开发者选择保持独立发布节奏，值得尊重。",
+      "verifiedAt": "2026.11.14",
       "verificationUrls": [
-        "https://www.pcgamer.com/games/fps/wolfenstein-3-is-in-production-at-machinegames/"
+        "https://www.pcgamer.com/games/yes-some-brave-games-are-still-launching-on-steam-during-gta-6-launch-week/"
       ]
     },
     {
-      "id": "20261113-game-02",
+      "id": "20261114-game-02",
       "category": "game",
-      "title": "新 Fable 实机预告引争议",
-      "originalTitle": "New 4-minute Fable gameplay trailer shows a game that doesn't look much like Fable",
+      "title": "Pearl Abyss誓言扩大AI使用不放缓",
+      "originalTitle": "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline'",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.13",
-      "url": "https://www.pcgamer.com/games/rpg/new-4-minute-fable-gameplay-trailer-shows-a-game-that-doesnt-look-much-like-fable/",
+      "sourceDate": "2026.11.14",
+      "url": "https://www.pcgamer.com/software/ai/dont-like-ai-in-games-crimson-desert-studio-pearl-abyss-aint-care-its-expanding-ai-use-throughout-our-entire-development-pipeline/",
       "tags": [
-        "RPG",
-        "新作预告",
-        "风格争议"
+        "AI",
+        "游戏开发",
+        "Pearl Abys"
       ],
-      "summary": "公开的 4 分钟实机画面显示新作风格大变，与传统奇幻风格差异明显，玩家好奇度与质疑并存。",
+      "summary": "Pearl Abyss承认《暗黑荒野》曾出现AI生成艺术，但表示将AI应用扩展至整个开发流程，引发玩家对游戏艺术真实性的担忧。",
       "highlights": [
-        "实机预告公开",
-        "风格与前作差异大"
+        "工作室道歉后继续扩大AI使用",
+        "计划贯穿整个开发管线"
       ],
-      "readingNote": "是全新IP还是 Fable 灵魂，拭目以待后续细节。",
-      "verifiedAt": "2026.11.13",
+      "readingNote": "技术进步与艺术诚信的冲突，玩家关注度很高。",
+      "verifiedAt": "2026.11.14",
       "verificationUrls": [
-        "https://www.pcgamer.com/games/rpg/new-4-minute-fable-gameplay-trailer-shows-a-game-that-doesnt-look-much-like-fable/"
+        "https://www.pcgamer.com/software/ai/dont-like-ai-in-games-crimson-desert-studio-pearl-abyss-aint-care-its-expanding-ai-use-throughout-our-entire-development-pipeline/"
       ]
     },
     {
-      "id": "20261113-game-03",
+      "id": "20261114-game-03",
       "category": "game",
-      "title": "Xbox 推广负责人谈 AI 游戏开发",
-      "originalTitle": "Xbox boss seemingly champions gen-AI development as she celebrates 25 years of Xbox: \"A small team will be able to build worlds that today demand hundreds of de",
+      "title": "《黎明之血》将于更新加入新游戏plus模式",
+      "originalTitle": "The Blood of Dawnwalker is getting a New Game Plus mode in next week's update",
       "source": "eurogamer.net",
       "sourceOrg": "eurogamer.net",
-      "sourceDate": "2026.11.13",
-      "url": "https://www.eurogamer.net/microsoft-xbox-gen-ai-asha-sharma-memo",
+      "sourceDate": "2026.11.14",
+      "url": "https://www.eurogamer.net/blood-of-dawnwalker-new-game-plus",
       "tags": [
-        "Xbox",
-        "AI",
-        "行业趋势"
+        "RPG",
+        "新游戏Plus",
+        "更新"
       ],
-      "summary": "Xbox 高管 Aisha Sharma 表示生成式 AI 可让小团队创造大世界，或将改变游戏制作格局。",
+      "summary": "近期发行的吸血鬼RPG《黎明之血》将在下周更新中加入新游戏Plus模式，为玩家提供更多重玩价值。",
       "highlights": [
-        "AI 在游戏开发的应用",
-        "小团队也能造大作"
+        "新模式将在更新中上线",
+        "提升游戏可玩性"
       ],
-      "readingNote": "技术革新或重塑开发模式，关注实际落地效果。",
-      "verifiedAt": "2026.11.13",
+      "readingNote": "好消息，模式的加入能显著延长游戏寿命。",
+      "verifiedAt": "2026.11.14",
       "verificationUrls": [
-        "https://www.eurogamer.net/microsoft-xbox-gen-ai-asha-sharma-memo"
+        "https://www.eurogamer.net/blood-of-dawnwalker-new-game-plus"
       ]
     }
   ]
