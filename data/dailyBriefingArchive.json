@@ -1,7 +1,244 @@
 {
   "windowDays": 90,
-  "asOfDate": "2026.11.15",
+  "asOfDate": "2026.11.16",
   "issues": [
+    {
+      "edition": {
+        "date": "2026.11.15",
+        "weekday": "周日",
+        "label": "米米的AI日报",
+        "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
+      },
+      "items": [
+        {
+          "id": "20261115-ai-01",
+          "category": "ai",
+          "title": "生成式 AI 对非英语文本能耗更高",
+          "originalTitle": "Generative AI uses more energy on non-English text",
+          "source": "news.umich.edu",
+          "sourceOrg": "news.umich.edu",
+          "sourceDate": "2026.11.10",
+          "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
+          "tags": [
+            "AI",
+            "能源",
+            "语言处理"
+          ],
+          "summary": "密歇根大学研究发现，生成式 AI 在处理非英语文本时，能耗显著高于英语文本。这揭示了多语言 AI 系统在资源使用上的不均衡，提醒用户在使用跨语言功能时需权衡能源成本。",
+          "highlights": [
+            "跨语言处理能耗不均",
+            "非英语文本成本更高"
+          ],
+          "readingNote": "AI 的语言偏见不仅体现在输出质量，也体现在隐形成本上。",
+          "verifiedAt": "2026.11.15",
+          "verificationUrls": [
+            "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/"
+          ]
+        },
+        {
+          "id": "20261115-ai-02",
+          "category": "ai",
+          "title": "阿肯色州单路由器故障停飞航班",
+          "originalTitle": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+          "source": "wsj.com",
+          "sourceOrg": "wsj.com",
+          "sourceDate": "2026.11.15",
+          "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+          "tags": [
+            "网络故障",
+            "航空"
+          ],
+          "summary": "《华尔街日报》报道称，美国阿肯色州南部一台核心路由器故障，导致多家航空公司的地面系统瘫痪，航班被迫取消或延误。这暴露了关键网络基础设施的单点故障风险，对航空运输造成实质性中断。",
+          "highlights": [
+            "核心路由器故障",
+            "航空运输中断"
+          ],
+          "readingNote": "看似小硬件故障，竟引发大规模旅行混乱。",
+          "verifiedAt": "2026.11.15",
+          "verificationUrls": [
+            "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c"
+          ]
+        },
+        {
+          "id": "20261115-ai-03",
+          "category": "ai",
+          "title": "不足五百行的 3D 模型制作器",
+          "originalTitle": "500 Lines or Less A 3D Modeller",
+          "source": "aosabook.org",
+          "sourceOrg": "aosabook.org",
+          "sourceDate": "2026.11.13",
+          "url": "https://aosabook.org/en/500L/a-3d-modeller.html",
+          "tags": [
+            "编程",
+            "3D",
+            "源码"
+          ],
+          "summary": "OSA 书籍介绍了一个极简的 3D 建模程序，其完整源代码仅五百行以内。该项目展示了如何用极简代码实现复杂的三维图形功能，是编程爱好者学习图形算法的绝佳案例。",
+          "highlights": [
+            "源码极简",
+            "图形实现"
+          ],
+          "readingNote": "好代码不需要复杂，五百行即可搞定 3D。",
+          "verifiedAt": "2026.11.15",
+          "verificationUrls": [
+            "https://aosabook.org/en/500L/a-3d-modeller.html"
+          ]
+        },
+        {
+          "id": "20261115-hero-01",
+          "category": "hero",
+          "title": "克里斯普拉特称盼古恩回归《银河护卫队4》",
+          "originalTitle": "Chris Pratt Says He 'Would Love' James Gunn to Return for Guardians of the Galaxy Vol. 4 After Leaving DC",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.15",
+          "url": "https://www.ign.com/articles/chris-pratt-says-he-would-love-james-gunn-to-return-for-guardians-of-the-galaxy-vol-4-after-leaving-dc",
+          "tags": [
+            "漫威",
+            "影评",
+            "DC"
+          ],
+          "summary": "克里斯普拉特表示希望与詹姆斯·古恩合作第四部《银河护卫队》，此前古恩突然宣布离开DC工作室。",
+          "highlights": [
+            "普拉特表达合作意愿",
+            "古恩近期离开DC工作室"
+          ],
+          "readingNote": "漫威宇宙的合作传闻总是能点燃粉丝的期待感。",
+          "verifiedAt": "2026.11.15",
+          "verificationUrls": [
+            "https://www.ign.com/articles/chris-pratt-says-he-would-love-james-gunn-to-return-for-guardians-of-the-galaxy-vol-4-after-leaving-dc"
+          ]
+        },
+        {
+          "id": "20261115-hero-02",
+          "category": "hero",
+          "title": "PS5 QSSR更新：蜘蛛侠2等游戏获优化",
+          "originalTitle": "PS5 QSSR Updates Revealed for Marvel's Spider-Man 2, Arc Raiders, and More",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.14",
+          "url": "https://www.ign.com/articles/ps5-qssr-updates-revealed-for-marvels-spider-man-2-arc-raiders-and-more",
+          "tags": [
+            "游戏",
+            "PS5",
+            "技术"
+          ],
+          "summary": "索尼确认《蜘蛛侠2》及《Arc Raiders》等五款游戏将在普通PS5上获得QSSR性能提升。",
+          "highlights": [
+            "QSSR技术扩展至多款游戏",
+            "提升基础PS5的运行表现"
+          ],
+          "readingNote": "这项技术让老款主机也能享受更流畅的游戏体验。",
+          "verifiedAt": "2026.11.15",
+          "verificationUrls": [
+            "https://www.ign.com/articles/ps5-qssr-updates-revealed-for-marvels-spider-man-2-arc-raiders-and-more"
+          ]
+        },
+        {
+          "id": "20261115-hero-03",
+          "category": "hero",
+          "title": "一本惊奇蜘蛛侠漫画挽救X-Men免于取消",
+          "originalTitle": "An Incredible Hulk Issue Saved Marvel's X-Men Comic From Cancelation",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.15",
+          "url": "https://www.slashfilm.com/2310491/the-incredible-hulk-issue-saved-marvel-x-men-cancelation/",
+          "tags": [
+            "漫画",
+            "X-Men",
+            "历史"
+          ],
+          "summary": "一本印有威尔弗雷德（ Wolverine）的惊奇蜘蛛侠漫画，曾在关键时刻拯救Marvel X-Men漫画系列免于被永久取消。",
+          "highlights": [
+            "蜘蛛侠漫画意外救主",
+            "威尔弗雷德的关键登场"
+          ],
+          "readingNote": "漫威历史上那些意外的转折点，往往最值得回味。",
+          "verifiedAt": "2026.11.15",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2310491/the-incredible-hulk-issue-saved-marvel-x-men-cancelation/"
+          ]
+        },
+        {
+          "id": "20261115-game-01",
+          "category": "game",
+          "title": "GTA 6 原声带泄密确认 莱娜·德雷等新歌加入",
+          "originalTitle": "GTA 6 soundtrack leak confirmed accurate with new songs from Lana Del Rey, Playboi Carti, and Keith Richards",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.15",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-soundtrack-leak-confirmed-accurate-with-new-songs-from-lana-del-rey-playboi-carti-and-keith-richards/",
+          "tags": [
+            "游戏",
+            "GTA 6",
+            "音乐"
+          ],
+          "summary": "外媒确认 GTA 6 原声带泄密属实，新增莱娜·德雷、Playboi Carti 及基思·理查兹等歌曲。玩家期待已久的副线角色 Hank O'Malley 却未出现。",
+          "highlights": [
+            "泄密曲目确认准确",
+            "新增三大音乐人加入",
+            "期待的副线角色缺席"
+          ],
+          "readingNote": "泄密终成定局，官方或将正式发布完整原声带。",
+          "verifiedAt": "2026.11.15",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-soundtrack-leak-confirmed-accurate-with-new-songs-from-lana-del-rey-playboi-carti-and-keith-richards/"
+          ]
+        },
+        {
+          "id": "20261115-game-02",
+          "category": "game",
+          "title": "魔行者动画将每个位面采用独特艺术风格",
+          "originalTitle": "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.15",
+          "url": "https://www.pcgamer.com/movies-tv/planeswalker-netflixs-magic-the-gathering-animated-series-will-have-a-different-art-style-for-each-plane/",
+          "tags": [
+            "游戏",
+            "动画",
+            "魔法风暴"
+          ],
+          "summary": "Netflix《魔法风暴：集换式卡牌游戏》动画将每个位面赋予不同艺术风格。制作团队表示每张卡都是通往奇幻世界的窗口，而非单纯世界观构建。",
+          "highlights": [
+            "每个位面艺术风格独特",
+            "卡片是通往世界的窗口",
+            "强调多元世界观构建"
+          ],
+          "readingNote": "视觉创新是本系列最大亮点，期待不同风格的碰撞。",
+          "verifiedAt": "2026.11.15",
+          "verificationUrls": [
+            "https://www.pcgamer.com/movies-tv/planeswalker-netflixs-magic-the-gathering-animated-series-will-have-a-different-art-style-for-each-plane/"
+          ]
+        },
+        {
+          "id": "20261115-game-03",
+          "category": "game",
+          "title": "育碧报告称开发新《雷神锤》游戏",
+          "originalTitle": "Ubisoft is reportedly making a new Rainbow Six Vegas game, nearly two decades after Vegas 2",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.14",
+          "url": "https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report",
+          "tags": [
+            "游戏",
+            "育碧",
+            "雷神锤"
+          ],
+          "summary": "欧美媒体报道称育碧正在开发新《雷神锤》游戏，距离上作《雷神锤 2》发布已过去近二十年。粉丝期待系列回归。",
+          "highlights": [
+            "新作报告正在开发中",
+            "距上作已过去近二十年",
+            "系列或将迎来续作"
+          ],
+          "readingNote": "经典系列时隔多年再传新作，玩家期待值不低。",
+          "verifiedAt": "2026.11.15",
+          "verificationUrls": [
+            "https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report"
+          ]
+        }
+      ]
+    },
     {
       "edition": {
         "date": "2026.11.14",
