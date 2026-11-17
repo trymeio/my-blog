@@ -1,240 +1,237 @@
 {
   "edition": {
-    "date": "2026.11.16",
-    "weekday": "周一",
+    "date": "2026.11.17",
+    "weekday": "周二",
     "label": "米米的AI日报",
     "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
   },
   "items": [
     {
-      "id": "20261116-ai-01",
+      "id": "20261117-ai-01",
       "category": "ai",
-      "title": "Claude Code和Codex破解1994年吉普车ECU仅用3美元Ardui",
-      "originalTitle": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
-      "source": "youtube.com",
-      "sourceOrg": "youtube.com",
-      "sourceDate": "2026.11.12",
-      "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+      "title": "Windows 11 正在收集用户的编码代理和开发工具使用数据",
+      "originalTitle": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "source": "xusheng.dev",
+      "sourceOrg": "xusheng.dev",
+      "sourceDate": "2026.11.17",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
       "tags": [
-        "AI",
-        "汽车安全",
-        "硬件改装"
+        "Windows",
+        "隐私",
+        "开发工具"
       ],
-      "summary": "研究人员利用 Claude Code 和 Codex 等 AI 工具，仅凭 3 美元的 Arduino 硬件成功逆向工程并控制了 1994 年款吉普车的引擎电脑（ECU），展示了车辆安全潜在风险。",
+      "summary": "Windows 11 被指在后台收集用户使用的编码代理和开发工具信息，引发了开发者对隐私的担忧。",
       "highlights": [
-        "AI 工具逆向车辆电脑",
-        "仅 3 美元硬件即可破解",
-        "关注汽车安全新挑战"
+        "Windows 11 正在收集用户的编码代理和开发工具使用数据",
+        "引发了开发者对隐私的担忧"
       ],
-      "readingNote": "AI 能力突飞猛进，车主需提升车辆防护意识。",
-      "verifiedAt": "2026.11.16",
+      "readingNote": "开发者工具的使用数据收集引发了隐私讨论，用户需关注系统权限设置。",
+      "verifiedAt": "2026.11.17",
       "verificationUrls": [
-        "https://www.youtube.com/watch?v=WPj3aQ-xxpI"
+        "https://xusheng.dev/posts/windows-coding-agent-telemetry/"
       ]
     },
     {
-      "id": "20261116-ai-02",
+      "id": "20261117-ai-02",
       "category": "ai",
-      "title": "微软 365 停工致 15 宾所中毒",
-      "originalTitle": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
-      "source": "www1.wdr.de",
-      "sourceOrg": "www1.wdr.de",
-      "sourceDate": "2026.11.16",
-      "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+      "title": "如何在不暴露凭证的情况下运行编码代理",
+      "originalTitle": "Running coding agents without handing them my credentials",
+      "source": "blog.antonio.cx",
+      "sourceOrg": "blog.antonio.cx",
+      "sourceDate": "2026.11.17",
+      "url": "https://blog.antonio.cx/running-agents-with-lend",
       "tags": [
-        "微软",
-        "服务中断",
-        "安全事故"
+        "编码代理",
+        "凭证安全",
+        "技术教程"
       ],
-      "summary": "微软 365 服务中断导致德国福塔利亚主题公园的氯气系统出现故障，结果造成 15 名宾客因吸入氯气而中毒送医，科技故障引发的实体安全事故引人警惕。",
+      "summary": "文章介绍了在不直接交出凭证的情况下运行编码代理的方法，旨在平衡安全性与功能性。",
       "highlights": [
-        "微软服务中断",
-        "氯气系统故障",
-        "15 人中毒送医"
+        "介绍不暴露凭证运行编码代理的方法",
+        "平衡安全性与功能性的技术方案"
       ],
-      "readingNote": "科技停摆可能波及实体安全，需关联应急预案。",
-      "verifiedAt": "2026.11.16",
+      "readingNote": "保护凭证安全是开发者的核心需求，该方案值得尝试。",
+      "verifiedAt": "2026.11.17",
       "verificationUrls": [
-        "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html"
+        "https://blog.antonio.cx/running-agents-with-lend"
       ]
     },
     {
-      "id": "20261116-ai-03",
+      "id": "20261117-ai-03",
       "category": "ai",
-      "title": "MacBook Pro OLED PWM 显示问题",
-      "originalTitle": "The MacBook Pro's OLED PWM problem",
-      "source": "macanorak.com",
-      "sourceOrg": "macanorak.com",
-      "sourceDate": "2026.11.15",
-      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "title": "Tokendoctor：Claude Code 成本最低可省 38%",
+      "originalTitle": "Tokendoctor – the same Claude Code for up to 38% less",
+      "source": "github.com",
+      "sourceOrg": "github.com",
+      "sourceDate": "2026.11.17",
+      "url": "https://github.com/localixai/tokendoctor",
       "tags": [
-        "MacBook",
-        "显示技术",
-        "人体工学"
+        "AI 编码",
+        "成本优化",
+        "GitHub 项目"
       ],
-      "summary": "媒体分析指出 MacBook Pro 搭载的 OLED 面板存在 PWM 调光问题，虽然规格提升，但在某些使用场景下可能因频闪影响舒适度，引发对高端显示屏人体工学的讨论。",
+      "summary": "Tokendoctor 项目提供了 Claude Code 的替代方案，声称在保持性能的同时可将成本降低多达 38%。",
       "highlights": [
-        "OLED PWM 调光争议",
-        "影响使用舒适度",
-        "高端屏幕的权衡"
+        "Tokendoctor 提供 Claude Code 替代方案",
+        "声称可将成本降低最多 38%"
       ],
-      "readingNote": "屏幕技术提升需兼顾使用感受。",
-      "verifiedAt": "2026.11.16",
+      "readingNote": "成本降低 38% 对个人开发者和企业都有吸引力，值得关注其实际效果。",
+      "verifiedAt": "2026.11.17",
       "verificationUrls": [
-        "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/"
+        "https://github.com/localixai/tokendoctor"
       ]
     },
     {
-      "id": "20261116-hero-01",
+      "id": "20261117-hero-01",
       "category": "hero",
-      "title": "克里斯普拉特盼古恩回归《银河护卫队4》",
-      "originalTitle": "Chris Pratt Says He 'Would Love' James Gunn to Return for Guardians of the Galaxy Vol. 4 After Leaving DC",
+      "title": "蜘蛛侠：全新日重映确定上映日期 新片段及彩蛋抢先看",
+      "originalTitle": "Spider-Man: Brand New Day Re-Release With New Footage Sets December Release Date, Tickets on Sale This Week",
       "source": "ign.com",
       "sourceOrg": "ign.com",
-      "sourceDate": "2026.11.15",
-      "url": "https://www.ign.com/articles/chris-pratt-says-he-would-love-james-gunn-to-return-for-guardians-of-the-galaxy-vol-4-after-leaving-dc",
+      "sourceDate": "2026.11.17",
+      "url": "https://www.ign.com/articles/spider-man-brand-new-day-re-release-with-new-footage-sets-december-release-date-tickets-on-sale-this-week",
       "tags": [
         "漫威",
-        "古恩",
-        "银河护卫队"
+        "蜘蛛侠",
+        "重映"
       ],
-      "summary": "克里斯普拉特表示想和詹姆斯·古恩合作第四部《银河护卫队》，此前古恩突然宣布离开DC工作室。",
+      "summary": "漫威影业宣布《蜘蛛侠：全新日》重映将于今年上映，预告将包含全新镜头及额外惊喜，票务本周开售。",
       "highlights": [
-        "普拉特期待与古恩合作",
-        "古恩近期离开DC Studios"
+        "重映版包含全新镜头",
+        "票务本周正式开售",
+        "承诺额外惊喜内容"
       ],
-      "readingNote": "演员与导演的默契值得期待，第四部能否延续前三部的魔力值得拭目。",
-      "verifiedAt": "2026.11.16",
+      "readingNote": "老粉有福，新 footage 值得期待",
+      "verifiedAt": "2026.11.17",
       "verificationUrls": [
-        "https://www.ign.com/articles/chris-pratt-says-he-would-love-james-gunn-to-return-for-guardians-of-the-galaxy-vol-4-after-leaving-dc"
+        "https://www.ign.com/articles/spider-man-brand-new-day-re-release-with-new-footage-sets-december-release-date-tickets-on-sale-this-week"
       ]
     },
     {
-      "id": "20261116-hero-02",
+      "id": "20261117-hero-02",
       "category": "hero",
-      "title": "伊曼·韦兰尼称《X战警》有最佳改编故事",
-      "originalTitle": "Ms. Marvel Star Iman Vellani Believes This Is The Perfect X-Men Story (And She's Right)",
+      "title": "前詹姆斯·邦德拉泽尼给帕丁顿建议",
+      "originalTitle": "Former James Bond Actor George Lazenby Gives Robert Pattinson Advice After Batman Star Scores Iconic Role",
+      "source": "ign.com",
+      "sourceOrg": "ign.com",
+      "sourceDate": "2026.11.17",
+      "url": "https://www.ign.com/articles/former-james-bond-actor-george-lazenby-gives-robert-pattinson-advice-after-batman-star-scores-iconic-role",
+      "tags": [
+        "詹姆斯·邦德",
+        "罗伯特·帕丁森",
+        "拉泽尼"
+      ],
+      "summary": "前詹姆斯·邦德演员拉泽尼在帕丁顿凭借《蝙蝠侠》角色获奖后，给予罗伯特·帕丁森谆谆教导。",
+      "highlights": [
+        "拉泽尼曾饰邦德",
+        "帕丁森获 iconic 角色",
+        "资深演员传授经验"
+      ],
+      "readingNote": "前007资深指点后进，颇有深意",
+      "verifiedAt": "2026.11.17",
+      "verificationUrls": [
+        "https://www.ign.com/articles/former-james-bond-actor-george-lazenby-gives-robert-pattinson-advice-after-batman-star-scores-iconic-role"
+      ]
+    },
+    {
+      "id": "20261117-hero-03",
+      "category": "hero",
+      "title": "《蝙蝠侠永远》导演初不看好卡瑞演绿洲",
+      "originalTitle": "Batman Forever's Director Nearly Rejected Jim Carrey As The Riddler Until He Saw This Movie",
       "source": "slashfilm.com",
       "sourceOrg": "slashfilm.com",
-      "sourceDate": "2026.11.16",
-      "url": "https://www.slashfilm.com/2317207/ms-marvel-star-iman-vellani-perfect-x-men-story/",
+      "sourceDate": "2026.11.17",
+      "url": "https://www.slashfilm.com/2313491/batman-forever-director-cast-jim-carrey-the-riddler-the-mask/",
       "tags": [
-        "Ms. Marvel",
-        "X-Men",
-        "漫威"
+        "蝙蝠侠",
+        "Jim Carrey",
+        "舒马赫"
       ],
-      "summary": "《Ms. Marvel》女主角伊曼·韦兰尼推荐一部优秀的X-Men comic，并指出其对电影有重要影响。",
+      "summary": "《蝙蝠侠永远》导演舒马赫原计划不选卡瑞饰反派谜题人，直到看到卡瑞的另一段表演后改变决定。",
       "highlights": [
-        "韦兰尼推荐X-Men comic",
-        "该故事影响电影改编"
+        "导演起初拒绝卡瑞",
+        "关键转折点在另一电影",
+        "最终成功塑造经典反派"
       ],
-      "readingNote": "原著粉丝的推荐往往更有深度，值得留意该 comic 的电影潜力。",
-      "verifiedAt": "2026.11.16",
+      "readingNote": "好演员总会被看见，机会总会来",
+      "verifiedAt": "2026.11.17",
       "verificationUrls": [
-        "https://www.slashfilm.com/2317207/ms-marvel-star-iman-vellani-perfect-x-men-story/"
+        "https://www.slashfilm.com/2313491/batman-forever-director-cast-jim-carrey-the-riddler-the-mask/"
       ]
     },
     {
-      "id": "20261116-hero-03",
-      "category": "hero",
-      "title": "《复仇者大战：末日》对尚奇归来不友好",
-      "originalTitle": "Avengers: Doomsday Is Way Too Late for Shang-Chi’s Return",
-      "source": "denofgeek.com",
-      "sourceOrg": "denofgeek.com",
-      "sourceDate": "2026.11.14",
-      "url": "https://www.denofgeek.com/movies/avengers-doomsday-way-too-late-shang-chi-return/",
-      "tags": [
-        "尚奇",
-        "MCU",
-        "复仇者"
-      ],
-      "summary": "《尚奇与十环传奇》偏离MCU惯例，其彩片未暗示‘尚奇将回归’，导致其回归《复仇者大战：末日》时机已过。",
-      "highlights": [
-        "尚奇离常规MCU模式",
-        "《末日》时间已不合适"
-      ],
-      "readingNote": "角色离队与归来的时间节点问题，引发对MCU规划的思考。",
-      "verifiedAt": "2026.11.16",
-      "verificationUrls": [
-        "https://www.denofgeek.com/movies/avengers-doomsday-way-too-late-shang-chi-return/"
-      ]
-    },
-    {
-      "id": "20261116-game-01",
+      "id": "20261117-game-01",
       "category": "game",
-      "title": "资深战争迷你模型设计师艾丽·莫里森去世",
-      "originalTitle": "Influential Warhammer miniature designer Aly Morrison has died",
+      "title": "007：第一束光主题曲虽不被喜爱却获格莱美提名",
+      "originalTitle": "That 007 First Light theme song I didn't like is up for a Grammy Award",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.16",
-      "url": "https://www.pcgamer.com/games/board-games/influential-warhammer-miniature-designer-aly-morrison-has-died/",
+      "sourceDate": "2026.11.17",
+      "url": "https://www.pcgamer.com/games/action/that-007-first-light-theme-song-i-didnt-like-is-up-for-a-grammy-award/",
       "tags": [
-        "战争迷你模型",
-        "设计师讣告",
-        "桌游行业"
+        "007",
+        "音乐",
+        "格莱美"
       ],
-      "summary": "知名战争桌游《战争之王》资深设计师艾丽·莫里森于近期离世。她在退休前六个月完成了最后的创作，业界哀悼这位对模型美学有深远影响的设计大师。",
+      "summary": "PC游戏网报道，该《007：第一束光》主题曲虽编辑个人不喜，却意外入围格莱美奖。文章点出‘口味不一’的娱乐观点，提醒读者音乐主观性大。",
       "highlights": [
-        "资深战争迷你模型设计师",
-        "《战争之王》核心创作者",
-        "近期离世享年不详"
+        "主题曲获格莱美提名",
+        "编辑个人感受与奖项无关"
       ],
-      "readingNote": "莫里森的离世标志着一代模型美学大师的谢幕，她的作品将继续影响无数玩家和设计师。",
-      "verifiedAt": "2026.11.16",
+      "readingNote": "音乐品味各有千秋，奖项提名不代表普遍喜爱。",
+      "verifiedAt": "2026.11.17",
       "verificationUrls": [
-        "https://www.pcgamer.com/games/board-games/influential-warhammer-miniature-designer-aly-morrison-has-died/"
+        "https://www.pcgamer.com/games/action/that-007-first-light-theme-song-i-didnt-like-is-up-for-a-grammy-award/"
       ]
     },
     {
-      "id": "20261116-game-02",
+      "id": "20261117-game-02",
       "category": "game",
-      "title": "你更喜欢氛围音乐还是剧场感氛围",
-      "originalTitle": "Are you more of an ambient music enjoyer or theatrical atmosphere appreciator?",
+      "title": "Gabe Newell待超级游艇船员如人：行业难得一见",
+      "originalTitle": "Gabe Newell stuns superyacht enthusiasts by treating crew like human beings: 'That is something we've never really seen before in our industry'",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.16",
-      "url": "https://www.pcgamer.com/games/world-of-warcraft/are-you-more-of-an-ambient-music-enjoyer-or-theatrical-atmosphere-appreciator/",
+      "sourceDate": "2026.11.17",
+      "url": "https://www.pcgamer.com/gaming-industry/gabe-newell-stuns-superyacht-enthusiasts-by-treating-crew-like-human-beings-that-is-something-weve-never-really-seen-before-in-our-industry/",
       "tags": [
-        "魔兽世界",
-        "游戏音乐",
-        "玩家偏好"
+        "游戏行业",
+        "Newell",
+        "管理"
       ],
-      "summary": "PC游戏《魔兽世界》官方探讨玩家对游戏音效与音乐偏好的差异。文章询问玩家是倾向于低调沉浸的 ambient 音乐，还是更喜欢宏大 theatrical 的游戏氛围营造。",
+      "summary": "PC游戏网报道，Valve老板Newell在自家超级游艇上将船员视作平等人，船员留任率是行业平均的六倍。文中称这在航海界极为罕见，体现其独特管理理念。",
       "highlights": [
-        "《魔兽世界》玩家音乐偏好调查",
-        "氛围音乐 vs 剧场感音乐",
-        "游戏音效设计讨论"
+        "船员待遇优越",
+        "留任率行业六倍"
       ],
-      "readingNote": "音乐选择直接影响玩家的代入感与沉浸体验，你更倾向哪种风格？",
-      "verifiedAt": "2026.11.16",
+      "readingNote": "人性化管理竟也能在超级游艇上实现，值得反思。",
+      "verifiedAt": "2026.11.17",
       "verificationUrls": [
-        "https://www.pcgamer.com/games/world-of-warcraft/are-you-more-of-an-ambient-music-enjoyer-or-theatrical-atmosphere-appreciator/"
+        "https://www.pcgamer.com/gaming-industry/gabe-newell-stuns-superyacht-enthusiasts-by-treating-crew-like-human-beings-that-is-something-weve-never-really-seen-before-in-our-industry/"
       ]
     },
     {
-      "id": "20261116-game-03",
+      "id": "20261117-game-03",
       "category": "game",
-      "title": "警方逮捕嫌疑人 驾车射击 Xbox inXile 总部",
-      "originalTitle": "Police arrest suspect after drive-by shooting at office campus housing Xbox studio inXile",
+      "title": "星球大战：银河竞速将在2027年加入分屏多人",
+      "originalTitle": "Star Wars: Galactic Racer is getting much-requested split-screen multiplayer and new mode in 2027",
       "source": "eurogamer.net",
       "sourceOrg": "eurogamer.net",
-      "sourceDate": "2026.11.16",
-      "url": "https://www.eurogamer.net/inxile-office-shooting-tustin-suspect-arrested",
+      "sourceDate": "2026.11.17",
+      "url": "https://www.eurogamer.net/star-wars-galactic-racer-split-screen-multiplayer",
       "tags": [
-        "校园枪击",
-        "Xbox",
-        "警方逮捕"
+        "星球大战",
+        "竞速",
+        "多人"
       ],
-      "summary": "加利福尼亚州蒂斯顿的一处办公园区发生驾车射击事件，凶手向 inXile Entertainment 总部开火。警方随后逮捕了嫌疑人，该校区为 Xbox 旗下工作室所在地，事发原因仍在调查中。",
+      "summary": "Eurogamer报道，备受期待的《星球大战：银河竞速》将在2027年加入分屏多人模式和全新模式。开发商Fuse Games回应了粉丝的强烈呼声，这款赛车游戏因此备受关注。",
       "highlights": [
-        "驾车射击办公园区",
-        "Xbox工作室 inXile 目标",
-        "嫌疑人已被捕"
+        "2027年更新",
+        "加入分屏多人"
       ],
-      "readingNote": "办公区枪击事件频发，工作室安全问题再次引发关注，案情细节待进一步披露。",
-      "verifiedAt": "2026.11.16",
+      "readingNote": "粉丝请求有效，分屏模式或将延续赛车游戏社交乐趣。",
+      "verifiedAt": "2026.11.17",
       "verificationUrls": [
-        "https://www.eurogamer.net/inxile-office-shooting-tustin-suspect-arrested"
+        "https://www.eurogamer.net/star-wars-galactic-racer-split-screen-multiplayer"
       ]
     }
   ]
