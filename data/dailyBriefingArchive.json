@@ -1,7 +1,245 @@
 {
   "windowDays": 90,
-  "asOfDate": "2026.11.17",
+  "asOfDate": "2026.11.18",
   "issues": [
+    {
+      "edition": {
+        "date": "2026.11.17",
+        "weekday": "周二",
+        "label": "米米的AI日报",
+        "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
+      },
+      "items": [
+        {
+          "id": "20261117-ai-01",
+          "category": "ai",
+          "title": "Windows 11 正在收集用户的编码代理和开发工具使用数据",
+          "originalTitle": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+          "source": "xusheng.dev",
+          "sourceOrg": "xusheng.dev",
+          "sourceDate": "2026.11.17",
+          "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+          "tags": [
+            "Windows",
+            "隐私",
+            "开发工具"
+          ],
+          "summary": "Windows 11 被指在后台收集用户使用的编码代理和开发工具信息，引发了开发者对隐私的担忧。",
+          "highlights": [
+            "Windows 11 正在收集用户的编码代理和开发工具使用数据",
+            "引发了开发者对隐私的担忧"
+          ],
+          "readingNote": "开发者工具的使用数据收集引发了隐私讨论，用户需关注系统权限设置。",
+          "verifiedAt": "2026.11.17",
+          "verificationUrls": [
+            "https://xusheng.dev/posts/windows-coding-agent-telemetry/"
+          ]
+        },
+        {
+          "id": "20261117-ai-02",
+          "category": "ai",
+          "title": "如何在不暴露凭证的情况下运行编码代理",
+          "originalTitle": "Running coding agents without handing them my credentials",
+          "source": "blog.antonio.cx",
+          "sourceOrg": "blog.antonio.cx",
+          "sourceDate": "2026.11.17",
+          "url": "https://blog.antonio.cx/running-agents-with-lend",
+          "tags": [
+            "编码代理",
+            "凭证安全",
+            "技术教程"
+          ],
+          "summary": "文章介绍了在不直接交出凭证的情况下运行编码代理的方法，旨在平衡安全性与功能性。",
+          "highlights": [
+            "介绍不暴露凭证运行编码代理的方法",
+            "平衡安全性与功能性的技术方案"
+          ],
+          "readingNote": "保护凭证安全是开发者的核心需求，该方案值得尝试。",
+          "verifiedAt": "2026.11.17",
+          "verificationUrls": [
+            "https://blog.antonio.cx/running-agents-with-lend"
+          ]
+        },
+        {
+          "id": "20261117-ai-03",
+          "category": "ai",
+          "title": "Tokendoctor：Claude Code 成本最低可省 38%",
+          "originalTitle": "Tokendoctor – the same Claude Code for up to 38% less",
+          "source": "github.com",
+          "sourceOrg": "github.com",
+          "sourceDate": "2026.11.17",
+          "url": "https://github.com/localixai/tokendoctor",
+          "tags": [
+            "AI 编码",
+            "成本优化",
+            "GitHub 项目"
+          ],
+          "summary": "Tokendoctor 项目提供了 Claude Code 的替代方案，声称在保持性能的同时可将成本降低多达 38%。",
+          "highlights": [
+            "Tokendoctor 提供 Claude Code 替代方案",
+            "声称可将成本降低最多 38%"
+          ],
+          "readingNote": "成本降低 38% 对个人开发者和企业都有吸引力，值得关注其实际效果。",
+          "verifiedAt": "2026.11.17",
+          "verificationUrls": [
+            "https://github.com/localixai/tokendoctor"
+          ]
+        },
+        {
+          "id": "20261117-hero-01",
+          "category": "hero",
+          "title": "蜘蛛侠：全新日重映确定上映日期 新片段及彩蛋抢先看",
+          "originalTitle": "Spider-Man: Brand New Day Re-Release With New Footage Sets December Release Date, Tickets on Sale This Week",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.17",
+          "url": "https://www.ign.com/articles/spider-man-brand-new-day-re-release-with-new-footage-sets-december-release-date-tickets-on-sale-this-week",
+          "tags": [
+            "漫威",
+            "蜘蛛侠",
+            "重映"
+          ],
+          "summary": "漫威影业宣布《蜘蛛侠：全新日》重映将于今年上映，预告将包含全新镜头及额外惊喜，票务本周开售。",
+          "highlights": [
+            "重映版包含全新镜头",
+            "票务本周正式开售",
+            "承诺额外惊喜内容"
+          ],
+          "readingNote": "老粉有福，新 footage 值得期待",
+          "verifiedAt": "2026.11.17",
+          "verificationUrls": [
+            "https://www.ign.com/articles/spider-man-brand-new-day-re-release-with-new-footage-sets-december-release-date-tickets-on-sale-this-week"
+          ]
+        },
+        {
+          "id": "20261117-hero-02",
+          "category": "hero",
+          "title": "前詹姆斯·邦德拉泽尼给帕丁顿建议",
+          "originalTitle": "Former James Bond Actor George Lazenby Gives Robert Pattinson Advice After Batman Star Scores Iconic Role",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.17",
+          "url": "https://www.ign.com/articles/former-james-bond-actor-george-lazenby-gives-robert-pattinson-advice-after-batman-star-scores-iconic-role",
+          "tags": [
+            "詹姆斯·邦德",
+            "罗伯特·帕丁森",
+            "拉泽尼"
+          ],
+          "summary": "前詹姆斯·邦德演员拉泽尼在帕丁顿凭借《蝙蝠侠》角色获奖后，给予罗伯特·帕丁森谆谆教导。",
+          "highlights": [
+            "拉泽尼曾饰邦德",
+            "帕丁森获 iconic 角色",
+            "资深演员传授经验"
+          ],
+          "readingNote": "前007资深指点后进，颇有深意",
+          "verifiedAt": "2026.11.17",
+          "verificationUrls": [
+            "https://www.ign.com/articles/former-james-bond-actor-george-lazenby-gives-robert-pattinson-advice-after-batman-star-scores-iconic-role"
+          ]
+        },
+        {
+          "id": "20261117-hero-03",
+          "category": "hero",
+          "title": "《蝙蝠侠永远》导演初不看好卡瑞演绿洲",
+          "originalTitle": "Batman Forever's Director Nearly Rejected Jim Carrey As The Riddler Until He Saw This Movie",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.17",
+          "url": "https://www.slashfilm.com/2313491/batman-forever-director-cast-jim-carrey-the-riddler-the-mask/",
+          "tags": [
+            "蝙蝠侠",
+            "Jim Carrey",
+            "舒马赫"
+          ],
+          "summary": "《蝙蝠侠永远》导演舒马赫原计划不选卡瑞饰反派谜题人，直到看到卡瑞的另一段表演后改变决定。",
+          "highlights": [
+            "导演起初拒绝卡瑞",
+            "关键转折点在另一电影",
+            "最终成功塑造经典反派"
+          ],
+          "readingNote": "好演员总会被看见，机会总会来",
+          "verifiedAt": "2026.11.17",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2313491/batman-forever-director-cast-jim-carrey-the-riddler-the-mask/"
+          ]
+        },
+        {
+          "id": "20261117-game-01",
+          "category": "game",
+          "title": "007：第一束光主题曲虽不被喜爱却获格莱美提名",
+          "originalTitle": "That 007 First Light theme song I didn't like is up for a Grammy Award",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.17",
+          "url": "https://www.pcgamer.com/games/action/that-007-first-light-theme-song-i-didnt-like-is-up-for-a-grammy-award/",
+          "tags": [
+            "007",
+            "音乐",
+            "格莱美"
+          ],
+          "summary": "PC游戏网报道，该《007：第一束光》主题曲虽编辑个人不喜，却意外入围格莱美奖。文章点出‘口味不一’的娱乐观点，提醒读者音乐主观性大。",
+          "highlights": [
+            "主题曲获格莱美提名",
+            "编辑个人感受与奖项无关"
+          ],
+          "readingNote": "音乐品味各有千秋，奖项提名不代表普遍喜爱。",
+          "verifiedAt": "2026.11.17",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/action/that-007-first-light-theme-song-i-didnt-like-is-up-for-a-grammy-award/"
+          ]
+        },
+        {
+          "id": "20261117-game-02",
+          "category": "game",
+          "title": "Gabe Newell待超级游艇船员如人：行业难得一见",
+          "originalTitle": "Gabe Newell stuns superyacht enthusiasts by treating crew like human beings: 'That is something we've never really seen before in our industry'",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.17",
+          "url": "https://www.pcgamer.com/gaming-industry/gabe-newell-stuns-superyacht-enthusiasts-by-treating-crew-like-human-beings-that-is-something-weve-never-really-seen-before-in-our-industry/",
+          "tags": [
+            "游戏行业",
+            "Newell",
+            "管理"
+          ],
+          "summary": "PC游戏网报道，Valve老板Newell在自家超级游艇上将船员视作平等人，船员留任率是行业平均的六倍。文中称这在航海界极为罕见，体现其独特管理理念。",
+          "highlights": [
+            "船员待遇优越",
+            "留任率行业六倍"
+          ],
+          "readingNote": "人性化管理竟也能在超级游艇上实现，值得反思。",
+          "verifiedAt": "2026.11.17",
+          "verificationUrls": [
+            "https://www.pcgamer.com/gaming-industry/gabe-newell-stuns-superyacht-enthusiasts-by-treating-crew-like-human-beings-that-is-something-weve-never-really-seen-before-in-our-industry/"
+          ]
+        },
+        {
+          "id": "20261117-game-03",
+          "category": "game",
+          "title": "星球大战：银河竞速将在2027年加入分屏多人",
+          "originalTitle": "Star Wars: Galactic Racer is getting much-requested split-screen multiplayer and new mode in 2027",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.17",
+          "url": "https://www.eurogamer.net/star-wars-galactic-racer-split-screen-multiplayer",
+          "tags": [
+            "星球大战",
+            "竞速",
+            "多人"
+          ],
+          "summary": "Eurogamer报道，备受期待的《星球大战：银河竞速》将在2027年加入分屏多人模式和全新模式。开发商Fuse Games回应了粉丝的强烈呼声，这款赛车游戏因此备受关注。",
+          "highlights": [
+            "2027年更新",
+            "加入分屏多人"
+          ],
+          "readingNote": "粉丝请求有效，分屏模式或将延续赛车游戏社交乐趣。",
+          "verifiedAt": "2026.11.17",
+          "verificationUrls": [
+            "https://www.eurogamer.net/star-wars-galactic-racer-split-screen-multiplayer"
+          ]
+        }
+      ]
+    },
     {
       "edition": {
         "date": "2026.11.16",
