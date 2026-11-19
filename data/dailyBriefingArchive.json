@@ -1,7 +1,242 @@
 {
   "windowDays": 90,
-  "asOfDate": "2026.11.18",
+  "asOfDate": "2026.11.19",
   "issues": [
+    {
+      "edition": {
+        "date": "2026.11.18",
+        "weekday": "周三",
+        "label": "米米的AI日报",
+        "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
+      },
+      "items": [
+        {
+          "id": "20261118-ai-01",
+          "category": "ai",
+          "title": "OpenAI 发布 GPT-6.2、Astra 与 Sol",
+          "originalTitle": "GPT‑6.2 Astra and Sol",
+          "source": "openai.com",
+          "sourceOrg": "openai.com",
+          "sourceDate": "2026.11.18",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "tags": [
+            "AI",
+            "OpenAI",
+            "大模型"
+          ],
+          "summary": "OpenAI 在官方博客发布了新一代大模型 GPT-6.2，并同步介绍了多模态助手 Astra 与 Sol，展示了最新的 AI 交互能力与系统集成方案。",
+          "highlights": [
+            "新模型 GPT-6.2 发布",
+            "多模态助手 Astra 与 Sol 介绍"
+          ],
+          "readingNote": "模型编号与助手名字的组合引人遐想，实际功能仍需实测验证。",
+          "verifiedAt": "2026.11.18",
+          "verificationUrls": [
+            "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+          ]
+        },
+        {
+          "id": "20261118-ai-02",
+          "category": "ai",
+          "title": "什么是最适合每个模型的 Harness",
+          "originalTitle": "What is the best harness for each model?",
+          "source": "runta.com",
+          "sourceOrg": "runta.com",
+          "sourceDate": "2026.11.17",
+          "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+          "tags": [
+            "AI",
+            "工具",
+            "模型优化"
+          ],
+          "summary": "Runta 博客介绍了 FrontierHarness 评估工具 v1.1，旨在帮助用户根据不同 AI 模型特性选择最匹配的配置与优化方案。",
+          "highlights": [
+            "FrontierHarness 工具发布",
+            "模型配置评估指南"
+          ],
+          "readingNote": "工具的实用性取决于对模型底层特性的深入理解。",
+          "verifiedAt": "2026.11.18",
+          "verificationUrls": [
+            "https://runta.com/blog/introducing-frontierharness-eval-v1-1/"
+          ]
+        },
+        {
+          "id": "20261118-ai-03",
+          "category": "ai",
+          "title": "微软推出 MAI Code 2 与 Code 2 Flash",
+          "originalTitle": "MAI Code 2 and Code 2 Flash",
+          "source": "microsoft.ai",
+          "sourceOrg": "microsoft.ai",
+          "sourceDate": "2026.11.18",
+          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+          "tags": [
+            "AI",
+            "微软",
+            "代码生成"
+          ],
+          "summary": "微软官方发布了 MAI Code 2 和 Code 2 Flash 两款代码生成模型，旨在通过更高效的算法与更快的响应速度，提升开发者的编程辅助体验。",
+          "highlights": [
+            "两款代码模型发布",
+            "提升编程辅助效率"
+          ],
+          "readingNote": "微软在代码 AI 赛道的最新布局，关注其性能与生态整合情况。",
+          "verifiedAt": "2026.11.18",
+          "verificationUrls": [
+            "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/"
+          ]
+        },
+        {
+          "id": "20261118-hero-01",
+          "category": "hero",
+          "title": "《有毒泰坦》80年代R级超级英雄电影",
+          "originalTitle": "This '80s R-Rated Superhero Movie Is Unlike Anything Marvel Or DC Has Made",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.18",
+          "url": "https://www.slashfilm.com/2315281/the-toxic-avenger-80s-r-rated-superhero-movie-unlike-marvel-dc/",
+          "tags": [
+            "超英",
+            "80年代",
+            "R级电影"
+          ],
+          "summary": "1984年上映的低成本奇幻动作片，凭借黑色幽默和血腥暴力成为邪典经典。该片是漫威、DC之前首部R级超级英雄电影，开创了独立电影的先河。",
+          "highlights": [
+            "80年代R级超级英雄先驱",
+            "邪典经典与血腥黑色幽默"
+          ],
+          "readingNote": "这部电影证明了超级英雄题材不必拘泥于PG评级，也能凭借独特风格获得口碑。",
+          "verifiedAt": "2026.11.18",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2315281/the-toxic-avenger-80s-r-rated-superhero-movie-unlike-marvel-dc/"
+          ]
+        },
+        {
+          "id": "20261118-hero-02",
+          "category": "hero",
+          "title": "Jason Sudeikis主演犯罪惊悚片",
+          "originalTitle": "Ted Lasso Star Jason Sudeikis Starred In A Gritty Crime Thriller With Marvel Actors",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.18",
+          "url": "https://www.slashfilm.com/2308946/ted-lasso-star-jason-sudeikis-gritty-crime-thriller-marvel-actors-south-of-heaven/",
+          "tags": [
+            "美剧",
+            "犯罪惊悚",
+            "Jason Sude"
+          ],
+          "summary": "《泰德·拉索》主演苏德克丝展现戏剧范儿，参演犯罪惊悚片《南方天堂》。该片汇聚多位漫威演员，展现了苏德克丝不同于喜剧角色的硬汉一面。",
+          "highlights": [
+            "苏德克丝戏剧处女作",
+            "漫威演员联袂出演"
+          ],
+          "readingNote": "看熟悉的喜剧演员演反派或硬汉，总有新鲜感值得一试。",
+          "verifiedAt": "2026.11.18",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2308946/ted-lasso-star-jason-sudeikis-gritty-crime-thriller-marvel-actors-south-of-heaven/"
+          ]
+        },
+        {
+          "id": "20261118-hero-03",
+          "category": "hero",
+          "title": "Image Comics助力下一波改编",
+          "originalTitle": "Image Comics Is Fueling The Next Wave Of Comic Book Adaptations",
+          "source": "denofgeek.com",
+          "sourceOrg": "denofgeek.com",
+          "sourceDate": "2026.11.18",
+          "url": "https://www.denofgeek.com/tv/image-comics-criminal-next-wave-comic-book-adaptations/",
+          "tags": [
+            "改编",
+            "惊悚剧",
+            "Image Comi"
+          ],
+          "summary": "Prime Video即将推出惊悚剧《刑警》，改编自Image Comics作品。剧集阵容强大，包括查理·汉南、卢克·Evans等实力派演员领衔。",
+          "highlights": [
+            "Image Comics改编",
+            "明星阵容强大"
+          ],
+          "readingNote": "Image Comics正逐渐成为好莱坞改编的新宠，期待其带来的新意。",
+          "verifiedAt": "2026.11.18",
+          "verificationUrls": [
+            "https://www.denofgeek.com/tv/image-comics-criminal-next-wave-comic-book-adaptations/"
+          ]
+        },
+        {
+          "id": "20261118-game-01",
+          "category": "game",
+          "title": "暗潮汹涌：暗潮汹涌：暗潮汹涌：暗潮汹涌：暗潮汹涌：暗潮汹涌：暗潮汹涌：暗潮汹涌：",
+          "originalTitle": "Darktide's new Sister Novitiate class gets a holy hand grenade and a crossbow that can pin enemies to walls",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.18",
+          "url": "https://www.pcgamer.com/games/fps/darktides-new-sister-novitiate-class-gets-a-holy-hand-grenade-and-a-crossbow-that-can-pin-enemies-to-walls/",
+          "tags": [
+            "暗潮汹涌",
+            "战争之人",
+            "职业更新"
+          ],
+          "summary": "《战争之人》新增「修女初级」职业，获赐圣手手榴弹与能钉墙敌人的十字弓，玩家可体验全新火力支援与战术选择。",
+          "highlights": [
+            "圣手手榴弹加入职业技能",
+            "十字弓可将敌人钉墙定身"
+          ],
+          "readingNote": "新职业技能设计新颖，手榴弹与钉墙弓的组合或将带来全新的战术玩法体验。",
+          "verifiedAt": "2026.11.18",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/fps/darktides-new-sister-novitiate-class-gets-a-holy-hand-grenade-and-a-crossbow-that-can-pin-enemies-to-walls/"
+          ]
+        },
+        {
+          "id": "20261118-game-02",
+          "category": "game",
+          "title": "新zoo分析师预期GTA将扭转主机游戏低迷局面",
+          "originalTitle": "Newzoo analyst expects Grand Theft Auto to turn around a rough year for console gaming: 'without GTA 6 the console market would likely be down year-over-year in",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.18",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/newzoo-analyst-expects-grand-theft-auto-to-turn-around-a-rough-year-for-console-gaming-without-gta-6-the-console-market-would-likely-be-down-year-over-year-in-2026/",
+          "tags": [
+            "GTA 6",
+            "主机市场",
+            "行业分析"
+          ],
+          "summary": "资深分析师预测，GTA 6的发布将扭转主机市场近期低迷趋势，若无GTA 6，2026年主机市场或将同比下滑。",
+          "highlights": [
+            "GTA 6被视为主机市场转折点",
+            "行业前景取决于游戏发布表现"
+          ],
+          "readingNote": "分析师言重，GTA 6的商业成功对整个主机生态具有决定性影响。",
+          "verifiedAt": "2026.11.18",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/grand-theft-auto/newzoo-analyst-expects-grand-theft-auto-to-turn-around-a-rough-year-for-console-gaming-without-gta-6-the-console-market-would-likely-be-down-year-over-year-in-2026/"
+          ]
+        },
+        {
+          "id": "20261118-game-03",
+          "category": "game",
+          "title": "The Game Awards 2026 正式公布提名名单",
+          "originalTitle": "The Game Awards 2026 nominees announced, and GTA 6 leads with eight nods before it's even out",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.18",
+          "url": "https://www.eurogamer.net/game-awards-2026-nominees-full-list-gta-6",
+          "tags": [
+            "The Game A",
+            "GTA 6",
+            "提名名单"
+          ],
+          "summary": "The Game Awards 2026 nominees revealed, and Grand Theft Auto 6 leads the pack with eight nominations, two days before it even launches.",
+          "highlights": [
+            "GTA 6获八项提名领跑",
+            "提名在发布前两天公布"
+          ],
+          "readingNote": "GTA 6在发布前即获殊荣，其影响力与市场期待度可见一斑。",
+          "verifiedAt": "2026.11.18",
+          "verificationUrls": [
+            "https://www.eurogamer.net/game-awards-2026-nominees-full-list-gta-6"
+          ]
+        }
+      ]
+    },
     {
       "edition": {
         "date": "2026.11.17",
