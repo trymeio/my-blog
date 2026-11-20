@@ -1,7 +1,242 @@
 {
   "windowDays": 90,
-  "asOfDate": "2026.11.19",
+  "asOfDate": "2026.11.20",
   "issues": [
+    {
+      "edition": {
+        "date": "2026.11.19",
+        "weekday": "周四",
+        "label": "米米的AI日报",
+        "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
+      },
+      "items": [
+        {
+          "id": "20261119-ai-01",
+          "category": "ai",
+          "title": "谷歌发布 Gemini 4 Neon 模型",
+          "originalTitle": "Gemini 4 Neon",
+          "source": "blog.google",
+          "sourceOrg": "blog.google",
+          "sourceDate": "2026.11.19",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "tags": [
+            "AI模型",
+            "谷歌",
+            "技术发布"
+          ],
+          "summary": "谷歌官方博客介绍了名为 Gemini 4 Neon 的新一代 AI 模型，旨在提供高效的性能与成本平衡，展示了公司在模型研发上的最新进展。",
+          "highlights": [
+            "Neon 模型强调性价比",
+            "展示谷歌最新 AI 研发方向"
+          ],
+          "readingNote": "Neon 的出现说明竞争日益激烈，性能与价格的平衡将是未来关键。",
+          "verifiedAt": "2026.11.19",
+          "verificationUrls": [
+            "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+          ]
+        },
+        {
+          "id": "20261119-ai-02",
+          "category": "ai",
+          "title": "微软发布七款新模型提升性能",
+          "originalTitle": "Seven new models at scalable price-performance",
+          "source": "microsoft.ai",
+          "sourceOrg": "microsoft.ai",
+          "sourceDate": "2026.11.19",
+          "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+          "tags": [
+            "微软",
+            "AI模型",
+            "性能发布"
+          ],
+          "summary": "微软在 Ignite 2026 大会上发布了七款新的 AI 模型，重点在于提供更具性价比的性能表现，旨在帮助企业以更低成本获得更强大的 AI 能力。",
+          "highlights": [
+            "发布七款新模型",
+            "聚焦性价比性能"
+          ],
+          "readingNote": "微软试图通过降低门槛来扩大企业级 AI 的应用范围。",
+          "verifiedAt": "2026.11.19",
+          "verificationUrls": [
+            "https://microsoft.ai/news/microsoft-ignite-2026/"
+          ]
+        },
+        {
+          "id": "20261119-ai-03",
+          "category": "ai",
+          "title": "AI 代理在审计中问问题胜过 KPMG 会计师",
+          "originalTitle": "AI agents ask better questions than KPMG accountants in audit trial",
+          "source": "europeanbusinessmagazine.com",
+          "sourceOrg": "europeanbusinessmagazine.com",
+          "sourceDate": "2026.11.18",
+          "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+          "tags": [
+            "AI代理",
+            "审计",
+            "KPMG"
+          ],
+          "summary": "一项审计试验显示，AI 代理生成的问题质量优于 KPMG 的人类会计师，这表明 AI 在专业审计环境中辅助或替代某些人类任务的潜力。",
+          "highlights": [
+            "AI 代理问问题质量高",
+            "超越 KPMG 会计师"
+          ],
+          "readingNote": "这引发了关于 AI 在专业服务中角色定位的深思。",
+          "verifiedAt": "2026.11.19",
+          "verificationUrls": [
+            "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/"
+          ]
+        },
+        {
+          "id": "20261119-hero-01",
+          "category": "hero",
+          "title": "新海报揭晓复仇者联盟：末日 关键角色及雷神奥丁力",
+          "originalTitle": "New Avengers: Doomsday Posters Reveal Key Characters and Tease Thor’s Odinforce",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.19",
+          "url": "https://www.ign.com/articles/new-avengers-doomsday-posters-reveal-key-characters-and-tease-thors-odinforce",
+          "tags": [
+            "漫威",
+            "电影",
+            "海报"
+          ],
+          "summary": "Marvel发布《复仇者联盟：末日》新海报，展示主要角色并暗示雷神将获得大幅增强的奥丁力能力。",
+          "highlights": [
+            "新海报群星闪耀",
+            "雷神或获奥丁力升级"
+          ],
+          "readingNote": "海报设计精良，粉丝期待雷神新力量的发挥。",
+          "verifiedAt": "2026.11.19",
+          "verificationUrls": [
+            "https://www.ign.com/articles/new-avengers-doomsday-posters-reveal-key-characters-and-tease-thors-odinforce"
+          ]
+        },
+        {
+          "id": "20261119-hero-02",
+          "category": "hero",
+          "title": "小罗伯特·唐尼揭秘《复仇者联盟：末日》幕后",
+          "originalTitle": "Robert Downey Jr. Teases Avengers: Doomsday With New Behind the Scenes Footage",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.19",
+          "url": "https://www.ign.com/articles/robert-downey-jr-teases-avengers-doomsday-with-new-behind-the-scenes-footage",
+          "tags": [
+            "漫威",
+            "演员",
+            "幕后"
+          ],
+          "summary": "饰演博士多克的小罗伯特·唐尼分享新片段，讨论角色诠释并展示制作过程幕后画面。",
+          "highlights": [
+            "释放新幕后片段",
+            "谈博士多克一角"
+          ],
+          "readingNote": "唐尼的转型备受关注，角色细节值得期待。",
+          "verifiedAt": "2026.11.19",
+          "verificationUrls": [
+            "https://www.ign.com/articles/robert-downey-jr-teases-avengers-doomsday-with-new-behind-the-scenes-footage"
+          ]
+        },
+        {
+          "id": "20261119-hero-03",
+          "category": "hero",
+          "title": "凯文·费吉解释康王朝被砍博士多克剧情",
+          "originalTitle": "Avengers: The Kang Dynasty's Scrapped Doctor Doom Twist Explained By Marvel's Kevin Feige",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.19",
+          "url": "https://www.slashfilm.com/2320312/avengers-the-kang-dynasty-doctor-doom-twist-marvel-kevin-feige/",
+          "tags": [
+            "漫威",
+            "制作",
+            "内幕"
+          ],
+          "summary": "据费吉透露，博士多克原本是《复仇者联盟：康王朝》的一部分，后被重新定义为《末日》的独立项目。",
+          "highlights": [
+            "原定康王朝角色",
+            "转变为末日剧情"
+          ],
+          "readingNote": "剧情转折显示角色命运的灵活性。",
+          "verifiedAt": "2026.11.19",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2320312/avengers-the-kang-dynasty-doctor-doom-twist-marvel-kevin-feige/"
+          ]
+        },
+        {
+          "id": "20261119-game-01",
+          "category": "game",
+          "title": "沃尔顿·戈金斯不确定《Fallout》第四季是否拍摄",
+          "originalTitle": "Not even Walton Goggins knows if Fallout will have a Season 4: 'if we get the opportunity to come back for season four, that would continue to honor how sacred ",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.19",
+          "url": "https://www.pcgamer.com/movies-tv/not-even-walton-goggins-knows-if-fallout-will-have-a-season-4-if-we-get-the-opportunity-to-come-back-for-season-four-that-would-continue-to-honor-how-sacred-this-is-to-people/",
+          "tags": [
+            "美剧",
+            "改编",
+            "幕后"
+          ],
+          "summary": "pcgamer.com 报道，该剧主演沃尔顿·戈金斯坦言，第四季的制作取决于是否有机会回归，他表示若能回归将继续尊崇该剧对观众的神圣意义。",
+          "highlights": [
+            "主演自曝第四季命运未卜",
+            "强调若续订将尊重观众情感"
+          ],
+          "readingNote": "改编剧集的续订往往悬而未决，演员的不确定性也反映了制作方对原著的尊重与谨慎。",
+          "verifiedAt": "2026.11.19",
+          "verificationUrls": [
+            "https://www.pcgamer.com/movies-tv/not-even-walton-goggins-knows-if-fallout-will-have-a-season-4-if-we-get-the-opportunity-to-come-back-for-season-four-that-would-continue-to-honor-how-sacred-this-is-to-people/"
+          ]
+        },
+        {
+          "id": "20261119-game-02",
+          "category": "game",
+          "title": "《战争之人40000》新战役画面展示自定义与舰队机制",
+          "originalTitle": "Over an hour of new Total War: Warhammer 40,000 campaign footage shows gear customization, fleet mechanics, and emphasizes space marines are not always trusted ",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.19",
+          "url": "https://www.pcgamer.com/games/strategy/over-an-hour-of-new-total-war-warhammer-40-000-campaign-footage-shows-gear-customization-fleet-mechanics-and-emphasizes-space-marines-are-not-always-trusted-and-hard-to-replace/",
+          "tags": [
+            "策略游戏",
+            "战争",
+            "4K 画面"
+          ],
+          "summary": "pcgamer.com 发布近一小时战役实录，展示了装备自定义与舰队玩法，并强调太空 marines 难以被信任且难以替代，强化了阵营的独特性。",
+          "highlights": [
+            "实录时长超一小时",
+            "突出 marines 难以替代感"
+          ],
+          "readingNote": "细节丰富的实录展示了游戏系统的深度，太空 marines 的设定也让人对阵营归属产生新思考。",
+          "verifiedAt": "2026.11.19",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/strategy/over-an-hour-of-new-total-war-warhammer-40-000-campaign-footage-shows-gear-customization-fleet-mechanics-and-emphasizes-space-marines-are-not-always-trusted-and-hard-to-replace/"
+          ]
+        },
+        {
+          "id": "20261119-game-03",
+          "category": "game",
+          "title": "《GTA 6》日版男性裸露部分露阴部穿丁字裤",
+          "originalTitle": "GTA 6's Japanese version only partially obscures male nudity by putting Jason in a thong, seemingly due to regional censorship",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.19",
+          "url": "https://www.eurogamer.net/gta-6-japanese-jason-thong-regional-censorship",
+          "tags": [
+            "游戏",
+            "审查",
+            "区域差异"
+          ],
+          "summary": "eurogamer.net 报道，日本地区因审查制度，GTA 6 日版仅部分遮盖男主角裸露部位，由丁字裤代替，显现出区域性审查的影响。",
+          "highlights": [
+            "日版因审查修改了男性裸露",
+            "使用丁字裤进行部分遮挡"
+          ],
+          "readingNote": "区域性审查对游戏内容的影响再次显现，折射出不同地区对审美与规范的分歧。",
+          "verifiedAt": "2026.11.19",
+          "verificationUrls": [
+            "https://www.eurogamer.net/gta-6-japanese-jason-thong-regional-censorship"
+          ]
+        }
+      ]
+    },
     {
       "edition": {
         "date": "2026.11.18",

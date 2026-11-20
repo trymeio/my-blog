@@ -1,234 +1,237 @@
 {
   "edition": {
-    "date": "2026.11.19",
-    "weekday": "周四",
+    "date": "2026.11.20",
+    "weekday": "周五",
     "label": "米米的AI日报",
     "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
   },
   "items": [
     {
-      "id": "20261119-ai-01",
+      "id": "20261120-ai-01",
       "category": "ai",
-      "title": "谷歌发布 Gemini 4 Neon 模型",
-      "originalTitle": "Gemini 4 Neon",
-      "source": "blog.google",
-      "sourceOrg": "blog.google",
-      "sourceDate": "2026.11.19",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "title": "Anthropic公司在纳斯达克首次公开募股",
+      "originalTitle": "Anthropic’s Nasdaq debut",
+      "source": "reuters.com",
+      "sourceOrg": "reuters.com",
+      "sourceDate": "2026.11.20",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
       "tags": [
-        "AI模型",
-        "谷歌",
-        "技术发布"
+        "AI",
+        "金融",
+        "科技上市"
       ],
-      "summary": "谷歌官方博客介绍了名为 Gemini 4 Neon 的新一代 AI 模型，旨在提供高效的性能与成本平衡，展示了公司在模型研发上的最新进展。",
+      "summary": "Anthropic公司正式在纳斯达克交易所上市，市场见证了这家AI初创公司的历史时刻，投资者对其AI技术前景与风险进行了首日交易检验。",
       "highlights": [
-        "Neon 模型强调性价比",
-        "展示谷歌最新 AI 研发方向"
+        "AI公司纳斯达克首日交易",
+        "市场检验AI技术前景与风险"
       ],
-      "readingNote": "Neon 的出现说明竞争日益激烈，性能与价格的平衡将是未来关键。",
-      "verifiedAt": "2026.11.19",
+      "readingNote": "AI公司上市标志着产业进入资本市场新阶段，值得关注其后续表现。",
+      "verifiedAt": "2026.11.20",
       "verificationUrls": [
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+        "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
       ]
     },
     {
-      "id": "20261119-ai-02",
+      "id": "20261120-ai-02",
       "category": "ai",
-      "title": "微软发布七款新模型提升性能",
-      "originalTitle": "Seven new models at scalable price-performance",
-      "source": "microsoft.ai",
-      "sourceOrg": "microsoft.ai",
-      "sourceDate": "2026.11.19",
-      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "title": "Claude解决两个黑洞物理难题",
+      "originalTitle": "Claude solves two open problems in the physics of black holes",
+      "source": "anthropic.com",
+      "sourceOrg": "anthropic.com",
+      "sourceDate": "2026.11.20",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
       "tags": [
-        "微软",
-        "AI模型",
-        "性能发布"
+        "AI",
+        "物理研究",
+        "科学突破"
       ],
-      "summary": "微软在 Ignite 2026 大会上发布了七款新的 AI 模型，重点在于提供更具性价比的性能表现，旨在帮助企业以更低成本获得更强大的 AI 能力。",
+      "summary": "Anthropic的AI模型Claude在研究中成功解决了两个长期悬而未决的黑洞物理问题，展现了AI在基础科学研究中的潜力与创新能力。",
       "highlights": [
-        "发布七款新模型",
-        "聚焦性价比性能"
+        "AI解决黑洞物理难题",
+        "突破两个开放性问题"
       ],
-      "readingNote": "微软试图通过降低门槛来扩大企业级 AI 的应用范围。",
-      "verifiedAt": "2026.11.19",
+      "readingNote": "AI在基础科学领域的突破令人期待，或将开启新的研究范式。",
+      "verifiedAt": "2026.11.20",
       "verificationUrls": [
-        "https://microsoft.ai/news/microsoft-ignite-2026/"
+        "https://www.anthropic.com/research/claude-black-hole-physics"
       ]
     },
     {
-      "id": "20261119-ai-03",
+      "id": "20261120-ai-03",
       "category": "ai",
-      "title": "AI 代理在审计中问问题胜过 KPMG 会计师",
-      "originalTitle": "AI agents ask better questions than KPMG accountants in audit trial",
-      "source": "europeanbusinessmagazine.com",
-      "sourceOrg": "europeanbusinessmagazine.com",
-      "sourceDate": "2026.11.18",
-      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "title": "Jacob Coxon与Robin Hanson关于前沿AI的辩论",
+      "originalTitle": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "source": "youtube.com",
+      "sourceOrg": "youtube.com",
+      "sourceDate": "2026.11.20",
+      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
       "tags": [
-        "AI代理",
-        "审计",
-        "KPMG"
+        "AI",
+        "政策辩论",
+        "科技治理"
       ],
-      "summary": "一项审计试验显示，AI 代理生成的问题质量优于 KPMG 的人类会计师，这表明 AI 在专业审计环境中辅助或替代某些人类任务的潜力。",
+      "summary": "该视频邀请Jacob Coxon和Robin Hanson就‘政府是否应放缓前沿AI发展’这一议题进行深入辩论，探讨AI发展的监管与速度问题。",
       "highlights": [
-        "AI 代理问问题质量高",
-        "超越 KPMG 会计师"
+        "前沿AI发展辩论",
+        "监管与速度的平衡"
       ],
-      "readingNote": "这引发了关于 AI 在专业服务中角色定位的深思。",
-      "verifiedAt": "2026.11.19",
+      "readingNote": "AI发展速度与监管的平衡是当前重要议题，值得持续关注。",
+      "verifiedAt": "2026.11.20",
       "verificationUrls": [
-        "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/"
+        "https://www.youtube.com/watch?v=lwfewYL7X0o"
       ]
     },
     {
-      "id": "20261119-hero-01",
+      "id": "20261120-hero-01",
       "category": "hero",
-      "title": "新海报揭晓复仇者联盟：末日 关键角色及雷神奥丁力",
-      "originalTitle": "New Avengers: Doomsday Posters Reveal Key Characters and Tease Thor’s Odinforce",
-      "source": "ign.com",
-      "sourceOrg": "ign.com",
-      "sourceDate": "2026.11.19",
-      "url": "https://www.ign.com/articles/new-avengers-doomsday-posters-reveal-key-characters-and-tease-thors-odinforce",
+      "title": "《蜘蛛侠：全新日》删掉的 Daredevil 客串照曝光",
+      "originalTitle": "Spider-Man: Brand New Day's Cut Daredevil Crossover Revealed In Official Photo Ahead Of Re-Release",
+      "source": "slashfilm.com",
+      "sourceOrg": "slashfilm.com",
+      "sourceDate": "2026.11.20",
+      "url": "https://www.slashfilm.com/2322359/spider-man-brand-new-day-daredevil-crossover-claire-temple-photo/",
       "tags": [
-        "漫威",
-        "电影",
-        "海报"
+        "漫改",
+        "蜘蛛侠",
+        "Daredevil"
       ],
-      "summary": "Marvel发布《复仇者联盟：末日》新海报，展示主要角色并暗示雷神将获得大幅增强的奥丁力能力。",
+      "summary": "罗莎里奥· Dawson 删减的 Claire Temple 客串将在《蜘蛛侠：全新日》重新上映时恢复。官方首张彩蛋图已公开，引发粉丝热议。",
       "highlights": [
-        "新海报群星闪耀",
-        "雷神或获奥丁力升级"
+        "删减客串恢复",
+        "官方首图公开",
+        "跨界彩蛋引发期待"
       ],
-      "readingNote": "海报设计精良，粉丝期待雷神新力量的发挥。",
-      "verifiedAt": "2026.11.19",
+      "readingNote": "这段被删的彩蛋让粉丝看到了早期漫威电影宇宙的连接感。",
+      "verifiedAt": "2026.11.20",
       "verificationUrls": [
-        "https://www.ign.com/articles/new-avengers-doomsday-posters-reveal-key-characters-and-tease-thors-odinforce"
+        "https://www.slashfilm.com/2322359/spider-man-brand-new-day-daredevil-crossover-claire-temple-photo/"
       ]
     },
     {
-      "id": "20261119-hero-02",
+      "id": "20261120-hero-02",
       "category": "hero",
-      "title": "小罗伯特·唐尼揭秘《复仇者联盟：末日》幕后",
-      "originalTitle": "Robert Downey Jr. Teases Avengers: Doomsday With New Behind the Scenes Footage",
-      "source": "ign.com",
-      "sourceOrg": "ign.com",
-      "sourceDate": "2026.11.19",
-      "url": "https://www.ign.com/articles/robert-downey-jr-teases-avengers-doomsday-with-new-behind-the-scenes-footage",
-      "tags": [
-        "漫威",
-        "演员",
-        "幕后"
-      ],
-      "summary": "饰演博士多克的小罗伯特·唐尼分享新片段，讨论角色诠释并展示制作过程幕后画面。",
-      "highlights": [
-        "释放新幕后片段",
-        "谈博士多克一角"
-      ],
-      "readingNote": "唐尼的转型备受关注，角色细节值得期待。",
-      "verifiedAt": "2026.11.19",
-      "verificationUrls": [
-        "https://www.ign.com/articles/robert-downey-jr-teases-avengers-doomsday-with-new-behind-the-scenes-footage"
-      ]
-    },
-    {
-      "id": "20261119-hero-03",
-      "category": "hero",
-      "title": "凯文·费吉解释康王朝被砍博士多克剧情",
+      "title": "Kevin Feige 确认 Doom 曾出现在《康 dynasty》",
       "originalTitle": "Avengers: The Kang Dynasty's Scrapped Doctor Doom Twist Explained By Marvel's Kevin Feige",
       "source": "slashfilm.com",
       "sourceOrg": "slashfilm.com",
       "sourceDate": "2026.11.19",
       "url": "https://www.slashfilm.com/2320312/avengers-the-kang-dynasty-doctor-doom-twist-marvel-kevin-feige/",
       "tags": [
-        "漫威",
-        "制作",
-        "内幕"
+        "漫改",
+        "复仇者",
+        "Kevin Feig"
       ],
-      "summary": "据费吉透露，博士多克原本是《复仇者联盟：康王朝》的一部分，后被重新定义为《末日》的独立项目。",
+      "summary": "据称 Doctor Doom 原本是《复仇者联盟：康王朝》的一部分，但在最终定案为《复仇者联盟：末日》前已被移除。Feige 的说法引发了剧情变动的猜测。",
       "highlights": [
-        "原定康王朝角色",
-        "转变为末日剧情"
+        "Feige 确认有过",
+        "剧本曾有 Doom",
+        "最终改为末日"
       ],
-      "readingNote": "剧情转折显示角色命运的灵活性。",
-      "verifiedAt": "2026.11.19",
+      "readingNote": "Marvel 的计划变动总是让人唏嘘，原本的设想与最终结果有着巨大差异。",
+      "verifiedAt": "2026.11.20",
       "verificationUrls": [
         "https://www.slashfilm.com/2320312/avengers-the-kang-dynasty-doctor-doom-twist-marvel-kevin-feige/"
       ]
     },
     {
-      "id": "20261119-game-01",
-      "category": "game",
-      "title": "沃尔顿·戈金斯不确定《Fallout》第四季是否拍摄",
-      "originalTitle": "Not even Walton Goggins knows if Fallout will have a Season 4: 'if we get the opportunity to come back for season four, that would continue to honor how sacred ",
-      "source": "pcgamer.com",
-      "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.19",
-      "url": "https://www.pcgamer.com/movies-tv/not-even-walton-goggins-knows-if-fallout-will-have-a-season-4-if-we-get-the-opportunity-to-come-back-for-season-four-that-would-continue-to-honor-how-sacred-this-is-to-people/",
+      "id": "20261120-hero-03",
+      "category": "hero",
+      "title": "《末日》海报暗示最差浪漫CP",
+      "originalTitle": "Avengers: Doomsday Posters Are Hinting at Marvel’s Worst Romantic Pairing",
+      "source": "denofgeek.com",
+      "sourceOrg": "denofgeek.com",
+      "sourceDate": "2026.11.20",
+      "url": "https://www.denofgeek.com/movies/avengers-doomsday-posters-marvel-worst-romantic-pairing/",
       "tags": [
-        "美剧",
-        "改编",
-        "幕后"
+        "漫改",
+        "复仇者",
+        "海报"
       ],
-      "summary": "pcgamer.com 报道，该剧主演沃尔顿·戈金斯坦言，第四季的制作取决于是否有机会回归，他表示若能回归将继续尊崇该剧对观众的神圣意义。",
+      "summary": "《复仇者联盟：末日》首组角色海报发布，其中 Steve Rogers 拿着 Mjölnir 的组合引发吐槽，被指是 Marvel 最尴尬的浪漫暗示。",
       "highlights": [
-        "主演自曝第四季命运未卜",
-        "强调若续订将尊重观众情感"
+        "海报发布",
+        "Steve Rogers 拿锤",
+        "浪漫CP被吐槽"
       ],
-      "readingNote": "改编剧集的续订往往悬而未决，演员的不确定性也反映了制作方对原著的尊重与谨慎。",
-      "verifiedAt": "2026.11.19",
+      "readingNote": "画风与以往不同，这种严肃的组合反而成了网友调侃的焦点。",
+      "verifiedAt": "2026.11.20",
       "verificationUrls": [
-        "https://www.pcgamer.com/movies-tv/not-even-walton-goggins-knows-if-fallout-will-have-a-season-4-if-we-get-the-opportunity-to-come-back-for-season-four-that-would-continue-to-honor-how-sacred-this-is-to-people/"
+        "https://www.denofgeek.com/movies/avengers-doomsday-posters-marvel-worst-romantic-pairing/"
       ]
     },
     {
-      "id": "20261119-game-02",
+      "id": "20261120-game-01",
       "category": "game",
-      "title": "《战争之人40000》新战役画面展示自定义与舰队机制",
-      "originalTitle": "Over an hour of new Total War: Warhammer 40,000 campaign footage shows gear customization, fleet mechanics, and emphasizes space marines are not always trusted ",
+      "title": "GTA 6单人模式订阅费如同订阅制马甲",
+      "originalTitle": "GTA+ for GTA 6 singleplayer is like subscription-based horse armor",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.19",
-      "url": "https://www.pcgamer.com/games/strategy/over-an-hour-of-new-total-war-warhammer-40-000-campaign-footage-shows-gear-customization-fleet-mechanics-and-emphasizes-space-marines-are-not-always-trusted-and-hard-to-replace/",
+      "sourceDate": "2026.11.20",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-for-gta-6-singleplayer-is-like-subscription-based-horse-armor/",
       "tags": [
-        "策略游戏",
-        "战争",
-        "4K 画面"
+        "GTA",
+        "订阅制",
+        "单人模式"
       ],
-      "summary": "pcgamer.com 发布近一小时战役实录，展示了装备自定义与舰队玩法，并强调太空 marines 难以被信任且难以替代，强化了阵营的独特性。",
+      "summary": "外媒探讨GTA+服务，询问玩家是否愿意每月7.99美元购买单车和折扣，引发关于订阅模式的讨论。",
       "highlights": [
-        "实录时长超一小时",
-        "突出 marines 难以替代感"
+        "月费7.99美元获单车与折扣",
+        "玩家质疑订阅价值"
       ],
-      "readingNote": "细节丰富的实录展示了游戏系统的深度，太空 marines 的设定也让人对阵营归属产生新思考。",
-      "verifiedAt": "2026.11.19",
+      "readingNote": "订阅制内容需权衡性价比，玩家慎重选择。",
+      "verifiedAt": "2026.11.20",
       "verificationUrls": [
-        "https://www.pcgamer.com/games/strategy/over-an-hour-of-new-total-war-warhammer-40-000-campaign-footage-shows-gear-customization-fleet-mechanics-and-emphasizes-space-marines-are-not-always-trusted-and-hard-to-replace/"
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-for-gta-6-singleplayer-is-like-subscription-based-horse-armor/"
       ]
     },
     {
-      "id": "20261119-game-03",
+      "id": "20261120-game-02",
       "category": "game",
-      "title": "《GTA 6》日版男性裸露部分露阴部穿丁字裤",
-      "originalTitle": "GTA 6's Japanese version only partially obscures male nudity by putting Jason in a thong, seemingly due to regional censorship",
+      "title": "GTA 6可玩第一人称模式激活方法",
+      "originalTitle": "GTA 6 is playable in first-person, here's how to activate it",
+      "source": "pcgamer.com",
+      "sourceOrg": "pcgamer.com",
+      "sourceDate": "2026.11.20",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-playable-in-first-person-heres-how-to-activate-it/",
+      "tags": [
+        "GTA 6",
+        "第一人称",
+        "视角设置"
+      ],
+      "summary": "PC游戏确认GTA 6将提供第一人称视角，玩家需通过设置菜单开启，车辆仪表盘设计与此相关。",
+      "highlights": [
+        "首发支持第一人称",
+        "通过设置菜单激活"
+      ],
+      "readingNote": "第一人称视角提升沉浸感，设置简单易上手。",
+      "verifiedAt": "2026.11.20",
+      "verificationUrls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-playable-in-first-person-heres-how-to-activate-it/"
+      ]
+    },
+    {
+      "id": "20261120-game-03",
+      "category": "game",
+      "title": "育碧合并创意工作室 Jade项目仍在开发",
+      "originalTitle": "Ubisoft says Assassin's Creed Jade is still alive as it merges two of its Creative Houses",
       "source": "eurogamer.net",
       "sourceOrg": "eurogamer.net",
-      "sourceDate": "2026.11.19",
-      "url": "https://www.eurogamer.net/gta-6-japanese-jason-thong-regional-censorship",
+      "sourceDate": "2026.11.20",
+      "url": "https://www.eurogamer.net/ubisoft-assassins-creed-jade-still-in-development-creative-houses-merge",
       "tags": [
-        "游戏",
-        "审查",
-        "区域差异"
+        "育碧",
+        "刺客信条",
+        "手游开发"
       ],
-      "summary": "eurogamer.net 报道，日本地区因审查制度，GTA 6 日版仅部分遮盖男主角裸露部位，由丁字裤代替，显现出区域性审查的影响。",
+      "summary": "育碧确认《刺客信条: jade》手游仍在开发中，但开发重心转向主机和PC平台，Creative Houses将合并运营。",
       "highlights": [
-        "日版因审查修改了男性裸露",
-        "使用丁字裤进行部分遮挡"
+        "手游仍在开发",
+        "重心转向主机PC"
       ],
-      "readingNote": "区域性审查对游戏内容的影响再次显现，折射出不同地区对审美与规范的分歧。",
-      "verifiedAt": "2026.11.19",
+      "readingNote": "平台转型可能影响手游更新节奏，关注后续消息。",
+      "verifiedAt": "2026.11.20",
       "verificationUrls": [
-        "https://www.eurogamer.net/gta-6-japanese-jason-thong-regional-censorship"
+        "https://www.eurogamer.net/ubisoft-assassins-creed-jade-still-in-development-creative-houses-merge"
       ]
     }
   ]
