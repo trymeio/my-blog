@@ -1,7 +1,245 @@
 {
   "windowDays": 90,
-  "asOfDate": "2026.11.20",
+  "asOfDate": "2026.11.21",
   "issues": [
+    {
+      "edition": {
+        "date": "2026.11.20",
+        "weekday": "周五",
+        "label": "米米的AI日报",
+        "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
+      },
+      "items": [
+        {
+          "id": "20261120-ai-01",
+          "category": "ai",
+          "title": "Anthropic公司在纳斯达克首次公开募股",
+          "originalTitle": "Anthropic’s Nasdaq debut",
+          "source": "reuters.com",
+          "sourceOrg": "reuters.com",
+          "sourceDate": "2026.11.20",
+          "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+          "tags": [
+            "AI",
+            "金融",
+            "科技上市"
+          ],
+          "summary": "Anthropic公司正式在纳斯达克交易所上市，市场见证了这家AI初创公司的历史时刻，投资者对其AI技术前景与风险进行了首日交易检验。",
+          "highlights": [
+            "AI公司纳斯达克首日交易",
+            "市场检验AI技术前景与风险"
+          ],
+          "readingNote": "AI公司上市标志着产业进入资本市场新阶段，值得关注其后续表现。",
+          "verifiedAt": "2026.11.20",
+          "verificationUrls": [
+            "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
+          ]
+        },
+        {
+          "id": "20261120-ai-02",
+          "category": "ai",
+          "title": "Claude解决两个黑洞物理难题",
+          "originalTitle": "Claude solves two open problems in the physics of black holes",
+          "source": "anthropic.com",
+          "sourceOrg": "anthropic.com",
+          "sourceDate": "2026.11.20",
+          "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+          "tags": [
+            "AI",
+            "物理研究",
+            "科学突破"
+          ],
+          "summary": "Anthropic的AI模型Claude在研究中成功解决了两个长期悬而未决的黑洞物理问题，展现了AI在基础科学研究中的潜力与创新能力。",
+          "highlights": [
+            "AI解决黑洞物理难题",
+            "突破两个开放性问题"
+          ],
+          "readingNote": "AI在基础科学领域的突破令人期待，或将开启新的研究范式。",
+          "verifiedAt": "2026.11.20",
+          "verificationUrls": [
+            "https://www.anthropic.com/research/claude-black-hole-physics"
+          ]
+        },
+        {
+          "id": "20261120-ai-03",
+          "category": "ai",
+          "title": "Jacob Coxon与Robin Hanson关于前沿AI的辩论",
+          "originalTitle": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+          "source": "youtube.com",
+          "sourceOrg": "youtube.com",
+          "sourceDate": "2026.11.20",
+          "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+          "tags": [
+            "AI",
+            "政策辩论",
+            "科技治理"
+          ],
+          "summary": "该视频邀请Jacob Coxon和Robin Hanson就‘政府是否应放缓前沿AI发展’这一议题进行深入辩论，探讨AI发展的监管与速度问题。",
+          "highlights": [
+            "前沿AI发展辩论",
+            "监管与速度的平衡"
+          ],
+          "readingNote": "AI发展速度与监管的平衡是当前重要议题，值得持续关注。",
+          "verifiedAt": "2026.11.20",
+          "verificationUrls": [
+            "https://www.youtube.com/watch?v=lwfewYL7X0o"
+          ]
+        },
+        {
+          "id": "20261120-hero-01",
+          "category": "hero",
+          "title": "《蜘蛛侠：全新日》删掉的 Daredevil 客串照曝光",
+          "originalTitle": "Spider-Man: Brand New Day's Cut Daredevil Crossover Revealed In Official Photo Ahead Of Re-Release",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.20",
+          "url": "https://www.slashfilm.com/2322359/spider-man-brand-new-day-daredevil-crossover-claire-temple-photo/",
+          "tags": [
+            "漫改",
+            "蜘蛛侠",
+            "Daredevil"
+          ],
+          "summary": "罗莎里奥· Dawson 删减的 Claire Temple 客串将在《蜘蛛侠：全新日》重新上映时恢复。官方首张彩蛋图已公开，引发粉丝热议。",
+          "highlights": [
+            "删减客串恢复",
+            "官方首图公开",
+            "跨界彩蛋引发期待"
+          ],
+          "readingNote": "这段被删的彩蛋让粉丝看到了早期漫威电影宇宙的连接感。",
+          "verifiedAt": "2026.11.20",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2322359/spider-man-brand-new-day-daredevil-crossover-claire-temple-photo/"
+          ]
+        },
+        {
+          "id": "20261120-hero-02",
+          "category": "hero",
+          "title": "Kevin Feige 确认 Doom 曾出现在《康 dynasty》",
+          "originalTitle": "Avengers: The Kang Dynasty's Scrapped Doctor Doom Twist Explained By Marvel's Kevin Feige",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.19",
+          "url": "https://www.slashfilm.com/2320312/avengers-the-kang-dynasty-doctor-doom-twist-marvel-kevin-feige/",
+          "tags": [
+            "漫改",
+            "复仇者",
+            "Kevin Feig"
+          ],
+          "summary": "据称 Doctor Doom 原本是《复仇者联盟：康王朝》的一部分，但在最终定案为《复仇者联盟：末日》前已被移除。Feige 的说法引发了剧情变动的猜测。",
+          "highlights": [
+            "Feige 确认有过",
+            "剧本曾有 Doom",
+            "最终改为末日"
+          ],
+          "readingNote": "Marvel 的计划变动总是让人唏嘘，原本的设想与最终结果有着巨大差异。",
+          "verifiedAt": "2026.11.20",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2320312/avengers-the-kang-dynasty-doctor-doom-twist-marvel-kevin-feige/"
+          ]
+        },
+        {
+          "id": "20261120-hero-03",
+          "category": "hero",
+          "title": "《末日》海报暗示最差浪漫CP",
+          "originalTitle": "Avengers: Doomsday Posters Are Hinting at Marvel’s Worst Romantic Pairing",
+          "source": "denofgeek.com",
+          "sourceOrg": "denofgeek.com",
+          "sourceDate": "2026.11.20",
+          "url": "https://www.denofgeek.com/movies/avengers-doomsday-posters-marvel-worst-romantic-pairing/",
+          "tags": [
+            "漫改",
+            "复仇者",
+            "海报"
+          ],
+          "summary": "《复仇者联盟：末日》首组角色海报发布，其中 Steve Rogers 拿着 Mjölnir 的组合引发吐槽，被指是 Marvel 最尴尬的浪漫暗示。",
+          "highlights": [
+            "海报发布",
+            "Steve Rogers 拿锤",
+            "浪漫CP被吐槽"
+          ],
+          "readingNote": "画风与以往不同，这种严肃的组合反而成了网友调侃的焦点。",
+          "verifiedAt": "2026.11.20",
+          "verificationUrls": [
+            "https://www.denofgeek.com/movies/avengers-doomsday-posters-marvel-worst-romantic-pairing/"
+          ]
+        },
+        {
+          "id": "20261120-game-01",
+          "category": "game",
+          "title": "GTA 6单人模式订阅费如同订阅制马甲",
+          "originalTitle": "GTA+ for GTA 6 singleplayer is like subscription-based horse armor",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.20",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-for-gta-6-singleplayer-is-like-subscription-based-horse-armor/",
+          "tags": [
+            "GTA",
+            "订阅制",
+            "单人模式"
+          ],
+          "summary": "外媒探讨GTA+服务，询问玩家是否愿意每月7.99美元购买单车和折扣，引发关于订阅模式的讨论。",
+          "highlights": [
+            "月费7.99美元获单车与折扣",
+            "玩家质疑订阅价值"
+          ],
+          "readingNote": "订阅制内容需权衡性价比，玩家慎重选择。",
+          "verifiedAt": "2026.11.20",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-for-gta-6-singleplayer-is-like-subscription-based-horse-armor/"
+          ]
+        },
+        {
+          "id": "20261120-game-02",
+          "category": "game",
+          "title": "GTA 6可玩第一人称模式激活方法",
+          "originalTitle": "GTA 6 is playable in first-person, here's how to activate it",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.20",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-playable-in-first-person-heres-how-to-activate-it/",
+          "tags": [
+            "GTA 6",
+            "第一人称",
+            "视角设置"
+          ],
+          "summary": "PC游戏确认GTA 6将提供第一人称视角，玩家需通过设置菜单开启，车辆仪表盘设计与此相关。",
+          "highlights": [
+            "首发支持第一人称",
+            "通过设置菜单激活"
+          ],
+          "readingNote": "第一人称视角提升沉浸感，设置简单易上手。",
+          "verifiedAt": "2026.11.20",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-playable-in-first-person-heres-how-to-activate-it/"
+          ]
+        },
+        {
+          "id": "20261120-game-03",
+          "category": "game",
+          "title": "育碧合并创意工作室 Jade项目仍在开发",
+          "originalTitle": "Ubisoft says Assassin's Creed Jade is still alive as it merges two of its Creative Houses",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.20",
+          "url": "https://www.eurogamer.net/ubisoft-assassins-creed-jade-still-in-development-creative-houses-merge",
+          "tags": [
+            "育碧",
+            "刺客信条",
+            "手游开发"
+          ],
+          "summary": "育碧确认《刺客信条: jade》手游仍在开发中，但开发重心转向主机和PC平台，Creative Houses将合并运营。",
+          "highlights": [
+            "手游仍在开发",
+            "重心转向主机PC"
+          ],
+          "readingNote": "平台转型可能影响手游更新节奏，关注后续消息。",
+          "verifiedAt": "2026.11.20",
+          "verificationUrls": [
+            "https://www.eurogamer.net/ubisoft-assassins-creed-jade-still-in-development-creative-houses-merge"
+          ]
+        }
+      ]
+    },
     {
       "edition": {
         "date": "2026.11.19",

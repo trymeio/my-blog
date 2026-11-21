@@ -1,237 +1,234 @@
 {
   "edition": {
-    "date": "2026.11.20",
-    "weekday": "周五",
+    "date": "2026.11.21",
+    "weekday": "周六",
     "label": "米米的AI日报",
     "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
   },
   "items": [
     {
-      "id": "20261120-ai-01",
+      "id": "20261121-ai-01",
       "category": "ai",
-      "title": "Anthropic公司在纳斯达克首次公开募股",
-      "originalTitle": "Anthropic’s Nasdaq debut",
-      "source": "reuters.com",
-      "sourceOrg": "reuters.com",
-      "sourceDate": "2026.11.20",
-      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "title": "语言模型可重写自身权重",
+      "originalTitle": "Language Models Can Rewrite Their Own Weights",
+      "source": "arxiv.org",
+      "sourceOrg": "arxiv.org",
+      "sourceDate": "2026.11.21",
+      "url": "https://arxiv.org/abs/2611.21885",
       "tags": [
-        "AI",
-        "金融",
-        "科技上市"
+        "AI技术",
+        "机器学习",
+        "arxiv"
       ],
-      "summary": "Anthropic公司正式在纳斯达克交易所上市，市场见证了这家AI初创公司的历史时刻，投资者对其AI技术前景与风险进行了首日交易检验。",
+      "summary": "研究人员展示了语言模型自我修改权重的能力，展现了AI系统在训练之外的自我演化潜力，引发对AI安全与控制的新思考。",
       "highlights": [
-        "AI公司纳斯达克首日交易",
-        "市场检验AI技术前景与风险"
+        "模型能自主修改内部权重",
+        "展现AI自我演化新范式",
+        "引发安全与控制讨论"
       ],
-      "readingNote": "AI公司上市标志着产业进入资本市场新阶段，值得关注其后续表现。",
-      "verifiedAt": "2026.11.20",
+      "readingNote": "这项技术突破让人既兴奋又担忧，AI是否能安全地自我优化仍是未解之谜。",
+      "verifiedAt": "2026.11.21",
       "verificationUrls": [
-        "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
+        "https://arxiv.org/abs/2611.21885"
       ]
     },
     {
-      "id": "20261120-ai-02",
+      "id": "20261121-ai-02",
       "category": "ai",
-      "title": "Claude解决两个黑洞物理难题",
-      "originalTitle": "Claude solves two open problems in the physics of black holes",
-      "source": "anthropic.com",
-      "sourceOrg": "anthropic.com",
-      "sourceDate": "2026.11.20",
-      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "title": "我做了60倍高效音频转MIDI模型",
+      "originalTitle": "Show HN: I made an audio-to-MIDI model 60x more efficient",
+      "source": "kobi.music",
+      "sourceOrg": "kobi.music",
+      "sourceDate": "2026.11.17",
+      "url": "https://kobi.music/research/dettato",
       "tags": [
-        "AI",
-        "物理研究",
-        "科学突破"
+        "音乐技术",
+        "音频处理",
+        "开源项目"
       ],
-      "summary": "Anthropic的AI模型Claude在研究中成功解决了两个长期悬而未决的黑洞物理问题，展现了AI在基础科学研究中的潜力与创新能力。",
+      "summary": "开发者发布了一个极具效率的音频转MIDI模型，相比现有方案效率提升60倍，极大降低了音乐创作的计算门槛。",
       "highlights": [
-        "AI解决黑洞物理难题",
-        "突破两个开放性问题"
+        "音频转MIDI效率提升60倍",
+        "大幅降低音乐创作算力需求",
+        "展示个人开发者创新成果"
       ],
-      "readingNote": "AI在基础科学领域的突破令人期待，或将开启新的研究范式。",
-      "verifiedAt": "2026.11.20",
+      "readingNote": "这类高效模型的出现，让普通用户也能以低成本进行音乐创作和改编。",
+      "verifiedAt": "2026.11.21",
       "verificationUrls": [
-        "https://www.anthropic.com/research/claude-black-hole-physics"
+        "https://kobi.music/research/dettato"
       ]
     },
     {
-      "id": "20261120-ai-03",
+      "id": "20261121-ai-03",
       "category": "ai",
-      "title": "Jacob Coxon与Robin Hanson关于前沿AI的辩论",
-      "originalTitle": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
-      "source": "youtube.com",
-      "sourceOrg": "youtube.com",
+      "title": "纳斯达克抹去2026年涨幅 AI抛售压制Anthropic",
+      "originalTitle": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+      "source": "theguardian.com",
+      "sourceOrg": "theguardian.com",
       "sourceDate": "2026.11.20",
-      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
       "tags": [
-        "AI",
-        "政策辩论",
-        "科技治理"
+        "股市",
+        "AI产业",
+        "经济动态"
       ],
-      "summary": "该视频邀请Jacob Coxon和Robin Hanson就‘政府是否应放缓前沿AI发展’这一议题进行深入辩论，探讨AI发展的监管与速度问题。",
+      "summary": "全球股市普遍下跌，AI板块领跌，Anthropic IPO第二日遭抛售，导致纳斯达克指数全部抹去2026年的涨幅，反映市场对AI板块的担忧。",
       "highlights": [
-        "前沿AI发展辩论",
-        "监管与速度的平衡"
+        "AI抛售导致市场回调",
+        "纳斯达克失去2026年涨幅",
+        "Anthropic IPO表现受影响"
       ],
-      "readingNote": "AI发展速度与监管的平衡是当前重要议题，值得持续关注。",
-      "verifiedAt": "2026.11.20",
+      "readingNote": "AI产业的股价波动提醒我们，技术热度与市场估值之间存在一定的分离。",
+      "verifiedAt": "2026.11.21",
       "verificationUrls": [
-        "https://www.youtube.com/watch?v=lwfewYL7X0o"
+        "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
       ]
     },
     {
-      "id": "20261120-hero-01",
+      "id": "20261121-hero-01",
       "category": "hero",
-      "title": "《蜘蛛侠：全新日》删掉的 Daredevil 客串照曝光",
+      "title": "《蜘蛛侠：全新日子》重映恢复德鲁伊女主角彩蛋",
       "originalTitle": "Spider-Man: Brand New Day's Cut Daredevil Crossover Revealed In Official Photo Ahead Of Re-Release",
       "source": "slashfilm.com",
       "sourceOrg": "slashfilm.com",
       "sourceDate": "2026.11.20",
       "url": "https://www.slashfilm.com/2322359/spider-man-brand-new-day-daredevil-crossover-claire-temple-photo/",
       "tags": [
-        "漫改",
-        "蜘蛛侠",
-        "Daredevil"
+        "漫威",
+        "电影"
       ],
-      "summary": "罗莎里奥· Dawson 删减的 Claire Temple 客串将在《蜘蛛侠：全新日》重新上映时恢复。官方首张彩蛋图已公开，引发粉丝热议。",
+      "summary": "《蜘蛛侠：全新日子》重映版官方释出罗斯اريو· Dawson 剪辑版客串Claire Temple照片，粉丝期待已久的德鲁伊与蜘蛛侠跨界戏码重现。",
       "highlights": [
-        "删减客串恢复",
-        "官方首图公开",
-        "跨界彩蛋引发期待"
+        "重映版恢复剪辑客串",
+        "官方首度公开Claire Temple照片"
       ],
-      "readingNote": "这段被删的彩蛋让粉丝看到了早期漫威电影宇宙的连接感。",
-      "verifiedAt": "2026.11.20",
+      "readingNote": "细节还原是重映的关键，期待更多被遗漏的彩蛋。",
+      "verifiedAt": "2026.11.21",
       "verificationUrls": [
         "https://www.slashfilm.com/2322359/spider-man-brand-new-day-daredevil-crossover-claire-temple-photo/"
       ]
     },
     {
-      "id": "20261120-hero-02",
+      "id": "20261121-hero-02",
       "category": "hero",
-      "title": "Kevin Feige 确认 Doom 曾出现在《康 dynasty》",
-      "originalTitle": "Avengers: The Kang Dynasty's Scrapped Doctor Doom Twist Explained By Marvel's Kevin Feige",
-      "source": "slashfilm.com",
-      "sourceOrg": "slashfilm.com",
-      "sourceDate": "2026.11.19",
-      "url": "https://www.slashfilm.com/2320312/avengers-the-kang-dynasty-doctor-doom-twist-marvel-kevin-feige/",
-      "tags": [
-        "漫改",
-        "复仇者",
-        "Kevin Feig"
-      ],
-      "summary": "据称 Doctor Doom 原本是《复仇者联盟：康王朝》的一部分，但在最终定案为《复仇者联盟：末日》前已被移除。Feige 的说法引发了剧情变动的猜测。",
-      "highlights": [
-        "Feige 确认有过",
-        "剧本曾有 Doom",
-        "最终改为末日"
-      ],
-      "readingNote": "Marvel 的计划变动总是让人唏嘘，原本的设想与最终结果有着巨大差异。",
-      "verifiedAt": "2026.11.20",
-      "verificationUrls": [
-        "https://www.slashfilm.com/2320312/avengers-the-kang-dynasty-doctor-doom-twist-marvel-kevin-feige/"
-      ]
-    },
-    {
-      "id": "20261120-hero-03",
-      "category": "hero",
-      "title": "《末日》海报暗示最差浪漫CP",
-      "originalTitle": "Avengers: Doomsday Posters Are Hinting at Marvel’s Worst Romantic Pairing",
+      "title": "VisionQuest收尾WandaVision三部曲并深化Ultron",
+      "originalTitle": "How VisionQuest Left Room For a Fascinating MCU Prequel Spinoff",
       "source": "denofgeek.com",
       "sourceOrg": "denofgeek.com",
-      "sourceDate": "2026.11.20",
-      "url": "https://www.denofgeek.com/movies/avengers-doomsday-posters-marvel-worst-romantic-pairing/",
+      "sourceDate": "2026.11.21",
+      "url": "https://www.denofgeek.com/tv/visionquest-left-room-fascinating-mcu-prequel-spinoff-invaders/",
       "tags": [
-        "漫改",
-        "复仇者",
-        "海报"
+        "漫威电视",
+        "剧集"
       ],
-      "summary": "《复仇者联盟：末日》首组角色海报发布，其中 Steve Rogers 拿着 Mjölnir 的组合引发吐槽，被指是 Marvel 最尴尬的浪漫暗示。",
+      "summary": "VisionQuest作结《旺达幻视》三部曲，同时为詹姆斯·斯派德饰演的Ultron增加深度，并为MCU未来预留引人入胜的前传可能。",
       "highlights": [
-        "海报发布",
-        "Steve Rogers 拿锤",
-        "浪漫CP被吐槽"
+        "收尾WandaVision三部曲",
+        "深化Ultron角色层次"
       ],
-      "readingNote": "画风与以往不同，这种严肃的组合反而成了网友调侃的焦点。",
-      "verifiedAt": "2026.11.20",
+      "readingNote": "系列构思的完整性让人信服，期待后续前传。",
+      "verifiedAt": "2026.11.21",
       "verificationUrls": [
-        "https://www.denofgeek.com/movies/avengers-doomsday-posters-marvel-worst-romantic-pairing/"
+        "https://www.denofgeek.com/tv/visionquest-left-room-fascinating-mcu-prequel-spinoff-invaders/"
       ]
     },
     {
-      "id": "20261120-game-01",
-      "category": "game",
-      "title": "GTA 6单人模式订阅费如同订阅制马甲",
-      "originalTitle": "GTA+ for GTA 6 singleplayer is like subscription-based horse armor",
-      "source": "pcgamer.com",
-      "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.20",
-      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-for-gta-6-singleplayer-is-like-subscription-based-horse-armor/",
+      "id": "20261121-hero-03",
+      "category": "hero",
+      "title": "Blade重启导师谈拍摄危机：生命太短勉强拍坏电影",
+      "originalTitle": "Bassam Tariq Says Marvel&#8217;s Scrapped &#8216;Blade&#8217; Reboot Taught Him &#8220;Life&#8217;s Too Short to Make Sh** Films&#8221;",
+      "source": "hollywoodreporter.com",
+      "sourceOrg": "hollywoodreporter.com",
+      "sourceDate": "2026.11.21",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/bassam-tariq-marvel-blade-life-too-short-shit-films-1236760314/",
       "tags": [
-        "GTA",
-        "订阅制",
-        "单人模式"
+        "漫威",
+        "电影资讯"
       ],
-      "summary": "外媒探讨GTA+服务，询问玩家是否愿意每月7.99美元购买单车和折扣，引发关于订阅模式的讨论。",
+      "summary": "巴萨姆·塔里克执导的Marvel Blade重启因缺乏完整剧本而陷入混乱，他坦言拍摄过程危机四伏，认为生命太短不应浪费在劣质电影上。",
       "highlights": [
-        "月费7.99美元获单车与折扣",
-        "玩家质疑订阅价值"
+        "因缺剧本导致混乱",
+        "导师直言勿拍劣质电影"
       ],
-      "readingNote": "订阅制内容需权衡性价比，玩家慎重选择。",
-      "verifiedAt": "2026.11.20",
+      "readingNote": "这条值得留意，点开原文看看。",
+      "verifiedAt": "2026.11.21",
       "verificationUrls": [
-        "https://www.pcgamer.com/games/grand-theft-auto/gta-for-gta-6-singleplayer-is-like-subscription-based-horse-armor/"
+        "https://www.hollywoodreporter.com/movies/movie-news/bassam-tariq-marvel-blade-life-too-short-shit-films-1236760314/"
       ]
     },
     {
-      "id": "20261120-game-02",
+      "id": "20261121-game-01",
       "category": "game",
-      "title": "GTA 6可玩第一人称模式激活方法",
-      "originalTitle": "GTA 6 is playable in first-person, here's how to activate it",
+      "title": "GTA 6 秘密歌单需扫描海报解锁",
+      "originalTitle": "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.20",
-      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-playable-in-first-person-heres-how-to-activate-it/",
+      "sourceDate": "2026.11.21",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-playlists/",
       "tags": [
         "GTA 6",
-        "第一人称",
-        "视角设置"
+        "音乐",
+        "隐藏内容"
       ],
-      "summary": "PC游戏确认GTA 6将提供第一人称视角，玩家需通过设置菜单开启，车辆仪表盘设计与此相关。",
+      "summary": "《GTA 6》中 Kodak Black 与 The Vault 夜店各自拥有独家音乐播放列表，玩家只需扫描海报即可解锁收听。这为游戏增添了真实的夜店氛围与音乐探索乐趣。",
       "highlights": [
-        "首发支持第一人称",
-        "通过设置菜单激活"
+        "独家夜店音乐播放列表",
+        "扫描海报解锁收听"
       ],
-      "readingNote": "第一人称视角提升沉浸感，设置简单易上手。",
-      "verifiedAt": "2026.11.20",
+      "readingNote": "细节决定体验，扫描海报解锁音乐是增加沉浸感的巧思。",
+      "verifiedAt": "2026.11.21",
       "verificationUrls": [
-        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-playable-in-first-person-heres-how-to-activate-it/"
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-playlists/"
       ]
     },
     {
-      "id": "20261120-game-03",
+      "id": "20261121-game-02",
       "category": "game",
-      "title": "育碧合并创意工作室 Jade项目仍在开发",
-      "originalTitle": "Ubisoft says Assassin's Creed Jade is still alive as it merges two of its Creative Houses",
+      "title": "Etsy 声称将用生成式 AI 训练谋福利",
+      "originalTitle": "I didn't realize Etsy was selling bridges now",
+      "source": "pcgamer.com",
+      "sourceOrg": "pcgamer.com",
+      "sourceDate": "2026.11.21",
+      "url": "https://www.pcgamer.com/software/ai/i-didnt-realize-etsy-was-selling-bridges-now/",
+      "tags": [
+        "Etsy",
+        "人工智能",
+        "平台政策"
+      ],
+      "summary": "Etsy 宣布新的生成式 AI 训练协议，声明仅用于善举。然而，用户对平台此举的动机与透明度表示怀疑与质疑。",
+      "highlights": [
+        "AI 训练协议引争议",
+        "用户对动机存疑"
+      ],
+      "readingNote": "科技公司的 AI 声明往往备受玩家与用户严密审视。",
+      "verifiedAt": "2026.11.21",
+      "verificationUrls": [
+        "https://www.pcgamer.com/software/ai/i-didnt-realize-etsy-was-selling-bridges-now/"
+      ]
+    },
+    {
+      "id": "20261121-game-03",
+      "category": "game",
+      "title": "GTA 6 首日销售 3250万份 获得 379亿",
+      "originalTitle": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day",
       "source": "eurogamer.net",
       "sourceOrg": "eurogamer.net",
-      "sourceDate": "2026.11.20",
-      "url": "https://www.eurogamer.net/ubisoft-assassins-creed-jade-still-in-development-creative-houses-merge",
+      "sourceDate": "2026.11.21",
+      "url": "https://www.eurogamer.net/gta-6-biggest-entertainment-launch",
       "tags": [
-        "育碧",
-        "刺客信条",
-        "手游开发"
+        "GTA 6",
+        "销量记录",
+        "商业数据"
       ],
-      "summary": "育碧确认《刺客信条: jade》手游仍在开发中，但开发重心转向主机和PC平台，Creative Houses将合并运营。",
+      "summary": "《GTA 6》正式确认成为有史以来最大的娱乐首发作品，首日预售 3250 万份并获 379 亿元收入，打破前作 13 年的记录以及分析师预估。",
       "highlights": [
-        "手游仍在开发",
-        "重心转向主机PC"
+        "史上最大娱乐首发",
+        "3250万预售收入"
       ],
-      "readingNote": "平台转型可能影响手游更新节奏，关注后续消息。",
-      "verifiedAt": "2026.11.20",
+      "readingNote": "这款游戏的热度与市场影响力已达巅峰级别。",
+      "verifiedAt": "2026.11.21",
       "verificationUrls": [
-        "https://www.eurogamer.net/ubisoft-assassins-creed-jade-still-in-development-creative-houses-merge"
+        "https://www.eurogamer.net/gta-6-biggest-entertainment-launch"
       ]
     }
   ]
