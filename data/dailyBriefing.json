@@ -1,234 +1,231 @@
 {
   "edition": {
-    "date": "2026.11.21",
-    "weekday": "周六",
+    "date": "2026.11.22",
+    "weekday": "周日",
     "label": "米米的AI日报",
     "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
   },
   "items": [
     {
-      "id": "20261121-ai-01",
+      "id": "20261122-ai-01",
       "category": "ai",
-      "title": "语言模型可重写自身权重",
-      "originalTitle": "Language Models Can Rewrite Their Own Weights",
-      "source": "arxiv.org",
-      "sourceOrg": "arxiv.org",
-      "sourceDate": "2026.11.21",
-      "url": "https://arxiv.org/abs/2611.21885",
+      "title": "LLMs 可逐字节读写可执行文件",
+      "originalTitle": "LLMs can read and write executables byte by byte from a hex dump",
+      "source": "sgiannopoulos.github.io",
+      "sourceOrg": "sgiannopoulos.github.io",
+      "sourceDate": "2026.11.18",
+      "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
       "tags": [
         "AI技术",
-        "机器学习",
-        "arxiv"
+        "编程创新"
       ],
-      "summary": "研究人员展示了语言模型自我修改权重的能力，展现了AI系统在训练之外的自我演化潜力，引发对AI安全与控制的新思考。",
+      "summary": "研究人员展示大语言模型能直接读写二进制可执行文件，通过十六进制转储进行机器码编程，突破传统文本处理局限。",
       "highlights": [
-        "模型能自主修改内部权重",
-        "展现AI自我演化新范式",
-        "引发安全与控制讨论"
+        "LLMs 可直接操作二进制代码",
+        "突破文本处理的技术突破"
       ],
-      "readingNote": "这项技术突破让人既兴奋又担忧，AI是否能安全地自我优化仍是未解之谜。",
-      "verifiedAt": "2026.11.21",
+      "readingNote": "AI 正从文本生成进阶到系统级编程，潜在影响深远。",
+      "verifiedAt": "2026.11.22",
       "verificationUrls": [
-        "https://arxiv.org/abs/2611.21885"
+        "https://sgiannopoulos.github.io/blog/machine-code-programming/"
       ]
     },
     {
-      "id": "20261121-ai-02",
+      "id": "20261122-ai-02",
       "category": "ai",
-      "title": "我做了60倍高效音频转MIDI模型",
-      "originalTitle": "Show HN: I made an audio-to-MIDI model 60x more efficient",
-      "source": "kobi.music",
-      "sourceOrg": "kobi.music",
-      "sourceDate": "2026.11.17",
-      "url": "https://kobi.music/research/dettato",
+      "title": "推理提供商数据处理事件",
+      "originalTitle": "Data Processing Incidents on Inference Providers",
+      "source": "openrouter.ai",
+      "sourceOrg": "openrouter.ai",
+      "sourceDate": "2026.11.22",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
       "tags": [
-        "音乐技术",
-        "音频处理",
-        "开源项目"
+        "AI安全",
+        "平台动态"
       ],
-      "summary": "开发者发布了一个极具效率的音频转MIDI模型，相比现有方案效率提升60倍，极大降低了音乐创作的计算门槛。",
+      "summary": "OpenRouter 发布公告，报告了推理提供商层面的数据处理安全事件，提醒用户关注 AI 推理过程中的数据隐私风险。",
       "highlights": [
-        "音频转MIDI效率提升60倍",
-        "大幅降低音乐创作算力需求",
-        "展示个人开发者创新成果"
+        "数据处理安全事件",
+        "AI 推理隐私风险"
       ],
-      "readingNote": "这类高效模型的出现，让普通用户也能以低成本进行音乐创作和改编。",
-      "verifiedAt": "2026.11.21",
+      "readingNote": "关注 AI 服务商的数据安全透明度。",
+      "verifiedAt": "2026.11.22",
       "verificationUrls": [
-        "https://kobi.music/research/dettato"
+        "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
       ]
     },
     {
-      "id": "20261121-ai-03",
+      "id": "20261122-ai-03",
       "category": "ai",
-      "title": "纳斯达克抹去2026年涨幅 AI抛售压制Anthropic",
-      "originalTitle": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
-      "source": "theguardian.com",
-      "sourceOrg": "theguardian.com",
-      "sourceDate": "2026.11.20",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "title": "Pandex 欧洲 AI 代理法规",
+      "originalTitle": "Pandex – Official European Law for AI Agents, over MCP",
+      "source": "pandex.io",
+      "sourceOrg": "pandex.io",
+      "sourceDate": "2026.11.22",
+      "url": "https://www.pandex.io",
       "tags": [
-        "股市",
-        "AI产业",
-        "经济动态"
+        "AI法规",
+        "欧洲政策"
       ],
-      "summary": "全球股市普遍下跌，AI板块领跌，Anthropic IPO第二日遭抛售，导致纳斯达克指数全部抹去2026年的涨幅，反映市场对AI板块的担忧。",
+      "summary": "Pandex 官方发布欧洲 AI 代理法规，旨在针对 AI 代理运营提供法律框架，与 MCP 等技术标准形成区分。",
       "highlights": [
-        "AI抛售导致市场回调",
-        "纳斯达克失去2026年涨幅",
-        "Anthropic IPO表现受影响"
+        "欧洲 AI 代理法规",
+        "法律合规框架"
       ],
-      "readingNote": "AI产业的股价波动提醒我们，技术热度与市场估值之间存在一定的分离。",
-      "verifiedAt": "2026.11.21",
+      "readingNote": "AI 监管进入具体应用层面的细分。",
+      "verifiedAt": "2026.11.22",
       "verificationUrls": [
-        "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+        "https://www.pandex.io"
       ]
     },
     {
-      "id": "20261121-hero-01",
+      "id": "20261122-hero-01",
       "category": "hero",
-      "title": "《蜘蛛侠：全新日子》重映恢复德鲁伊女主角彩蛋",
-      "originalTitle": "Spider-Man: Brand New Day's Cut Daredevil Crossover Revealed In Official Photo Ahead Of Re-Release",
+      "title": "海莉·阿特韦尔透露新《复仇者联盟：末日》预告周一上线",
+      "originalTitle": "Avengers: Doomsday Star Hayley Atwell Teases New Trailer for Monday",
+      "source": "ign.com",
+      "sourceOrg": "ign.com",
+      "sourceDate": "2026.11.22",
+      "url": "https://www.ign.com/articles/avengers-doomsday-star-hayley-atwell-teases-new-trailer-for-monday",
+      "tags": [
+        "漫威",
+        "影视资讯",
+        "预告片"
+      ],
+      "summary": "《复仇者联盟：末日》女主角海莉·阿特韦尔（Captain Carter）透露，全新预告片将在周一发布，粉丝期待值提升。",
+      "highlights": [
+        "海莉·阿特韦尔透露预告信息",
+        "新预告将在周一发布"
+      ],
+      "readingNote": "官方预告即将揭晓，期待感拉满。",
+      "verifiedAt": "2026.11.22",
+      "verificationUrls": [
+        "https://www.ign.com/articles/avengers-doomsday-star-hayley-atwell-teases-new-trailer-for-monday"
+      ]
+    },
+    {
+      "id": "20261122-hero-02",
+      "category": "hero",
+      "title": "Blade导师离开漫威：因不想拍烂片",
+      "originalTitle": "Blade Director Says He Walked Away From Marvel's Canceled Movie Because 'Life's Too Short to Make S**t Films'",
+      "source": "ign.com",
+      "sourceOrg": "ign.com",
+      "sourceDate": "2026.11.22",
+      "url": "https://www.ign.com/articles/blade-director-says-he-walked-away-from-marvels-canceled-movie-because-lifes-too-short-to-make-st-films",
+      "tags": [
+        "漫威",
+        "导演",
+        "电影制作"
+      ],
+      "summary": "Blade电影导师巴萨姆·塔里克坦言离开漫威项目的原因是‘人生太短，不想拍烂片’，引发业内讨论。",
+      "highlights": [
+        "导师因质量原因离任",
+        "强调拍摄作品的严谨性"
+      ],
+      "readingNote": "创作者的职业态度值得尊重。",
+      "verifiedAt": "2026.11.22",
+      "verificationUrls": [
+        "https://www.ign.com/articles/blade-director-says-he-walked-away-from-marvels-canceled-movie-because-lifes-too-short-to-make-st-films"
+      ]
+    },
+    {
+      "id": "20261122-hero-03",
+      "category": "hero",
+      "title": "凯特琳·邓斯特早期出演星际旅行：下一代",
+      "originalTitle": "Before Spider-Man, Kirsten Dunst Was In An Episode Of Star Trek: The Next Generation",
       "source": "slashfilm.com",
       "sourceOrg": "slashfilm.com",
-      "sourceDate": "2026.11.20",
-      "url": "https://www.slashfilm.com/2322359/spider-man-brand-new-day-daredevil-crossover-claire-temple-photo/",
+      "sourceDate": "2026.11.22",
+      "url": "https://www.slashfilm.com/2318144/spider-man-kirsten-dunst-star-trek-the-next-generation-episode/",
       "tags": [
-        "漫威",
-        "电影"
+        "影视冷知识",
+        "凯特琳·邓斯特",
+        "星际旅行"
       ],
-      "summary": "《蜘蛛侠：全新日子》重映版官方释出罗斯اريو· Dawson 剪辑版客串Claire Temple照片，粉丝期待已久的德鲁伊与蜘蛛侠跨界戏码重现。",
+      "summary": "在凭借《与吸血鬼对谈》走红及《蜘蛛侠》成名前，凯特琳·邓斯特曾客串《星际旅行：下一代》一集，展现早期演艺履历。",
       "highlights": [
-        "重映版恢复剪辑客串",
-        "官方首度公开Claire Temple照片"
+        "早期客串星际旅行",
+        "成名前的演艺经历"
       ],
-      "readingNote": "细节还原是重映的关键，期待更多被遗漏的彩蛋。",
-      "verifiedAt": "2026.11.21",
+      "readingNote": "星途起步，后来者居上。",
+      "verifiedAt": "2026.11.22",
       "verificationUrls": [
-        "https://www.slashfilm.com/2322359/spider-man-brand-new-day-daredevil-crossover-claire-temple-photo/"
+        "https://www.slashfilm.com/2318144/spider-man-kirsten-dunst-star-trek-the-next-generation-episode/"
       ]
     },
     {
-      "id": "20261121-hero-02",
-      "category": "hero",
-      "title": "VisionQuest收尾WandaVision三部曲并深化Ultron",
-      "originalTitle": "How VisionQuest Left Room For a Fascinating MCU Prequel Spinoff",
-      "source": "denofgeek.com",
-      "sourceOrg": "denofgeek.com",
-      "sourceDate": "2026.11.21",
-      "url": "https://www.denofgeek.com/tv/visionquest-left-room-fascinating-mcu-prequel-spinoff-invaders/",
-      "tags": [
-        "漫威电视",
-        "剧集"
-      ],
-      "summary": "VisionQuest作结《旺达幻视》三部曲，同时为詹姆斯·斯派德饰演的Ultron增加深度，并为MCU未来预留引人入胜的前传可能。",
-      "highlights": [
-        "收尾WandaVision三部曲",
-        "深化Ultron角色层次"
-      ],
-      "readingNote": "系列构思的完整性让人信服，期待后续前传。",
-      "verifiedAt": "2026.11.21",
-      "verificationUrls": [
-        "https://www.denofgeek.com/tv/visionquest-left-room-fascinating-mcu-prequel-spinoff-invaders/"
-      ]
-    },
-    {
-      "id": "20261121-hero-03",
-      "category": "hero",
-      "title": "Blade重启导师谈拍摄危机：生命太短勉强拍坏电影",
-      "originalTitle": "Bassam Tariq Says Marvel&#8217;s Scrapped &#8216;Blade&#8217; Reboot Taught Him &#8220;Life&#8217;s Too Short to Make Sh** Films&#8221;",
-      "source": "hollywoodreporter.com",
-      "sourceOrg": "hollywoodreporter.com",
-      "sourceDate": "2026.11.21",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/bassam-tariq-marvel-blade-life-too-short-shit-films-1236760314/",
-      "tags": [
-        "漫威",
-        "电影资讯"
-      ],
-      "summary": "巴萨姆·塔里克执导的Marvel Blade重启因缺乏完整剧本而陷入混乱，他坦言拍摄过程危机四伏，认为生命太短不应浪费在劣质电影上。",
-      "highlights": [
-        "因缺剧本导致混乱",
-        "导师直言勿拍劣质电影"
-      ],
-      "readingNote": "这条值得留意，点开原文看看。",
-      "verifiedAt": "2026.11.21",
-      "verificationUrls": [
-        "https://www.hollywoodreporter.com/movies/movie-news/bassam-tariq-marvel-blade-life-too-short-shit-films-1236760314/"
-      ]
-    },
-    {
-      "id": "20261121-game-01",
+      "id": "20261122-game-01",
       "category": "game",
-      "title": "GTA 6 秘密歌单需扫描海报解锁",
-      "originalTitle": "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them",
+      "title": "《黑神话：悟空》同人小说引争议，现波及阴影心",
+      "originalTitle": "Astarion's Baldur's Gate 3 prequel novel infuriated fans, now it's Shadowheart's turn",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.21",
-      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-playlists/",
+      "sourceDate": "2026.11.22",
+      "url": "https://www.pcgamer.com/games/baldurs-gate/astarions-baldurs-gate-3-prequel-novel-infuriated-fans-now-its-shadowhearts-turn/",
       "tags": [
-        "GTA 6",
-        "音乐",
-        "隐藏内容"
+        "巴尔德之门3",
+        "同人小说",
+        "玩家反响"
       ],
-      "summary": "《GTA 6》中 Kodak Black 与 The Vault 夜店各自拥有独家音乐播放列表，玩家只需扫描海报即可解锁收听。这为游戏增添了真实的夜店氛围与音乐探索乐趣。",
+      "summary": "《巴尔德之门3》角色阿斯塔利昂的传记小说招致玩家不满，作者为获奖作家塔莎·苏里。随后聚焦阴影心的新书也引发玩家关注，社区对官方授权小说的态度持续发酵。",
       "highlights": [
-        "独家夜店音乐播放列表",
-        "扫描海报解锁收听"
+        "阿斯塔利昂小说招玩家强烈不满",
+        "阴影心新作再次成为焦点"
       ],
-      "readingNote": "细节决定体验，扫描海报解锁音乐是增加沉浸感的巧思。",
-      "verifiedAt": "2026.11.21",
+      "readingNote": "官方授权小说若偏离人设，极易触动玩家底线。",
+      "verifiedAt": "2026.11.22",
       "verificationUrls": [
-        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-playlists/"
+        "https://www.pcgamer.com/games/baldurs-gate/astarions-baldurs-gate-3-prequel-novel-infuriated-fans-now-its-shadowhearts-turn/"
       ]
     },
     {
-      "id": "20261121-game-02",
+      "id": "20261122-game-02",
       "category": "game",
-      "title": "Etsy 声称将用生成式 AI 训练谋福利",
-      "originalTitle": "I didn't realize Etsy was selling bridges now",
+      "title": "威世智将全额AI版权赔偿发给D&D作者",
+      "originalTitle": "Wizards of the Coast to pass full AI copyright payout to D&D writers",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.21",
-      "url": "https://www.pcgamer.com/software/ai/i-didnt-realize-etsy-was-selling-bridges-now/",
+      "sourceDate": "2026.11.22",
+      "url": "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/",
       "tags": [
-        "Etsy",
-        "人工智能",
-        "平台政策"
+        "威世智",
+        "AI版权",
+        "D&D作者"
       ],
-      "summary": "Etsy 宣布新的生成式 AI 训练协议，声明仅用于善举。然而，用户对平台此举的动机与透明度表示怀疑与质疑。",
+      "summary": "威世智公司将全额AI版权赔偿金分配给《龙与地下城》作家，旨在安抚创作者群体。尽管对公司而言金额微不足道，但这标志着行业在AI版权问题上的重要妥协。",
       "highlights": [
-        "AI 训练协议引争议",
-        "用户对动机存疑"
+        "全额赔偿转发给D&D作家",
+        "缓解AI版权争议的关键举措"
       ],
-      "readingNote": "科技公司的 AI 声明往往备受玩家与用户严密审视。",
-      "verifiedAt": "2026.11.21",
+      "readingNote": "版权分配虽小，却是行业规范的重要信号。",
+      "verifiedAt": "2026.11.22",
       "verificationUrls": [
-        "https://www.pcgamer.com/software/ai/i-didnt-realize-etsy-was-selling-bridges-now/"
+        "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/"
       ]
     },
     {
-      "id": "20261121-game-03",
+      "id": "20261122-game-03",
       "category": "game",
-      "title": "GTA 6 首日销售 3250万份 获得 379亿",
-      "originalTitle": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day",
+      "title": "未公开的《妖魔之道3完整版》获韩国分级",
+      "originalTitle": "Unannounced Nioh 3 Complete Edition has been rated in Korea",
       "source": "eurogamer.net",
       "sourceOrg": "eurogamer.net",
-      "sourceDate": "2026.11.21",
-      "url": "https://www.eurogamer.net/gta-6-biggest-entertainment-launch",
+      "sourceDate": "2026.11.22",
+      "url": "https://www.eurogamer.net/nioh-3-complete-edition-rated-korea",
       "tags": [
-        "GTA 6",
-        "销量记录",
-        "商业数据"
+        "妖魔之道3",
+        "韩国分级",
+        "完整版"
       ],
-      "summary": "《GTA 6》正式确认成为有史以来最大的娱乐首发作品，首日预售 3250 万份并获 379 亿元收入，打破前作 13 年的记录以及分析师预估。",
+      "summary": "韩国游戏评级与管理委员会（GRAC）公布了未公开的《妖魔之道3完整版》评级信息。这表明该作或将在近期正式宣布或发行，值得玩家持续关注其后续动向。",
       "highlights": [
-        "史上最大娱乐首发",
-        "3250万预售收入"
+        "《妖魔之道3完整版》获韩国分级",
+        "或将迎来官方正式公告"
       ],
-      "readingNote": "这款游戏的热度与市场影响力已达巅峰级别。",
-      "verifiedAt": "2026.11.21",
+      "readingNote": "分级信息往往预示游戏即将亮相。",
+      "verifiedAt": "2026.11.22",
       "verificationUrls": [
-        "https://www.eurogamer.net/gta-6-biggest-entertainment-launch"
+        "https://www.eurogamer.net/nioh-3-complete-edition-rated-korea"
       ]
     }
   ]

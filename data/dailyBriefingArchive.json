@@ -1,7 +1,242 @@
 {
   "windowDays": 90,
-  "asOfDate": "2026.11.21",
+  "asOfDate": "2026.11.22",
   "issues": [
+    {
+      "edition": {
+        "date": "2026.11.21",
+        "weekday": "周六",
+        "label": "米米的AI日报",
+        "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
+      },
+      "items": [
+        {
+          "id": "20261121-ai-01",
+          "category": "ai",
+          "title": "语言模型可重写自身权重",
+          "originalTitle": "Language Models Can Rewrite Their Own Weights",
+          "source": "arxiv.org",
+          "sourceOrg": "arxiv.org",
+          "sourceDate": "2026.11.21",
+          "url": "https://arxiv.org/abs/2611.21885",
+          "tags": [
+            "AI技术",
+            "机器学习",
+            "arxiv"
+          ],
+          "summary": "研究人员展示了语言模型自我修改权重的能力，展现了AI系统在训练之外的自我演化潜力，引发对AI安全与控制的新思考。",
+          "highlights": [
+            "模型能自主修改内部权重",
+            "展现AI自我演化新范式",
+            "引发安全与控制讨论"
+          ],
+          "readingNote": "这项技术突破让人既兴奋又担忧，AI是否能安全地自我优化仍是未解之谜。",
+          "verifiedAt": "2026.11.21",
+          "verificationUrls": [
+            "https://arxiv.org/abs/2611.21885"
+          ]
+        },
+        {
+          "id": "20261121-ai-02",
+          "category": "ai",
+          "title": "我做了60倍高效音频转MIDI模型",
+          "originalTitle": "Show HN: I made an audio-to-MIDI model 60x more efficient",
+          "source": "kobi.music",
+          "sourceOrg": "kobi.music",
+          "sourceDate": "2026.11.17",
+          "url": "https://kobi.music/research/dettato",
+          "tags": [
+            "音乐技术",
+            "音频处理",
+            "开源项目"
+          ],
+          "summary": "开发者发布了一个极具效率的音频转MIDI模型，相比现有方案效率提升60倍，极大降低了音乐创作的计算门槛。",
+          "highlights": [
+            "音频转MIDI效率提升60倍",
+            "大幅降低音乐创作算力需求",
+            "展示个人开发者创新成果"
+          ],
+          "readingNote": "这类高效模型的出现，让普通用户也能以低成本进行音乐创作和改编。",
+          "verifiedAt": "2026.11.21",
+          "verificationUrls": [
+            "https://kobi.music/research/dettato"
+          ]
+        },
+        {
+          "id": "20261121-ai-03",
+          "category": "ai",
+          "title": "纳斯达克抹去2026年涨幅 AI抛售压制Anthropic",
+          "originalTitle": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+          "source": "theguardian.com",
+          "sourceOrg": "theguardian.com",
+          "sourceDate": "2026.11.20",
+          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "tags": [
+            "股市",
+            "AI产业",
+            "经济动态"
+          ],
+          "summary": "全球股市普遍下跌，AI板块领跌，Anthropic IPO第二日遭抛售，导致纳斯达克指数全部抹去2026年的涨幅，反映市场对AI板块的担忧。",
+          "highlights": [
+            "AI抛售导致市场回调",
+            "纳斯达克失去2026年涨幅",
+            "Anthropic IPO表现受影响"
+          ],
+          "readingNote": "AI产业的股价波动提醒我们，技术热度与市场估值之间存在一定的分离。",
+          "verifiedAt": "2026.11.21",
+          "verificationUrls": [
+            "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+          ]
+        },
+        {
+          "id": "20261121-hero-01",
+          "category": "hero",
+          "title": "《蜘蛛侠：全新日子》重映恢复德鲁伊女主角彩蛋",
+          "originalTitle": "Spider-Man: Brand New Day's Cut Daredevil Crossover Revealed In Official Photo Ahead Of Re-Release",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.20",
+          "url": "https://www.slashfilm.com/2322359/spider-man-brand-new-day-daredevil-crossover-claire-temple-photo/",
+          "tags": [
+            "漫威",
+            "电影"
+          ],
+          "summary": "《蜘蛛侠：全新日子》重映版官方释出罗斯اريو· Dawson 剪辑版客串Claire Temple照片，粉丝期待已久的德鲁伊与蜘蛛侠跨界戏码重现。",
+          "highlights": [
+            "重映版恢复剪辑客串",
+            "官方首度公开Claire Temple照片"
+          ],
+          "readingNote": "细节还原是重映的关键，期待更多被遗漏的彩蛋。",
+          "verifiedAt": "2026.11.21",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2322359/spider-man-brand-new-day-daredevil-crossover-claire-temple-photo/"
+          ]
+        },
+        {
+          "id": "20261121-hero-02",
+          "category": "hero",
+          "title": "VisionQuest收尾WandaVision三部曲并深化Ultron",
+          "originalTitle": "How VisionQuest Left Room For a Fascinating MCU Prequel Spinoff",
+          "source": "denofgeek.com",
+          "sourceOrg": "denofgeek.com",
+          "sourceDate": "2026.11.21",
+          "url": "https://www.denofgeek.com/tv/visionquest-left-room-fascinating-mcu-prequel-spinoff-invaders/",
+          "tags": [
+            "漫威电视",
+            "剧集"
+          ],
+          "summary": "VisionQuest作结《旺达幻视》三部曲，同时为詹姆斯·斯派德饰演的Ultron增加深度，并为MCU未来预留引人入胜的前传可能。",
+          "highlights": [
+            "收尾WandaVision三部曲",
+            "深化Ultron角色层次"
+          ],
+          "readingNote": "系列构思的完整性让人信服，期待后续前传。",
+          "verifiedAt": "2026.11.21",
+          "verificationUrls": [
+            "https://www.denofgeek.com/tv/visionquest-left-room-fascinating-mcu-prequel-spinoff-invaders/"
+          ]
+        },
+        {
+          "id": "20261121-hero-03",
+          "category": "hero",
+          "title": "Blade重启导师谈拍摄危机：生命太短勉强拍坏电影",
+          "originalTitle": "Bassam Tariq Says Marvel&#8217;s Scrapped &#8216;Blade&#8217; Reboot Taught Him &#8220;Life&#8217;s Too Short to Make Sh** Films&#8221;",
+          "source": "hollywoodreporter.com",
+          "sourceOrg": "hollywoodreporter.com",
+          "sourceDate": "2026.11.21",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/bassam-tariq-marvel-blade-life-too-short-shit-films-1236760314/",
+          "tags": [
+            "漫威",
+            "电影资讯"
+          ],
+          "summary": "巴萨姆·塔里克执导的Marvel Blade重启因缺乏完整剧本而陷入混乱，他坦言拍摄过程危机四伏，认为生命太短不应浪费在劣质电影上。",
+          "highlights": [
+            "因缺剧本导致混乱",
+            "导师直言勿拍劣质电影"
+          ],
+          "readingNote": "这条值得留意，点开原文看看。",
+          "verifiedAt": "2026.11.21",
+          "verificationUrls": [
+            "https://www.hollywoodreporter.com/movies/movie-news/bassam-tariq-marvel-blade-life-too-short-shit-films-1236760314/"
+          ]
+        },
+        {
+          "id": "20261121-game-01",
+          "category": "game",
+          "title": "GTA 6 秘密歌单需扫描海报解锁",
+          "originalTitle": "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.21",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-playlists/",
+          "tags": [
+            "GTA 6",
+            "音乐",
+            "隐藏内容"
+          ],
+          "summary": "《GTA 6》中 Kodak Black 与 The Vault 夜店各自拥有独家音乐播放列表，玩家只需扫描海报即可解锁收听。这为游戏增添了真实的夜店氛围与音乐探索乐趣。",
+          "highlights": [
+            "独家夜店音乐播放列表",
+            "扫描海报解锁收听"
+          ],
+          "readingNote": "细节决定体验，扫描海报解锁音乐是增加沉浸感的巧思。",
+          "verifiedAt": "2026.11.21",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-playlists/"
+          ]
+        },
+        {
+          "id": "20261121-game-02",
+          "category": "game",
+          "title": "Etsy 声称将用生成式 AI 训练谋福利",
+          "originalTitle": "I didn't realize Etsy was selling bridges now",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.21",
+          "url": "https://www.pcgamer.com/software/ai/i-didnt-realize-etsy-was-selling-bridges-now/",
+          "tags": [
+            "Etsy",
+            "人工智能",
+            "平台政策"
+          ],
+          "summary": "Etsy 宣布新的生成式 AI 训练协议，声明仅用于善举。然而，用户对平台此举的动机与透明度表示怀疑与质疑。",
+          "highlights": [
+            "AI 训练协议引争议",
+            "用户对动机存疑"
+          ],
+          "readingNote": "科技公司的 AI 声明往往备受玩家与用户严密审视。",
+          "verifiedAt": "2026.11.21",
+          "verificationUrls": [
+            "https://www.pcgamer.com/software/ai/i-didnt-realize-etsy-was-selling-bridges-now/"
+          ]
+        },
+        {
+          "id": "20261121-game-03",
+          "category": "game",
+          "title": "GTA 6 首日销售 3250万份 获得 379亿",
+          "originalTitle": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.21",
+          "url": "https://www.eurogamer.net/gta-6-biggest-entertainment-launch",
+          "tags": [
+            "GTA 6",
+            "销量记录",
+            "商业数据"
+          ],
+          "summary": "《GTA 6》正式确认成为有史以来最大的娱乐首发作品，首日预售 3250 万份并获 379 亿元收入，打破前作 13 年的记录以及分析师预估。",
+          "highlights": [
+            "史上最大娱乐首发",
+            "3250万预售收入"
+          ],
+          "readingNote": "这款游戏的热度与市场影响力已达巅峰级别。",
+          "verifiedAt": "2026.11.21",
+          "verificationUrls": [
+            "https://www.eurogamer.net/gta-6-biggest-entertainment-launch"
+          ]
+        }
+      ]
+    },
     {
       "edition": {
         "date": "2026.11.20",
