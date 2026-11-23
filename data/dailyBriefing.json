@@ -1,231 +1,243 @@
 {
   "edition": {
-    "date": "2026.11.22",
-    "weekday": "周日",
+    "date": "2026.11.23",
+    "weekday": "周一",
     "label": "米米的AI日报",
     "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
   },
   "items": [
     {
-      "id": "20261122-ai-01",
+      "id": "20261123-ai-01",
       "category": "ai",
-      "title": "LLMs 可逐字节读写可执行文件",
-      "originalTitle": "LLMs can read and write executables byte by byte from a hex dump",
-      "source": "sgiannopoulos.github.io",
-      "sourceOrg": "sgiannopoulos.github.io",
-      "sourceDate": "2026.11.18",
-      "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
+      "title": "新手指南：使用 Inkling、Qwen 和 Unsloth 搭建本地 AI",
+      "originalTitle": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "source": "gpupartner.com",
+      "sourceOrg": "gpupartner.com",
+      "sourceDate": "2026.11.23",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
       "tags": [
-        "AI技术",
-        "编程创新"
+        "AI",
+        "本地部署",
+        "入门教程"
       ],
-      "summary": "研究人员展示大语言模型能直接读写二进制可执行文件，通过十六进制转储进行机器码编程，突破传统文本处理局限。",
+      "summary": "文章介绍了初学者如何利用 Inkling、Qwen 和 Unsloth 三款工具，在个人电脑上搭建和运行本地大模型，无需依赖云服务，降低了 AI 本地化的门槛。",
       "highlights": [
-        "LLMs 可直接操作二进制代码",
-        "突破文本处理的技术突破"
+        "三款工具助力本地 AI 搭建",
+        "零依赖云服务，保护隐私",
+        "适合想本地部署的新手用户"
       ],
-      "readingNote": "AI 正从文本生成进阶到系统级编程，潜在影响深远。",
-      "verifiedAt": "2026.11.22",
+      "readingNote": "对于想要尝试本地 AI 的用户来说，是一份实用且易上手的指南。",
+      "verifiedAt": "2026.11.23",
       "verificationUrls": [
-        "https://sgiannopoulos.github.io/blog/machine-code-programming/"
+        "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
       ]
     },
     {
-      "id": "20261122-ai-02",
+      "id": "20261123-ai-02",
       "category": "ai",
-      "title": "推理提供商数据处理事件",
-      "originalTitle": "Data Processing Incidents on Inference Providers",
-      "source": "openrouter.ai",
-      "sourceOrg": "openrouter.ai",
+      "title": "展示项目：我构建了一个 LLM 的子代理游戏",
+      "originalTitle": "Show HN: I built a game where you are an LLM's subagent",
+      "source": "github.com",
+      "sourceOrg": "github.com",
       "sourceDate": "2026.11.22",
-      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "url": "https://github.com/gulivan/worker755",
       "tags": [
-        "AI安全",
-        "平台动态"
+        "游戏",
+        "LLM",
+        "开源项目"
       ],
-      "summary": "OpenRouter 发布公告，报告了推理提供商层面的数据处理安全事件，提醒用户关注 AI 推理过程中的数据隐私风险。",
+      "summary": "博主在 GitHub 上展示了一个名为 \"worker755\" 的项目，玩家在游戏中扮演大型语言模型的子代理，通过指令与模型交互，体验独特的 AI 驱动游戏玩法。",
       "highlights": [
-        "数据处理安全事件",
-        "AI 推理隐私风险"
+        "LLM 子代理游戏创新玩法",
+        "GitHub 项目展示，代码开源",
+        "体验 AI 角色扮演新模式"
       ],
-      "readingNote": "关注 AI 服务商的数据安全透明度。",
-      "verifiedAt": "2026.11.22",
+      "readingNote": "这是一个新颖的概念验证项目，展示了 LLM 在交互式娱乐中的潜力。",
+      "verifiedAt": "2026.11.23",
       "verificationUrls": [
-        "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+        "https://github.com/gulivan/worker755"
       ]
     },
     {
-      "id": "20261122-ai-03",
+      "id": "20261123-ai-03",
       "category": "ai",
-      "title": "Pandex 欧洲 AI 代理法规",
-      "originalTitle": "Pandex – Official European Law for AI Agents, over MCP",
-      "source": "pandex.io",
-      "sourceOrg": "pandex.io",
-      "sourceDate": "2026.11.22",
-      "url": "https://www.pandex.io",
+      "title": "Localcode：一键在 Mac 上进行代理编码",
+      "originalTitle": "Localcode, open source agentic coding on your Mac with one command",
+      "source": "github.com",
+      "sourceOrg": "github.com",
+      "sourceDate": "2026.11.23",
+      "url": "https://github.com/mjwsolo/localcode",
       "tags": [
-        "AI法规",
-        "欧洲政策"
+        "开源",
+        "Mac",
+        "AI 编程"
       ],
-      "summary": "Pandex 官方发布欧洲 AI 代理法规，旨在针对 AI 代理运营提供法律框架，与 MCP 等技术标准形成区分。",
+      "summary": "开源项目 Localcode 让 Mac 用户只需一条命令即可启动代理编码功能，简化了本地 AI 辅助编程的流程，提升了使用本地模型进行代码创作的效率。",
       "highlights": [
-        "欧洲 AI 代理法规",
-        "法律合规框架"
+        "Mac 一键启动代理编码",
+        "开源项目，免费使用",
+        "提升本地 AI 编程效率"
       ],
-      "readingNote": "AI 监管进入具体应用层面的细分。",
-      "verifiedAt": "2026.11.22",
+      "readingNote": "对于 Mac 用户来说，这是一个降低本地 AI 编程门槛的实用工具。",
+      "verifiedAt": "2026.11.23",
       "verificationUrls": [
-        "https://www.pandex.io"
+        "https://github.com/mjwsolo/localcode"
       ]
     },
     {
-      "id": "20261122-hero-01",
+      "id": "20261123-hero-01",
       "category": "hero",
-      "title": "海莉·阿特韦尔透露新《复仇者联盟：末日》预告周一上线",
-      "originalTitle": "Avengers: Doomsday Star Hayley Atwell Teases New Trailer for Monday",
+      "title": "Peach Momoko 独家首展：漫威艺术魅力全解析",
+      "originalTitle": "The Marvel Art of Peach Momoko Offers an Exclusive First-Look Preview",
       "source": "ign.com",
       "sourceOrg": "ign.com",
-      "sourceDate": "2026.11.22",
-      "url": "https://www.ign.com/articles/avengers-doomsday-star-hayley-atwell-teases-new-trailer-for-monday",
+      "sourceDate": "2026.11.23",
+      "url": "https://www.ign.com/articles/the-marvel-art-of-peach-momoko-preview",
       "tags": [
         "漫威",
-        "影视资讯",
-        "预告片"
+        "Peach Momo",
+        "艺术预览"
       ],
-      "summary": "《复仇者联盟：末日》女主角海莉·阿特韦尔（Captain Carter）透露，全新预告片将在周一发布，粉丝期待值提升。",
+      "summary": "IGN带来终极X-Men艺术家Peach Momoko专属预览，展现其独特的漫威艺术风格与创作过程，粉丝不容错过。",
       "highlights": [
-        "海莉·阿特韦尔透露预告信息",
-        "新预告将在周一发布"
+        "独家预览Peach Momoko艺术作品",
+        "解析其在漫威的独特地位",
+        "探索Ultimate X-Men背后的创作灵感"
       ],
-      "readingNote": "官方预告即将揭晓，期待感拉满。",
-      "verifiedAt": "2026.11.22",
+      "readingNote": "艺术风格独具一格，值得资深粉丝细细品味。",
+      "verifiedAt": "2026.11.23",
       "verificationUrls": [
-        "https://www.ign.com/articles/avengers-doomsday-star-hayley-atwell-teases-new-trailer-for-monday"
+        "https://www.ign.com/articles/the-marvel-art-of-peach-momoko-preview"
       ]
     },
     {
-      "id": "20261122-hero-02",
+      "id": "20261123-hero-02",
       "category": "hero",
-      "title": "Blade导师离开漫威：因不想拍烂片",
-      "originalTitle": "Blade Director Says He Walked Away From Marvel's Canceled Movie Because 'Life's Too Short to Make S**t Films'",
+      "title": "Hailee Steinfeld确认加盟《复仇者：末日》饰演凯特·比什",
+      "originalTitle": "Kate Bishop Actress Hailee Steinfeld Confirmed for Avengers: Doomsday",
       "source": "ign.com",
       "sourceOrg": "ign.com",
-      "sourceDate": "2026.11.22",
-      "url": "https://www.ign.com/articles/blade-director-says-he-walked-away-from-marvels-canceled-movie-because-lifes-too-short-to-make-st-films",
+      "sourceDate": "2026.11.23",
+      "url": "https://www.ign.com/articles/kate-bishop-actress-hailee-steinfeld-confirmed-for-avengers-doomsday",
       "tags": [
         "漫威",
-        "导演",
-        "电影制作"
+        "Avengers: ",
+        "Hailee Ste"
       ],
-      "summary": "Blade电影导师巴萨姆·塔里克坦言离开漫威项目的原因是‘人生太短，不想拍烂片’，引发业内讨论。",
+      "summary": "漫威影院证实哈莉·斯坦伯格将饰演凯特·比什，成为《复仇者：末日》的临时加入演员，角色加入引发期待。",
       "highlights": [
-        "导师因质量原因离任",
-        "强调拍摄作品的严谨性"
+        "官方确认Steinfeld出演",
+        "凯特·比什加入Doomsday阵容",
+        "粉丝期待角色表现"
       ],
-      "readingNote": "创作者的职业态度值得尊重。",
-      "verifiedAt": "2026.11.22",
+      "readingNote": "角色加入为电影注入新鲜血液，期待与现有阵容的化学反应。",
+      "verifiedAt": "2026.11.23",
       "verificationUrls": [
-        "https://www.ign.com/articles/blade-director-says-he-walked-away-from-marvels-canceled-movie-because-lifes-too-short-to-make-st-films"
+        "https://www.ign.com/articles/kate-bishop-actress-hailee-steinfeld-confirmed-for-avengers-doomsday"
       ]
     },
     {
-      "id": "20261122-hero-03",
+      "id": "20261123-hero-03",
       "category": "hero",
-      "title": "凯特琳·邓斯特早期出演星际旅行：下一代",
-      "originalTitle": "Before Spider-Man, Kirsten Dunst Was In An Episode Of Star Trek: The Next Generation",
-      "source": "slashfilm.com",
-      "sourceOrg": "slashfilm.com",
-      "sourceDate": "2026.11.22",
-      "url": "https://www.slashfilm.com/2318144/spider-man-kirsten-dunst-star-trek-the-next-generation-episode/",
+      "title": "VisionQuest留下MCU前传潜力，Ultron深度获提升",
+      "originalTitle": "How VisionQuest Left Room For a Fascinating MCU Prequel Spinoff",
+      "source": "denofgeek.com",
+      "sourceOrg": "denofgeek.com",
+      "sourceDate": "2026.11.21",
+      "url": "https://www.denofgeek.com/tv/visionquest-left-room-fascinating-mcu-prequel-spinoff-invaders/",
       "tags": [
-        "影视冷知识",
-        "凯特琳·邓斯特",
-        "星际旅行"
+        "VisionQues",
+        "Ultron",
+        "MCU前传"
       ],
-      "summary": "在凭借《与吸血鬼对谈》走红及《蜘蛛侠》成名前，凯特琳·邓斯特曾客串《星际旅行：下一代》一集，展现早期演艺履历。",
+      "summary": "Den of Geek分析VisionQuest如何完结WandaVision三部曲，并为James Spader饰演的Ultron增加了厚重的人物层次，为潜在前传埋下伏笔。",
       "highlights": [
-        "早期客串星际旅行",
-        "成名前的演艺经历"
+        "完结WandaVision三部曲",
+        "赋予Ultron更深的人物深度",
+        "为MCU前传留出空间"
       ],
-      "readingNote": "星途起步，后来者居上。",
-      "verifiedAt": "2026.11.22",
+      "readingNote": "成功拓展宇宙设定，让反派也有了说服力。",
+      "verifiedAt": "2026.11.23",
       "verificationUrls": [
-        "https://www.slashfilm.com/2318144/spider-man-kirsten-dunst-star-trek-the-next-generation-episode/"
+        "https://www.denofgeek.com/tv/visionquest-left-room-fascinating-mcu-prequel-spinoff-invaders/"
       ]
     },
     {
-      "id": "20261122-game-01",
+      "id": "20261123-game-01",
       "category": "game",
-      "title": "《黑神话：悟空》同人小说引争议，现波及阴影心",
-      "originalTitle": "Astarion's Baldur's Gate 3 prequel novel infuriated fans, now it's Shadowheart's turn",
+      "title": "《Binding of Isaac》DLC加入AI音乐GTA 6讽刺更新 缺乏A",
+      "originalTitle": "Binding of Isaac DLC adds AI music in GTA 6-parodying update despite not having an AI disclosure, Steam reviews drop to Overwhelmingly Negative, music gets pull",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.22",
-      "url": "https://www.pcgamer.com/games/baldurs-gate/astarions-baldurs-gate-3-prequel-novel-infuriated-fans-now-its-shadowhearts-turn/",
+      "sourceDate": "2026.11.23",
+      "url": "https://www.pcgamer.com/games/roguelike/binding-of-isaac-dlc-adds-ai-music-in-gta-6-parodying-update-despite-not-having-an-ai-disclosure-steam-reviews-drop-to-overwhelmingly-negative-music-gets-pulled/",
       "tags": [
-        "巴尔德之门3",
-        "同人小说",
-        "玩家反响"
+        "Steam",
+        "AI生成",
+        "独立游戏"
       ],
-      "summary": "《巴尔德之门3》角色阿斯塔利昂的传记小说招致玩家不满，作者为获奖作家塔莎·苏里。随后聚焦阴影心的新书也引发玩家关注，社区对官方授权小说的态度持续发酵。",
+      "summary": "《Binding of Isaac》推出名为《The Wrath of the Lamb》的DLC，其中加入模仿《GTA 6》风格的AI音乐生成功能。由于未提供AI使用披露，导致Steam用户评价急剧下跌至「极度负面」，且因版权或平台政策原因音乐被下架。",
       "highlights": [
-        "阿斯塔利昂小说招玩家强烈不满",
-        "阴影心新作再次成为焦点"
+        "AI音乐功能引争议",
+        "Steam评价转为极度负面",
+        "音乐内容被移除"
       ],
-      "readingNote": "官方授权小说若偏离人设，极易触动玩家底线。",
-      "verifiedAt": "2026.11.22",
+      "readingNote": "AI创作争议再升级，版权与透明度成为玩家关注的焦点。",
+      "verifiedAt": "2026.11.23",
       "verificationUrls": [
-        "https://www.pcgamer.com/games/baldurs-gate/astarions-baldurs-gate-3-prequel-novel-infuriated-fans-now-its-shadowhearts-turn/"
+        "https://www.pcgamer.com/games/roguelike/binding-of-isaac-dlc-adds-ai-music-in-gta-6-parodying-update-despite-not-having-an-ai-disclosure-steam-reviews-drop-to-overwhelmingly-negative-music-gets-pulled/"
       ]
     },
     {
-      "id": "20261122-game-02",
+      "id": "20261123-game-02",
       "category": "game",
-      "title": "威世智将全额AI版权赔偿发给D&D作者",
-      "originalTitle": "Wizards of the Coast to pass full AI copyright payout to D&D writers",
+      "title": "SNEG重新发布三款经典PC策略游戏 包括《战争之王4：以太英雄》",
+      "originalTitle": "SNEG has re-released three more venerable PC strategy games including Warlords 4: Heroes of Etheria",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.22",
-      "url": "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/",
+      "sourceDate": "2026.11.23",
+      "url": "https://www.pcgamer.com/games/strategy/sneg-has-re-released-three-more-venerable-pc-strategy-games-including-warlords-4-heroes-of-etheria/",
       "tags": [
-        "威世智",
-        "AI版权",
-        "D&D作者"
+        "策略游戏",
+        "经典重置",
+        "SNEG"
       ],
-      "summary": "威世智公司将全额AI版权赔偿金分配给《龙与地下城》作家，旨在安抚创作者群体。尽管对公司而言金额微不足道，但这标志着行业在AI版权问题上的重要妥协。",
+      "summary": "游戏发行商SNEG重新发布了三款经典的PC策略游戏，其中包括《战争之王4：以太英雄》。这些游戏旨在让玩家重温经典战役，重新开启战争征程。",
       "highlights": [
-        "全额赔偿转发给D&D作家",
-        "缓解AI版权争议的关键举措"
+        "经典策略重新发行",
+        "包含《战争之王4》",
+        "让战争重新开始"
       ],
-      "readingNote": "版权分配虽小，却是行业规范的重要信号。",
-      "verifiedAt": "2026.11.22",
+      "readingNote": "复古游戏爱好者的福利，经典作品重新焕发光彩。",
+      "verifiedAt": "2026.11.23",
       "verificationUrls": [
-        "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/"
+        "https://www.pcgamer.com/games/strategy/sneg-has-re-released-three-more-venerable-pc-strategy-games-including-warlords-4-heroes-of-etheria/"
       ]
     },
     {
-      "id": "20261122-game-03",
+      "id": "20261123-game-03",
       "category": "game",
-      "title": "未公开的《妖魔之道3完整版》获韩国分级",
-      "originalTitle": "Unannounced Nioh 3 Complete Edition has been rated in Korea",
+      "title": "Rockstar透露《GTA 6》Jason原型灵感来自Steve McQuee",
+      "originalTitle": "GTA 6's strong and silent Jason was inspired by Steve McQueen and former Army Rangers, says Rockstar",
       "source": "eurogamer.net",
       "sourceOrg": "eurogamer.net",
-      "sourceDate": "2026.11.22",
-      "url": "https://www.eurogamer.net/nioh-3-complete-edition-rated-korea",
+      "sourceDate": "2026.11.23",
+      "url": "https://www.eurogamer.net/gta-6-jason-steve-mcqueen-army-rangers",
       "tags": [
-        "妖魔之道3",
-        "韩国分级",
-        "完整版"
+        "GTA 6",
+        "角色设计",
+        "Steve McQu"
       ],
-      "summary": "韩国游戏评级与管理委员会（GRAC）公布了未公开的《妖魔之道3完整版》评级信息。这表明该作或将在近期正式宣布或发行，值得玩家持续关注其后续动向。",
+      "summary": "据Rockstar官方消息，《GTA 6》中的主角Jason Duval之所以沉默寡言，是由设计之初就考虑在内的。他的安静性格灵感来源于电影传奇人物Steve McQueen，以及工作室对前陆军游骑兵的研究。",
       "highlights": [
-        "《妖魔之道3完整版》获韩国分级",
-        "或将迎来官方正式公告"
+        "静默角色设计由McQueen启发",
+        "参考前陆军游骑兵",
+        "Rockstar官方阐释背景"
       ],
-      "readingNote": "分级信息往往预示游戏即将亮相。",
-      "verifiedAt": "2026.11.22",
+      "readingNote": "沉默是金，McQueen的冷静风格深刻影响了角色塑造。",
+      "verifiedAt": "2026.11.23",
       "verificationUrls": [
-        "https://www.eurogamer.net/nioh-3-complete-edition-rated-korea"
+        "https://www.eurogamer.net/gta-6-jason-steve-mcqueen-army-rangers"
       ]
     }
   ]

@@ -1,7 +1,239 @@
 {
   "windowDays": 90,
-  "asOfDate": "2026.11.22",
+  "asOfDate": "2026.11.23",
   "issues": [
+    {
+      "edition": {
+        "date": "2026.11.22",
+        "weekday": "周日",
+        "label": "米米的AI日报",
+        "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
+      },
+      "items": [
+        {
+          "id": "20261122-ai-01",
+          "category": "ai",
+          "title": "LLMs 可逐字节读写可执行文件",
+          "originalTitle": "LLMs can read and write executables byte by byte from a hex dump",
+          "source": "sgiannopoulos.github.io",
+          "sourceOrg": "sgiannopoulos.github.io",
+          "sourceDate": "2026.11.18",
+          "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
+          "tags": [
+            "AI技术",
+            "编程创新"
+          ],
+          "summary": "研究人员展示大语言模型能直接读写二进制可执行文件，通过十六进制转储进行机器码编程，突破传统文本处理局限。",
+          "highlights": [
+            "LLMs 可直接操作二进制代码",
+            "突破文本处理的技术突破"
+          ],
+          "readingNote": "AI 正从文本生成进阶到系统级编程，潜在影响深远。",
+          "verifiedAt": "2026.11.22",
+          "verificationUrls": [
+            "https://sgiannopoulos.github.io/blog/machine-code-programming/"
+          ]
+        },
+        {
+          "id": "20261122-ai-02",
+          "category": "ai",
+          "title": "推理提供商数据处理事件",
+          "originalTitle": "Data Processing Incidents on Inference Providers",
+          "source": "openrouter.ai",
+          "sourceOrg": "openrouter.ai",
+          "sourceDate": "2026.11.22",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+          "tags": [
+            "AI安全",
+            "平台动态"
+          ],
+          "summary": "OpenRouter 发布公告，报告了推理提供商层面的数据处理安全事件，提醒用户关注 AI 推理过程中的数据隐私风险。",
+          "highlights": [
+            "数据处理安全事件",
+            "AI 推理隐私风险"
+          ],
+          "readingNote": "关注 AI 服务商的数据安全透明度。",
+          "verifiedAt": "2026.11.22",
+          "verificationUrls": [
+            "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+          ]
+        },
+        {
+          "id": "20261122-ai-03",
+          "category": "ai",
+          "title": "Pandex 欧洲 AI 代理法规",
+          "originalTitle": "Pandex – Official European Law for AI Agents, over MCP",
+          "source": "pandex.io",
+          "sourceOrg": "pandex.io",
+          "sourceDate": "2026.11.22",
+          "url": "https://www.pandex.io",
+          "tags": [
+            "AI法规",
+            "欧洲政策"
+          ],
+          "summary": "Pandex 官方发布欧洲 AI 代理法规，旨在针对 AI 代理运营提供法律框架，与 MCP 等技术标准形成区分。",
+          "highlights": [
+            "欧洲 AI 代理法规",
+            "法律合规框架"
+          ],
+          "readingNote": "AI 监管进入具体应用层面的细分。",
+          "verifiedAt": "2026.11.22",
+          "verificationUrls": [
+            "https://www.pandex.io"
+          ]
+        },
+        {
+          "id": "20261122-hero-01",
+          "category": "hero",
+          "title": "海莉·阿特韦尔透露新《复仇者联盟：末日》预告周一上线",
+          "originalTitle": "Avengers: Doomsday Star Hayley Atwell Teases New Trailer for Monday",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.22",
+          "url": "https://www.ign.com/articles/avengers-doomsday-star-hayley-atwell-teases-new-trailer-for-monday",
+          "tags": [
+            "漫威",
+            "影视资讯",
+            "预告片"
+          ],
+          "summary": "《复仇者联盟：末日》女主角海莉·阿特韦尔（Captain Carter）透露，全新预告片将在周一发布，粉丝期待值提升。",
+          "highlights": [
+            "海莉·阿特韦尔透露预告信息",
+            "新预告将在周一发布"
+          ],
+          "readingNote": "官方预告即将揭晓，期待感拉满。",
+          "verifiedAt": "2026.11.22",
+          "verificationUrls": [
+            "https://www.ign.com/articles/avengers-doomsday-star-hayley-atwell-teases-new-trailer-for-monday"
+          ]
+        },
+        {
+          "id": "20261122-hero-02",
+          "category": "hero",
+          "title": "Blade导师离开漫威：因不想拍烂片",
+          "originalTitle": "Blade Director Says He Walked Away From Marvel's Canceled Movie Because 'Life's Too Short to Make S**t Films'",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.22",
+          "url": "https://www.ign.com/articles/blade-director-says-he-walked-away-from-marvels-canceled-movie-because-lifes-too-short-to-make-st-films",
+          "tags": [
+            "漫威",
+            "导演",
+            "电影制作"
+          ],
+          "summary": "Blade电影导师巴萨姆·塔里克坦言离开漫威项目的原因是‘人生太短，不想拍烂片’，引发业内讨论。",
+          "highlights": [
+            "导师因质量原因离任",
+            "强调拍摄作品的严谨性"
+          ],
+          "readingNote": "创作者的职业态度值得尊重。",
+          "verifiedAt": "2026.11.22",
+          "verificationUrls": [
+            "https://www.ign.com/articles/blade-director-says-he-walked-away-from-marvels-canceled-movie-because-lifes-too-short-to-make-st-films"
+          ]
+        },
+        {
+          "id": "20261122-hero-03",
+          "category": "hero",
+          "title": "凯特琳·邓斯特早期出演星际旅行：下一代",
+          "originalTitle": "Before Spider-Man, Kirsten Dunst Was In An Episode Of Star Trek: The Next Generation",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.22",
+          "url": "https://www.slashfilm.com/2318144/spider-man-kirsten-dunst-star-trek-the-next-generation-episode/",
+          "tags": [
+            "影视冷知识",
+            "凯特琳·邓斯特",
+            "星际旅行"
+          ],
+          "summary": "在凭借《与吸血鬼对谈》走红及《蜘蛛侠》成名前，凯特琳·邓斯特曾客串《星际旅行：下一代》一集，展现早期演艺履历。",
+          "highlights": [
+            "早期客串星际旅行",
+            "成名前的演艺经历"
+          ],
+          "readingNote": "星途起步，后来者居上。",
+          "verifiedAt": "2026.11.22",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2318144/spider-man-kirsten-dunst-star-trek-the-next-generation-episode/"
+          ]
+        },
+        {
+          "id": "20261122-game-01",
+          "category": "game",
+          "title": "《黑神话：悟空》同人小说引争议，现波及阴影心",
+          "originalTitle": "Astarion's Baldur's Gate 3 prequel novel infuriated fans, now it's Shadowheart's turn",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.22",
+          "url": "https://www.pcgamer.com/games/baldurs-gate/astarions-baldurs-gate-3-prequel-novel-infuriated-fans-now-its-shadowhearts-turn/",
+          "tags": [
+            "巴尔德之门3",
+            "同人小说",
+            "玩家反响"
+          ],
+          "summary": "《巴尔德之门3》角色阿斯塔利昂的传记小说招致玩家不满，作者为获奖作家塔莎·苏里。随后聚焦阴影心的新书也引发玩家关注，社区对官方授权小说的态度持续发酵。",
+          "highlights": [
+            "阿斯塔利昂小说招玩家强烈不满",
+            "阴影心新作再次成为焦点"
+          ],
+          "readingNote": "官方授权小说若偏离人设，极易触动玩家底线。",
+          "verifiedAt": "2026.11.22",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/baldurs-gate/astarions-baldurs-gate-3-prequel-novel-infuriated-fans-now-its-shadowhearts-turn/"
+          ]
+        },
+        {
+          "id": "20261122-game-02",
+          "category": "game",
+          "title": "威世智将全额AI版权赔偿发给D&D作者",
+          "originalTitle": "Wizards of the Coast to pass full AI copyright payout to D&D writers",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.22",
+          "url": "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/",
+          "tags": [
+            "威世智",
+            "AI版权",
+            "D&D作者"
+          ],
+          "summary": "威世智公司将全额AI版权赔偿金分配给《龙与地下城》作家，旨在安抚创作者群体。尽管对公司而言金额微不足道，但这标志着行业在AI版权问题上的重要妥协。",
+          "highlights": [
+            "全额赔偿转发给D&D作家",
+            "缓解AI版权争议的关键举措"
+          ],
+          "readingNote": "版权分配虽小，却是行业规范的重要信号。",
+          "verifiedAt": "2026.11.22",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/"
+          ]
+        },
+        {
+          "id": "20261122-game-03",
+          "category": "game",
+          "title": "未公开的《妖魔之道3完整版》获韩国分级",
+          "originalTitle": "Unannounced Nioh 3 Complete Edition has been rated in Korea",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.22",
+          "url": "https://www.eurogamer.net/nioh-3-complete-edition-rated-korea",
+          "tags": [
+            "妖魔之道3",
+            "韩国分级",
+            "完整版"
+          ],
+          "summary": "韩国游戏评级与管理委员会（GRAC）公布了未公开的《妖魔之道3完整版》评级信息。这表明该作或将在近期正式宣布或发行，值得玩家持续关注其后续动向。",
+          "highlights": [
+            "《妖魔之道3完整版》获韩国分级",
+            "或将迎来官方正式公告"
+          ],
+          "readingNote": "分级信息往往预示游戏即将亮相。",
+          "verifiedAt": "2026.11.22",
+          "verificationUrls": [
+            "https://www.eurogamer.net/nioh-3-complete-edition-rated-korea"
+          ]
+        }
+      ]
+    },
     {
       "edition": {
         "date": "2026.11.21",
