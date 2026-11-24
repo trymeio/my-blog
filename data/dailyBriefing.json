@@ -1,243 +1,237 @@
 {
   "edition": {
-    "date": "2026.11.23",
-    "weekday": "周一",
+    "date": "2026.11.24",
+    "weekday": "周二",
     "label": "米米的AI日报",
     "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
   },
   "items": [
     {
-      "id": "20261123-ai-01",
+      "id": "20261124-ai-01",
       "category": "ai",
-      "title": "新手指南：使用 Inkling、Qwen 和 Unsloth 搭建本地 AI",
-      "originalTitle": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-      "source": "gpupartner.com",
-      "sourceOrg": "gpupartner.com",
-      "sourceDate": "2026.11.23",
-      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "title": "尤内克推动开源模型受限，称其危险以保持控制",
+      "originalTitle": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+      "source": "twitter.com",
+      "sourceOrg": "twitter.com",
+      "sourceDate": "2026.11.24",
+      "url": "https://twitter.com/ylecun/status/2124550037912920090",
       "tags": [
-        "AI",
-        "本地部署",
-        "入门教程"
+        "AI监管",
+        "开源争议",
+        "行业格局"
       ],
-      "summary": "文章介绍了初学者如何利用 Inkling、Qwen 和 Unsloth 三款工具，在个人电脑上搭建和运行本地大模型，无需依赖云服务，降低了 AI 本地化的门槛。",
+      "summary": "尤内克在推特声称开源模型存在危险，主张将其限制为非法，以此维持自身在AI领域的控制权。此言论引发了社区对AI开源与垄断的热议。",
       "highlights": [
-        "三款工具助力本地 AI 搭建",
-        "零依赖云服务，保护隐私",
-        "适合想本地部署的新手用户"
+        "尤内克警告开源模型风险",
+        "主张限制以保持行业控制"
       ],
-      "readingNote": "对于想要尝试本地 AI 的用户来说，是一份实用且易上手的指南。",
-      "verifiedAt": "2026.11.23",
+      "readingNote": "科技巨头的言论往往带有战略考量，开源与闭源的博弈仍在持续演变。",
+      "verifiedAt": "2026.11.24",
       "verificationUrls": [
-        "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
+        "https://twitter.com/ylecun/status/2124550037912920090"
       ]
     },
     {
-      "id": "20261123-ai-02",
+      "id": "20261124-ai-02",
       "category": "ai",
-      "title": "展示项目：我构建了一个 LLM 的子代理游戏",
-      "originalTitle": "Show HN: I built a game where you are an LLM's subagent",
-      "source": "github.com",
-      "sourceOrg": "github.com",
-      "sourceDate": "2026.11.22",
-      "url": "https://github.com/gulivan/worker755",
+      "title": "GLM-5.4发布：首个循环变压器助力通用编码",
+      "originalTitle": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "source": "z.ai",
+      "sourceOrg": "z.ai",
+      "sourceDate": "2026.11.23",
+      "url": "https://z.ai/blog/glm-5.4",
       "tags": [
-        "游戏",
-        "LLM",
-        "开源项目"
+        "GLM",
+        "模型架构",
+        "编码能力"
       ],
-      "summary": "博主在 GitHub 上展示了一个名为 \"worker755\" 的项目，玩家在游戏中扮演大型语言模型的子代理，通过指令与模型交互，体验独特的 AI 驱动游戏玩法。",
+      "summary": "z.ai推出GLM-5.4模型，创新性地引入了循环变压器架构，旨在突破传统模型在代码生成和处理上的局限，实现更 generalized（广义）的编码能力。",
       "highlights": [
-        "LLM 子代理游戏创新玩法",
-        "GitHub 项目展示，代码开源",
-        "体验 AI 角色扮演新模式"
+        "首创循环变压器结构",
+        "突破代码生成瓶颈"
       ],
-      "readingNote": "这是一个新颖的概念验证项目，展示了 LLM 在交互式娱乐中的潜力。",
-      "verifiedAt": "2026.11.23",
+      "readingNote": "架构创新是模型性能提升的关键，循环机制或将重塑AI代码助手的形态。",
+      "verifiedAt": "2026.11.24",
       "verificationUrls": [
-        "https://github.com/gulivan/worker755"
+        "https://z.ai/blog/glm-5.4"
       ]
     },
     {
-      "id": "20261123-ai-03",
+      "id": "20261124-ai-03",
       "category": "ai",
-      "title": "Localcode：一键在 Mac 上进行代理编码",
-      "originalTitle": "Localcode, open source agentic coding on your Mac with one command",
-      "source": "github.com",
-      "sourceOrg": "github.com",
-      "sourceDate": "2026.11.23",
-      "url": "https://github.com/mjwsolo/localcode",
+      "title": "LLMs可检测先前概念注入行为",
+      "originalTitle": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
+      "source": "arxiv.org",
+      "sourceOrg": "arxiv.org",
+      "sourceDate": "2026.11.24",
+      "url": "https://arxiv.org/abs/2602.20031",
       "tags": [
-        "开源",
-        "Mac",
-        "AI 编程"
+        "LLM机制",
+        "概念注入",
+        "模型可靠性"
       ],
-      "summary": "开源项目 Localcode 让 Mac 用户只需一条命令即可启动代理编码功能，简化了本地 AI 辅助编程的流程，提升了使用本地模型进行代码创作的效率。",
+      "summary": "arxiv研究表明，大型语言模型具备‘潜在自省’能力，能够检测并识别先前被注入的概念或偏见，这为理解模型内部机制和增强可靠性提供了新视角。",
       "highlights": [
-        "Mac 一键启动代理编码",
-        "开源项目，免费使用",
-        "提升本地 AI 编程效率"
+        "模型具备自省检测能力",
+        "能识别概念注入行为"
       ],
-      "readingNote": "对于 Mac 用户来说，这是一个降低本地 AI 编程门槛的实用工具。",
-      "verifiedAt": "2026.11.23",
+      "readingNote": "这是AI安全领域的重要进展，让模型‘自我审计’成为可能。",
+      "verifiedAt": "2026.11.24",
       "verificationUrls": [
-        "https://github.com/mjwsolo/localcode"
+        "https://arxiv.org/abs/2602.20031"
       ]
     },
     {
-      "id": "20261123-hero-01",
+      "id": "20261124-hero-01",
       "category": "hero",
-      "title": "Peach Momoko 独家首展：漫威艺术魅力全解析",
-      "originalTitle": "The Marvel Art of Peach Momoko Offers an Exclusive First-Look Preview",
-      "source": "ign.com",
-      "sourceOrg": "ign.com",
-      "sourceDate": "2026.11.23",
-      "url": "https://www.ign.com/articles/the-marvel-art-of-peach-momoko-preview",
+      "title": "布莱特·斯帕内配音经典蝙蝠侠反派",
+      "originalTitle": "Star Trek's Brent Spiner Voiced A Heroic Version Of A Classic Batman Villain",
+      "source": "slashfilm.com",
+      "sourceOrg": "slashfilm.com",
+      "sourceDate": "2026.11.24",
+      "url": "https://www.slashfilm.com/2319424/star-trek-brent-spiner-batman-villain-riddler-justice-league-action/",
       "tags": [
-        "漫威",
-        "Peach Momo",
-        "艺术预览"
+        "星际",
+        "蝙蝠侠",
+        "声演"
       ],
-      "summary": "IGN带来终极X-Men艺术家Peach Momoko专属预览，展现其独特的漫威艺术风格与创作过程，粉丝不容错过。",
+      "summary": "《星际旅人》中饰演数据的布莱特·斯帕内曾为正义联盟中的蝙蝠侠反角配音，展现其声演才华。",
       "highlights": [
-        "独家预览Peach Momoko艺术作品",
-        "解析其在漫威的独特地位",
-        "探索Ultimate X-Men背后的创作灵感"
+        "资深星际角色演员",
+        "为蝙蝠侠角色配音"
       ],
-      "readingNote": "艺术风格独具一格，值得资深粉丝细细品味。",
-      "verifiedAt": "2026.11.23",
+      "readingNote": "斯帕内的声线转型让人意外，原本的机器人形象与反派形成有趣反差。",
+      "verifiedAt": "2026.11.24",
       "verificationUrls": [
-        "https://www.ign.com/articles/the-marvel-art-of-peach-momoko-preview"
+        "https://www.slashfilm.com/2319424/star-trek-brent-spiner-batman-villain-riddler-justice-league-action/"
       ]
     },
     {
-      "id": "20261123-hero-02",
+      "id": "20261124-hero-02",
       "category": "hero",
-      "title": "Hailee Steinfeld确认加盟《复仇者：末日》饰演凯特·比什",
-      "originalTitle": "Kate Bishop Actress Hailee Steinfeld Confirmed for Avengers: Doomsday",
-      "source": "ign.com",
-      "sourceOrg": "ign.com",
-      "sourceDate": "2026.11.23",
-      "url": "https://www.ign.com/articles/kate-bishop-actress-hailee-steinfeld-confirmed-for-avengers-doomsday",
+      "title": "汤姆·哈迪与加里·奥德曼西部犯罪电影重聚",
+      "originalTitle": "Tom Hardy And Gary Oldman Had A Batman Reunion In This Forgotten Western Gangster Movie",
+      "source": "slashfilm.com",
+      "sourceOrg": "slashfilm.com",
+      "sourceDate": "2026.11.24",
+      "url": "https://www.slashfilm.com/2325175/tom-hardy-gary-oldman-batman-reunion-western-gangster-movie-lawless/",
       "tags": [
-        "漫威",
-        "Avengers: ",
-        "Hailee Ste"
+        "汤姆·哈迪",
+        "加里·奥德曼",
+        "西部"
       ],
-      "summary": "漫威影院证实哈莉·斯坦伯格将饰演凯特·比什，成为《复仇者：末日》的临时加入演员，角色加入引发期待。",
+      "summary": "诺兰《黑暗骑士崛起》上映后一个月，哈迪与奥德曼合作约翰·希尔科特的西部犯罪电影《荒原》。",
       "highlights": [
-        "官方确认Steinfeld出演",
-        "凯特·比什加入Doomsday阵容",
-        "粉丝期待角色表现"
+        "黑暗骑士事后合作",
+        "西部犯罪题材"
       ],
-      "readingNote": "角色加入为电影注入新鲜血液，期待与现有阵容的化学反应。",
-      "verifiedAt": "2026.11.23",
+      "readingNote": "两位黑帮巨星在诺兰宇宙之外的首次合作，展现不同演技风格。",
+      "verifiedAt": "2026.11.24",
       "verificationUrls": [
-        "https://www.ign.com/articles/kate-bishop-actress-hailee-steinfeld-confirmed-for-avengers-doomsday"
+        "https://www.slashfilm.com/2325175/tom-hardy-gary-oldman-batman-reunion-western-gangster-movie-lawless/"
       ]
     },
     {
-      "id": "20261123-hero-03",
+      "id": "20261124-hero-03",
       "category": "hero",
-      "title": "VisionQuest留下MCU前传潜力，Ultron深度获提升",
-      "originalTitle": "How VisionQuest Left Room For a Fascinating MCU Prequel Spinoff",
+      "title": "漫威《复仇者大乱斗》预告赛博斯获正名",
+      "originalTitle": "Avengers: Doomsday Trailer Gives Cyclops His Long Overdue Fan Moment",
       "source": "denofgeek.com",
       "sourceOrg": "denofgeek.com",
-      "sourceDate": "2026.11.21",
-      "url": "https://www.denofgeek.com/tv/visionquest-left-room-fascinating-mcu-prequel-spinoff-invaders/",
+      "sourceDate": "2026.11.24",
+      "url": "https://www.denofgeek.com/movies/avengers-doomsday-trailer-cyclops-overdue-fan-moment/",
       "tags": [
-        "VisionQues",
-        "Ultron",
-        "MCU前传"
+        "漫威",
+        "复仇者",
+        "赛博斯"
       ],
-      "summary": "Den of Geek分析VisionQuest如何完结WandaVision三部曲，并为James Spader饰演的Ultron增加了厚重的人物层次，为潜在前传埋下伏笔。",
+      "summary": "《复仇者大乱斗》最终预告中，赛博斯队长终于获得粉丝期待的重要场景，备受期待。",
       "highlights": [
-        "完结WandaVision三部曲",
-        "赋予Ultron更深的人物深度",
-        "为MCU前传留出空间"
+        "赛博斯正名时刻",
+        "漫威大片预告"
       ],
-      "readingNote": "成功拓展宇宙设定，让反派也有了说服力。",
-      "verifiedAt": "2026.11.23",
+      "readingNote": "久违的赛博斯出场，粉丝情绪瞬间被点燃，预告质量高。",
+      "verifiedAt": "2026.11.24",
       "verificationUrls": [
-        "https://www.denofgeek.com/tv/visionquest-left-room-fascinating-mcu-prequel-spinoff-invaders/"
+        "https://www.denofgeek.com/movies/avengers-doomsday-trailer-cyclops-overdue-fan-moment/"
       ]
     },
     {
-      "id": "20261123-game-01",
+      "id": "20261124-game-01",
       "category": "game",
-      "title": "《Binding of Isaac》DLC加入AI音乐GTA 6讽刺更新 缺乏A",
-      "originalTitle": "Binding of Isaac DLC adds AI music in GTA 6-parodying update despite not having an AI disclosure, Steam reviews drop to Overwhelmingly Negative, music gets pull",
+      "title": "特朗普声称功劳 Jensen Huang 重返 Nvidia 并发布庆祝表情包",
+      "originalTitle": "Trump claims credit for Jensen Huang's return to Nvidia, posts meme depicting Huang holding up a bra victoriously",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.23",
-      "url": "https://www.pcgamer.com/games/roguelike/binding-of-isaac-dlc-adds-ai-music-in-gta-6-parodying-update-despite-not-having-an-ai-disclosure-steam-reviews-drop-to-overwhelmingly-negative-music-gets-pulled/",
+      "sourceDate": "2026.11.24",
+      "url": "https://www.pcgamer.com/software/ai/trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts-meme-depicting-huang-holding-up-a-bra-victoriously/",
       "tags": [
-        "Steam",
-        "AI生成",
-        "独立游戏"
+        "游戏硬件",
+        "政治梗",
+        "Nvidia"
       ],
-      "summary": "《Binding of Isaac》推出名为《The Wrath of the Lamb》的DLC，其中加入模仿《GTA 6》风格的AI音乐生成功能。由于未提供AI使用披露，导致Steam用户评价急剧下跌至「极度负面」，且因版权或平台政策原因音乐被下架。",
+      "summary": "美国政客两党均对 Nvidia 首席执行官回归行业表示关注，特朗普在社交媒体上发布一张胡克 Huang 举起文胸的搞笑图片，引发广泛讨论。",
       "highlights": [
-        "AI音乐功能引争议",
-        "Steam评价转为极度负面",
-        "音乐内容被移除"
+        "特朗普自夸功劳",
+        "发布搞笑 meme 图片",
+        "行业两党关注焦点"
       ],
-      "readingNote": "AI创作争议再升级，版权与透明度成为玩家关注的焦点。",
-      "verifiedAt": "2026.11.23",
+      "readingNote": "政治与科技的碰撞总是能带来意想不到的笑料。",
+      "verifiedAt": "2026.11.24",
       "verificationUrls": [
-        "https://www.pcgamer.com/games/roguelike/binding-of-isaac-dlc-adds-ai-music-in-gta-6-parodying-update-despite-not-having-an-ai-disclosure-steam-reviews-drop-to-overwhelmingly-negative-music-gets-pulled/"
+        "https://www.pcgamer.com/software/ai/trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts-meme-depicting-huang-holding-up-a-bra-victoriously/"
       ]
     },
     {
-      "id": "20261123-game-02",
+      "id": "20261124-game-02",
       "category": "game",
-      "title": "SNEG重新发布三款经典PC策略游戏 包括《战争之王4：以太英雄》",
-      "originalTitle": "SNEG has re-released three more venerable PC strategy games including Warlords 4: Heroes of Etheria",
+      "title": "索尼确认 GTA 6 在 PlayStation 上创记录",
+      "originalTitle": "Sony: GTA 6 set record for 'highest number of concurrent players for any game on PlayStation' ever",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.23",
-      "url": "https://www.pcgamer.com/games/strategy/sneg-has-re-released-three-more-venerable-pc-strategy-games-including-warlords-4-heroes-of-etheria/",
-      "tags": [
-        "策略游戏",
-        "经典重置",
-        "SNEG"
-      ],
-      "summary": "游戏发行商SNEG重新发布了三款经典的PC策略游戏，其中包括《战争之王4：以太英雄》。这些游戏旨在让玩家重温经典战役，重新开启战争征程。",
-      "highlights": [
-        "经典策略重新发行",
-        "包含《战争之王4》",
-        "让战争重新开始"
-      ],
-      "readingNote": "复古游戏爱好者的福利，经典作品重新焕发光彩。",
-      "verifiedAt": "2026.11.23",
-      "verificationUrls": [
-        "https://www.pcgamer.com/games/strategy/sneg-has-re-released-three-more-venerable-pc-strategy-games-including-warlords-4-heroes-of-etheria/"
-      ]
-    },
-    {
-      "id": "20261123-game-03",
-      "category": "game",
-      "title": "Rockstar透露《GTA 6》Jason原型灵感来自Steve McQuee",
-      "originalTitle": "GTA 6's strong and silent Jason was inspired by Steve McQueen and former Army Rangers, says Rockstar",
-      "source": "eurogamer.net",
-      "sourceOrg": "eurogamer.net",
-      "sourceDate": "2026.11.23",
-      "url": "https://www.eurogamer.net/gta-6-jason-steve-mcqueen-army-rangers",
+      "sourceDate": "2026.11.24",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/sony-gta-6-set-record-for-highest-number-of-concurrent-players-for-any-game-on-playstation-ever/",
       "tags": [
         "GTA 6",
-        "角色设计",
-        "Steve McQu"
+        "PlayStatio",
+        "销量记录"
       ],
-      "summary": "据Rockstar官方消息，《GTA 6》中的主角Jason Duval之所以沉默寡言，是由设计之初就考虑在内的。他的安静性格灵感来源于电影传奇人物Steve McQueen，以及工作室对前陆军游骑兵的研究。",
+      "summary": "PlayStation 官方宣布 GTA 6 实现了历史上任何游戏最高的同时在线玩家峰值，进一步验证了该作的巨大市场影响力。",
       "highlights": [
-        "静默角色设计由McQueen启发",
-        "参考前陆军游骑兵",
-        "Rockstar官方阐释背景"
+        "创历史最高峰值",
+        "PlayStation 平台独家数据",
+        "市场成功验证"
       ],
-      "readingNote": "沉默是金，McQueen的冷静风格深刻影响了角色塑造。",
-      "verifiedAt": "2026.11.23",
+      "readingNote": "这可是 Rockstar Games 有史以来最受期待的作品之一。",
+      "verifiedAt": "2026.11.24",
       "verificationUrls": [
-        "https://www.eurogamer.net/gta-6-jason-steve-mcqueen-army-rangers"
+        "https://www.pcgamer.com/games/grand-theft-auto/sony-gta-6-set-record-for-highest-number-of-concurrent-players-for-any-game-on-playstation-ever/"
+      ]
+    },
+    {
+      "id": "20261124-game-03",
+      "category": "game",
+      "title": "GTA 6 PC 移植进展：CyberLeek 发布 Xbox 版本",
+      "originalTitle": "Modders already have GTA 6 running on PC, after CyberLeek released a full Xbox build of the game",
+      "source": "eurogamer.net",
+      "sourceOrg": "eurogamer.net",
+      "sourceDate": "2026.11.24",
+      "url": "https://www.eurogamer.net/gta-6-cyberleek-leaked-xbox-build-ported-pc",
+      "tags": [
+        "GTA 6",
+        "PC 移植",
+        "modder"
+      ],
+      "summary": "知名泄密团队 CyberLeek 近日放出 Xbox 版 GTA 6 的近完整构建，随后 modder（修改者）成功在 PC 上运行，说明 PC 版移植进程比预期更快。",
+      "highlights": [
+        "CyberLeek 发布 Xbox 构建",
+        "modder 实现 PC 运行",
+        "移植进程加速"
+      ],
+      "readingNote": "官方尚未发布 PC 版，玩家的热情却已提前点燃。",
+      "verifiedAt": "2026.11.24",
+      "verificationUrls": [
+        "https://www.eurogamer.net/gta-6-cyberleek-leaked-xbox-build-ported-pc"
       ]
     }
   ]

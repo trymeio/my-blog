@@ -1,7 +1,251 @@
 {
   "windowDays": 90,
-  "asOfDate": "2026.11.23",
+  "asOfDate": "2026.11.24",
   "issues": [
+    {
+      "edition": {
+        "date": "2026.11.23",
+        "weekday": "周一",
+        "label": "米米的AI日报",
+        "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
+      },
+      "items": [
+        {
+          "id": "20261123-ai-01",
+          "category": "ai",
+          "title": "新手指南：使用 Inkling、Qwen 和 Unsloth 搭建本地 AI",
+          "originalTitle": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+          "source": "gpupartner.com",
+          "sourceOrg": "gpupartner.com",
+          "sourceDate": "2026.11.23",
+          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+          "tags": [
+            "AI",
+            "本地部署",
+            "入门教程"
+          ],
+          "summary": "文章介绍了初学者如何利用 Inkling、Qwen 和 Unsloth 三款工具，在个人电脑上搭建和运行本地大模型，无需依赖云服务，降低了 AI 本地化的门槛。",
+          "highlights": [
+            "三款工具助力本地 AI 搭建",
+            "零依赖云服务，保护隐私",
+            "适合想本地部署的新手用户"
+          ],
+          "readingNote": "对于想要尝试本地 AI 的用户来说，是一份实用且易上手的指南。",
+          "verifiedAt": "2026.11.23",
+          "verificationUrls": [
+            "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
+          ]
+        },
+        {
+          "id": "20261123-ai-02",
+          "category": "ai",
+          "title": "展示项目：我构建了一个 LLM 的子代理游戏",
+          "originalTitle": "Show HN: I built a game where you are an LLM's subagent",
+          "source": "github.com",
+          "sourceOrg": "github.com",
+          "sourceDate": "2026.11.22",
+          "url": "https://github.com/gulivan/worker755",
+          "tags": [
+            "游戏",
+            "LLM",
+            "开源项目"
+          ],
+          "summary": "博主在 GitHub 上展示了一个名为 \"worker755\" 的项目，玩家在游戏中扮演大型语言模型的子代理，通过指令与模型交互，体验独特的 AI 驱动游戏玩法。",
+          "highlights": [
+            "LLM 子代理游戏创新玩法",
+            "GitHub 项目展示，代码开源",
+            "体验 AI 角色扮演新模式"
+          ],
+          "readingNote": "这是一个新颖的概念验证项目，展示了 LLM 在交互式娱乐中的潜力。",
+          "verifiedAt": "2026.11.23",
+          "verificationUrls": [
+            "https://github.com/gulivan/worker755"
+          ]
+        },
+        {
+          "id": "20261123-ai-03",
+          "category": "ai",
+          "title": "Localcode：一键在 Mac 上进行代理编码",
+          "originalTitle": "Localcode, open source agentic coding on your Mac with one command",
+          "source": "github.com",
+          "sourceOrg": "github.com",
+          "sourceDate": "2026.11.23",
+          "url": "https://github.com/mjwsolo/localcode",
+          "tags": [
+            "开源",
+            "Mac",
+            "AI 编程"
+          ],
+          "summary": "开源项目 Localcode 让 Mac 用户只需一条命令即可启动代理编码功能，简化了本地 AI 辅助编程的流程，提升了使用本地模型进行代码创作的效率。",
+          "highlights": [
+            "Mac 一键启动代理编码",
+            "开源项目，免费使用",
+            "提升本地 AI 编程效率"
+          ],
+          "readingNote": "对于 Mac 用户来说，这是一个降低本地 AI 编程门槛的实用工具。",
+          "verifiedAt": "2026.11.23",
+          "verificationUrls": [
+            "https://github.com/mjwsolo/localcode"
+          ]
+        },
+        {
+          "id": "20261123-hero-01",
+          "category": "hero",
+          "title": "Peach Momoko 独家首展：漫威艺术魅力全解析",
+          "originalTitle": "The Marvel Art of Peach Momoko Offers an Exclusive First-Look Preview",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.23",
+          "url": "https://www.ign.com/articles/the-marvel-art-of-peach-momoko-preview",
+          "tags": [
+            "漫威",
+            "Peach Momo",
+            "艺术预览"
+          ],
+          "summary": "IGN带来终极X-Men艺术家Peach Momoko专属预览，展现其独特的漫威艺术风格与创作过程，粉丝不容错过。",
+          "highlights": [
+            "独家预览Peach Momoko艺术作品",
+            "解析其在漫威的独特地位",
+            "探索Ultimate X-Men背后的创作灵感"
+          ],
+          "readingNote": "艺术风格独具一格，值得资深粉丝细细品味。",
+          "verifiedAt": "2026.11.23",
+          "verificationUrls": [
+            "https://www.ign.com/articles/the-marvel-art-of-peach-momoko-preview"
+          ]
+        },
+        {
+          "id": "20261123-hero-02",
+          "category": "hero",
+          "title": "Hailee Steinfeld确认加盟《复仇者：末日》饰演凯特·比什",
+          "originalTitle": "Kate Bishop Actress Hailee Steinfeld Confirmed for Avengers: Doomsday",
+          "source": "ign.com",
+          "sourceOrg": "ign.com",
+          "sourceDate": "2026.11.23",
+          "url": "https://www.ign.com/articles/kate-bishop-actress-hailee-steinfeld-confirmed-for-avengers-doomsday",
+          "tags": [
+            "漫威",
+            "Avengers: ",
+            "Hailee Ste"
+          ],
+          "summary": "漫威影院证实哈莉·斯坦伯格将饰演凯特·比什，成为《复仇者：末日》的临时加入演员，角色加入引发期待。",
+          "highlights": [
+            "官方确认Steinfeld出演",
+            "凯特·比什加入Doomsday阵容",
+            "粉丝期待角色表现"
+          ],
+          "readingNote": "角色加入为电影注入新鲜血液，期待与现有阵容的化学反应。",
+          "verifiedAt": "2026.11.23",
+          "verificationUrls": [
+            "https://www.ign.com/articles/kate-bishop-actress-hailee-steinfeld-confirmed-for-avengers-doomsday"
+          ]
+        },
+        {
+          "id": "20261123-hero-03",
+          "category": "hero",
+          "title": "VisionQuest留下MCU前传潜力，Ultron深度获提升",
+          "originalTitle": "How VisionQuest Left Room For a Fascinating MCU Prequel Spinoff",
+          "source": "denofgeek.com",
+          "sourceOrg": "denofgeek.com",
+          "sourceDate": "2026.11.21",
+          "url": "https://www.denofgeek.com/tv/visionquest-left-room-fascinating-mcu-prequel-spinoff-invaders/",
+          "tags": [
+            "VisionQues",
+            "Ultron",
+            "MCU前传"
+          ],
+          "summary": "Den of Geek分析VisionQuest如何完结WandaVision三部曲，并为James Spader饰演的Ultron增加了厚重的人物层次，为潜在前传埋下伏笔。",
+          "highlights": [
+            "完结WandaVision三部曲",
+            "赋予Ultron更深的人物深度",
+            "为MCU前传留出空间"
+          ],
+          "readingNote": "成功拓展宇宙设定，让反派也有了说服力。",
+          "verifiedAt": "2026.11.23",
+          "verificationUrls": [
+            "https://www.denofgeek.com/tv/visionquest-left-room-fascinating-mcu-prequel-spinoff-invaders/"
+          ]
+        },
+        {
+          "id": "20261123-game-01",
+          "category": "game",
+          "title": "《Binding of Isaac》DLC加入AI音乐GTA 6讽刺更新 缺乏A",
+          "originalTitle": "Binding of Isaac DLC adds AI music in GTA 6-parodying update despite not having an AI disclosure, Steam reviews drop to Overwhelmingly Negative, music gets pull",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.23",
+          "url": "https://www.pcgamer.com/games/roguelike/binding-of-isaac-dlc-adds-ai-music-in-gta-6-parodying-update-despite-not-having-an-ai-disclosure-steam-reviews-drop-to-overwhelmingly-negative-music-gets-pulled/",
+          "tags": [
+            "Steam",
+            "AI生成",
+            "独立游戏"
+          ],
+          "summary": "《Binding of Isaac》推出名为《The Wrath of the Lamb》的DLC，其中加入模仿《GTA 6》风格的AI音乐生成功能。由于未提供AI使用披露，导致Steam用户评价急剧下跌至「极度负面」，且因版权或平台政策原因音乐被下架。",
+          "highlights": [
+            "AI音乐功能引争议",
+            "Steam评价转为极度负面",
+            "音乐内容被移除"
+          ],
+          "readingNote": "AI创作争议再升级，版权与透明度成为玩家关注的焦点。",
+          "verifiedAt": "2026.11.23",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/roguelike/binding-of-isaac-dlc-adds-ai-music-in-gta-6-parodying-update-despite-not-having-an-ai-disclosure-steam-reviews-drop-to-overwhelmingly-negative-music-gets-pulled/"
+          ]
+        },
+        {
+          "id": "20261123-game-02",
+          "category": "game",
+          "title": "SNEG重新发布三款经典PC策略游戏 包括《战争之王4：以太英雄》",
+          "originalTitle": "SNEG has re-released three more venerable PC strategy games including Warlords 4: Heroes of Etheria",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.23",
+          "url": "https://www.pcgamer.com/games/strategy/sneg-has-re-released-three-more-venerable-pc-strategy-games-including-warlords-4-heroes-of-etheria/",
+          "tags": [
+            "策略游戏",
+            "经典重置",
+            "SNEG"
+          ],
+          "summary": "游戏发行商SNEG重新发布了三款经典的PC策略游戏，其中包括《战争之王4：以太英雄》。这些游戏旨在让玩家重温经典战役，重新开启战争征程。",
+          "highlights": [
+            "经典策略重新发行",
+            "包含《战争之王4》",
+            "让战争重新开始"
+          ],
+          "readingNote": "复古游戏爱好者的福利，经典作品重新焕发光彩。",
+          "verifiedAt": "2026.11.23",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/strategy/sneg-has-re-released-three-more-venerable-pc-strategy-games-including-warlords-4-heroes-of-etheria/"
+          ]
+        },
+        {
+          "id": "20261123-game-03",
+          "category": "game",
+          "title": "Rockstar透露《GTA 6》Jason原型灵感来自Steve McQuee",
+          "originalTitle": "GTA 6's strong and silent Jason was inspired by Steve McQueen and former Army Rangers, says Rockstar",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.23",
+          "url": "https://www.eurogamer.net/gta-6-jason-steve-mcqueen-army-rangers",
+          "tags": [
+            "GTA 6",
+            "角色设计",
+            "Steve McQu"
+          ],
+          "summary": "据Rockstar官方消息，《GTA 6》中的主角Jason Duval之所以沉默寡言，是由设计之初就考虑在内的。他的安静性格灵感来源于电影传奇人物Steve McQueen，以及工作室对前陆军游骑兵的研究。",
+          "highlights": [
+            "静默角色设计由McQueen启发",
+            "参考前陆军游骑兵",
+            "Rockstar官方阐释背景"
+          ],
+          "readingNote": "沉默是金，McQueen的冷静风格深刻影响了角色塑造。",
+          "verifiedAt": "2026.11.23",
+          "verificationUrls": [
+            "https://www.eurogamer.net/gta-6-jason-steve-mcqueen-army-rangers"
+          ]
+        }
+      ]
+    },
     {
       "edition": {
         "date": "2026.11.22",
