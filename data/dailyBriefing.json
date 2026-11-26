@@ -1,236 +1,231 @@
 {
   "edition": {
-    "date": "2026.11.25",
-    "weekday": "周三",
+    "date": "2026.11.26",
+    "weekday": "周四",
     "label": "米米的AI日报",
     "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
   },
   "items": [
     {
-      "id": "20261125-ai-01",
+      "id": "20261126-ai-01",
       "category": "ai",
-      "title": "Ternary Bonsai 2.5 27B 模型发布",
-      "originalTitle": "Ternary Bonsai 2.5 27B",
-      "source": "prismml.com",
-      "sourceOrg": "prismml.com",
-      "sourceDate": "2026.11.25",
-      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "title": "Anthropic发布更短版GRH Lean验证",
+      "originalTitle": "Much shorter version of GRH Lean verification from Anthropic",
+      "source": "github.com",
+      "sourceOrg": "github.com",
+      "sourceDate": "2026.11.26",
+      "url": "https://github.com/lsernau/grh-lean",
       "tags": [
-        "AI模型",
-        "开源发布",
-        "语言模型"
+        "AI技术",
+        "数学证明"
       ],
-      "summary": "PrismML 发布新一代三值化语言模型，参数规模达 270 亿，旨在提升推理效率与性能表现。",
+      "summary": "Anthropic公司在GitHub上发布了GRH Lean验证的更短版本，旨在提高数学证明的效率与可验证性。",
       "highlights": [
-        "三值化模型创新",
-        "270亿参数规模",
-        "推理效率提升"
+        "发布更短版验证",
+        "提升证明效率"
       ],
-      "readingNote": "三值化技术或将降低部署成本，值得关注其实际推理表现。",
-      "verifiedAt": "2026.11.25",
+      "readingNote": "代码验证的简化往往意味着可信度的提升，值得关注其在正式数学系统中的应用潜力。",
+      "verifiedAt": "2026.11.26",
       "verificationUrls": [
-        "https://prismml.com/news/bonsai-2-5-27b"
+        "https://github.com/lsernau/grh-lean"
       ]
     },
     {
-      "id": "20261125-ai-02",
+      "id": "20261126-ai-02",
       "category": "ai",
-      "title": "Anthropic 公司指控蒸馏行为",
-      "originalTitle": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-      "source": "news.ycombinator.com",
-      "sourceOrg": "news.ycombinator.com",
-      "sourceDate": "2026.11.25",
-      "url": "https://news.ycombinator.com/item?id=50630809",
+      "title": "GPT-6.2 Astra首次击败谷歌工程师代码高尔夫记录",
+      "originalTitle": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+      "source": "bjin.github.io",
+      "sourceOrg": "bjin.github.io",
+      "sourceDate": "2026.11.23",
+      "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
       "tags": [
-        "AI伦理",
-        "技术争议",
-        "社区热议"
+        "大模型",
+        "代码生成"
       ],
-      "summary": "HN 社区用户举报 Anthropic 指控其公司进行模型蒸馏，询问如何证明未进行非法训练。",
+      "summary": "据Benchmark测试显示，GPT-6.2 Astra模型在代码高尔夫项目中超越了人类Googlers的最佳记录，展现了代码生成能力的突破。",
       "highlights": [
-        "模型蒸馏争议",
-        "合规性质疑",
-        "社区讨论热点"
+        "击败工程师记录",
+        "代码生成能力提升"
       ],
-      "readingNote": "蒸馏指控在 AI 行业频发，合规边界日益受关注。",
-      "verifiedAt": "2026.11.25",
+      "readingNote": "AI在细粒度编程任务上的表现正逐步接近甚至超越人类专家，技术边界在拓宽。",
+      "verifiedAt": "2026.11.26",
       "verificationUrls": [
-        "https://news.ycombinator.com/item?id=50630809"
+        "https://bjin.github.io/go-codegolf-benchmark/#leaderboard"
       ]
     },
     {
-      "id": "20261125-ai-03",
+      "id": "20261126-ai-03",
       "category": "ai",
-      "title": "GPT-6 具备蛋白质设计能力",
-      "originalTitle": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "source": "openai.com",
-      "sourceOrg": "openai.com",
-      "sourceDate": "2026.11.25",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "title": "纽约时报警告摄影师勿更新含AI功能的Photoshop",
+      "originalTitle": "The New York Times warns photographers not to update Photoshop over AI features",
+      "source": "theverge.com",
+      "sourceOrg": "theverge.com",
+      "sourceDate": "2026.11.26",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
       "tags": [
-        "AI生物",
-        "模型升级",
-        "科技前沿"
+        "AI艺术",
+        "出版伦理"
       ],
-      "summary": "OpenAI 官方宣布 GPT-6 模型展现出固有的蛋白质设计能力，标志着 AI 在生物计算领域的新突破。",
+      "summary": "The Verge报道，纽约时报内部建议摄影师避免更新新版Photoshop，因其新增的AI功能可能违背出版伦理与版权政策。",
       "highlights": [
-        "AI 蛋白质设计",
-        "GPT-6 新功能",
-        "生物计算突破"
+        "警告勿更新",
+        "AI功能引伦理争议"
       ],
-      "readingNote": "AI 进入生物设计领域，或将加速药物研发等应用。",
-      "verifiedAt": "2026.11.25",
+      "readingNote": "媒体机构对生成式AI工具的慎用，反映了行业对版权与真实性的高度警惕。",
+      "verifiedAt": "2026.11.26",
       "verificationUrls": [
-        "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+        "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
       ]
     },
     {
-      "id": "20261125-hero-01",
+      "id": "20261126-hero-01",
       "category": "hero",
-      "title": "蕾切尔·麦克亚当斯拒演蜘蛛侠女友",
-      "originalTitle": "Why Rachel McAdams Turned Down The Role Of Pepper Potts In Marvel's Iron Man",
+      "title": "漫威确认《复仇者联盟：秘密战争》设定，直接泄《复仇者联盟：末日》",
+      "originalTitle": "Avengers: Secret Wars Setting Confirmed By Marvel, Spoiling Doomsday",
       "source": "slashfilm.com",
       "sourceOrg": "slashfilm.com",
-      "sourceDate": "2026.11.25",
-      "url": "https://www.slashfilm.com/2325241/why-rachel-mcadams-turned-down-peppers-potts-marvel-iron-man/",
+      "sourceDate": "2026.11.26",
+      "url": "https://www.slashfilm.com/2328610/avengers-secret-wars-setting-marvel-doomsday-spoilers/",
       "tags": [
         "漫威",
-        "蕾切尔·麦克亚当斯",
-        "影史冷知识"
+        "影视资讯",
+        "剧情泄密"
       ],
-      "summary": "蕾切尔·麦克亚当斯曾因个人原因放弃饰演漫威《钢铁侠》中的佩珀·波茨。虽后来合作《奇异博士》，但她错过了饰演托尼·斯塔克妻子的机会。",
+      "summary": "漫威影业负责人菲格确认《复仇者联盟：秘密战争》关键设定，直接泄露了《复仇者联盟：末日》的核心情节。",
       "highlights": [
-        "个人原因拒演佩珀·波茨",
-        "后合作《奇异博士》"
+        "菲格确认核心设定",
+        "直接泄《复仇者联盟：末日》"
       ],
-      "readingNote": "每个人都有自己的选择，错过一个角色或许是另一个经典的开始。",
-      "verifiedAt": "2026.11.25",
+      "readingNote": "官方自爆大秘密，剧透党狂喜，剧透党慎入。",
+      "verifiedAt": "2026.11.26",
       "verificationUrls": [
-        "https://www.slashfilm.com/2325241/why-rachel-mcadams-turned-down-peppers-potts-marvel-iron-man/"
+        "https://www.slashfilm.com/2328610/avengers-secret-wars-setting-marvel-doomsday-spoilers/"
       ]
     },
     {
-      "id": "20261125-hero-02",
+      "id": "20261126-hero-02",
       "category": "hero",
-      "title": "漫威《复仇者大战：杜姆斯戴》或创纪录首周",
-      "originalTitle": "Marvel's Avengers: Doomsday Might Have The Biggest Box Office Opening Weekend Ever",
+      "title": "帕特里克·斯图亚特《复仇者联盟：末日》最后一天拍摄回忆",
+      "originalTitle": "Marvel Reveals What Happened On Patrick Stewart's Final Day Filming Avengers: Doomsday",
       "source": "slashfilm.com",
       "sourceOrg": "slashfilm.com",
-      "sourceDate": "2026.11.25",
-      "url": "https://www.slashfilm.com/2326965/marvel-avengers-doomsday-box-office-preview/",
+      "sourceDate": "2026.11.26",
+      "url": "https://www.slashfilm.com/2328340/what-happened-patrick-stewart-final-day-filming-marvle-avengers-doomsday/",
       "tags": [
         "漫威",
-        "票房预测",
-        "《复仇者大战：杜姆斯"
+        "影视资讯",
+        "Patrick St"
       ],
-      "summary": "根据预测，漫威《复仇者大战：杜姆斯戴》将击败《沙丘：Part Three》，有望在首周末创下新的票房纪录，成为史上最强开画。",
+      "summary": "Patrick Stewart在《复仇者联盟：末日》最后一天拍摄，现场充满感动与情感，众演员与剧组共襄盛举。",
       "highlights": [
-        "或创票房首周纪录",
-        "胜过《沙丘：Part Three》"
+        "最后一天拍摄",
+        "感人情感瞬间"
       ],
-      "readingNote": "漫威的号召力依然惊人，期待这部影片能否交出完美答卷。",
-      "verifiedAt": "2026.11.25",
+      "readingNote": "传奇演员谢幕，现场泪目，感人至深。",
+      "verifiedAt": "2026.11.26",
       "verificationUrls": [
-        "https://www.slashfilm.com/2326965/marvel-avengers-doomsday-box-office-preview/"
+        "https://www.slashfilm.com/2328340/what-happened-patrick-stewart-final-day-filming-marvle-avengers-doomsday/"
       ]
     },
     {
-      "id": "20261125-hero-03",
+      "id": "20261126-hero-03",
       "category": "hero",
-      "title": "漫威几乎请回史蒂夫·罗杰斯扮不同角色",
-      "originalTitle": "Marvel Almost Brought Back Steve Rogers As a Very Different Character",
+      "title": "X-Men成漫威重建希望，或将在末日后崛起",
+      "originalTitle": "The X-Men Are Marvel’s Only Hope of Rebuilding After Doomsday",
       "source": "denofgeek.com",
       "sourceOrg": "denofgeek.com",
-      "sourceDate": "2026.11.25",
-      "url": "https://www.denofgeek.com/movies/marvel-almost-brought-back-steve-rogers-different-character/",
+      "sourceDate": "2026.11.26",
+      "url": "https://www.denofgeek.com/movies/x-men-marvel-only-hoperebuilding-after-doomsday/",
       "tags": [
         "漫威",
-        "克里斯·伊万斯",
-        "角色设定"
+        "X-Men",
+        "MCU"
       ],
-      "summary": "在《复仇者大战：杜姆斯戴》首支预告中，克里斯·伊万斯回归饰演一位骄傲的父亲。原本漫威曾考虑用不同面貌重新演绎史蒂夫·罗杰斯这个角色。",
+      "summary": "在Doctor Doom威胁下，X-Men成为漫威MCU重建的唯一希望，或将在《复仇者联盟：末日》后扮演关键角色。",
       "highlights": [
-        "克里斯·伊万斯回归饰演父亲",
-        "曾考虑以不同形象演绎"
+        "X-Men重建希望",
+        "末日后崛起"
       ],
-      "readingNote": "看到老朋友以新身份出现，总会有说不尽的感慨。",
-      "verifiedAt": "2026.11.25",
+      "readingNote": "众叛亲离后的救世主，X-Men能扛起大旗吗？",
+      "verifiedAt": "2026.11.26",
       "verificationUrls": [
-        "https://www.denofgeek.com/movies/marvel-almost-brought-back-steve-rogers-different-character/"
+        "https://www.denofgeek.com/movies/x-men-marvel-only-hoperebuilding-after-doomsday/"
       ]
     },
     {
-      "id": "20261125-game-01",
+      "id": "20261126-game-01",
       "category": "game",
-      "title": "分析师估算：使命召唤因GTA 6流失44%玩家",
-      "originalTitle": "Analyst estimates Call of Duty lost 44% of its players when GTA 6 came out, and unlike fans of its live-service competitors they've been slow to come back",
+      "title": "GTA 6 全部失踪人员位置一览",
+      "originalTitle": "All Missing Persons locations in GTA 6",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.25",
-      "url": "https://www.pcgamer.com/gaming-industry/analyst-says-call-of-duty-lost-an-estimated-44-percent-of-its-players-when-gta-6-came-out-and-unlike-fans-of-its-live-service-competitors-theyve-been-slow-to-come-back/",
+      "sourceDate": "2026.11.26",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-missing-persons-locations/",
       "tags": [
-        "游戏产业",
-        "使命召唤",
-        "GTA 6"
+        "GTA 6",
+        "攻略",
+        "任务"
       ],
-      "summary": "据分析师称，使命召唤在GTA 6发售时估计流失了44%的玩家。与其竞争对手的粉丝不同，这些玩家至今仍未能有效回归。",
+      "summary": "pcgamer 发布攻略，详细标记了游戏中 20 年悬案中所有失踪人员的具体位置，帮助玩家破案结局。",
       "highlights": [
-        "GTA 6发售导致使命召唤流失近半玩家",
-        "玩家回归速度慢于竞争对手"
+        "标记 20 年悬案关键线索",
+        "助玩家完成失踪人员任务"
       ],
-      "readingNote": "玩家流失与回归的差异显现，竞品格局或将重塑。",
-      "verifiedAt": "2026.11.25",
+      "readingNote": "细致的地图标记让破案变得清晰明了。",
+      "verifiedAt": "2026.11.26",
       "verificationUrls": [
-        "https://www.pcgamer.com/gaming-industry/analyst-says-call-of-duty-lost-an-estimated-44-percent-of-its-players-when-gta-6-came-out-and-unlike-fans-of-its-live-service-competitors-theyve-been-slow-to-come-back/"
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-missing-persons-locations/"
       ]
     },
     {
-      "id": "20261125-game-02",
+      "id": "20261126-game-02",
       "category": "game",
-      "title": "CD Projekt称：巫师4与巫师3差距相当于GTA 5到GTA 6",
-      "originalTitle": "The difference between The Witcher 3 and Witcher 4 will be 'comparable' to that of GTA 5 and GTA 6, CD Projekt boss says: 'I mean, it's been 11 years'",
+      "title": "Muv-Luv 最新成人游戏 AI 翻译质量差玩家不满",
+      "originalTitle": "The latest adult game in the Muv-Luv series has some woeful AI translation and players aren't happy about it",
       "source": "pcgamer.com",
       "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.25",
-      "url": "https://www.pcgamer.com/games/the-witcher/the-difference-between-the-witcher-3-and-witcher-4-will-be-comparable-to-that-of-gta-5-and-gta-6-cd-projekt-boss-says-i-mean-its-been-11-years/",
+      "sourceDate": "2026.11.26",
+      "url": "https://www.pcgamer.com/games/visual-novel/the-latest-adult-game-in-the-muv-luv-series-has-some-woeful-ai-translation-and-players-arent-happy-about-it/",
       "tags": [
-        "巫师4",
-        "CD Projekt",
-        "GTA 6"
+        "Muv-Luv",
+        "成人游戏",
+        "AI 翻译"
       ],
-      "summary": "CD Projekt近日报告Q3业绩，业界聚焦点集中在GTA 6上。公司负责人表示，巫师系列跨越十一年，其代际跨越将与GTA系列相当。",
+      "summary": "pcgamer 报道称该成人视觉小说在商店页声称销量突破 80 万份，但因 AI 翻译质量差差评率飙升，玩家对翻译质量表示强烈不满。",
       "highlights": [
-        "巫师4代际跨越或将惊人",
-        "CD Projekt聚焦GTA 6业绩发布"
+        "商店页宣称 80 万销量",
+        "用户评价转为多为差评"
       ],
-      "readingNote": "系列跨越的尺度比较，玩家期待值提升。",
-      "verifiedAt": "2026.11.25",
+      "readingNote": "销量数据与玩家口碑出现明显反差。",
+      "verifiedAt": "2026.11.26",
       "verificationUrls": [
-        "https://www.pcgamer.com/games/the-witcher/the-difference-between-the-witcher-3-and-witcher-4-will-be-comparable-to-that-of-gta-5-and-gta-6-cd-projekt-boss-says-i-mean-its-been-11-years/"
+        "https://www.pcgamer.com/games/visual-novel/the-latest-adult-game-in-the-muv-luv-series-has-some-woeful-ai-translation-and-players-arent-happy-about-it/"
       ]
     },
     {
-      "id": "20261125-game-03",
+      "id": "20261126-game-03",
       "category": "game",
-      "title": "洛克王国2延期至2027年4月发售",
-      "originalTitle": "Lords of the Fallen 2 delayed to April 2027, exact release date coming next month",
+      "title": "Fable 重启版超越 Lionhead 参照《巫师 3》",
+      "originalTitle": "The Fable reboot had to look beyond Lionhead's RPG trilogy because games like The Witcher 3 \"became the gold standard\"",
       "source": "eurogamer.net",
       "sourceOrg": "eurogamer.net",
-      "sourceDate": "2026.11.25",
-      "url": "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027",
+      "sourceDate": "2026.11.26",
+      "url": "https://www.eurogamer.net/fable-the-witcher-3-gold-standard",
       "tags": [
-        "洛克王国2",
-        "延期"
+        "Fable",
+        "重启",
+        "Playground"
       ],
-      "summary": "洛克王国官方确认续作发售日期推迟至2027年4月，具体日期将于下月公布。",
+      "summary": "eurogamer 报道指 Fable 重启开发团队 Playground Games 在重新定义系列风格时，参考了《巫师 3》确立的开放世界 RPG 标准，而非仅限于 Lionhead 的旧作传统。",
       "highlights": [
-        "正式延期至2027年4月",
-        "具体发布日期待定"
+        "参考《巫师 3》设定新标准",
+        "超越 Lionhead 原有 RPG 框架"
       ],
-      "readingNote": "开发周期进一步延长，质量或将获保障。",
-      "verifiedAt": "2026.11.25",
+      "readingNote": "系列发展需借鉴外部经典之作以求突破。",
+      "verifiedAt": "2026.11.26",
       "verificationUrls": [
-        "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027"
+        "https://www.eurogamer.net/fable-the-witcher-3-gold-standard"
       ]
     }
   ]

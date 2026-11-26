@@ -1,7 +1,244 @@
 {
   "windowDays": 90,
-  "asOfDate": "2026.11.25",
+  "asOfDate": "2026.11.26",
   "issues": [
+    {
+      "edition": {
+        "date": "2026.11.25",
+        "weekday": "周三",
+        "label": "米米的AI日报",
+        "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
+      },
+      "items": [
+        {
+          "id": "20261125-ai-01",
+          "category": "ai",
+          "title": "Ternary Bonsai 2.5 27B 模型发布",
+          "originalTitle": "Ternary Bonsai 2.5 27B",
+          "source": "prismml.com",
+          "sourceOrg": "prismml.com",
+          "sourceDate": "2026.11.25",
+          "url": "https://prismml.com/news/bonsai-2-5-27b",
+          "tags": [
+            "AI模型",
+            "开源发布",
+            "语言模型"
+          ],
+          "summary": "PrismML 发布新一代三值化语言模型，参数规模达 270 亿，旨在提升推理效率与性能表现。",
+          "highlights": [
+            "三值化模型创新",
+            "270亿参数规模",
+            "推理效率提升"
+          ],
+          "readingNote": "三值化技术或将降低部署成本，值得关注其实际推理表现。",
+          "verifiedAt": "2026.11.25",
+          "verificationUrls": [
+            "https://prismml.com/news/bonsai-2-5-27b"
+          ]
+        },
+        {
+          "id": "20261125-ai-02",
+          "category": "ai",
+          "title": "Anthropic 公司指控蒸馏行为",
+          "originalTitle": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+          "source": "news.ycombinator.com",
+          "sourceOrg": "news.ycombinator.com",
+          "sourceDate": "2026.11.25",
+          "url": "https://news.ycombinator.com/item?id=50630809",
+          "tags": [
+            "AI伦理",
+            "技术争议",
+            "社区热议"
+          ],
+          "summary": "HN 社区用户举报 Anthropic 指控其公司进行模型蒸馏，询问如何证明未进行非法训练。",
+          "highlights": [
+            "模型蒸馏争议",
+            "合规性质疑",
+            "社区讨论热点"
+          ],
+          "readingNote": "蒸馏指控在 AI 行业频发，合规边界日益受关注。",
+          "verifiedAt": "2026.11.25",
+          "verificationUrls": [
+            "https://news.ycombinator.com/item?id=50630809"
+          ]
+        },
+        {
+          "id": "20261125-ai-03",
+          "category": "ai",
+          "title": "GPT-6 具备蛋白质设计能力",
+          "originalTitle": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "source": "openai.com",
+          "sourceOrg": "openai.com",
+          "sourceDate": "2026.11.25",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+          "tags": [
+            "AI生物",
+            "模型升级",
+            "科技前沿"
+          ],
+          "summary": "OpenAI 官方宣布 GPT-6 模型展现出固有的蛋白质设计能力，标志着 AI 在生物计算领域的新突破。",
+          "highlights": [
+            "AI 蛋白质设计",
+            "GPT-6 新功能",
+            "生物计算突破"
+          ],
+          "readingNote": "AI 进入生物设计领域，或将加速药物研发等应用。",
+          "verifiedAt": "2026.11.25",
+          "verificationUrls": [
+            "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+          ]
+        },
+        {
+          "id": "20261125-hero-01",
+          "category": "hero",
+          "title": "蕾切尔·麦克亚当斯拒演蜘蛛侠女友",
+          "originalTitle": "Why Rachel McAdams Turned Down The Role Of Pepper Potts In Marvel's Iron Man",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.25",
+          "url": "https://www.slashfilm.com/2325241/why-rachel-mcadams-turned-down-peppers-potts-marvel-iron-man/",
+          "tags": [
+            "漫威",
+            "蕾切尔·麦克亚当斯",
+            "影史冷知识"
+          ],
+          "summary": "蕾切尔·麦克亚当斯曾因个人原因放弃饰演漫威《钢铁侠》中的佩珀·波茨。虽后来合作《奇异博士》，但她错过了饰演托尼·斯塔克妻子的机会。",
+          "highlights": [
+            "个人原因拒演佩珀·波茨",
+            "后合作《奇异博士》"
+          ],
+          "readingNote": "每个人都有自己的选择，错过一个角色或许是另一个经典的开始。",
+          "verifiedAt": "2026.11.25",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2325241/why-rachel-mcadams-turned-down-peppers-potts-marvel-iron-man/"
+          ]
+        },
+        {
+          "id": "20261125-hero-02",
+          "category": "hero",
+          "title": "漫威《复仇者大战：杜姆斯戴》或创纪录首周",
+          "originalTitle": "Marvel's Avengers: Doomsday Might Have The Biggest Box Office Opening Weekend Ever",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.25",
+          "url": "https://www.slashfilm.com/2326965/marvel-avengers-doomsday-box-office-preview/",
+          "tags": [
+            "漫威",
+            "票房预测",
+            "《复仇者大战：杜姆斯"
+          ],
+          "summary": "根据预测，漫威《复仇者大战：杜姆斯戴》将击败《沙丘：Part Three》，有望在首周末创下新的票房纪录，成为史上最强开画。",
+          "highlights": [
+            "或创票房首周纪录",
+            "胜过《沙丘：Part Three》"
+          ],
+          "readingNote": "漫威的号召力依然惊人，期待这部影片能否交出完美答卷。",
+          "verifiedAt": "2026.11.25",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2326965/marvel-avengers-doomsday-box-office-preview/"
+          ]
+        },
+        {
+          "id": "20261125-hero-03",
+          "category": "hero",
+          "title": "漫威几乎请回史蒂夫·罗杰斯扮不同角色",
+          "originalTitle": "Marvel Almost Brought Back Steve Rogers As a Very Different Character",
+          "source": "denofgeek.com",
+          "sourceOrg": "denofgeek.com",
+          "sourceDate": "2026.11.25",
+          "url": "https://www.denofgeek.com/movies/marvel-almost-brought-back-steve-rogers-different-character/",
+          "tags": [
+            "漫威",
+            "克里斯·伊万斯",
+            "角色设定"
+          ],
+          "summary": "在《复仇者大战：杜姆斯戴》首支预告中，克里斯·伊万斯回归饰演一位骄傲的父亲。原本漫威曾考虑用不同面貌重新演绎史蒂夫·罗杰斯这个角色。",
+          "highlights": [
+            "克里斯·伊万斯回归饰演父亲",
+            "曾考虑以不同形象演绎"
+          ],
+          "readingNote": "看到老朋友以新身份出现，总会有说不尽的感慨。",
+          "verifiedAt": "2026.11.25",
+          "verificationUrls": [
+            "https://www.denofgeek.com/movies/marvel-almost-brought-back-steve-rogers-different-character/"
+          ]
+        },
+        {
+          "id": "20261125-game-01",
+          "category": "game",
+          "title": "分析师估算：使命召唤因GTA 6流失44%玩家",
+          "originalTitle": "Analyst estimates Call of Duty lost 44% of its players when GTA 6 came out, and unlike fans of its live-service competitors they've been slow to come back",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.25",
+          "url": "https://www.pcgamer.com/gaming-industry/analyst-says-call-of-duty-lost-an-estimated-44-percent-of-its-players-when-gta-6-came-out-and-unlike-fans-of-its-live-service-competitors-theyve-been-slow-to-come-back/",
+          "tags": [
+            "游戏产业",
+            "使命召唤",
+            "GTA 6"
+          ],
+          "summary": "据分析师称，使命召唤在GTA 6发售时估计流失了44%的玩家。与其竞争对手的粉丝不同，这些玩家至今仍未能有效回归。",
+          "highlights": [
+            "GTA 6发售导致使命召唤流失近半玩家",
+            "玩家回归速度慢于竞争对手"
+          ],
+          "readingNote": "玩家流失与回归的差异显现，竞品格局或将重塑。",
+          "verifiedAt": "2026.11.25",
+          "verificationUrls": [
+            "https://www.pcgamer.com/gaming-industry/analyst-says-call-of-duty-lost-an-estimated-44-percent-of-its-players-when-gta-6-came-out-and-unlike-fans-of-its-live-service-competitors-theyve-been-slow-to-come-back/"
+          ]
+        },
+        {
+          "id": "20261125-game-02",
+          "category": "game",
+          "title": "CD Projekt称：巫师4与巫师3差距相当于GTA 5到GTA 6",
+          "originalTitle": "The difference between The Witcher 3 and Witcher 4 will be 'comparable' to that of GTA 5 and GTA 6, CD Projekt boss says: 'I mean, it's been 11 years'",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.25",
+          "url": "https://www.pcgamer.com/games/the-witcher/the-difference-between-the-witcher-3-and-witcher-4-will-be-comparable-to-that-of-gta-5-and-gta-6-cd-projekt-boss-says-i-mean-its-been-11-years/",
+          "tags": [
+            "巫师4",
+            "CD Projekt",
+            "GTA 6"
+          ],
+          "summary": "CD Projekt近日报告Q3业绩，业界聚焦点集中在GTA 6上。公司负责人表示，巫师系列跨越十一年，其代际跨越将与GTA系列相当。",
+          "highlights": [
+            "巫师4代际跨越或将惊人",
+            "CD Projekt聚焦GTA 6业绩发布"
+          ],
+          "readingNote": "系列跨越的尺度比较，玩家期待值提升。",
+          "verifiedAt": "2026.11.25",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/the-witcher/the-difference-between-the-witcher-3-and-witcher-4-will-be-comparable-to-that-of-gta-5-and-gta-6-cd-projekt-boss-says-i-mean-its-been-11-years/"
+          ]
+        },
+        {
+          "id": "20261125-game-03",
+          "category": "game",
+          "title": "洛克王国2延期至2027年4月发售",
+          "originalTitle": "Lords of the Fallen 2 delayed to April 2027, exact release date coming next month",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.25",
+          "url": "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027",
+          "tags": [
+            "洛克王国2",
+            "延期"
+          ],
+          "summary": "洛克王国官方确认续作发售日期推迟至2027年4月，具体日期将于下月公布。",
+          "highlights": [
+            "正式延期至2027年4月",
+            "具体发布日期待定"
+          ],
+          "readingNote": "开发周期进一步延长，质量或将获保障。",
+          "verifiedAt": "2026.11.25",
+          "verificationUrls": [
+            "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027"
+          ]
+        }
+      ]
+    },
     {
       "edition": {
         "date": "2026.11.24",
