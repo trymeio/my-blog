@@ -1,7 +1,239 @@
 {
   "windowDays": 90,
-  "asOfDate": "2026.11.26",
+  "asOfDate": "2026.11.27",
   "issues": [
+    {
+      "edition": {
+        "date": "2026.11.26",
+        "weekday": "周四",
+        "label": "米米的AI日报",
+        "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
+      },
+      "items": [
+        {
+          "id": "20261126-ai-01",
+          "category": "ai",
+          "title": "Anthropic发布更短版GRH Lean验证",
+          "originalTitle": "Much shorter version of GRH Lean verification from Anthropic",
+          "source": "github.com",
+          "sourceOrg": "github.com",
+          "sourceDate": "2026.11.26",
+          "url": "https://github.com/lsernau/grh-lean",
+          "tags": [
+            "AI技术",
+            "数学证明"
+          ],
+          "summary": "Anthropic公司在GitHub上发布了GRH Lean验证的更短版本，旨在提高数学证明的效率与可验证性。",
+          "highlights": [
+            "发布更短版验证",
+            "提升证明效率"
+          ],
+          "readingNote": "代码验证的简化往往意味着可信度的提升，值得关注其在正式数学系统中的应用潜力。",
+          "verifiedAt": "2026.11.26",
+          "verificationUrls": [
+            "https://github.com/lsernau/grh-lean"
+          ]
+        },
+        {
+          "id": "20261126-ai-02",
+          "category": "ai",
+          "title": "GPT-6.2 Astra首次击败谷歌工程师代码高尔夫记录",
+          "originalTitle": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+          "source": "bjin.github.io",
+          "sourceOrg": "bjin.github.io",
+          "sourceDate": "2026.11.23",
+          "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+          "tags": [
+            "大模型",
+            "代码生成"
+          ],
+          "summary": "据Benchmark测试显示，GPT-6.2 Astra模型在代码高尔夫项目中超越了人类Googlers的最佳记录，展现了代码生成能力的突破。",
+          "highlights": [
+            "击败工程师记录",
+            "代码生成能力提升"
+          ],
+          "readingNote": "AI在细粒度编程任务上的表现正逐步接近甚至超越人类专家，技术边界在拓宽。",
+          "verifiedAt": "2026.11.26",
+          "verificationUrls": [
+            "https://bjin.github.io/go-codegolf-benchmark/#leaderboard"
+          ]
+        },
+        {
+          "id": "20261126-ai-03",
+          "category": "ai",
+          "title": "纽约时报警告摄影师勿更新含AI功能的Photoshop",
+          "originalTitle": "The New York Times warns photographers not to update Photoshop over AI features",
+          "source": "theverge.com",
+          "sourceOrg": "theverge.com",
+          "sourceDate": "2026.11.26",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+          "tags": [
+            "AI艺术",
+            "出版伦理"
+          ],
+          "summary": "The Verge报道，纽约时报内部建议摄影师避免更新新版Photoshop，因其新增的AI功能可能违背出版伦理与版权政策。",
+          "highlights": [
+            "警告勿更新",
+            "AI功能引伦理争议"
+          ],
+          "readingNote": "媒体机构对生成式AI工具的慎用，反映了行业对版权与真实性的高度警惕。",
+          "verifiedAt": "2026.11.26",
+          "verificationUrls": [
+            "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
+          ]
+        },
+        {
+          "id": "20261126-hero-01",
+          "category": "hero",
+          "title": "漫威确认《复仇者联盟：秘密战争》设定，直接泄《复仇者联盟：末日》",
+          "originalTitle": "Avengers: Secret Wars Setting Confirmed By Marvel, Spoiling Doomsday",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.26",
+          "url": "https://www.slashfilm.com/2328610/avengers-secret-wars-setting-marvel-doomsday-spoilers/",
+          "tags": [
+            "漫威",
+            "影视资讯",
+            "剧情泄密"
+          ],
+          "summary": "漫威影业负责人菲格确认《复仇者联盟：秘密战争》关键设定，直接泄露了《复仇者联盟：末日》的核心情节。",
+          "highlights": [
+            "菲格确认核心设定",
+            "直接泄《复仇者联盟：末日》"
+          ],
+          "readingNote": "官方自爆大秘密，剧透党狂喜，剧透党慎入。",
+          "verifiedAt": "2026.11.26",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2328610/avengers-secret-wars-setting-marvel-doomsday-spoilers/"
+          ]
+        },
+        {
+          "id": "20261126-hero-02",
+          "category": "hero",
+          "title": "帕特里克·斯图亚特《复仇者联盟：末日》最后一天拍摄回忆",
+          "originalTitle": "Marvel Reveals What Happened On Patrick Stewart's Final Day Filming Avengers: Doomsday",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.26",
+          "url": "https://www.slashfilm.com/2328340/what-happened-patrick-stewart-final-day-filming-marvle-avengers-doomsday/",
+          "tags": [
+            "漫威",
+            "影视资讯",
+            "Patrick St"
+          ],
+          "summary": "Patrick Stewart在《复仇者联盟：末日》最后一天拍摄，现场充满感动与情感，众演员与剧组共襄盛举。",
+          "highlights": [
+            "最后一天拍摄",
+            "感人情感瞬间"
+          ],
+          "readingNote": "传奇演员谢幕，现场泪目，感人至深。",
+          "verifiedAt": "2026.11.26",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2328340/what-happened-patrick-stewart-final-day-filming-marvle-avengers-doomsday/"
+          ]
+        },
+        {
+          "id": "20261126-hero-03",
+          "category": "hero",
+          "title": "X-Men成漫威重建希望，或将在末日后崛起",
+          "originalTitle": "The X-Men Are Marvel’s Only Hope of Rebuilding After Doomsday",
+          "source": "denofgeek.com",
+          "sourceOrg": "denofgeek.com",
+          "sourceDate": "2026.11.26",
+          "url": "https://www.denofgeek.com/movies/x-men-marvel-only-hoperebuilding-after-doomsday/",
+          "tags": [
+            "漫威",
+            "X-Men",
+            "MCU"
+          ],
+          "summary": "在Doctor Doom威胁下，X-Men成为漫威MCU重建的唯一希望，或将在《复仇者联盟：末日》后扮演关键角色。",
+          "highlights": [
+            "X-Men重建希望",
+            "末日后崛起"
+          ],
+          "readingNote": "众叛亲离后的救世主，X-Men能扛起大旗吗？",
+          "verifiedAt": "2026.11.26",
+          "verificationUrls": [
+            "https://www.denofgeek.com/movies/x-men-marvel-only-hoperebuilding-after-doomsday/"
+          ]
+        },
+        {
+          "id": "20261126-game-01",
+          "category": "game",
+          "title": "GTA 6 全部失踪人员位置一览",
+          "originalTitle": "All Missing Persons locations in GTA 6",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.26",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-missing-persons-locations/",
+          "tags": [
+            "GTA 6",
+            "攻略",
+            "任务"
+          ],
+          "summary": "pcgamer 发布攻略，详细标记了游戏中 20 年悬案中所有失踪人员的具体位置，帮助玩家破案结局。",
+          "highlights": [
+            "标记 20 年悬案关键线索",
+            "助玩家完成失踪人员任务"
+          ],
+          "readingNote": "细致的地图标记让破案变得清晰明了。",
+          "verifiedAt": "2026.11.26",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-missing-persons-locations/"
+          ]
+        },
+        {
+          "id": "20261126-game-02",
+          "category": "game",
+          "title": "Muv-Luv 最新成人游戏 AI 翻译质量差玩家不满",
+          "originalTitle": "The latest adult game in the Muv-Luv series has some woeful AI translation and players aren't happy about it",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.26",
+          "url": "https://www.pcgamer.com/games/visual-novel/the-latest-adult-game-in-the-muv-luv-series-has-some-woeful-ai-translation-and-players-arent-happy-about-it/",
+          "tags": [
+            "Muv-Luv",
+            "成人游戏",
+            "AI 翻译"
+          ],
+          "summary": "pcgamer 报道称该成人视觉小说在商店页声称销量突破 80 万份，但因 AI 翻译质量差差评率飙升，玩家对翻译质量表示强烈不满。",
+          "highlights": [
+            "商店页宣称 80 万销量",
+            "用户评价转为多为差评"
+          ],
+          "readingNote": "销量数据与玩家口碑出现明显反差。",
+          "verifiedAt": "2026.11.26",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/visual-novel/the-latest-adult-game-in-the-muv-luv-series-has-some-woeful-ai-translation-and-players-arent-happy-about-it/"
+          ]
+        },
+        {
+          "id": "20261126-game-03",
+          "category": "game",
+          "title": "Fable 重启版超越 Lionhead 参照《巫师 3》",
+          "originalTitle": "The Fable reboot had to look beyond Lionhead's RPG trilogy because games like The Witcher 3 \"became the gold standard\"",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.26",
+          "url": "https://www.eurogamer.net/fable-the-witcher-3-gold-standard",
+          "tags": [
+            "Fable",
+            "重启",
+            "Playground"
+          ],
+          "summary": "eurogamer 报道指 Fable 重启开发团队 Playground Games 在重新定义系列风格时，参考了《巫师 3》确立的开放世界 RPG 标准，而非仅限于 Lionhead 的旧作传统。",
+          "highlights": [
+            "参考《巫师 3》设定新标准",
+            "超越 Lionhead 原有 RPG 框架"
+          ],
+          "readingNote": "系列发展需借鉴外部经典之作以求突破。",
+          "verifiedAt": "2026.11.26",
+          "verificationUrls": [
+            "https://www.eurogamer.net/fable-the-witcher-3-gold-standard"
+          ]
+        }
+      ]
+    },
     {
       "edition": {
         "date": "2026.11.25",
