@@ -1,234 +1,237 @@
 {
   "edition": {
-    "date": "2026.11.27",
-    "weekday": "周五",
+    "date": "2026.11.28",
+    "weekday": "周六",
     "label": "米米的AI日报",
     "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
   },
   "items": [
     {
-      "id": "20261127-ai-01",
+      "id": "20261128-ai-01",
       "category": "ai",
-      "title": "AI 让自托管再次好玩",
-      "originalTitle": "AI made self-hosting fun again",
-      "source": "janlukas.blog",
-      "sourceOrg": "janlukas.blog",
-      "sourceDate": "2026.11.27",
-      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "title": "迈克尔·尼尔森撤下神经网络电子书",
+      "originalTitle": "Michael Nielsen took down his book on neural nets",
+      "source": "neuralnetworksanddeeplearning.com",
+      "sourceOrg": "neuralnetworksanddeeplearning.com",
+      "sourceDate": "2026.11.28",
+      "url": "https://neuralnetworksanddeeplearning.com/",
       "tags": [
-        "AI",
-        "自托管",
-        "技术教程"
+        "AI教育",
+        "资源动态"
       ],
-      "summary": "分享了利用 AI 工具简化自托管流程的经验，帮助用户更轻松地搭建和管理个人服务器。",
+      "summary": "迈克尔·尼尔森决定从其个人网站下架经典深度学习教材《神经网络与深度学习》。该书曾长期作为免费资源供学习者使用，其撤下行为在 AI 社区引发讨论。",
       "highlights": [
-        "AI 简化自托管流程",
-        "降低服务器搭建门槛"
+        "经典教材意外下架",
+        "引发 AI 圈讨论"
       ],
-      "readingNote": "AI 确实在降低技术门槛，让更多人能享受自托管的乐趣。",
-      "verifiedAt": "2026.11.27",
+      "readingNote": "开源教育资源的命运值得关注",
+      "verifiedAt": "2026.11.28",
       "verificationUrls": [
-        "https://janlukas.blog/posts/ai-self-hosting"
+        "https://neuralnetworksanddeeplearning.com/"
       ]
     },
     {
-      "id": "20261127-ai-02",
+      "id": "20261128-ai-02",
       "category": "ai",
-      "title": "AMD 专属 llama.cpp 优化版",
-      "originalTitle": "AMD-specific fork of llama.cpp",
-      "source": "devnull.land",
-      "sourceOrg": "devnull.land",
-      "sourceDate": "2026.11.27",
-      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "title": "GPT 6.2 Astra 破解历史之谜",
+      "originalTitle": "GPT 6.2 Astra Solves a Historical Mystery",
+      "source": "generativehistory.substack.com",
+      "sourceOrg": "generativehistory.substack.com",
+      "sourceDate": "2026.11.25",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
       "tags": [
-        "AI",
-        "llama.cpp",
-        "AMD 优化"
+        "生成式AI",
+        "历史研究"
       ],
-      "summary": "针对 AMD 硬件优化的 llama.cpp 分支，旨在提升大模型在 AMD 显卡上的推理性能和效率。",
+      "summary": "Generative History 发布文章称，GPT 6.2 Astra 模型成功解决了一个历史谜题。该模型展现出强大的跨时代知识推理能力，能够基于有限线索还原历史真相，展示生成式 AI 在人文领域的新可能。",
       "highlights": [
-        "AMD 硬件专属优化",
-        "提升大模型推理性能"
+        "历史谜题获解",
+        "AI推理能力展示"
       ],
-      "readingNote": "AMD 用户终于有了专属的模型加速选择。",
-      "verifiedAt": "2026.11.27",
+      "readingNote": "AI跨域知识的突破性应用",
+      "verifiedAt": "2026.11.28",
       "verificationUrls": [
-        "https://devnull.land/amd-specific-llama-cpp"
+        "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical"
       ]
     },
     {
-      "id": "20261127-ai-03",
+      "id": "20261128-ai-03",
       "category": "ai",
-      "title": "Google 将强制 AI 代理使用 MCP 服务器",
-      "originalTitle": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-      "source": "techstackups.com",
-      "sourceOrg": "techstackups.com",
-      "sourceDate": "2026.11.26",
-      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "title": "谷歌DeepCrossAttention加速Transformer",
+      "originalTitle": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "source": "research.google",
+      "sourceOrg": "research.google",
+      "sourceDate": "2026.11.28",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
       "tags": [
-        "Google",
-        "AI 代理",
-        "MCP 协议"
+        "模型架构",
+        "训练加速"
       ],
-      "summary": "Google 计划让其 AI 代理统一接入 MCP 服务器，但演示中证实 Gmail AI 代理目前仍无法发送邮件功能。",
+      "summary": "谷歌DeepMind研究人员提出DeepCrossAttention架构，相比原Transformer可在同等模型质量下训练速度提升最多3倍。该创新优化了残差连接的注意力计算，对大模型训练效率有显著提升作用。",
       "highlights": [
-        "AI 代理统一 MCP 服务器",
-        "Gmail AI 代理功能受限"
+        "训练速度提3倍",
+        "架构创新优化"
       ],
-      "readingNote": "MCP 成为标准的必然趋势，但核心功能仍需打磨。",
-      "verifiedAt": "2026.11.27",
+      "readingNote": "Transformer效率的重要突破",
+      "verifiedAt": "2026.11.28",
       "verificationUrls": [
-        "https://techstackups.com/articles/google-workspace-ai-agents-mcp/"
+        "https://research.google/blog/supercharging-transformer-residual-connections/"
       ]
     },
     {
-      "id": "20261127-hero-01",
+      "id": "20261128-hero-01",
       "category": "hero",
-      "title": "《复仇者联盟：巨兽》新预告确认RDJ饰演的博士杜姆有疤脸",
-      "originalTitle": "Avengers: Doomsday TV Spot Confirms RDJ's Doctor Doom Has A Scarred Face",
+      "title": "DC工作室权力易手 2027年宇宙格局大变",
+      "originalTitle": "​​Big Changes Are Coming To The DC Universe In 2027",
+      "source": "slashfilm.com",
+      "sourceOrg": "slashfilm.com",
+      "sourceDate": "2026.11.28",
+      "url": "https://www.slashfilm.com/2329230/dc-universe-2027-changes-explained/",
+      "tags": [
+        "DC",
+        "工作室",
+        "2027"
+      ],
+      "summary": "DC Studios权力格局转变，意味着2027年DC宇宙的形态将发生重大变化，粉丝需关注新篇章的走向。",
+      "highlights": [
+        "权力易手",
+        "2027年变革",
+        "宇宙格局重塑"
+      ],
+      "readingNote": "关注DC未来走向，新老班底更替是关键变数。",
+      "verifiedAt": "2026.11.28",
+      "verificationUrls": [
+        "https://www.slashfilm.com/2329230/dc-universe-2027-changes-explained/"
+      ]
+    },
+    {
+      "id": "20261128-hero-02",
+      "category": "hero",
+      "title": "佩德罗·帕斯卡尔主演《巨兽》 值得大银幕观看",
+      "originalTitle": "Pedro Pascal's New Movie Is A Must-Watch In Theaters (And It's Not Avengers: Doomsday)",
       "source": "slashfilm.com",
       "sourceOrg": "slashfilm.com",
       "sourceDate": "2026.11.27",
-      "url": "https://www.slashfilm.com/2329265/avengers-doomsday-tv-spot-rdj-doctor-doom-scarred-face/",
+      "url": "https://www.slashfilm.com/2322649/pedro-pascal-movie-must-watch-theaters-not-avengers-doomsday-behemoth/",
       "tags": [
-        "漫威",
-        "电影预告",
-        "博士杜姆"
+        "帕斯卡尔",
+        "院线",
+        "巨兽"
       ],
-      "summary": "新电视广告中，万磁王试图揭开博士杜姆面具却失败，让观众得以一睹其疤痕面容。",
+      "summary": "虽然《复仇者联盟：末日危机》热映，但佩德罗·帕斯卡尔的新片《巨兽》同样需要大银幕，是一部不容错过的院线佳作。",
       "highlights": [
-        "万磁王试图揭开面具",
-        "博士杜姆现身疤痕"
+        "帕斯卡尔主演",
+        "院线必看",
+        "非漫威大片"
       ],
-      "readingNote": "面具下的真面目引发粉丝热议，RDJ的转型备受期待。",
-      "verifiedAt": "2026.11.27",
+      "readingNote": "好演员的片子永远值得支持，期待非漫威大片的冲击力。",
+      "verifiedAt": "2026.11.28",
       "verificationUrls": [
-        "https://www.slashfilm.com/2329265/avengers-doomsday-tv-spot-rdj-doctor-doom-scarred-face/"
+        "https://www.slashfilm.com/2322649/pedro-pascal-movie-must-watch-theaters-not-avengers-doomsday-behemoth/"
       ]
     },
     {
-      "id": "20261127-hero-02",
+      "id": "20261128-hero-03",
       "category": "hero",
-      "title": "《复仇者联盟：秘密战争》背景正式官宣 或将毁《巨兽》",
-      "originalTitle": "Avengers: Secret Wars Setting Confirmed By Marvel, Spoiling Doomsday",
-      "source": "slashfilm.com",
-      "sourceOrg": "slashfilm.com",
-      "sourceDate": "2026.11.26",
-      "url": "https://www.slashfilm.com/2328610/avengers-secret-wars-setting-marvel-doomsday-spoilers/",
-      "tags": [
-        "漫威",
-        "剧情泄密",
-        "背景官宣"
-      ],
-      "summary": "漫威影业负责人菲格确认《秘密战争》关键设定，此举或将直接泄露《巨兽》剧情大纲。",
-      "highlights": [
-        "菲格确认背景设定",
-        "或将提前剧透"
-      ],
-      "readingNote": "官方确认背景或直接影响《巨兽》悬念，粉丝需谨慎关注。",
-      "verifiedAt": "2026.11.27",
-      "verificationUrls": [
-        "https://www.slashfilm.com/2328610/avengers-secret-wars-setting-marvel-doomsday-spoilers/"
-      ]
-    },
-    {
-      "id": "20261127-hero-03",
-      "category": "hero",
-      "title": "《GTA 6》彩蛋揭晓真实‘佛罗里达小丑’入围致谢",
-      "originalTitle": "GTA 6 credits actually include 'Florida Joker', the viral internet personality who once demanded $10 million from Rockstar Games",
+      "title": "EA或将在The Game Awards揭晓铁人游戏消息",
+      "originalTitle": "Marvel's Iron Man might be planning to rear its head at The Game Awards, if EA Motive's updated website is any indication",
       "source": "eurogamer.net",
       "sourceOrg": "eurogamer.net",
-      "sourceDate": "2026.11.21",
-      "url": "https://www.eurogamer.net/gta-6-credits-florida-joker-rockstar",
-      "tags": [
-        "GTA 6",
-        "网络梗",
-        "Rockstar"
-      ],
-      "summary": "知名网络人士佛罗里达小丑劳伦斯·苏利文出现在《GTA 6》致谢名单中，此前曾指控Rockstar未经许可使用其形象并索要1000万美元。",
-      "highlights": [
-        "佛罗里达小丑入围致谢",
-        "曾索要1000万美元"
-      ],
-      "readingNote": "网络梗正式入戏，版权与致谢的边界引发讨论。",
-      "verifiedAt": "2026.11.27",
-      "verificationUrls": [
-        "https://www.eurogamer.net/gta-6-credits-florida-joker-rockstar"
-      ]
-    },
-    {
-      "id": "20261127-game-01",
-      "category": "game",
-      "title": "《巫师3：狂猎》重制版补丁：光照修正、符号削弱、狼人Bug修复",
-      "originalTitle": "Witcher 3 Remastered patch has lighting fixes, sign nerfs, and gets rid of a nasty werewolf bug",
-      "source": "pcgamer.com",
-      "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.27",
-      "url": "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/",
-      "tags": [
-        "游戏",
-        "补丁更新",
-        "巫师3"
-      ],
-      "summary": "官方发布《巫师3：狂猎》重制版更新，修复了光照问题并削弱了符号能力。主要修复了一项让玩家头疼的狼人战斗Bug，使其不再过于困难。",
-      "highlights": [
-        "光照与符号平衡调整",
-        "修复狼人战斗Bug"
-      ],
-      "readingNote": "小幅调整让游戏体验更流畅，老玩家或将重返泰斯世界。",
-      "verifiedAt": "2026.11.27",
-      "verificationUrls": [
-        "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/"
-      ]
-    },
-    {
-      "id": "20261127-game-02",
-      "category": "game",
-      "title": "微软宣布弃用Windows自带Telnet客户端",
-      "originalTitle": "Microsoft announces it's deprecating the Telnet client in Windows, giving me a sudden flashback to when I used to use Telnet",
-      "source": "pcgamer.com",
-      "sourceOrg": "pcgamer.com",
-      "sourceDate": "2026.11.27",
-      "url": "https://www.pcgamer.com/software/windows/microsoft-announces-its-deprecating-the-telnet-client-in-windows-giving-me-a-sudden-flashback-to-when-i-used-to-use-telnet/",
-      "tags": [
-        "软件",
-        "Windows系统",
-        "技术资讯"
-      ],
-      "summary": "微软计划在Windows中弃用Telnet客户端，腾出约156 KB的空间。这项长期存在的网络工具将不再默认安装，提醒用户注意替代方案。",
-      "highlights": [
-        "客户端正式弃用",
-        "释放系统空间"
-      ],
-      "readingNote": "虽小，但折射出技术迭代的步伐。",
-      "verifiedAt": "2026.11.27",
-      "verificationUrls": [
-        "https://www.pcgamer.com/software/windows/microsoft-announces-its-deprecating-the-telnet-client-in-windows-giving-me-a-sudden-flashback-to-when-i-used-to-use-telnet/"
-      ]
-    },
-    {
-      "id": "20261127-game-03",
-      "category": "game",
-      "title": "EA砍掉《Skate》季票，转为灵活内容更新",
-      "originalTitle": "EA removes some live service fluff from Skate and ends seasonal structure \"in favour of regular, agile content updates\"",
-      "source": "eurogamer.net",
-      "sourceOrg": "eurogamer.net",
-      "sourceDate": "2026.11.27",
-      "url": "https://www.eurogamer.net/ea-removes-live-service-skate-seasons",
+      "sourceDate": "2026.11.28",
+      "url": "https://www.eurogamer.net/iron-man-game-awards-ea-motive",
       "tags": [
         "EA",
-        "Skate",
-        "游戏运营"
+        "铁人",
+        "游戏"
       ],
-      "summary": "EA决定取消《Skate》的季票和赛季制，转而提供更灵活的常规内容更新。旨在摆脱繁琐的直播服务套路，提升玩家体验。",
+      "summary": "EA Motive的铁人游戏已开发多年，或将在The Game Awards正式亮相，粉丝或将很快看到这款超级英雄游戏的实机或预告。",
       "highlights": [
-        "取消季票制度",
-        "改为常规更新"
+        "铁人游戏",
+        "The Game Awards",
+        "EA Motive"
       ],
-      "readingNote": "玩家或将摆脱季节压力，期待更纯粹的滑板乐趣。",
-      "verifiedAt": "2026.11.27",
+      "readingNote": "期待久违的铁人游戏消息，或将迎来官方确认。",
+      "verifiedAt": "2026.11.28",
       "verificationUrls": [
-        "https://www.eurogamer.net/ea-removes-live-service-skate-seasons"
+        "https://www.eurogamer.net/iron-man-game-awards-ea-motive"
+      ]
+    },
+    {
+      "id": "20261128-game-01",
+      "category": "game",
+      "title": "索尼新款游戏无线耳机降价40美元",
+      "originalTitle": "The better version of the wireless headset I love is $40 off right now",
+      "source": "pcgamer.com",
+      "sourceOrg": "pcgamer.com",
+      "sourceDate": "2026.11.28",
+      "url": "https://www.pcgamer.com/hardware/the-better-version-of-the-wireless-headset-i-love-is-usd40-off-right-now/",
+      "tags": [
+        "硬件",
+        "耳机",
+        "优惠"
+      ],
+      "summary": "评测员推荐这款新款游戏无线耳机，音质表现出色，现价格优惠，性价比提升值得关注。",
+      "highlights": [
+        "索尼新款游戏耳机",
+        "降价40美元优惠",
+        "音质表现出色"
+      ],
+      "readingNote": "索尼游戏耳机性价比提升，入手时机成熟。",
+      "verifiedAt": "2026.11.28",
+      "verificationUrls": [
+        "https://www.pcgamer.com/hardware/the-better-version-of-the-wireless-headset-i-love-is-usd40-off-right-now/"
+      ]
+    },
+    {
+      "id": "20261128-game-02",
+      "category": "game",
+      "title": "经典USB麦克风Blue Yeti大幅降价",
+      "originalTitle": "The canonical USB microphone is still great, and now a total steal for $70",
+      "source": "pcgamer.com",
+      "sourceOrg": "pcgamer.com",
+      "sourceDate": "2026.11.28",
+      "url": "https://www.pcgamer.com/hardware/the-canonical-usb-microphone-is-still-great-and-now-a-total-steal-for-usd70/",
+      "tags": [
+        "外设",
+        "麦克风",
+        "降价"
+      ],
+      "summary": "Blue Yeti作为家喻户晓的麦克风，现价仅70美元，性价比极高，适合有录音需求的用户入手。",
+      "highlights": [
+        "经典USB麦克风",
+        "降价至70美元",
+        "性价比极高"
+      ],
+      "readingNote": "Blue Yeti价格突破底线，录音爱好者不可错过。",
+      "verifiedAt": "2026.11.28",
+      "verificationUrls": [
+        "https://www.pcgamer.com/hardware/the-canonical-usb-microphone-is-still-great-and-now-a-total-steal-for-usd70/"
+      ]
+    },
+    {
+      "id": "20261128-game-03",
+      "category": "game",
+      "title": "EA Motive暗示铁人可能现身游戏大奖",
+      "originalTitle": "Marvel's Iron Man might be planning to rear its head at The Game Awards, if EA Motive's updated website is any indication",
+      "source": "eurogamer.net",
+      "sourceOrg": "eurogamer.net",
+      "sourceDate": "2026.11.28",
+      "url": "https://www.eurogamer.net/iron-man-game-awards-ea-motive",
+      "tags": [
+        "游戏资讯",
+        "铁人",
+        "EA Motive"
+      ],
+      "summary": "EA Motive工作室的铁人游戏项目已开发多年，官网更新可能预示着将在游戏大奖上公开亮相或发布新情报。",
+      "highlights": [
+        "铁人游戏进展",
+        "EA Motive更新官网",
+        "或将现身游戏大奖"
+      ],
+      "readingNote": "铁人游戏或将迎来重要公告，粉丝期待值提升。",
+      "verifiedAt": "2026.11.28",
+      "verificationUrls": [
+        "https://www.eurogamer.net/iron-man-game-awards-ea-motive"
       ]
     }
   ]

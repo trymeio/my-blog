@@ -1,7 +1,242 @@
 {
   "windowDays": 90,
-  "asOfDate": "2026.11.27",
+  "asOfDate": "2026.11.28",
   "issues": [
+    {
+      "edition": {
+        "date": "2026.11.27",
+        "weekday": "周五",
+        "label": "米米的AI日报",
+        "notice": "本期由 AI 整理自公开资讯，共 9 则（AI科技 3 / 超英 3 / 游戏 3）。"
+      },
+      "items": [
+        {
+          "id": "20261127-ai-01",
+          "category": "ai",
+          "title": "AI 让自托管再次好玩",
+          "originalTitle": "AI made self-hosting fun again",
+          "source": "janlukas.blog",
+          "sourceOrg": "janlukas.blog",
+          "sourceDate": "2026.11.27",
+          "url": "https://janlukas.blog/posts/ai-self-hosting",
+          "tags": [
+            "AI",
+            "自托管",
+            "技术教程"
+          ],
+          "summary": "分享了利用 AI 工具简化自托管流程的经验，帮助用户更轻松地搭建和管理个人服务器。",
+          "highlights": [
+            "AI 简化自托管流程",
+            "降低服务器搭建门槛"
+          ],
+          "readingNote": "AI 确实在降低技术门槛，让更多人能享受自托管的乐趣。",
+          "verifiedAt": "2026.11.27",
+          "verificationUrls": [
+            "https://janlukas.blog/posts/ai-self-hosting"
+          ]
+        },
+        {
+          "id": "20261127-ai-02",
+          "category": "ai",
+          "title": "AMD 专属 llama.cpp 优化版",
+          "originalTitle": "AMD-specific fork of llama.cpp",
+          "source": "devnull.land",
+          "sourceOrg": "devnull.land",
+          "sourceDate": "2026.11.27",
+          "url": "https://devnull.land/amd-specific-llama-cpp",
+          "tags": [
+            "AI",
+            "llama.cpp",
+            "AMD 优化"
+          ],
+          "summary": "针对 AMD 硬件优化的 llama.cpp 分支，旨在提升大模型在 AMD 显卡上的推理性能和效率。",
+          "highlights": [
+            "AMD 硬件专属优化",
+            "提升大模型推理性能"
+          ],
+          "readingNote": "AMD 用户终于有了专属的模型加速选择。",
+          "verifiedAt": "2026.11.27",
+          "verificationUrls": [
+            "https://devnull.land/amd-specific-llama-cpp"
+          ]
+        },
+        {
+          "id": "20261127-ai-03",
+          "category": "ai",
+          "title": "Google 将强制 AI 代理使用 MCP 服务器",
+          "originalTitle": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+          "source": "techstackups.com",
+          "sourceOrg": "techstackups.com",
+          "sourceDate": "2026.11.26",
+          "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+          "tags": [
+            "Google",
+            "AI 代理",
+            "MCP 协议"
+          ],
+          "summary": "Google 计划让其 AI 代理统一接入 MCP 服务器，但演示中证实 Gmail AI 代理目前仍无法发送邮件功能。",
+          "highlights": [
+            "AI 代理统一 MCP 服务器",
+            "Gmail AI 代理功能受限"
+          ],
+          "readingNote": "MCP 成为标准的必然趋势，但核心功能仍需打磨。",
+          "verifiedAt": "2026.11.27",
+          "verificationUrls": [
+            "https://techstackups.com/articles/google-workspace-ai-agents-mcp/"
+          ]
+        },
+        {
+          "id": "20261127-hero-01",
+          "category": "hero",
+          "title": "《复仇者联盟：巨兽》新预告确认RDJ饰演的博士杜姆有疤脸",
+          "originalTitle": "Avengers: Doomsday TV Spot Confirms RDJ's Doctor Doom Has A Scarred Face",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.27",
+          "url": "https://www.slashfilm.com/2329265/avengers-doomsday-tv-spot-rdj-doctor-doom-scarred-face/",
+          "tags": [
+            "漫威",
+            "电影预告",
+            "博士杜姆"
+          ],
+          "summary": "新电视广告中，万磁王试图揭开博士杜姆面具却失败，让观众得以一睹其疤痕面容。",
+          "highlights": [
+            "万磁王试图揭开面具",
+            "博士杜姆现身疤痕"
+          ],
+          "readingNote": "面具下的真面目引发粉丝热议，RDJ的转型备受期待。",
+          "verifiedAt": "2026.11.27",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2329265/avengers-doomsday-tv-spot-rdj-doctor-doom-scarred-face/"
+          ]
+        },
+        {
+          "id": "20261127-hero-02",
+          "category": "hero",
+          "title": "《复仇者联盟：秘密战争》背景正式官宣 或将毁《巨兽》",
+          "originalTitle": "Avengers: Secret Wars Setting Confirmed By Marvel, Spoiling Doomsday",
+          "source": "slashfilm.com",
+          "sourceOrg": "slashfilm.com",
+          "sourceDate": "2026.11.26",
+          "url": "https://www.slashfilm.com/2328610/avengers-secret-wars-setting-marvel-doomsday-spoilers/",
+          "tags": [
+            "漫威",
+            "剧情泄密",
+            "背景官宣"
+          ],
+          "summary": "漫威影业负责人菲格确认《秘密战争》关键设定，此举或将直接泄露《巨兽》剧情大纲。",
+          "highlights": [
+            "菲格确认背景设定",
+            "或将提前剧透"
+          ],
+          "readingNote": "官方确认背景或直接影响《巨兽》悬念，粉丝需谨慎关注。",
+          "verifiedAt": "2026.11.27",
+          "verificationUrls": [
+            "https://www.slashfilm.com/2328610/avengers-secret-wars-setting-marvel-doomsday-spoilers/"
+          ]
+        },
+        {
+          "id": "20261127-hero-03",
+          "category": "hero",
+          "title": "《GTA 6》彩蛋揭晓真实‘佛罗里达小丑’入围致谢",
+          "originalTitle": "GTA 6 credits actually include 'Florida Joker', the viral internet personality who once demanded $10 million from Rockstar Games",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.21",
+          "url": "https://www.eurogamer.net/gta-6-credits-florida-joker-rockstar",
+          "tags": [
+            "GTA 6",
+            "网络梗",
+            "Rockstar"
+          ],
+          "summary": "知名网络人士佛罗里达小丑劳伦斯·苏利文出现在《GTA 6》致谢名单中，此前曾指控Rockstar未经许可使用其形象并索要1000万美元。",
+          "highlights": [
+            "佛罗里达小丑入围致谢",
+            "曾索要1000万美元"
+          ],
+          "readingNote": "网络梗正式入戏，版权与致谢的边界引发讨论。",
+          "verifiedAt": "2026.11.27",
+          "verificationUrls": [
+            "https://www.eurogamer.net/gta-6-credits-florida-joker-rockstar"
+          ]
+        },
+        {
+          "id": "20261127-game-01",
+          "category": "game",
+          "title": "《巫师3：狂猎》重制版补丁：光照修正、符号削弱、狼人Bug修复",
+          "originalTitle": "Witcher 3 Remastered patch has lighting fixes, sign nerfs, and gets rid of a nasty werewolf bug",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.27",
+          "url": "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/",
+          "tags": [
+            "游戏",
+            "补丁更新",
+            "巫师3"
+          ],
+          "summary": "官方发布《巫师3：狂猎》重制版更新，修复了光照问题并削弱了符号能力。主要修复了一项让玩家头疼的狼人战斗Bug，使其不再过于困难。",
+          "highlights": [
+            "光照与符号平衡调整",
+            "修复狼人战斗Bug"
+          ],
+          "readingNote": "小幅调整让游戏体验更流畅，老玩家或将重返泰斯世界。",
+          "verifiedAt": "2026.11.27",
+          "verificationUrls": [
+            "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/"
+          ]
+        },
+        {
+          "id": "20261127-game-02",
+          "category": "game",
+          "title": "微软宣布弃用Windows自带Telnet客户端",
+          "originalTitle": "Microsoft announces it's deprecating the Telnet client in Windows, giving me a sudden flashback to when I used to use Telnet",
+          "source": "pcgamer.com",
+          "sourceOrg": "pcgamer.com",
+          "sourceDate": "2026.11.27",
+          "url": "https://www.pcgamer.com/software/windows/microsoft-announces-its-deprecating-the-telnet-client-in-windows-giving-me-a-sudden-flashback-to-when-i-used-to-use-telnet/",
+          "tags": [
+            "软件",
+            "Windows系统",
+            "技术资讯"
+          ],
+          "summary": "微软计划在Windows中弃用Telnet客户端，腾出约156 KB的空间。这项长期存在的网络工具将不再默认安装，提醒用户注意替代方案。",
+          "highlights": [
+            "客户端正式弃用",
+            "释放系统空间"
+          ],
+          "readingNote": "虽小，但折射出技术迭代的步伐。",
+          "verifiedAt": "2026.11.27",
+          "verificationUrls": [
+            "https://www.pcgamer.com/software/windows/microsoft-announces-its-deprecating-the-telnet-client-in-windows-giving-me-a-sudden-flashback-to-when-i-used-to-use-telnet/"
+          ]
+        },
+        {
+          "id": "20261127-game-03",
+          "category": "game",
+          "title": "EA砍掉《Skate》季票，转为灵活内容更新",
+          "originalTitle": "EA removes some live service fluff from Skate and ends seasonal structure \"in favour of regular, agile content updates\"",
+          "source": "eurogamer.net",
+          "sourceOrg": "eurogamer.net",
+          "sourceDate": "2026.11.27",
+          "url": "https://www.eurogamer.net/ea-removes-live-service-skate-seasons",
+          "tags": [
+            "EA",
+            "Skate",
+            "游戏运营"
+          ],
+          "summary": "EA决定取消《Skate》的季票和赛季制，转而提供更灵活的常规内容更新。旨在摆脱繁琐的直播服务套路，提升玩家体验。",
+          "highlights": [
+            "取消季票制度",
+            "改为常规更新"
+          ],
+          "readingNote": "玩家或将摆脱季节压力，期待更纯粹的滑板乐趣。",
+          "verifiedAt": "2026.11.27",
+          "verificationUrls": [
+            "https://www.eurogamer.net/ea-removes-live-service-skate-seasons"
+          ]
+        }
+      ]
+    },
     {
       "edition": {
         "date": "2026.11.26",
